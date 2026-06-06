@@ -4,13 +4,14 @@ import { useEffect, useState } from "react";
 import type { Match } from "@/lib/types";
 import { ExerciseRunner, hatAufgaben } from "@/components/exercise";
 import { playSound } from "@/lib/sound";
+import { quelleLabel, quelleEmoji } from "@/lib/format";
 
 function esc(s: string): string {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
 /** Eigenständiges HTML-Dokument der Lernunterlage (zum Download). */
-function buildLessonHtml(match: Match, meta: string): string {
+function buildLessonHtml(match: Match, meta: string, themaName: string, kernkonzept: string): string {
   const m = match.material!;
   const ablauf = (m.ablauf ?? [])
     .map((p) => `<tr><td>${esc(p.phase)}${p.dauer_min ? ` · ${p.dauer_min}′` : ""}</td><td>${esc(p.beschreibung)}</td></tr>`)
@@ -24,11 +25,19 @@ function buildLessonHtml(match: Match, meta: string): string {
  h1{font-size:1.5rem} h2{font-size:1.1rem;margin-top:1.6em;border-bottom:1px solid #d8e1ee;padding-bottom:.2em}
  .meta{color:#64748b;font-size:.9rem} table{border-collapse:collapse;width:100%} td{border:1px solid #d8e1ee;padding:6px 8px;vertical-align:top}
  td:first-child{white-space:nowrap;font-weight:600;width:30%} .src{color:#64748b;font-size:.8rem;margin-top:2em}
+ .match{background:#e3f2fd;border-radius:10px;padding:10px 14px;margin:14px 0}
+ .match p{margin:.3em 0} .mlabel{font-size:.72rem;font-weight:700;letter-spacing:.06em;color:#0d47a1;margin:0 0 4px}
 </style></head><body>
 <h1>${esc(m.titel)}</h1>
 <p class="meta">${esc(meta)}${m.dauer_min ? ` · ${m.dauer_min} Min` : ""}</p>
+<div class="match">
+<p class="mlabel">MEDIENINHALT ↔ LEHRPLAN</p>
+<p>${quelleEmoji(match.quelle)} ${esc(quelleLabel(match.quelle))}${match.datum ? ` · ${esc(match.datum)}` : ""} &nbsp;→&nbsp; <strong>${esc(themaName)}</strong></p>
+<p><strong>Aktuell in den Medien:</strong> <em>${esc(match.szenario)}</em></p>
+${kernkonzept ? `<p><strong>Lehrplan-Bezug:</strong> ${esc(kernkonzept)}</p>` : ""}
+${match.begruendung ? `<p><strong>Warum das passt:</strong> ${esc(match.begruendung)}</p>` : ""}
+</div>
 ${m.lernziel ? `<p><strong>Lernziel:</strong> ${esc(m.lernziel)}</p>` : ""}
-<p><strong>Situation (Einstieg):</strong> <em>${esc(match.szenario)}</em></p>
 ${match.einstiegsfrage ? `<p><strong>Einstiegsfrage:</strong> ${esc(match.einstiegsfrage)}</p>` : ""}
 ${ablauf ? `<h2>Ablauf</h2><table>${ablauf}</table>` : ""}
 ${aufgaben ? `<h2>Arbeitsblatt</h2><ol>${aufgaben}</ol>` : ""}
@@ -51,11 +60,13 @@ function download(filename: string, content: string, type = "text/html") {
 export function MaterialModal({
   match,
   themaName,
+  kernkonzept = "",
   meta,
   onClose,
 }: {
   match: Match;
   themaName: string;
+  kernkonzept?: string;
   meta: string;
   onClose: () => void;
 }) {
@@ -118,7 +129,7 @@ export function MaterialModal({
             <button onClick={() => { playSound("click"); window.print(); }} className="rounded-lg border border-line px-3 py-1.5 text-sm font-semibold hover:border-brand" title="Drucken">
               🖨️ Drucken
             </button>
-            <button onClick={() => { playSound("click"); download(`${slug || "unterlage"}.html`, buildLessonHtml(match, meta)); }} className="rounded-lg border border-line px-3 py-1.5 text-sm font-semibold hover:border-brand" title="Herunterladen">
+            <button onClick={() => { playSound("click"); download(`${slug || "unterlage"}.html`, buildLessonHtml(match, meta, themaName, kernkonzept)); }} className="rounded-lg border border-line px-3 py-1.5 text-sm font-semibold hover:border-brand" title="Herunterladen">
               ⬇️ Download
             </button>
             <button onClick={share} className="rounded-lg border border-line px-3 py-1.5 text-sm font-semibold hover:border-brand" title="Teilen">
@@ -152,8 +163,21 @@ export function MaterialModal({
                 <h3 className="text-xl font-bold">{m.titel}</h3>
                 <p className="text-sm text-muted">{meta}{m.dauer_min ? ` · ${m.dauer_min} Min` : ""}</p>
               </div>
+
+              {/* Das Match: Medieninhalt ↔ Lehrplan */}
+              <div className="rounded-xl bg-brand-soft p-4">
+                <p className="text-xs font-bold uppercase tracking-wide text-brand-dark">Medieninhalt ↔ Lehrplan</p>
+                <p className="mt-1 flex flex-wrap items-center gap-2 font-semibold">
+                  <span>{quelleEmoji(match.quelle)} {quelleLabel(match.quelle)}{match.datum ? ` · ${match.datum}` : ""}</span>
+                  <span className="text-muted">→</span>
+                  <span>{themaName}</span>
+                </p>
+                <p className="mt-2 text-sm"><span className="font-semibold">Aktuell in den Medien:</span> <em>„{match.szenario}"</em></p>
+                {kernkonzept && <p className="mt-1 text-sm"><span className="font-semibold">Lehrplan-Bezug:</span> {kernkonzept}</p>}
+                {match.begruendung && <p className="mt-1 text-sm"><span className="font-semibold">Warum das passt:</span> {match.begruendung}</p>}
+              </div>
+
               {m.lernziel && <p><span className="font-semibold">Lernziel:</span> {m.lernziel}</p>}
-              <p><span className="font-semibold">Situation (Einstieg):</span> <em>{match.szenario}</em></p>
               {match.einstiegsfrage && <p><span className="font-semibold">Einstiegsfrage:</span> {match.einstiegsfrage}</p>}
 
               {m.ablauf?.length ? (

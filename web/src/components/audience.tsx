@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import type { AppData, FachBundle, Match, Material, Thema } from "@/lib/types";
-import { quelleLabel } from "@/lib/format";
+import { quelleLabel, quelleEmoji } from "@/lib/format";
 import { MaterialModal } from "@/components/material-modal";
 import { ExerciseRunner, hatAufgaben } from "@/components/exercise";
 import { playSound } from "@/lib/sound";
@@ -244,10 +244,22 @@ export function LehrkraftView({ data }: { data: AppData }) {
           const key = `${m.thema_id}-${m.video_id ?? i}`;
           return (
             <article key={key} className="la-card p-5">
-              <SourceBadge m={m} />
-              <p className="mt-2">
-                <span className="font-semibold">Situation:</span> {m.szenario}
+              {/* Matchmaking: Medieninhalt ↔ Lehrplan */}
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="la-chip">
+                  {quelleEmoji(m.quelle)} {quelleLabel(m.quelle)}{m.datum ? ` · ${m.datum}` : ""}
+                </span>
+                <span className="text-muted">→</span>
+                <span className="la-chip">{bundle?.emoji} {thema?.thema}</span>
+              </div>
+              <p className="mt-3">
+                <span className="font-semibold">Aktuell in den Medien:</span> <em>„{m.szenario}"</em>
               </p>
+              {m.begruendung && (
+                <p className="mt-1 text-muted">
+                  <span className="font-semibold text-ink">Warum das zum Lehrplan passt:</span> {m.begruendung}
+                </p>
+              )}
               {m.einstiegsfrage && (
                 <p className="mt-1">
                   <span className="font-semibold">Einstiegsfrage:</span> {m.einstiegsfrage}
@@ -292,6 +304,7 @@ export function LehrkraftView({ data }: { data: AppData }) {
         <MaterialModal
           match={openMatch}
           themaName={themen.find((t) => t.id === openMatch.thema_id)?.thema ?? ""}
+          kernkonzept={themen.find((t) => t.id === openMatch.thema_id)?.kernkonzept ?? ""}
           meta={meta}
           onClose={() => setOpenMatch(null)}
         />
