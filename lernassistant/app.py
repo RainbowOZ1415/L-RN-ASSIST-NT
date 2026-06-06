@@ -134,12 +134,14 @@ c4.metric("News", quellen_count.get("news", 0))
 
 parts = [f'{fcfg["emoji"]} **{seed["fach"]} · {seed["stufe"]}**']
 if logged_in:
-    parts.append("🔐 personalisierter Feed")
+    parts.append("personalisiierter Feed (Demo)")
 elif is_sample:
     parts.append("Sample-Daten")
 else:
     parts.append("Live-Daten")
 st.markdown(" · ".join(parts))
+if match_path:
+    st.caption(f"Quelle: `{match_path}`")
 
 tab_lehr, tab_schuel, tab_muster, tab_konsum = st.tabs([
     "👩‍🏫 Lehrkraft", "🎒 Schüler", "🔥 Muster", "🙋 Was läuft?",
