@@ -1,4 +1,5 @@
 .env
+afiles/
 data/transcripts.json
 data/extracted.json
 data/matches.json

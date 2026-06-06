@@ -7,15 +7,15 @@
 # oder: cd lernassistant && streamlit run app.py
 ```
 
-## Ablauf (Top-Navigation oben)
+## Ablauf (Navigation oben, Einstellungen links)
 
-1. **Sidebar:** Bubble **Klasse 6** wählen
-2. **Lehrkraft** (Nav oben) → Fach **Deutsch** → Thema **Kommasetzung**
+1. **Links:** Bubble **Klasse 6** wählen, Fach **Deutsch**
+2. **Lehrkraft** (Nav oben) → Thema **Kommasetzung**
 3. Einstiegsfrage vorlesen: *Jemand schrieb im Chat: 'Er sagte du bist cool.' …*
-4. Fach **Mathe** → Thema **Brüche** → Einstiegsfrage (Pack-Opening)
+4. **Links:** Fach **Mathe** → Thema **Brüche** → Einstiegsfrage (Pack-Opening)
 5. **Schüler** → Hook ohne YouTuber-Namen
 6. **Üben** → Aufgabe beantworten → **Einreichen & prüfen** → Feedback + Extra-Übungen
-7. **Login-Toggle** (Sidebar): „Später personalisierter Feed"
+7. **Login-Toggle** (Panel links): „Später personalisierter Feed"
 8. Optional **Muster** → typische Situationen · **Was läuft?** → Konsum-Kategorie hinzufügen
 
 ## Bubble-Vergleich (+30 Sek)
@@ -26,7 +26,8 @@
 ## Übungs-Checkliste (Partner, 2–3× durchspielen)
 
 - [ ] `./start.sh` startet ohne Fehler
-- [ ] Logo links + 5 Nav-Buttons oben sichtbar
+- [ ] Logo links in Top-Leiste + 5 Nav-Pills oben sichtbar
+- [ ] Einstellungs-Panel links (Bubble, Fach, Medien, Login)
 - [ ] Deutsch Kommasetzung + Mathe Brüche gezeigt
 - [ ] **Üben** → mindestens 1 Aufgabe eingereicht, Feedback gelesen
 - [ ] Login-Toggle kurz erklärt
