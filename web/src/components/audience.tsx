@@ -237,7 +237,23 @@ export function LehrkraftView({ data }: { data: AppData }) {
           </option>
         ))}
       </select>
-      {thema && <p className="mb-5 text-sm text-muted">Kernkonzept: {thema.kernkonzept}</p>}
+      {thema && <p className="mb-1 text-sm text-muted">Kernkonzept: {thema.kernkonzept}</p>}
+      {thema?.material && (
+        <button
+          onClick={() => {
+            playSound("click");
+            setOpenMatch({
+              thema_id: thema.id,
+              bubble_id: sel.bubble.id,
+              szenario: thema.trend_hook ? `Taucht in den Medien auf: ${thema.trend_hook}` : "",
+              material: thema.material,
+            });
+          }}
+          className="mb-5 mt-2 inline-flex items-center gap-2 rounded-lg bg-brand px-4 py-2 font-semibold text-white shadow-sm transition hover:bg-brand-dark"
+        >
+          📄 Lernunterlage zu „{thema.thema}" öffnen
+        </button>
+      )}
 
       <div className="space-y-4">
         {matches.map((m, i) => {
@@ -270,9 +286,9 @@ export function LehrkraftView({ data }: { data: AppData }) {
                   <span className="font-semibold text-ink">Unterrichtsidee:</span> {m.unterrichtsidee}
                 </p>
               )}
-              {m.material && (
+              {(m.material ?? thema?.material) && (
                 <button
-                  onClick={() => { playSound("click"); setOpenMatch(m); }}
+                  onClick={() => { playSound("click"); setOpenMatch({ ...m, material: m.material ?? thema?.material }); }}
                   className="mt-3 inline-flex items-center gap-2 rounded-lg border border-brand bg-brand-soft px-3 py-1.5 text-sm font-semibold text-brand-dark transition hover:bg-brand hover:text-white"
                 >
                   📄 Komplette Unterlage öffnen

@@ -29,6 +29,7 @@ export interface Thema {
   kernkonzept: string;
   trend_hook?: string;
   eltern_klartext?: string;
+  material?: Material;
 }
 
 export interface Seed {
