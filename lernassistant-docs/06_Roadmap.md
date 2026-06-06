@@ -23,13 +23,17 @@
 | Feature | Status |
 |---|---|
 | Bubble-System (4 Altersgruppen) | Done — `bubbles.json` |
-| 4 Tabs: Lehrkraft, Schueler, Muster, Konsum | Done |
+| Top-Nav: Lehrkraft, Schüler, Üben, Muster, Was läuft? | Done — `app.py` |
+| Logo + Favicon | Done — `assets/` |
+| Interaktives Üben (zufällig, Auto-Prüfung) | Done — `interaktiv.py`, `aufgaben_generator.py` |
 | Szenario-Impulse ohne Creator | Done |
-| Deutsch Kommasetzung + Mathe Brueche | Done |
+| Deutsch Kommasetzung + Mathe Brüche (Live) | Done — Claude-Matches |
 | Bubble-Samples 4–5 und 10+ | Done — `data/bubbles/` |
 | Login-Demo-Toggle | Done |
 | Pipeline extract/match bubble-aware | Done |
-| YouTube Live-Pipeline | Braucht `.env` Keys |
+| YouTube ingest (Trending DE) | Done — `YOUTUBE_API_KEY` |
+| Claude Matches (manuell/API) | Done |
+| `./start.sh` vom Projektroot | Done |
 | Echter YouTube OAuth | Phase 2 |
 
 ---
