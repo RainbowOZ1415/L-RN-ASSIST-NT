@@ -1,0 +1,20 @@
+[
+  {"thema_id": 5, "video_titel": "Die 5 Klima-Kipppunkte einfach erklärt", "video_id": "smpl1", "kanal": "Breaking Lab", "quelle": "youtube",
+   "begruendung": "Das Video erklärt Treibhauseffekt und Kipppunkte anschaulich. Passt direkt zum Thema Klimawandel & Nachhaltigkeit.",
+   "einstiegsfrage": "Welcher Kipppunkt würde euch am meisten betreffen — und warum?"},
+  {"thema_id": 8, "video_titel": "CRISPR: Wir können jetzt Gene editieren", "video_id": "smpl2", "kanal": "Kurzgesagt", "quelle": "youtube",
+   "begruendung": "Erklärt die Genschere und ihre ethischen Fragen. Idealer Einstieg in Gentechnik / CRISPR.",
+   "einstiegsfrage": "Würdet ihr eine Erbkrankheit per Genschere heilen lassen — wo ist die Grenze?"},
+  {"thema_id": 10, "video_titel": "Warum dein Handy süchtig macht", "video_id": "smpl3", "kanal": "MrWissen2go", "quelle": "youtube",
+   "begruendung": "Behandelt Dopamin und Belohnungssystem am Alltagsbeispiel Smartphone. Brücke zu Sucht & Belohnungssystem.",
+   "einstiegsfrage": "Was passiert in eurem Gehirn beim nächsten Insta-Scroll?"},
+  {"thema_id": 9, "video_titel": "So lernt dein Gehirn wirklich", "video_id": "smpl3", "kanal": "MrWissen2go", "quelle": "youtube",
+   "begruendung": "Erklärt Neuronen und Reizleitung im Lernkontext. Passt zu Neurobiologie.",
+   "einstiegsfrage": "Wie könnt ihr Wissen so lernen, dass es im Gehirn 'hängen' bleibt?"},
+  {"thema_id": 1, "video_titel": "mRNA-Impfung: Was im Körper passiert", "video_id": "smpl4", "kanal": "maiLab", "quelle": "podcast",
+   "begruendung": "Folge erklärt Antikörper und Immunantwort. Direkter Einstieg in Immunbiologie.",
+   "einstiegsfrage": "Wie 'merkt' sich euer Körper einen Erreger?"},
+  {"thema_id": 13, "video_titel": "Schlaf & mentale Gesundheit bei Teenagern", "video_id": "smpl5", "kanal": "Psychologeek", "quelle": "podcast",
+   "begruendung": "Verbindet Schlaf, Stress und Resilienz. Passt zu Mentale Gesundheit.",
+   "einstiegsfrage": "Wie viel Schlaf brauchst du wirklich — und was kostet dich zu wenig?"}
+]

@@ -1,0 +1,32 @@
+{
+  "fach": "Biologie",
+  "stufe": "Klasse 9/10",
+  "bundesland": "NRW (Default, tauschbar)",
+  "themen": [
+    {"id": 1,  "thema": "Immunbiologie", "kernkonzept": "Immunsystem, Impfung, Antikörper", "trend_hook": "mRNA-Erklärvideos, Long-Covid"},
+    {"id": 2,  "thema": "Infektionskrankheiten", "kernkonzept": "Viren/Bakterien, Ausbreitung", "trend_hook": "Ausbruch-Dokus, Antibiotika-Resistenz"},
+    {"id": 3,  "thema": "Ökologie & Ökosysteme", "kernkonzept": "Nahrungsnetze, Räuber-Beute", "trend_hook": "Wildlife-YouTuber, Wolf-Rückkehr"},
+    {"id": 4,  "thema": "Stoffkreisläufe", "kernkonzept": "C-/N-Kreislauf, Photosynthese", "trend_hook": "CO2-Erklärvideos, Bäume & Klima"},
+    {"id": 5,  "thema": "Klimawandel & Nachhaltigkeit", "kernkonzept": "Treibhauseffekt, Kipppunkte", "trend_hook": "Klima-Creator, Doku-Reaktionen"},
+    {"id": 6,  "thema": "Evolution", "kernkonzept": "Selektion, Anpassung, Stammbaum", "trend_hook": "Mensch-Origin-Videos"},
+    {"id": 7,  "thema": "Genetik & Vererbung", "kernkonzept": "DNA, Gene, Mendel", "trend_hook": "Ahnen-DNA-Tests"},
+    {"id": 8,  "thema": "Gentechnik / CRISPR", "kernkonzept": "Genschere, GVO, Ethik", "trend_hook": "CRISPR-Erklärvideos"},
+    {"id": 9,  "thema": "Neurobiologie", "kernkonzept": "Neuron, Reizleitung, Gehirn", "trend_hook": "So lernt dein Gehirn"},
+    {"id": 10, "thema": "Sucht & Belohnungssystem", "kernkonzept": "Dopamin, Abhängigkeit", "trend_hook": "Handysucht, Doomscrolling"},
+    {"id": 11, "thema": "Hormonsystem", "kernkonzept": "Regelkreise, Pubertät", "trend_hook": "Schlaf/Melatonin, Stress/Cortisol"},
+    {"id": 12, "thema": "Ernährung & Stoffwechsel", "kernkonzept": "Nährstoffe, Verdauung, Energie", "trend_hook": "Fitness-/Protein-Creator"},
+    {"id": 13, "thema": "Mentale Gesundheit", "kernkonzept": "Stress, Schlaf, Resilienz", "trend_hook": "Mental-Health-Podcasts für Teens"},
+    {"id": 14, "thema": "Sexualkunde & Fortpflanzung", "kernkonzept": "Zyklus, Verhütung, Entwicklung", "trend_hook": "Aufklärungs-Creator"},
+    {"id": 15, "thema": "Zellbiologie", "kernkonzept": "Zelle, Organellen, Teilung", "trend_hook": "Mikroskopie-Shorts"},
+    {"id": 16, "thema": "Biodiversität & Artensterben", "kernkonzept": "Aussterben, Schutz", "trend_hook": "Insektensterben, Letzte ihrer Art"},
+    {"id": 17, "thema": "Mensch & Mikrobiom", "kernkonzept": "Darmbakterien, Gesundheit", "trend_hook": "Dein Darm steuert dich"},
+    {"id": 18, "thema": "Bionik", "kernkonzept": "Natur als Vorbild für Technik", "trend_hook": "Roboter die laufen wie Tiere"},
+    {"id": 19, "thema": "Verhaltensbiologie", "kernkonzept": "Instinkt vs. Lernen", "trend_hook": "Tier-Intelligenz-Clips"},
+    {"id": 20, "thema": "Gesundheit & Sport", "kernkonzept": "Muskel, Herz-Kreislauf, Training", "trend_hook": "Fitness-YouTube"},
+    {"id": 21, "thema": "Antibiotika & Resistenz", "kernkonzept": "Wirkung, Resistenzbildung", "trend_hook": "Stille Pandemie"},
+    {"id": 22, "thema": "Pflanzenphysiologie", "kernkonzept": "Wachstum, Tropismen", "trend_hook": "Urban Gardening, Pflanzen-TikTok"},
+    {"id": 23, "thema": "Gewässerökologie", "kernkonzept": "Eutrophierung, Wasserqualität", "trend_hook": "Plastik im Meer"},
+    {"id": 24, "thema": "Vererbung von Krankheiten", "kernkonzept": "Erbkrankheiten, Wahrscheinlichkeit", "trend_hook": "Genetische Risiken"},
+    {"id": 25, "thema": "KI in Biologie/Medizin", "kernkonzept": "Diagnose, Proteinfaltung", "trend_hook": "AlphaFold, KI findet Medikamente"}
+  ]
+}

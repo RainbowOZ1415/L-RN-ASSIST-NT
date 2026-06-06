@@ -1,0 +1,19 @@
+{
+  "fach": "Mathe",
+  "stufe": "Sek I (Bubble-abhängig)",
+  "bundesland": "generisch (anpassbar)",
+  "themen": [
+    {"id": 1,  "thema": "Natürliche Zahlen", "kernkonzept": "Addition, Subtraktion, Multiplikation, Division", "trend_hook": "Rechen-Hacks, Kopfrechnen-Challenges"},
+    {"id": 2,  "thema": "Brüche", "kernkonzept": "Erweitern, Kürzen, addieren, vergleichen", "trend_hook": "Pizza-Metapher, Alltags-Brüche"},
+    {"id": 3,  "thema": "Dezimalzahlen", "kernkonzept": "Kommaschreibweise, Umrechnung Bruch und Dezimal", "trend_hook": "Preise im Supermarkt, Größenangaben"},
+    {"id": 4,  "thema": "Negative Zahlen", "kernkonzept": "Zahlengerade, Temperatur, Schulden", "trend_hook": "Wetter, Höhen unter dem Meeresspiegel"},
+    {"id": 5,  "thema": "Prozentrechnung", "kernkonzept": "Prozent verstehen, Rabatte, Anteile", "trend_hook": "Sale-Rabatte, Gaming-Loot-Chancen"},
+    {"id": 6,  "thema": "Winkel & Dreiecke", "kernkonzept": "Winkelarten, Dreiecksarten, Winkelsumme", "trend_hook": "Architektur, Sport, Dreiecke in der Natur"},
+    {"id": 7,  "thema": "Flächeninhalt", "kernkonzept": "Rechteck, Dreieck, zusammengesetzte Flächen", "trend_hook": "Zimmer einrichten, Fußballfeld-Fläche"},
+    {"id": 8,  "thema": "Volumen", "kernkonzept": "Quader, Würfel, Rauminhalt berechnen", "trend_hook": "Minecraft-Blöcke, Getränkekartons"},
+    {"id": 9,  "thema": "Koordinatensystem", "kernkonzept": "Punkte eintragen, Lage beschreiben", "trend_hook": "Karten-Apps, Gaming-Koordinaten"},
+    {"id": 10, "thema": "Terme & Gleichungen", "kernkonzept": "Einfache Terme, Gleichungen lösen", "trend_hook": "Rätsel mit Unbekanntem, Logik-Puzzles"},
+    {"id": 11, "thema": "Daten & Diagramme", "kernkonzept": "Mittelwert, Säulendiagramm, Daten lesen", "trend_hook": "Fußball-Statistiken, YouTube-Views"},
+    {"id": 12, "thema": "Wahrscheinlichkeit", "kernkonzept": "Zufall, Würfel, Münze, Chancen einschätzen", "trend_hook": "Lootboxen, Würfel-Spiele, Glücksrad"}
+  ]
+}

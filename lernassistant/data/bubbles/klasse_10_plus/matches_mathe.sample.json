@@ -1,0 +1,14 @@
+[
+  {"thema_id": 2, "bubble_id": "klasse_10_plus", "szenario": "3 von 100 Treffern — seltene Drops", "video_id": "ma10-1", "quelle": "youtube", "datum": "2026-06",
+   "begruendung": "Wahrscheinlichkeit als Bruch — Vergleich und Kuerzen.",
+   "einstiegsfrage": "3 von 100 Treffern — schreib den Bruch, kuerze ihn und gib ihn als Prozent an.",
+   "unterrichtsidee": "Daten sammeln, Bruch-Prozent-Umrechnung, Vergleich mit Erwartungswert diskutieren.",
+   "schueler_hook": "Chancen in Games sind Brueche und Prozente zugleich.",
+   "schueler_challenge": "Vergleiche 3/100 und 1/25 — sind sie gleich?"},
+  {"thema_id": 2, "bubble_id": "klasse_10_plus", "szenario": "45 von 60 Minuten vergangen", "video_id": "ma10-2", "quelle": "youtube", "datum": "2026-05",
+   "begruendung": "Bruchteile einer Stunde — Kuertzen und Dezimaldarstellung.",
+   "einstiegsfrage": "45/60 einer Stunde — kuerze den Bruch und schreibe ihn als Dezimalzahl.",
+   "unterrichtsidee": "Zeit-Brueche berechnen, mit Prozent und Dezimal vergleichen.",
+   "schueler_hook": "Stream-Zeit in Bruechen und Dezimal — beides Mathe.",
+   "schueler_challenge": "Wie viel Prozent von 60 Min sind 45 Min?"}
+]

@@ -1,0 +1,6 @@
+streamlit>=1.36
+anthropic>=0.40
+youtube-transcript-api>=0.6
+google-api-python-client>=2.130
+feedparser>=6.0
+python-dotenv>=1.0

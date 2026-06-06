@@ -1,0 +1,56 @@
+{
+  "prinzip": "Eine Bubble = Altersgruppe + typischer Medienkonsum. Output immer szenario-basiert, keine Creator-Namen. Login personalisiert später innerhalb der Bubble.",
+  "bubbles": [
+    {
+      "id": "klasse_4_5",
+      "name": "Klasse 4–5",
+      "alter": "9–10",
+      "stufe_label": "Primarstufe",
+      "konsum_default": ["YouTube-Videos", "Kurzclips", "Kinder-News"],
+      "sprachniveau": "einfach, kurze Sätze",
+      "faecher": ["Deutsch", "Mathe"]
+    },
+    {
+      "id": "klasse_6",
+      "name": "Klasse 6",
+      "alter": "11–12",
+      "stufe_label": "Sek I",
+      "konsum_default": ["YouTube-Videos", "Live-Streams", "Chats & Kommentare", "Podcasts"],
+      "sprachniveau": "klar, altersgerecht",
+      "faecher": ["Deutsch", "Mathe"]
+    },
+    {
+      "id": "klasse_7_9",
+      "name": "Klasse 7–9",
+      "alter": "12–15",
+      "stufe_label": "Sek I",
+      "konsum_default": ["YouTube-Videos", "Live-Streams", "Podcasts", "News", "Gaming"],
+      "sprachniveau": "normal, mit Fachbegriffen",
+      "faecher": ["Deutsch", "Mathe"]
+    },
+    {
+      "id": "klasse_10_plus",
+      "name": "Klasse 10+",
+      "alter": "15–17",
+      "stufe_label": "Sek II",
+      "konsum_default": ["YouTube", "Podcasts", "News", "Dokus", "Social Media"],
+      "sprachniveau": "anspruchsvoll, diskursiv",
+      "faecher": ["Deutsch", "Mathe"]
+    }
+  ],
+  "faecher_config": {
+    "Deutsch": {
+      "seed": "seed_deutsch.json",
+      "demo_thema_id": 13,
+      "emoji": "📗"
+    },
+    "Mathe": {
+      "seed": "seed_mathe.json",
+      "demo_thema_id": 2,
+      "emoji": "📘"
+    }
+  },
+  "login_spaeter": {
+    "beschreibung": "Mit Login: persönlicher YouTube/Podcast-Feed, gefiltert nach gewählter Bubble. Output bleibt szenario-basiert ohne Kanalnamen."
+  }
+}

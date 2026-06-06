@@ -1,0 +1,20 @@
+{
+  "fach": "Deutsch",
+  "stufe": "Sek I (Bubble-abhängig)",
+  "bundesland": "generisch (anpassbar)",
+  "themen": [
+    {"id": 1,  "thema": "Wortarten", "kernkonzept": "Nomen, Verb, Adjektiv, Artikel", "trend_hook": "Sprach-Erklärvideos, Memes mit Grammatik"},
+    {"id": 2,  "thema": "Satzbau & Satzglieder", "kernkonzept": "Subjekt, Prädikat, Objekt, Nebensätze", "trend_hook": "TikTok-Sprache vs. richtiger Satzbau"},
+    {"id": 3,  "thema": "Rechtschreibung", "kernkonzept": "Dehnung, Schärfung, Groß-/Kleinschreibung", "trend_hook": "Rechtschreib-Diskussionen in Social Media"},
+    {"id": 4,  "thema": "Wortfelder & Synonyme", "kernkonzept": "Wortschatz erweitern, präzise formulieren", "trend_hook": "Slang vs. Schriftsprache"},
+    {"id": 5,  "thema": "Märchen", "kernkonzept": "Märchenmerkmale, Motive, Erzählstruktur", "trend_hook": "Disney-Remakes, Märchen-Shorts"},
+    {"id": 6,  "thema": "Fabeln", "kernkonzept": "Fabeltiere, Moral, kurze Erzählform", "trend_hook": "Tiere mit Menschen-Eigenschaften in Clips"},
+    {"id": 7,  "thema": "Gedichte", "kernkonzept": "Reim, Rhythmus, Stilmittel", "trend_hook": "Rap & Reim, Poetry-Slams für Jugendliche"},
+    {"id": 8,  "thema": "Nacherzählen", "kernkonzept": "Inhalt wiedergeben, Reihenfolge, Hauptfiguren", "trend_hook": "Storytime-Videos, Was-ist-passiert-Formate"},
+    {"id": 9,  "thema": "Leseverstehen", "kernkonzept": "Text verstehen, Informationen entnehmen", "trend_hook": "BookTok, Kurzgeschichten online"},
+    {"id": 10, "thema": "Präsentieren & Sprechen", "kernkonzept": "Vortrag halten, Zuhörer ansprechen", "trend_hook": "YouTube-Erklärvideos als Vorbild"},
+    {"id": 11, "thema": "Medien & Sprache", "kernkonzept": "Werbung, Social Media, Sprache beeinflusst", "trend_hook": "Werbe-Tricks auf YouTube/Instagram"},
+    {"id": 12, "thema": "Wörterbuch & Recherche", "kernkonzept": "Bedeutungen nachschlagen, Quellen nutzen", "trend_hook": "Was-bedeutet-das-Erklärvideos"},
+    {"id": 13, "thema": "Kommasetzung", "kernkonzept": "Haupt- und Nebensätze, Aufzählungen, dass-Sätze, Einschübe", "trend_hook": "Video-Titel, Chat, Podcast-Dialoge — Kommas im Alltag"}
+  ]
+}

@@ -1,0 +1,8 @@
+.env
+data/transcripts.json
+data/extracted.json
+data/matches.json
+data/matches_deutsch.json
+data/matches_mathe.json
+__pycache__/
+.streamlit/secrets.toml
