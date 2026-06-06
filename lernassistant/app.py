@@ -7,7 +7,7 @@ from interaktiv import (
     render_zufalls_uebung, punkte_anzeigen,
 )
 from theme import inject_theme, NAV_SEITEN, NAV_ICONS, page_header, meta_chips
-from sounds import inject_sounds
+from sounds import inject_sounds, queue_sound, render_sound_queue
 
 QUELLE_BADGE = {
     "youtube": "YouTube / Stream",
@@ -88,10 +88,12 @@ def render_topbar():
                 use_container_width=True,
                 type="primary" if aktiv else "secondary",
             ):
+                queue_sound("click")
                 st.session_state.main_nav = label
                 st.rerun()
     with cols[-1]:
         if st.button("⚙", key="settings_btn", help="Einstellungen"):
+            queue_sound("click")
             settings_dialog()
     return st.session_state.main_nav
 
@@ -100,6 +102,7 @@ def render_topbar():
 def settings_dialog():
     render_filter_panel()
     if st.button("Fertig", type="primary", use_container_width=True):
+        queue_sound("click")
         st.rerun()
 
 
@@ -221,8 +224,10 @@ if seite == "Lehrkraft":
                 st.markdown(f"**Unterrichtsidee:** {m['unterrichtsidee']}")
             b1, b2 = st.columns(2)
             if b1.button("Passt", key="ok" + key):
+                queue_sound("click")
                 st.session_state.bestaetigt.add(key)
             if b2.button("Verwerfen", key="no" + key):
+                queue_sound("delete")
                 st.session_state.bestaetigt.discard(key)
             if key in st.session_state.bestaetigt:
                 st.success("Bestätigt")
@@ -281,6 +286,7 @@ elif seite == "Üben":
             for i, cfg in enumerate(reversed(extras[-10:])):
                 render_dynamic_aufgabe(cfg, prefix=f"ex{i}")
             if st.button("Extra-Übungen leeren"):
+                queue_sound("delete")
                 st.session_state.dynamic_aufgaben = []
                 st.rerun()
 
@@ -299,6 +305,9 @@ elif seite == "Was läuft?":
         name = st.text_input("z.B. Gaming-Streams, Podcasts, News")
         warum = st.text_input("Warum? (optional)")
         if st.form_submit_button("Hinzufügen") and name:
+            queue_sound("click")
             st.session_state.konsum_liste.append({"name": name, "warum": warum})
     for e in st.session_state.konsum_liste:
         st.markdown(f"- **{e['name']}** — {e['warum']}")
+
+render_sound_queue()

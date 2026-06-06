@@ -2,6 +2,7 @@
 import streamlit as st
 from aufgaben_generator import generiere, generiere_followups
 from pruefer import pruefen
+from sounds import queue_sound
 
 
 def _mark_done(key):
@@ -60,6 +61,7 @@ def render_cfg(cfg, prefix, thema_name=""):
     if typ in ("komma_mc", "bruch_mc"):
         wahl = st.radio("Antwort", cfg["optionen"], key=key + "-mc", index=None)
         if st.button("Einreichen & prüfen", key=key + "-btn"):
+            queue_sound("click")
             if wahl is None:
                 st.warning("Bitte eine Antwort wählen.")
             else:
@@ -68,6 +70,7 @@ def render_cfg(cfg, prefix, thema_name=""):
     elif typ == "ja_nein":
         wahl = st.radio("Antwort", ["Ja", "Nein"], key=key + "-jn", index=None, horizontal=True)
         if st.button("Einreichen & prüfen", key=key + "-btn"):
+            queue_sound("click")
             if wahl is None:
                 st.warning("Bitte wählen.")
             else:
@@ -76,6 +79,7 @@ def render_cfg(cfg, prefix, thema_name=""):
     elif typ == "zahl":
         eingabe = st.number_input("Deine Antwort", step=1, key=key + "-n")
         if st.button("Einreichen & prüfen", key=key + "-btn"):
+            queue_sound("click")
             _feedback_ergebnis(pruefen(cfg, eingabe), key, cfg)
 
     elif typ == "bruch":
@@ -87,11 +91,13 @@ def render_cfg(cfg, prefix, thema_name=""):
         with c3:
             kuerz = st.radio("Kürzbar?", ["Ja", "Nein"], key=key + "-k", horizontal=True)
         if st.button("Einreichen & prüfen", key=key + "-btn"):
+            queue_sound("click")
             _feedback_ergebnis(pruefen(cfg, {"z": z, "n": n, "kuerzbar": kuerz}), key, cfg)
 
     elif typ == "freitext":
         text = st.text_area("Deine Antwort", key=key + "-txt", height=100)
         if st.button("Einreichen & prüfen", key=key + "-btn"):
+            queue_sound("click")
             _feedback_ergebnis(pruefen(cfg, text), key, cfg)
 
     if key in st.session_state.get("aufgaben_geloest", set()):
@@ -109,6 +115,7 @@ def render_aufgabe(m, prefix="sch", thema_name=""):
     render_cfg(cfg, prefix, thema_name)
 
     if st.button("🔄 Neue Zufalls-Aufgabe", key=f"new-{prefix}-{m['thema_id']}-{m.get('video_id','x')}"):
+        queue_sound("click")
         import random
         st.session_state[store_key] = generiere(m["thema_id"], thema_name, seed=random.randint(0, 999999))
         st.rerun()
@@ -132,6 +139,7 @@ def render_lehr_quiz(m, prefix="lehr", thema_name=""):
     if cfg["typ"] == "ja_nein":
         wahl = st.radio("Antwort", ["Ja", "Nein"], key=key + "-lq", horizontal=True, index=None)
         if st.button("Auflösen", key=key + "-lbtn") and wahl:
+            queue_sound("click")
             ergebnis = pruefen(cfg, wahl)
             if ergebnis["ok"]:
                 st.success(ergebnis["erklaerung"])
@@ -140,6 +148,7 @@ def render_lehr_quiz(m, prefix="lehr", thema_name=""):
     else:
         wahl = st.radio("Antwort", cfg["optionen"], key=key + "-lq", index=None)
         if st.button("Auflösen", key=key + "-lbtn") and wahl:
+            queue_sound("click")
             ergebnis = pruefen(cfg, wahl)
             if ergebnis["ok"]:
                 st.success("✅ Genau!")
@@ -166,6 +175,7 @@ def render_zufalls_uebung(thema_id, thema_name, prefix="rand"):
     cfg["thema_name"] = thema_name
     render_cfg(cfg, prefix)
     if st.button("🔄 Neue Aufgabe", key=f"new-{store_key}"):
+        queue_sound("click")
         import random
         st.session_state[store_key] = generiere(thema_id, thema_name, seed=random.randint(0, 999999))
         st.rerun()
