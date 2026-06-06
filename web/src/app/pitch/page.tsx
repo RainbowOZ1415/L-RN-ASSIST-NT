@@ -2,277 +2,105 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
+import { useT } from "@/lib/i18n";
 
 /* ----------------------------------------------------------------------------
  * Pitch-Deck — eine Slide pro Ansicht, mit Pfeiltasten-Navigation.
- * Inhalte aus den Konzept-Docs (07 Wettbewerb, 08 Design, 06 Roadmap,
- * 09 parinhood). Marktzahlen sind klar als Schätzung gekennzeichnet.
+ * Alle Texte zweisprachig über useT(). Marktzahlen sind als Schätzung markiert.
  * -------------------------------------------------------------------------- */
 
-/* ---- Inhaltsdaten ---- */
+type T = ReturnType<typeof useT>;
 
-const ZIELGRUPPEN = [
-  {
-    emoji: "👩‍🏫",
-    title: "Lehrkraft",
-    text: "Lehrplan-Thema → aktuelle Szenarien, fertige Einstiegsfrage und einsetzbare Unterlage. Passt/Verwerfen — die Lehrkraft entscheidet.",
-    accent: "from-[#1565c0] to-[#0d47a1]",
-  },
-  {
-    emoji: "🎒",
-    title: "Schüler:in",
-    text: "„Das kennst du — das ist auch Schulstoff.“ Hook ohne Creator-Namen, dann gleich interaktiv üben mit Sofort-Feedback.",
-    accent: "from-[#0f9d6c] to-[#0b7a53]",
-  },
-  {
-    emoji: "👪",
-    title: "Eltern",
-    text: "Was schaut/hört mein Kind — und was steckt schulisch dahinter? Mit Gesprächsanlässen und parinhood-Safety-Hinweisen.",
-    accent: "from-[#b5530b] to-[#8a3f08]",
-  },
-];
-
-const PRODUKT_FEATURES = [
-  {
-    t: "Matchmaking Medieninhalt ↔ Lehrplan",
-    d: "KI extrahiert Situationen aus YouTube, Podcasts & News und matcht sie rückwärts mit dem Lehrplan.",
-  },
-  {
-    t: "Fertige Lernunterlagen",
-    d: "Druck- und teilbare Unterlagen: Szenario, Einstiegsfrage und Unterrichtsidee — sofort einsetzbar.",
-  },
-  {
-    t: "Interaktive Whiteboard-Aufgaben",
-    d: "Schüler:innen üben direkt in der App; Antworten werden geprüft, Folgeaufgaben passend vorgeschlagen.",
-  },
-  {
-    t: "parinhood-Safety für Eltern",
-    d: "Altersempfehlung, Manipulationsradar und Quellen-Beleg aus der parinhood-API — „von Eltern für Eltern“.",
-  },
-];
-
-const WETTBEWERBER = [
-  { name: "eduki", note: "Marktplatz, Lehrkraft-only" },
-  { name: "lehrer-online", note: "Redaktion + KI, top-down" },
-  { name: "schulportal", note: "kostenlos, Lehrkraft-only" },
-  { name: "4teachers", note: "Community, veraltete UX" },
-  { name: "meinUnterricht", note: "Verlags-Abo + KI „Muki“" },
-];
-
-const WHITESPACE = [
-  {
-    t: "Bottom-up statt top-down",
-    d: "Einstieg beim realen Medienkonsum der Altersgruppe, nicht bei der Redaktions-Auswahl. Niemand sonst macht das.",
-  },
-  {
-    t: "Drei Zielgruppen statt nur Lehrkraft",
-    d: "Lehrkraft, Schüler:in und Eltern auf derselben Datenbasis — der Markt ist fast rein Lehrkraft.",
-  },
-  {
-    t: "Szenario statt Material",
-    d: "„Situation aus dem Chat/Stream“ als Einstieg — nicht das fertige PDF als Kernobjekt.",
-  },
-];
-
-const WERT = [
-  {
-    t: "Mitwirken ohne Vorab-Aufwand",
-    d: "Lehrkräfte und Eltern müssen nicht selbst stundenlang schauen, hören oder lesen — die KI bereitet den Bezug auf, der Mensch entscheidet nur „passt/verwerfen“.",
-  },
-  {
-    t: "Sicherheit über die Inhalte",
-    d: "Was Kinder gerade erleben, wird sinnvoll und geprüft ins Curriculum verarbeitet — kein Kontrollverlust, sondern verlässlicher Lehrplan-Bezug.",
-  },
-  {
-    t: "Spielerisches Lernen",
-    d: "Aus dem freiwilligen Medienkonsum wird Motivation: Alltagsbezug, Neugier-Brücke und interaktives Üben statt trockenem Pflichtstoff.",
-  },
-];
-
-const PREISE = [
-  { name: "eduki", preis: "0,60–19,99 € je Material" },
-  { name: "lehrer-online", preis: "Premium ~7,99 €/Monat" },
-  { name: "meinUnterricht", preis: "Abo ~19,90 €/Monat" },
-];
-
-const GESCHAEFT_HEUTE = [
-  {
-    t: "Gemeinnützig & kostenlos",
-    d: "Der Kern bleibt kostenlos und werbefrei — das schafft Vertrauen bei Schule, Schüler:innen und Eltern und baut Reichweite auf.",
-  },
-  {
-    t: "Beschaffung über Förderwege",
-    d: "Schulförderverein, Stiftungen und öffentliche Bildungsmittel finanzieren den Betrieb — realistisch und marktüblich für gemeinnützige Bildung.",
-  },
-];
-
-const GESCHAEFT_SPAETER = [
-  {
-    t: "Abo-/Lizenzmodell für Schulen",
-    d: "Skalierbare Schul- & Träger-Lizenzen (B2B/B2G) für Mehrwert-Funktionen — nie eine Paywall für den Kern.",
-  },
-  {
-    t: "MCP-/API-Integration",
-    d: "Inhalte und Analysen lassen sich direkt in Schul-/Verwaltungssysteme & LMS ziehen — Anschluss statt Insellösung.",
-  },
-  {
-    t: "Analyse-Dashboards",
-    d: "Engagement- und Lernfortschritts-Auswertungen in höheren Pricing-Tiers — für Schulen und Träger.",
-  },
-];
-
-const ROADMAP = [
-  {
-    phase: "Phase 0",
-    titel: "Prototyp",
-    d: "Bubble-System, Lehrkraft-/Schüler-View, Szenario-Impulse ohne Creator, interaktives Üben, erste Live-Matches (Deutsch, Mathe).",
-  },
-  {
-    phase: "Phase 1",
-    titel: "Stabilisieren",
-    d: "YouTube-Pipeline regelmäßig laufen lassen & cachen, Seeds pro Bubble verfeinern, Podcast-RSS und News-Ingest.",
-  },
-  {
-    phase: "Phase 2",
-    titel: "Personalisierung",
-    d: "YouTube-OAuth-Login, personalisierter Feed innerhalb der Bubble, Content-Safety, Feedback speichern (Passt/Verwerfen).",
-  },
-  {
-    phase: "Phase 3",
-    titel: "Pilot-Klasse",
-    d: "Echte Pilot-Klasse, mehr Fächer und Bundesland-Seeds, Messung von Engagement.",
-  },
-  {
-    phase: "Phase 4",
-    titel: "Skalierung",
-    d: "TikTok/Instagram-Trends, Community, LMS-Anschluss.",
-  },
-];
-
-const MARKT = [
-  {
-    kuerzel: "TAM",
-    label: "Gesamtmarkt",
-    wert: "~1,5 Mrd. €",
-    d: "Bildungs-/EdTech-Markt Deutschland (digitale Bildungsangebote). DE entspricht grob ~8 % eines globalen EdTech-Markts von ~190 Mrd. $.",
-    accent: "from-[#1565c0] to-[#0d47a1]",
-  },
-  {
-    kuerzel: "SAM",
-    label: "Erreichbarer Markt",
-    wert: "~800.000 Lehrkräfte · ~40.000 Schulen",
-    d: "Allgemeinbildende Schulen Sek I/II in Deutschland plus die zugehörigen Lehrkräfte — unsere primäre Nutzerbasis (Destatis: ~851.000 Lehrkräfte 2024/25).",
-    accent: "from-[#0f9d6c] to-[#0b7a53]",
-  },
-  {
-    kuerzel: "SOM",
-    label: "Realistisch in 1–3 Jahren",
-    wert: "~50–500 Pilot-Schulen",
-    d: "Über Schulfördervereine, Stiftungen und öffentliche Mittel erreichbare Pilot-Schulen und Förderkreise im Anlaufzeitraum.",
-    accent: "from-[#b5530b] to-[#8a3f08]",
-  },
-];
+/* Hilfsfunktion: gepackte "name|note;;name|note"-Strings entpacken. */
+function parsePairs(s: string): { a: string; b: string }[] {
+  return s
+    .split(";;")
+    .filter(Boolean)
+    .map((part) => {
+      const [a, b = ""] = part.split("|");
+      return { a, b };
+    });
+}
 
 /* ---- kleine Layout-Helfer ---- */
 
 function Chip({ children, light = false }: { children: React.ReactNode; light?: boolean }) {
   return (
-    <span
-      className={
-        light
-          ? "la-chip w-fit border-white/25 bg-white/15 text-white"
-          : "la-chip w-fit"
-      }
-    >
+    <span className={light ? "la-chip w-fit border-white/25 bg-white/15 text-white" : "la-chip w-fit"}>
       {children}
     </span>
   );
 }
 
 /* ---- die einzelnen Slides ---- */
-/* Jede Slide ist eine Funktion, die JSX zurückgibt. Reihenfolge = SLIDES. */
 
-function SlideTitel() {
+function SlideTitel({ t }: { t: T }) {
   return (
     <div className="flex h-full flex-col justify-center text-white">
-      <Chip light>Pitch &amp; Konzept · gemeinnützig</Chip>
+      <Chip light>{t("pitch.title.chip")}</Chip>
       <h1 className="mt-6 text-4xl font-bold leading-tight tracking-tight sm:text-6xl lg:text-7xl">
-        Aus Medienkonsum wird{" "}
+        {t("pitch.title.h.a")}
         <span className="underline decoration-white/40 decoration-4 underline-offset-8">
-          Schulstoff
+          {t("pitch.title.h.b")}
         </span>
         .
       </h1>
-      <p className="mt-8 max-w-2xl text-lg text-white/90 sm:text-2xl">
-        Jugendliche verbringen Stunden mit YouTube, Podcasts und News. Im
-        Unterricht wirkt derselbe Stoff oft trocken. Wir bauen die
-        Neugier-Brücke — vom realen Konsum rückwärts auf den Lehrplan.
-      </p>
+      <p className="mt-8 max-w-2xl text-lg text-white/90 sm:text-2xl">{t("pitch.title.sub")}</p>
       <div className="mt-10 flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/85 sm:text-base">
-        <span>✅ Ohne Creator-Namen</span>
-        <span>✅ Mensch im Loop</span>
-        <span>✅ DSGVO-konform, EU-Hosting</span>
+        <span>{t("pitch.title.b1")}</span>
+        <span>{t("pitch.title.b2")}</span>
+        <span>{t("pitch.title.b3")}</span>
       </div>
     </div>
   );
 }
 
-function SlideProblem() {
+function SlideProblem({ t }: { t: T }) {
   return (
     <div className="flex h-full flex-col justify-center">
-      <Chip>Das Problem</Chip>
-      <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-5xl">
-        Neugier draußen, trockener Stoff drinnen.
-      </h2>
+      <Chip>{t("pitch.problem.chip")}</Chip>
+      <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-5xl">{t("pitch.problem.h")}</h2>
       <div className="mt-10 grid gap-5 md:grid-cols-2">
         <div className="la-card p-7">
           <p className="text-3xl">🧑‍🎓</p>
-          <h3 className="mt-3 text-xl font-bold">Schüler:innen</h3>
-          <p className="mt-2 text-muted">
-            Sind bei YouTube, Podcasts und News neugierig — sehen aber nicht,
-            dass das, was sie konsumieren, mit Mathe, Deutsch &amp; Co. zu tun
-            hat. Im Unterricht wirkt derselbe Stoff abstrakt.
-          </p>
+          <h3 className="mt-3 text-xl font-bold">{t("pitch.problem.students.t")}</h3>
+          <p className="mt-2 text-muted">{t("pitch.problem.students.d")}</p>
         </div>
         <div className="la-card p-7">
           <p className="text-3xl">👩‍🏫👪</p>
-          <h3 className="mt-3 text-xl font-bold">Lehrkräfte &amp; Eltern</h3>
-          <p className="mt-2 text-muted">
-            Haben keine Zeit, alles selbst zu schauen, zu hören und zu lesen.
-            Aktuelle, „angesagte“ Aufhänger zu finden und didaktisch
-            aufzubereiten kostet zu viel Vorbereitung.
-          </p>
+          <h3 className="mt-3 text-xl font-bold">{t("pitch.problem.adults.t")}</h3>
+          <p className="mt-2 text-muted">{t("pitch.problem.adults.d")}</p>
         </div>
       </div>
     </div>
   );
 }
 
-function SlideMarkt() {
+function SlideMarkt({ t }: { t: T }) {
+  const MARKT = [
+    { kuerzel: "TAM", label: t("pitch.market.tam.label"), wert: t("pitch.market.tam.wert"), d: t("pitch.market.tam.d"), accent: "from-[#1565c0] to-[#0d47a1]" },
+    { kuerzel: "SAM", label: t("pitch.market.sam.label"), wert: t("pitch.market.sam.wert"), d: t("pitch.market.sam.d"), accent: "from-[#0f9d6c] to-[#0b7a53]" },
+    { kuerzel: "SOM", label: t("pitch.market.som.label"), wert: t("pitch.market.som.wert"), d: t("pitch.market.som.d"), accent: "from-[#b5530b] to-[#8a3f08]" },
+  ];
   return (
     <div className="flex h-full flex-col justify-center">
-      <Chip>Marktanalyse</Chip>
-      <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-5xl">
-        Ein großer Bildungsmarkt — mit klarem Einstiegspfad.
-      </h2>
+      <Chip>{t("pitch.market.chip")}</Chip>
+      <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-5xl">{t("pitch.market.h")}</h2>
       <p className="mt-3 max-w-2xl text-muted">
-        TAM/SAM/SOM für den deutschen Bildungs-/EdTech-Markt.{" "}
-        <strong className="text-ink">Alle Zahlen sind grobe Schätzungen</strong>{" "}
-        — Lehrkraft-/Schulzahlen nach Destatis (2024/25), Marktvolumen aus
-        EdTech-Benchmarks abgeleitet.
+        {t("pitch.market.sub.a")}
+        <strong className="text-ink">{t("pitch.market.sub.strong")}</strong>
+        {t("pitch.market.sub.b")}
       </p>
       <div className="mt-8 grid gap-5 md:grid-cols-3">
         {MARKT.map((m) => (
           <div key={m.kuerzel} className="la-card flex flex-col p-6">
-            <div
-              className={`grid h-12 w-12 place-items-center rounded-xl bg-gradient-to-br ${m.accent} text-sm font-bold text-white`}
-            >
+            <div className={`grid h-12 w-12 place-items-center rounded-xl bg-gradient-to-br ${m.accent} text-sm font-bold text-white`}>
               {m.kuerzel}
             </div>
             <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-muted">
               {m.label}{" "}
               <span className="ml-1 rounded bg-brand-soft px-1.5 py-0.5 text-[10px] text-brand-dark">
-                Schätzung
+                {t("pitch.market.estimate")}
               </span>
             </p>
             <p className="mt-1 text-xl font-bold text-brand-dark">{m.wert}</p>
@@ -284,31 +112,31 @@ function SlideMarkt() {
   );
 }
 
-function SlideWettbewerb() {
+function SlideWettbewerb({ t }: { t: T }) {
+  const competitors = parsePairs(t("pitch.comp.competitors"));
+  const whitespace = [
+    { t: t("pitch.comp.ws1.t"), d: t("pitch.comp.ws1.d") },
+    { t: t("pitch.comp.ws2.t"), d: t("pitch.comp.ws2.d") },
+    { t: t("pitch.comp.ws3.t"), d: t("pitch.comp.ws3.d") },
+  ];
   return (
     <div className="flex h-full flex-col justify-center">
-      <Chip>Wettbewerb</Chip>
-      <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-5xl">
-        Ein Material-Marktplatz-Markt — mit offener Flanke.
-      </h2>
-      <p className="mt-3 max-w-2xl text-muted">
-        Die etablierten Plattformen sind Marktplätze für fertige Arbeitsblätter
-        &amp; Stundenentwürfe — alle top-down und fast ausschließlich für
-        Lehrkräfte.
-      </p>
+      <Chip>{t("pitch.comp.chip")}</Chip>
+      <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-5xl">{t("pitch.comp.h")}</h2>
+      <p className="mt-3 max-w-2xl text-muted">{t("pitch.comp.sub")}</p>
 
       <div className="mt-6 flex flex-wrap gap-2">
-        {WETTBEWERBER.map((w) => (
-          <span key={w.name} className="la-chip-muted la-chip">
-            <strong className="font-bold text-ink">{w.name}</strong>
-            <span className="text-muted">· {w.note}</span>
+        {competitors.map((w) => (
+          <span key={w.a} className="la-chip-muted la-chip">
+            <strong className="font-bold text-ink">{w.a}</strong>
+            <span className="text-muted">· {w.b}</span>
           </span>
         ))}
       </div>
 
-      <h3 className="mt-8 text-xl font-bold">Unser Whitespace</h3>
+      <h3 className="mt-8 text-xl font-bold">{t("pitch.comp.whitespaceH")}</h3>
       <div className="mt-4 grid gap-5 md:grid-cols-3">
-        {WHITESPACE.map((w) => (
+        {whitespace.map((w) => (
           <div key={w.t} className="la-card p-6">
             <h4 className="text-lg font-bold text-brand">{w.t}</h4>
             <p className="mt-1 text-sm text-muted">{w.d}</p>
@@ -319,21 +147,23 @@ function SlideWettbewerb() {
   );
 }
 
-function SlideLoesung() {
+function SlideLoesung({ t }: { t: T }) {
+  const wert = [
+    { t: t("pitch.sol.v1.t"), d: t("pitch.sol.v1.d") },
+    { t: t("pitch.sol.v2.t"), d: t("pitch.sol.v2.d") },
+    { t: t("pitch.sol.v3.t"), d: t("pitch.sol.v3.d") },
+  ];
   return (
     <div className="flex h-full flex-col justify-center">
-      <Chip>Lösung &amp; Wertversprechen</Chip>
-      <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-5xl">
-        Mitwirken — ohne selbst alles schauen zu müssen.
-      </h2>
+      <Chip>{t("pitch.sol.chip")}</Chip>
+      <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-5xl">{t("pitch.sol.h")}</h2>
       <p className="mt-3 max-w-3xl text-lg text-muted">
-        Lehrkräfte <strong className="text-ink">und</strong> Eltern können an
-        aktuellen Themen mitwirken, ohne selbst stundenlang zu schauen, zu hören
-        oder zu lesen — mit der Sicherheit, dass die Inhalte, die Kinder gerade
-        erleben, sinnvoll ins Curriculum verarbeitet werden.
+        {t("pitch.sol.sub.a")}
+        <strong className="text-ink">{t("pitch.sol.sub.strong")}</strong>
+        {t("pitch.sol.sub.b")}
       </p>
       <div className="mt-8 grid gap-5 md:grid-cols-3">
-        {WERT.map((w) => (
+        {wert.map((w) => (
           <div key={w.t} className="la-card p-6">
             <h3 className="text-lg font-bold">{w.t}</h3>
             <p className="mt-1 text-sm text-muted">{w.d}</p>
@@ -341,34 +171,34 @@ function SlideLoesung() {
         ))}
       </div>
       <div className="mt-6 la-card border-l-4 border-brand bg-brand-soft p-6">
-        <p className="text-sm font-semibold text-muted">Beispiel-Szenario</p>
-        <p className="mt-1 text-lg font-semibold italic text-brand-dark">
-          „Jemand schrieb im Chat: ‚Er sagte du bist cool.‘ Wo ist der Fehler bei
-          der wörtlichen Rede?“
-        </p>
-        <p className="mt-2 text-sm text-brand-dark">
-          Bottom-up, Szenario + Einstiegsfrage + fertige Unterlage — ohne
-          Creator-Namen, Mensch im Loop. Aus „nur ein Chat“ wird spielerisches
-          Lernen am Lehrplan.
-        </p>
+        <p className="text-sm font-semibold text-muted">{t("pitch.sol.exLabel")}</p>
+        <p className="mt-1 text-lg font-semibold italic text-brand-dark">{t("pitch.sol.exQuote")}</p>
+        <p className="mt-2 text-sm text-brand-dark">{t("pitch.sol.exNote")}</p>
       </div>
     </div>
   );
 }
 
-function SlideProdukt() {
+function SlideProdukt({ t }: { t: T }) {
+  const zielgruppen = [
+    { emoji: "👩‍🏫", title: t("pitch.prod.aud1.title"), text: t("pitch.prod.aud1.text"), accent: "from-[#1565c0] to-[#0d47a1]" },
+    { emoji: "🎒", title: t("pitch.prod.aud2.title"), text: t("pitch.prod.aud2.text"), accent: "from-[#0f9d6c] to-[#0b7a53]" },
+    { emoji: "👪", title: t("pitch.prod.aud3.title"), text: t("pitch.prod.aud3.text"), accent: "from-[#b5530b] to-[#8a3f08]" },
+  ];
+  const features = [
+    { t: t("pitch.prod.f1.t"), d: t("pitch.prod.f1.d") },
+    { t: t("pitch.prod.f2.t"), d: t("pitch.prod.f2.d") },
+    { t: t("pitch.prod.f3.t"), d: t("pitch.prod.f3.d") },
+    { t: t("pitch.prod.f4.t"), d: t("pitch.prod.f4.d") },
+  ];
   return (
     <div className="flex h-full flex-col justify-center">
-      <Chip>Das Produkt</Chip>
-      <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-5xl">
-        Eine Datenbasis, drei Zielgruppen.
-      </h2>
+      <Chip>{t("pitch.prod.chip")}</Chip>
+      <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-5xl">{t("pitch.prod.h")}</h2>
       <div className="mt-8 grid gap-5 md:grid-cols-3">
-        {ZIELGRUPPEN.map((z) => (
+        {zielgruppen.map((z) => (
           <div key={z.title} className="la-card p-6">
-            <div
-              className={`grid h-12 w-12 place-items-center rounded-xl bg-gradient-to-br ${z.accent} text-2xl`}
-            >
+            <div className={`grid h-12 w-12 place-items-center rounded-xl bg-gradient-to-br ${z.accent} text-2xl`}>
               {z.emoji}
             </div>
             <h3 className="mt-4 text-xl font-bold">{z.title}</h3>
@@ -377,7 +207,7 @@ function SlideProdukt() {
         ))}
       </div>
       <div className="mt-5 grid gap-4 sm:grid-cols-2">
-        {PRODUKT_FEATURES.map((f) => (
+        {features.map((f) => (
           <div key={f.t} className="la-card p-5">
             <h3 className="text-base font-bold">{f.t}</h3>
             <p className="mt-1 text-sm text-muted">{f.d}</p>
@@ -388,20 +218,28 @@ function SlideProdukt() {
   );
 }
 
-function SlideGeschaeft() {
+function SlideGeschaeft({ t }: { t: T }) {
+  const heute = [
+    { t: t("pitch.biz.today1.t"), d: t("pitch.biz.today1.d") },
+    { t: t("pitch.biz.today2.t"), d: t("pitch.biz.today2.d") },
+  ];
+  const spaeter = [
+    { t: t("pitch.biz.later1.t"), d: t("pitch.biz.later1.d") },
+    { t: t("pitch.biz.later2.t"), d: t("pitch.biz.later2.d") },
+    { t: t("pitch.biz.later3.t"), d: t("pitch.biz.later3.d") },
+  ];
+  const preise = parsePairs(t("pitch.biz.prices"));
   return (
     <div className="flex h-full flex-col justify-center">
-      <Chip>Geschäftsmodell</Chip>
-      <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-5xl">
-        Heute gemeinnützig — morgen skalierbar.
-      </h2>
+      <Chip>{t("pitch.biz.chip")}</Chip>
+      <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-5xl">{t("pitch.biz.h")}</h2>
 
       <div className="mt-8 grid gap-5 lg:grid-cols-2">
         <div className="la-card p-6">
-          <span className="la-chip">Heute</span>
-          <h3 className="mt-3 text-lg font-bold">Vertrauen &amp; Reichweite</h3>
+          <span className="la-chip">{t("pitch.biz.todayChip")}</span>
+          <h3 className="mt-3 text-lg font-bold">{t("pitch.biz.todayH")}</h3>
           <div className="mt-4 space-y-4">
-            {GESCHAEFT_HEUTE.map((g) => (
+            {heute.map((g) => (
               <div key={g.t}>
                 <p className="font-semibold">{g.t}</p>
                 <p className="mt-0.5 text-sm text-muted">{g.d}</p>
@@ -410,10 +248,10 @@ function SlideGeschaeft() {
           </div>
         </div>
         <div className="la-card p-6">
-          <span className="la-chip">Später</span>
-          <h3 className="mt-3 text-lg font-bold">Skalierbar &amp; integriert</h3>
+          <span className="la-chip">{t("pitch.biz.laterChip")}</span>
+          <h3 className="mt-3 text-lg font-bold">{t("pitch.biz.laterH")}</h3>
           <div className="mt-4 space-y-4">
-            {GESCHAEFT_SPAETER.map((g) => (
+            {spaeter.map((g) => (
               <div key={g.t}>
                 <p className="font-semibold">{g.t}</p>
                 <p className="mt-0.5 text-sm text-muted">{g.d}</p>
@@ -425,16 +263,14 @@ function SlideGeschaeft() {
 
       <div className="mt-6 la-card bg-gradient-to-br from-brand to-brand-dark p-6 text-white">
         <div className="flex flex-wrap items-baseline justify-between gap-3">
-          <h3 className="text-lg font-bold">
-            Nutzen für die Kids: Motivation, Alltagsbezug, spielerisch.
-          </h3>
-          <span className="text-sm text-white/80">Marktpreis-Vergleich:</span>
+          <h3 className="text-lg font-bold">{t("pitch.biz.valueH")}</h3>
+          <span className="text-sm text-white/80">{t("pitch.biz.priceLabel")}</span>
         </div>
         <ul className="mt-4 grid gap-3 sm:grid-cols-3">
-          {PREISE.map((p) => (
-            <li key={p.name} className="rounded-xl bg-white/10 p-3">
-              <p className="font-semibold">{p.name}</p>
-              <p className="mt-1 text-sm text-white/85">{p.preis}</p>
+          {preise.map((p) => (
+            <li key={p.a} className="rounded-xl bg-white/10 p-3">
+              <p className="font-semibold">{p.a}</p>
+              <p className="mt-1 text-sm text-white/85">{p.b}</p>
             </li>
           ))}
         </ul>
@@ -443,22 +279,23 @@ function SlideGeschaeft() {
   );
 }
 
-function SlideRoadmap() {
+function SlideRoadmap({ t }: { t: T }) {
+  const roadmap = [
+    { phase: t("pitch.road.p0.phase"), titel: t("pitch.road.p0.titel"), d: t("pitch.road.p0.d") },
+    { phase: t("pitch.road.p1.phase"), titel: t("pitch.road.p1.titel"), d: t("pitch.road.p1.d") },
+    { phase: t("pitch.road.p2.phase"), titel: t("pitch.road.p2.titel"), d: t("pitch.road.p2.d") },
+    { phase: t("pitch.road.p3.phase"), titel: t("pitch.road.p3.titel"), d: t("pitch.road.p3.d") },
+    { phase: t("pitch.road.p4.phase"), titel: t("pitch.road.p4.titel"), d: t("pitch.road.p4.d") },
+  ];
   return (
     <div className="flex h-full flex-col justify-center">
-      <Chip>Roadmap</Chip>
-      <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-5xl">
-        Vom Prototyp zur Skalierung.
-      </h2>
+      <Chip>{t("pitch.road.chip")}</Chip>
+      <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-5xl">{t("pitch.road.h")}</h2>
       <ol className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
-        {ROADMAP.map((r, i) => (
+        {roadmap.map((r, i) => (
           <li key={r.phase} className="la-card flex flex-col p-5">
-            <span className="grid h-9 w-9 place-items-center rounded-full bg-brand font-bold text-white">
-              {i}
-            </span>
-            <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-muted">
-              {r.phase}
-            </p>
+            <span className="grid h-9 w-9 place-items-center rounded-full bg-brand font-bold text-white">{i}</span>
+            <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-muted">{r.phase}</p>
             <h3 className="text-base font-bold">{r.titel}</h3>
             <p className="mt-1 text-sm text-muted">{r.d}</p>
           </li>
@@ -468,52 +305,30 @@ function SlideRoadmap() {
   );
 }
 
-function SlideTeam() {
+function SlideTeam({ t }: { t: T }) {
   return (
     <div className="flex h-full flex-col justify-center">
-      <Chip>Team &amp; Trägerschaft</Chip>
-      <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-5xl">
-        Ein gemeinnütziges Vater-Sohn-Projekt.
-      </h2>
-      <p className="mt-6 max-w-2xl text-lg text-muted">
-        Lernassistent entsteht als gemeinnütziges noorder-Projekt — gebaut von
-        Vater und Sohn. Der Sohn bringt ein, was Jugendliche wirklich schauen;
-        der Vater die technische Pipeline. Gemeinsam: die Zielgruppen-Views und
-        die Demo-Story.
-      </p>
+      <Chip>{t("pitch.team.chip")}</Chip>
+      <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-5xl">{t("pitch.team.h")}</h2>
+      <p className="mt-6 max-w-2xl text-lg text-muted">{t("pitch.team.text")}</p>
     </div>
   );
 }
 
-function SlideCTA() {
+function SlideCTA({ t }: { t: T }) {
   return (
     <div className="flex h-full flex-col justify-center text-center text-white">
-      <h2 className="text-3xl font-bold tracking-tight sm:text-5xl">
-        Pilotklassen &amp; Förderpartner gesucht.
-      </h2>
-      <p className="mx-auto mt-6 max-w-2xl text-lg text-white/90">
-        Wir suchen Pilot-Klassen, die mit uns die Neugier-Brücke testen — und
-        Förderpartner, die einen kostenlosen, werbefreien Lernassistenten
-        möglich machen.
-      </p>
+      <h2 className="text-3xl font-bold tracking-tight sm:text-5xl">{t("pitch.cta.h")}</h2>
+      <p className="mx-auto mt-6 max-w-2xl text-lg text-white/90">{t("pitch.cta.text")}</p>
       <div className="mt-10 flex flex-wrap justify-center gap-3">
-        <Link
-          href="/lehrkraft"
-          className="rounded-full bg-white px-5 py-2.5 font-semibold text-brand-dark shadow-sm transition hover:bg-white/90"
-        >
-          Für Lehrkräfte
+        <Link href="/lehrkraft" className="rounded-full bg-white px-5 py-2.5 font-semibold text-brand-dark shadow-sm transition hover:bg-white/90">
+          {t("pitch.cta.teacher")}
         </Link>
-        <Link
-          href="/schueler"
-          className="rounded-full border border-white/40 px-5 py-2.5 font-semibold text-white transition hover:bg-white/10"
-        >
-          Für Schüler:innen
+        <Link href="/schueler" className="rounded-full border border-white/40 px-5 py-2.5 font-semibold text-white transition hover:bg-white/10">
+          {t("pitch.cta.student")}
         </Link>
-        <Link
-          href="/eltern"
-          className="rounded-full border border-white/40 px-5 py-2.5 font-semibold text-white transition hover:bg-white/10"
-        >
-          Für Eltern
+        <Link href="/eltern" className="rounded-full border border-white/40 px-5 py-2.5 font-semibold text-white transition hover:bg-white/10">
+          {t("pitch.cta.parent")}
         </Link>
       </div>
     </div>
@@ -522,22 +337,23 @@ function SlideCTA() {
 
 /* ---- Slide-Registry: Reihenfolge + Hintergrund (dunkel = Brand-Gradient) ---- */
 
-type Slide = { id: string; dark?: boolean; render: () => React.ReactNode };
+type Slide = { id: string; dark?: boolean; render: (t: T) => React.ReactNode };
 
 const SLIDES: Slide[] = [
-  { id: "titel", dark: true, render: SlideTitel },
-  { id: "problem", render: SlideProblem },
-  { id: "markt", render: SlideMarkt },
-  { id: "wettbewerb", render: SlideWettbewerb },
-  { id: "loesung", render: SlideLoesung },
-  { id: "produkt", render: SlideProdukt },
-  { id: "geschaeft", render: SlideGeschaeft },
-  { id: "roadmap", render: SlideRoadmap },
-  { id: "team", render: SlideTeam },
-  { id: "cta", dark: true, render: SlideCTA },
+  { id: "titel", dark: true, render: (t) => <SlideTitel t={t} /> },
+  { id: "problem", render: (t) => <SlideProblem t={t} /> },
+  { id: "markt", render: (t) => <SlideMarkt t={t} /> },
+  { id: "wettbewerb", render: (t) => <SlideWettbewerb t={t} /> },
+  { id: "loesung", render: (t) => <SlideLoesung t={t} /> },
+  { id: "produkt", render: (t) => <SlideProdukt t={t} /> },
+  { id: "geschaeft", render: (t) => <SlideGeschaeft t={t} /> },
+  { id: "roadmap", render: (t) => <SlideRoadmap t={t} /> },
+  { id: "team", render: (t) => <SlideTeam t={t} /> },
+  { id: "cta", dark: true, render: (t) => <SlideCTA t={t} /> },
 ];
 
 export default function PitchPage() {
+  const t = useT();
   const [index, setIndex] = useState(0);
   const last = SLIDES.length - 1;
 
@@ -612,7 +428,7 @@ export default function PitchPage() {
     >
       {/* Slide-Inhalt */}
       <div className="mx-auto flex w-full max-w-6xl flex-1 px-4 pb-28 pt-10 sm:px-6">
-        <div className="w-full">{slide.render()}</div>
+        <div className="w-full">{slide.render(t)}</div>
       </div>
 
       {/* Steuerleiste unten */}
@@ -629,14 +445,14 @@ export default function PitchPage() {
               type="button"
               onClick={prev}
               disabled={index === 0}
-              aria-label="Vorherige Slide"
+              aria-label={t("pitch.nav.prevAria")}
               className={
                 dark
                   ? "rounded-full border border-white/40 px-4 py-1.5 text-sm font-semibold text-white transition enabled:hover:bg-white/10 disabled:opacity-35"
                   : "rounded-full border border-line bg-surface px-4 py-1.5 text-sm font-semibold text-ink transition enabled:hover:border-brand enabled:hover:text-brand disabled:opacity-40"
               }
             >
-              ← Zurück
+              {t("pitch.nav.prev")}
             </button>
 
             {/* Dots */}
@@ -646,7 +462,7 @@ export default function PitchPage() {
                   key={s.id}
                   type="button"
                   onClick={() => go(i)}
-                  aria-label={`Zu Slide ${i + 1}`}
+                  aria-label={t("pitch.nav.toSlide", { n: i + 1 })}
                   aria-current={i === index ? "true" : undefined}
                   className={[
                     "h-2.5 rounded-full transition-all",
@@ -677,14 +493,14 @@ export default function PitchPage() {
                 type="button"
                 onClick={nextSlide}
                 disabled={index === last}
-                aria-label="Nächste Slide"
+                aria-label={t("pitch.nav.nextAria")}
                 className={
                   dark
                     ? "rounded-full bg-white px-4 py-1.5 text-sm font-semibold text-brand-dark shadow-sm transition enabled:hover:bg-white/90 disabled:opacity-35"
                     : "rounded-full bg-brand px-4 py-1.5 text-sm font-semibold text-white shadow-sm transition enabled:hover:bg-brand-dark disabled:opacity-40"
                 }
               >
-                Weiter →
+                {t("pitch.nav.next")}
               </button>
             </div>
           </div>

@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { generiere, hatAufgaben, type Task } from "@/lib/exercises";
 import { playSound } from "@/lib/sound";
+import { useT } from "@/lib/i18n";
 
 type Status = "idle" | "correct" | "wrong" | "revealed";
 
@@ -22,6 +23,7 @@ export function ExerciseRunner({
   themaName: string;
   big?: boolean;
 }) {
+  const t = useT();
   const [task, setTask] = useState<Task | null>(null);
   const [sel, setSel] = useState<number | null>(null);
   const [num, setNum] = useState("");
@@ -36,11 +38,7 @@ export function ExerciseRunner({
   }, [themaId]);
 
   if (!task) {
-    return (
-      <p className="text-sm text-muted">
-        Für „{themaName}" gibt es hier noch keine automatische Aufgabe — nutze die Aufgaben aus der Unterlage.
-      </p>
-    );
+    return <p className="text-sm text-muted">{t("ex.noTaskFor", { topic: themaName })}</p>;
   }
 
   function neu() {
@@ -112,9 +110,9 @@ export function ExerciseRunner({
 
       {task.typ === "janein" && (
         <div className="mt-3 flex gap-2">
-          {["Ja", "Nein"].map((label, i) => (
+          {[t("ex.yes"), t("ex.no")].map((label, i) => (
             <button
-              key={label}
+              key={i}
               onClick={() => status === "idle" && setSel(i)}
               disabled={solved}
               className={`rounded-xl border px-5 py-2.5 font-semibold transition ${
@@ -133,7 +131,7 @@ export function ExerciseRunner({
           value={num}
           onChange={(e) => setNum(e.target.value)}
           disabled={solved}
-          placeholder="Deine Antwort"
+          placeholder={t("ex.answerPlaceholder")}
           className={`mt-3 w-40 rounded-xl border border-line px-3 py-2 ${big ? "text-xl" : ""}`}
         />
       )}
@@ -141,22 +139,22 @@ export function ExerciseRunner({
       <div className="mt-4 flex flex-wrap items-center gap-2">
         {status === "idle" && (
           <button onClick={pruefe} className="rounded-lg bg-brand px-4 py-2 font-semibold text-white hover:bg-brand-dark">
-            Prüfen
+            {t("ex.check")}
           </button>
         )}
         {!solved && (
           <button onClick={reveal} className="rounded-lg border border-line px-4 py-2 font-semibold text-muted hover:border-brand">
-            Lösung zeigen
+            {t("ex.showSolution")}
           </button>
         )}
         <button onClick={neu} className="rounded-lg border border-line px-4 py-2 font-semibold text-muted hover:border-brand">
-          Neue Aufgabe
+          {t("ex.newTask")}
         </button>
       </div>
 
-      {status === "correct" && <p className="mt-3 font-semibold text-[#0b7a53]">✅ Richtig! {task.loesung}</p>}
-      {status === "wrong" && <p className="mt-3 font-semibold text-[#b5530b]">Noch nicht — probier es nochmal oder zeig die Lösung.</p>}
-      {status === "revealed" && <p className="mt-3 rounded-xl bg-brand-soft p-3 text-brand-dark">💡 {task.loesung}</p>}
+      {status === "correct" && <p className="mt-3 font-semibold text-[#0b7a53]">{t("ex.correct", { solution: task.loesung })}</p>}
+      {status === "wrong" && <p className="mt-3 font-semibold text-[#b5530b]">{t("ex.wrong")}</p>}
+      {status === "revealed" && <p className="mt-3 rounded-xl bg-brand-soft p-3 text-brand-dark">{t("ex.revealed", { solution: task.loesung })}</p>}
     </div>
   );
 }

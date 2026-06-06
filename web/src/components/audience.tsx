@@ -6,6 +6,7 @@ import { quelleLabel, quelleEmoji } from "@/lib/format";
 import { MaterialModal } from "@/components/material-modal";
 import { ExerciseRunner, hatAufgaben } from "@/components/exercise";
 import { playSound } from "@/lib/sound";
+import { useT } from "@/lib/i18n";
 
 /* ────────────────────────── gemeinsame Steuerung ────────────────────────── */
 
@@ -45,10 +46,11 @@ function Pill({
 }
 
 function Controls({ sel }: { sel: ReturnType<typeof useSelection> }) {
+  const t = useT();
   return (
     <div className="la-card mb-6 flex flex-col gap-4 p-4 sm:flex-row sm:items-center sm:justify-between">
       <div>
-        <p className="mb-1.5 text-xs font-bold uppercase tracking-wider text-muted">Altersgruppe</p>
+        <p className="mb-1.5 text-xs font-bold uppercase tracking-wider text-muted">{t("ctrl.ageGroup")}</p>
         <div className="flex flex-wrap gap-2">
           {sel.data.bubbles.map((b) => (
             <Pill key={b.id} active={b.id === sel.bubble.id} onClick={() => sel.setBubbleId(b.id)}>
@@ -58,7 +60,7 @@ function Controls({ sel }: { sel: ReturnType<typeof useSelection> }) {
         </div>
       </div>
       <div>
-        <p className="mb-1.5 text-xs font-bold uppercase tracking-wider text-muted">Fach</p>
+        <p className="mb-1.5 text-xs font-bold uppercase tracking-wider text-muted">{t("ctrl.subject")}</p>
         <div className="flex flex-wrap gap-2">
           {sel.faecher.map((f) => (
             <Pill key={f} active={f === sel.fachKey} onClick={() => sel.setFachKey(f)}>
@@ -84,6 +86,7 @@ function PageHead({
   bundle?: FachBundle;
   bubbleName: string;
 }) {
+  const t = useT();
   return (
     <div className="mb-6">
       <h1 className="text-3xl font-bold tracking-tight">
@@ -95,8 +98,8 @@ function PageHead({
           <span className="la-chip">
             {bundle.emoji} {bundle.fach} · {bubbleName}
           </span>
-          <span className="la-chip la-chip-muted">{bundle.matches.length} Impulse</span>
-          <span className="la-chip la-chip-muted">{bundle.isSample ? "Beispiel-Daten" : "Live"}</span>
+          <span className="la-chip la-chip-muted">{bundle.matches.length} {t("view.impulses")}</span>
+          <span className="la-chip la-chip-muted">{bundle.isSample ? t("view.sampleData") : t("view.live")}</span>
         </div>
       )}
     </div>
@@ -117,21 +120,22 @@ function SourceBadge({ m }: { m: Match }) {
 /* ────────────────────────── Material (fertige Stunde) ────────────────────────── */
 
 function MaterialBlock({ material }: { material: Material }) {
+  const t = useT();
   return (
     <details className="mt-3 rounded-xl border border-line bg-[#fafcff] p-3">
       <summary className="cursor-pointer font-semibold text-brand-dark">
-        📄 Fertige Stunde anzeigen — {material.titel}
-        {material.dauer_min ? ` (${material.dauer_min} Min)` : ""}
+        {t("matblock.showLesson", { title: material.titel })}
+        {material.dauer_min ? ` (${material.dauer_min} ${t("mat.minShort")})` : ""}
       </summary>
       <div className="mt-3 space-y-3 text-sm">
         {material.lernziel && (
           <p>
-            <span className="font-semibold">Lernziel:</span> {material.lernziel}
+            <span className="font-semibold">{t("matblock.goal")}</span> {material.lernziel}
           </p>
         )}
         {material.ablauf?.length ? (
           <div>
-            <p className="font-semibold">Ablauf</p>
+            <p className="font-semibold">{t("matblock.sequence")}</p>
             <ul className="mt-1 space-y-1">
               {material.ablauf.map((p, i) => (
                 <li key={i} className="flex gap-2">
@@ -147,7 +151,7 @@ function MaterialBlock({ material }: { material: Material }) {
         ) : null}
         {material.arbeitsblatt?.aufgaben?.length ? (
           <div>
-            <p className="font-semibold">Arbeitsblatt</p>
+            <p className="font-semibold">{t("matblock.worksheet")}</p>
             <ol className="mt-1 list-decimal space-y-1 pl-5">
               {material.arbeitsblatt.aufgaben.map((a, i) => (
                 <li key={i}>{a}</li>
@@ -155,7 +159,7 @@ function MaterialBlock({ material }: { material: Material }) {
             </ol>
             {material.arbeitsblatt.loesungen?.length ? (
               <details className="mt-2">
-                <summary className="cursor-pointer font-semibold text-muted">Lösungen</summary>
+                <summary className="cursor-pointer font-semibold text-muted">{t("matblock.solutions")}</summary>
                 <ol className="mt-1 list-decimal space-y-1 pl-5 text-muted">
                   {material.arbeitsblatt.loesungen.map((l, i) => (
                     <li key={i}>{l}</li>
@@ -169,13 +173,13 @@ function MaterialBlock({ material }: { material: Material }) {
           <div className="grid gap-3 sm:grid-cols-2">
             {material.differenzierung?.leichter && (
               <div className="rounded-lg bg-brand-soft p-2">
-                <p className="font-semibold">Leichter</p>
+                <p className="font-semibold">{t("matblock.easier")}</p>
                 <p className="text-muted">{material.differenzierung.leichter}</p>
               </div>
             )}
             {material.differenzierung?.schwerer && (
               <div className="rounded-lg bg-brand-soft p-2">
-                <p className="font-semibold">Schwerer</p>
+                <p className="font-semibold">{t("matblock.harder")}</p>
                 <p className="text-muted">{material.differenzierung.schwerer}</p>
               </div>
             )}
@@ -187,16 +191,14 @@ function MaterialBlock({ material }: { material: Material }) {
 }
 
 function EmptyState() {
-  return (
-    <div className="la-card p-6 text-muted">
-      Noch keine Impulse für diese Auswahl — über die Pipeline oder Beispiel-Daten kommen sie hinzu.
-    </div>
-  );
+  const t = useT();
+  return <div className="la-card p-6 text-muted">{t("view.empty")}</div>;
 }
 
 /* ────────────────────────── Lehrkraft ────────────────────────── */
 
 export function LehrkraftView({ data }: { data: AppData }) {
+  const t = useT();
   const sel = useSelection(data);
   const { bundle } = sel;
   const themen: Thema[] = bundle?.themen ?? [];
@@ -216,15 +218,15 @@ export function LehrkraftView({ data }: { data: AppData }) {
     <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6">
       <PageHead
         emoji="👩‍🏫"
-        title="Lehrkraft"
-        subtitle="Vom Lehrplan-Thema zu aktuellen Einstiegen & fertigem Material"
+        title={t("teacher.title")}
+        subtitle={t("teacher.subtitle")}
         bundle={bundle}
         bubbleName={sel.bubble.name}
       />
       <Controls sel={sel} />
 
       <label className="mb-1 block text-xs font-bold uppercase tracking-wider text-muted">
-        Lehrplan-Thema
+        {t("ctrl.topic")}
       </label>
       <select
         value={activeThemaId}
@@ -237,7 +239,7 @@ export function LehrkraftView({ data }: { data: AppData }) {
           </option>
         ))}
       </select>
-      {thema && <p className="mb-1 text-sm text-muted">Kernkonzept: {thema.kernkonzept}</p>}
+      {thema && <p className="mb-1 text-sm text-muted">{t("teacher.coreConcept")} {thema.kernkonzept}</p>}
       {thema?.material && (
         <button
           onClick={() => {
@@ -245,13 +247,13 @@ export function LehrkraftView({ data }: { data: AppData }) {
             setOpenMatch({
               thema_id: thema.id,
               bubble_id: sel.bubble.id,
-              szenario: thema.trend_hook ? `Taucht in den Medien auf: ${thema.trend_hook}` : "",
+              szenario: thema.trend_hook ? t("teacher.appearsInMedia", { hook: thema.trend_hook }) : "",
               material: thema.material,
             });
           }}
           className="mb-5 mt-2 inline-flex items-center gap-2 rounded-lg bg-brand px-4 py-2 font-semibold text-white shadow-sm transition hover:bg-brand-dark"
         >
-          📄 Lernunterlage zu „{thema.thema}" öffnen
+          {t("teacher.openMaterialFor", { topic: thema.thema })}
         </button>
       )}
 
@@ -269,21 +271,21 @@ export function LehrkraftView({ data }: { data: AppData }) {
                 <span className="la-chip">{bundle?.emoji} {thema?.thema}</span>
               </div>
               <p className="mt-3">
-                <span className="font-semibold">Aktuell in den Medien:</span> <em>„{m.szenario}"</em>
+                <span className="font-semibold">{t("teacher.inMediaNow")}</span> <em>„{m.szenario}"</em>
               </p>
               {m.begruendung && (
                 <p className="mt-1 text-muted">
-                  <span className="font-semibold text-ink">Warum das zum Lehrplan passt:</span> {m.begruendung}
+                  <span className="font-semibold text-ink">{t("teacher.whyCurriculum")}</span> {m.begruendung}
                 </p>
               )}
               {m.einstiegsfrage && (
                 <p className="mt-1">
-                  <span className="font-semibold">Einstiegsfrage:</span> {m.einstiegsfrage}
+                  <span className="font-semibold">{t("teacher.starterQuestion")}</span> {m.einstiegsfrage}
                 </p>
               )}
               {m.unterrichtsidee && (
                 <p className="mt-1 text-muted">
-                  <span className="font-semibold text-ink">Unterrichtsidee:</span> {m.unterrichtsidee}
+                  <span className="font-semibold text-ink">{t("teacher.lessonIdea")}</span> {m.unterrichtsidee}
                 </p>
               )}
               {(m.material ?? thema?.material) && (
@@ -291,7 +293,7 @@ export function LehrkraftView({ data }: { data: AppData }) {
                   onClick={() => { playSound("click"); setOpenMatch({ ...m, material: m.material ?? thema?.material }); }}
                   className="mt-3 inline-flex items-center gap-2 rounded-lg border border-brand bg-brand-soft px-3 py-1.5 text-sm font-semibold text-brand-dark transition hover:bg-brand hover:text-white"
                 >
-                  📄 Komplette Unterlage öffnen
+                  {t("teacher.openFullMaterial")}
                 </button>
               )}
               <div className="mt-4 flex items-center gap-2">
@@ -299,16 +301,16 @@ export function LehrkraftView({ data }: { data: AppData }) {
                   onClick={() => setBestaetigt((s) => ({ ...s, [key]: true }))}
                   className="rounded-lg bg-brand px-3 py-1.5 text-sm font-semibold text-white hover:bg-brand-dark"
                 >
-                  Passt
+                  {t("teacher.fits")}
                 </button>
                 <button
                   onClick={() => setBestaetigt((s) => ({ ...s, [key]: false }))}
                   className="rounded-lg border border-line px-3 py-1.5 text-sm font-semibold text-muted hover:border-brand"
                 >
-                  Verwerfen
+                  {t("teacher.discard")}
                 </button>
-                {bestaetigt[key] === true && <span className="text-sm font-semibold text-[#0f9d6c]">✅ Bestätigt</span>}
-                {bestaetigt[key] === false && <span className="text-sm text-muted">Verworfen</span>}
+                {bestaetigt[key] === true && <span className="text-sm font-semibold text-[#0f9d6c]">{t("teacher.confirmed")}</span>}
+                {bestaetigt[key] === false && <span className="text-sm text-muted">{t("teacher.discarded")}</span>}
               </div>
             </article>
           );
@@ -332,6 +334,7 @@ export function LehrkraftView({ data }: { data: AppData }) {
 /* ────────────────────────── Schüler ────────────────────────── */
 
 export function SchuelerView({ data }: { data: AppData }) {
+  const t = useT();
   const sel = useSelection(data);
   const { bundle } = sel;
   const matches = (bundle?.matches ?? []).filter((m) => m.schueler_hook);
@@ -353,22 +356,22 @@ export function SchuelerView({ data }: { data: AppData }) {
     <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6">
       <PageHead
         emoji="🎒"
-        title="Schüler"
-        subtitle="Dein Alltag steckt voller Schulstoff — entdecken & üben"
+        title={t("student.title")}
+        subtitle={t("student.subtitle")}
         bundle={bundle}
         bubbleName={sel.bubble.name}
       />
       <Controls sel={sel} />
 
       <div className="mb-5 flex gap-2">
-        <button onClick={() => setTab("entdecken")} className={tabCls(tab === "entdecken")}>🔎 Entdecken</button>
-        <button onClick={() => setTab("ueben")} className={tabCls(tab === "ueben")}>✏️ Üben</button>
+        <button onClick={() => setTab("entdecken")} className={tabCls(tab === "entdecken")}>{t("student.tab.discover")}</button>
+        <button onClick={() => setTab("ueben")} className={tabCls(tab === "ueben")}>{t("student.tab.practice")}</button>
       </div>
 
       {tab === "entdecken" ? (
         <>
           <div className="mb-5 inline-flex items-center gap-2 rounded-full bg-[#0f9d6c]/10 px-4 py-1.5 font-semibold text-[#0b7a53]">
-            ⭐ {punkte} Punkte
+            {t("student.points", { n: punkte })}
           </div>
           <div className="space-y-4">
             {matches.map((m, i) => {
@@ -379,7 +382,7 @@ export function SchuelerView({ data }: { data: AppData }) {
                   <p className="mt-3 text-lg font-semibold">{m.schueler_hook}</p>
                   {m.schueler_challenge && (
                     <div className="mt-3 rounded-xl bg-[#0f9d6c]/8 p-3">
-                      <p className="text-sm font-semibold text-[#0b7a53]">🎯 Deine Challenge</p>
+                      <p className="text-sm font-semibold text-[#0b7a53]">{t("student.challenge")}</p>
                       <p className="mt-1">{m.schueler_challenge}</p>
                       <button
                         onClick={() => { playSound("entry"); setDone((s) => ({ ...s, [key]: !s[key] })); }}
@@ -389,7 +392,7 @@ export function SchuelerView({ data }: { data: AppData }) {
                             : "border border-[#0f9d6c] text-[#0b7a53] hover:bg-[#0f9d6c]/10"
                         }`}
                       >
-                        {done[key] ? "✅ Geschafft" : "Als geschafft markieren"}
+                        {done[key] ? t("student.done") : t("student.markDone")}
                       </button>
                     </div>
                   )}
@@ -403,7 +406,7 @@ export function SchuelerView({ data }: { data: AppData }) {
         <div className="la-card p-5">
           {activeUeb ? (
             <>
-              <label className="mb-1 block text-xs font-bold uppercase tracking-wider text-muted">Thema wählen</label>
+              <label className="mb-1 block text-xs font-bold uppercase tracking-wider text-muted">{t("ctrl.chooseTopic")}</label>
               <select
                 value={activeUeb}
                 onChange={(e) => { playSound("swipe"); setUebThema(Number(e.target.value)); }}
@@ -416,7 +419,7 @@ export function SchuelerView({ data }: { data: AppData }) {
               <ExerciseRunner key={activeUeb} themaId={activeUeb} themaName={themaName(activeUeb)} />
             </>
           ) : (
-            <p className="text-muted">Für dieses Fach gibt es hier noch keine automatischen Übungen.</p>
+            <p className="text-muted">{t("student.noExercises")}</p>
           )}
         </div>
       )}
@@ -427,6 +430,7 @@ export function SchuelerView({ data }: { data: AppData }) {
 /* ────────────────────────── Eltern ────────────────────────── */
 
 export function ElternView({ data }: { data: AppData }) {
+  const t = useT();
   const sel = useSelection(data);
   const { bundle } = sel;
   const matches = (bundle?.matches ?? []).filter((m) => m.eltern || m.schueler_hook);
@@ -443,27 +447,27 @@ export function ElternView({ data }: { data: AppData }) {
     <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6">
       <PageHead
         emoji="👪"
-        title="Eltern"
-        subtitle="Was dein Kind schaut — und was schulisch dahintersteckt"
+        title={t("parent.title")}
+        subtitle={t("parent.subtitle")}
         bundle={bundle}
         bubbleName={sel.bubble.name}
       />
       <Controls sel={sel} />
 
       <details className="la-card mb-6 p-4">
-        <summary className="cursor-pointer font-semibold">📱 Was schaut oder hört dein Kind gerade?</summary>
+        <summary className="cursor-pointer font-semibold">{t("parent.consumeSummary")}</summary>
         <div className="mt-3 space-y-2">
           <div className="flex flex-col gap-2 sm:flex-row">
             <input
               value={name}
               onChange={(e) => setName(e.target.value)}
-              placeholder="z.B. Gaming-Streams, Podcasts, News"
+              placeholder={t("parent.consumePlaceholderName")}
               className="flex-1 rounded-lg border border-line px-3 py-2"
             />
             <input
               value={warum}
               onChange={(e) => setWarum(e.target.value)}
-              placeholder="Warum? (optional)"
+              placeholder={t("parent.consumePlaceholderWhy")}
               className="flex-1 rounded-lg border border-line px-3 py-2"
             />
             <button
@@ -475,7 +479,7 @@ export function ElternView({ data }: { data: AppData }) {
               }}
               className="rounded-lg bg-brand px-4 py-2 font-semibold text-white hover:bg-brand-dark"
             >
-              Hinzufügen
+              {t("parent.add")}
             </button>
           </div>
           <ul className="mt-2 space-y-1 text-sm">
@@ -489,7 +493,7 @@ export function ElternView({ data }: { data: AppData }) {
         </div>
       </details>
 
-      <h2 className="mb-3 font-semibold">Das steckt schulisch in typischen Alltags-Situationen:</h2>
+      <h2 className="mb-3 font-semibold">{t("parent.heading")}</h2>
       <div className="space-y-4">
         {matches.map((m, i) => {
           const el = m.eltern ?? {};
@@ -503,17 +507,17 @@ export function ElternView({ data }: { data: AppData }) {
               <p className="mt-2 italic">„{m.szenario}“</p>
               {schulbezug && (
                 <p className="mt-3">
-                  📚 <span className="font-semibold">Das ist Schulstoff:</span> {schulbezug}
+                  📚 <span className="font-semibold">{t("parent.isSchoolStuff")}</span> {schulbezug}
                 </p>
               )}
               {el.gespraechsanlass && (
                 <p className="mt-2">
-                  💬 <span className="font-semibold">Reden mit deinem Kind:</span> {el.gespraechsanlass}
+                  💬 <span className="font-semibold">{t("parent.talkWithChild")}</span> {el.gespraechsanlass}
                 </p>
               )}
               {el.tipp && (
                 <p className="mt-2 text-muted">
-                  💡 <span className="font-semibold text-ink">Tipp:</span> {el.tipp}
+                  💡 <span className="font-semibold text-ink">{t("parent.tip")}</span> {el.tipp}
                 </p>
               )}
               {el.safety && (

@@ -5,6 +5,7 @@ import type { Match } from "@/lib/types";
 import { ExerciseRunner, hatAufgaben } from "@/components/exercise";
 import { playSound } from "@/lib/sound";
 import { quelleLabel, quelleEmoji } from "@/lib/format";
+import { useT } from "@/lib/i18n";
 
 function esc(s: string): string {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -70,6 +71,7 @@ export function MaterialModal({
   meta: string;
   onClose: () => void;
 }) {
+  const t = useT();
   const m = match.material;
   const [tab, setTab] = useState<"unterlage" | "whiteboard">("unterlage");
   const [showLoes, setShowLoes] = useState(false);
@@ -91,7 +93,7 @@ export function MaterialModal({
 
   async function share() {
     playSound("click");
-    const text = `Unterrichtsmaterial „${m!.titel}" (${meta}) — Lernassistent, gemeinnützig & kostenlos.`;
+    const text = t("mat.shareText", { title: m!.titel, meta });
     try {
       if (navigator.share) {
         await navigator.share({ title: m!.titel, text });
@@ -102,10 +104,10 @@ export function MaterialModal({
     }
     try {
       await navigator.clipboard.writeText(`${text}\n${window.location.href}`);
-      setShareMsg("In Zwischenablage kopiert ✓");
+      setShareMsg(t("mat.copied"));
       setTimeout(() => setShareMsg(""), 2500);
     } catch {
-      setShareMsg("Teilen nicht verfügbar");
+      setShareMsg(t("mat.shareUnavailable"));
       setTimeout(() => setShareMsg(""), 2500);
     }
   }
@@ -122,20 +124,20 @@ export function MaterialModal({
         {/* Kopf + Aktionen (nicht im Druck) */}
         <div className="flex flex-wrap items-center justify-between gap-3 border-b border-line p-4 no-print">
           <div className="min-w-0">
-            <p className="text-xs font-semibold uppercase tracking-wide text-muted">Lernunterlage · {meta}</p>
+            <p className="text-xs font-semibold uppercase tracking-wide text-muted">{t("mat.materialMeta", { meta })}</p>
             <h2 className="truncate text-lg font-bold">{m.titel}</h2>
           </div>
           <div className="flex items-center gap-2">
-            <button onClick={() => { playSound("click"); window.print(); }} className="rounded-lg border border-line px-3 py-1.5 text-sm font-semibold hover:border-brand" title="Drucken">
-              🖨️ Drucken
+            <button onClick={() => { playSound("click"); window.print(); }} className="rounded-lg border border-line px-3 py-1.5 text-sm font-semibold hover:border-brand" title={t("mat.print")}>
+              {t("mat.print")}
             </button>
-            <button onClick={() => { playSound("click"); download(`${slug || "unterlage"}.html`, buildLessonHtml(match, meta, themaName, kernkonzept)); }} className="rounded-lg border border-line px-3 py-1.5 text-sm font-semibold hover:border-brand" title="Herunterladen">
-              ⬇️ Download
+            <button onClick={() => { playSound("click"); download(`${slug || "unterlage"}.html`, buildLessonHtml(match, meta, themaName, kernkonzept)); }} className="rounded-lg border border-line px-3 py-1.5 text-sm font-semibold hover:border-brand" title={t("mat.download")}>
+              {t("mat.download")}
             </button>
-            <button onClick={share} className="rounded-lg border border-line px-3 py-1.5 text-sm font-semibold hover:border-brand" title="Teilen">
-              🔗 Teilen
+            <button onClick={share} className="rounded-lg border border-line px-3 py-1.5 text-sm font-semibold hover:border-brand" title={t("mat.share")}>
+              {t("mat.share")}
             </button>
-            <button onClick={onClose} className="rounded-lg px-2 py-1.5 text-xl text-muted hover:text-ink" aria-label="Schließen">
+            <button onClick={onClose} className="rounded-lg px-2 py-1.5 text-xl text-muted hover:text-ink" aria-label={t("mat.close")}>
               ✕
             </button>
           </div>
@@ -146,11 +148,11 @@ export function MaterialModal({
         {/* Tabs */}
         <div className="flex gap-1 px-4 pt-3 no-print">
           <button onClick={() => setTab("unterlage")} className={`rounded-t-lg px-4 py-2 text-sm font-semibold ${tab === "unterlage" ? "bg-brand-soft text-brand-dark" : "text-muted hover:text-brand"}`}>
-            📄 Komplette Unterlage
+            {t("mat.tab.full")}
           </button>
           {hatAufgaben(match.thema_id) && (
             <button onClick={() => setTab("whiteboard")} className={`rounded-t-lg px-4 py-2 text-sm font-semibold ${tab === "whiteboard" ? "bg-brand-soft text-brand-dark" : "text-muted hover:text-brand"}`}>
-              🖥️ Whiteboard-Aufgabe
+              {t("mat.tab.whiteboard")}
             </button>
           )}
         </div>
@@ -161,28 +163,28 @@ export function MaterialModal({
             <div className="la-print space-y-4">
               <div>
                 <h3 className="text-xl font-bold">{m.titel}</h3>
-                <p className="text-sm text-muted">{meta}{m.dauer_min ? ` · ${m.dauer_min} Min` : ""}</p>
+                <p className="text-sm text-muted">{meta}{m.dauer_min ? ` · ${m.dauer_min} ${t("mat.minShort")}` : ""}</p>
               </div>
 
               {/* Das Match: Medieninhalt ↔ Lehrplan */}
               <div className="rounded-xl bg-brand-soft p-4">
-                <p className="text-xs font-bold uppercase tracking-wide text-brand-dark">Medieninhalt ↔ Lehrplan</p>
+                <p className="text-xs font-bold uppercase tracking-wide text-brand-dark">{t("mat.mediaCurriculum")}</p>
                 <p className="mt-1 flex flex-wrap items-center gap-2 font-semibold">
                   <span>{quelleEmoji(match.quelle)} {quelleLabel(match.quelle)}{match.datum ? ` · ${match.datum}` : ""}</span>
                   <span className="text-muted">→</span>
                   <span>{themaName}</span>
                 </p>
-                <p className="mt-2 text-sm"><span className="font-semibold">Aktuell in den Medien:</span> <em>„{match.szenario}"</em></p>
-                {kernkonzept && <p className="mt-1 text-sm"><span className="font-semibold">Lehrplan-Bezug:</span> {kernkonzept}</p>}
-                {match.begruendung && <p className="mt-1 text-sm"><span className="font-semibold">Warum das passt:</span> {match.begruendung}</p>}
+                <p className="mt-2 text-sm"><span className="font-semibold">{t("mat.inMediaNow")}</span> <em>„{match.szenario}"</em></p>
+                {kernkonzept && <p className="mt-1 text-sm"><span className="font-semibold">{t("mat.curriculumLink")}</span> {kernkonzept}</p>}
+                {match.begruendung && <p className="mt-1 text-sm"><span className="font-semibold">{t("mat.whyFits")}</span> {match.begruendung}</p>}
               </div>
 
-              {m.lernziel && <p><span className="font-semibold">Lernziel:</span> {m.lernziel}</p>}
-              {match.einstiegsfrage && <p><span className="font-semibold">Einstiegsfrage:</span> {match.einstiegsfrage}</p>}
+              {m.lernziel && <p><span className="font-semibold">{t("mat.goal")}</span> {m.lernziel}</p>}
+              {match.einstiegsfrage && <p><span className="font-semibold">{t("mat.starterQuestion")}</span> {match.einstiegsfrage}</p>}
 
               {m.ablauf?.length ? (
                 <div>
-                  <h4 className="font-semibold">Ablauf</h4>
+                  <h4 className="font-semibold">{t("mat.sequence")}</h4>
                   <table className="mt-1 w-full border-collapse text-sm">
                     <tbody>
                       {m.ablauf.map((p, i) => (
@@ -200,14 +202,14 @@ export function MaterialModal({
 
               {m.arbeitsblatt?.aufgaben?.length ? (
                 <div>
-                  <h4 className="font-semibold">Arbeitsblatt</h4>
+                  <h4 className="font-semibold">{t("mat.worksheet")}</h4>
                   <ol className="mt-1 list-decimal space-y-1 pl-5">
                     {m.arbeitsblatt.aufgaben.map((a, i) => <li key={i}>{a}</li>)}
                   </ol>
                   {m.arbeitsblatt.loesungen?.length ? (
                     <div className="mt-2">
                       <button onClick={() => setShowLoes((s) => !s)} className="text-sm font-semibold text-brand no-print">
-                        {showLoes ? "Lösungen verbergen" : "Lösungen anzeigen"}
+                        {showLoes ? t("mat.hideSolutions") : t("mat.showSolutions")}
                       </button>
                       <ol className={`mt-1 list-decimal space-y-1 pl-5 text-muted ${showLoes ? "" : "hidden print:block"}`}>
                         {m.arbeitsblatt.loesungen.map((l, i) => <li key={i}>{l}</li>)}
@@ -220,19 +222,17 @@ export function MaterialModal({
               {(m.differenzierung?.leichter || m.differenzierung?.schwerer) && (
                 <div className="grid gap-3 sm:grid-cols-2">
                   {m.differenzierung?.leichter && (
-                    <div className="rounded-lg bg-brand-soft p-3"><p className="font-semibold">Leichter</p><p className="text-muted">{m.differenzierung.leichter}</p></div>
+                    <div className="rounded-lg bg-brand-soft p-3"><p className="font-semibold">{t("mat.easier")}</p><p className="text-muted">{m.differenzierung.leichter}</p></div>
                   )}
                   {m.differenzierung?.schwerer && (
-                    <div className="rounded-lg bg-brand-soft p-3"><p className="font-semibold">Schwerer</p><p className="text-muted">{m.differenzierung.schwerer}</p></div>
+                    <div className="rounded-lg bg-brand-soft p-3"><p className="font-semibold">{t("mat.harder")}</p><p className="text-muted">{m.differenzierung.schwerer}</p></div>
                   )}
                 </div>
               )}
             </div>
           ) : (
             <div>
-              <p className="mb-3 text-sm text-muted">
-                Für die Klasse vorne am digitalen Whiteboard lösen — „Lösung zeigen" deckt die Antwort auf.
-              </p>
+              <p className="mb-3 text-sm text-muted">{t("mat.whiteboardHint")}</p>
               <ExerciseRunner themaId={match.thema_id} themaName={themaName} big />
             </div>
           )}
