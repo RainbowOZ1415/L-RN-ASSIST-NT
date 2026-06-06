@@ -6,7 +6,12 @@ from interaktiv import (
     render_aufgabe, render_lehr_quiz, render_dynamic_aufgabe,
     render_zufalls_uebung, punkte_anzeigen,
 )
-from theme import inject_theme, NAV_SEITEN, NAV_ICONS, NAV_SUBTITEL, page_header, meta_chips
+from theme import inject_theme, NAV_SEITEN, NAV_ICONS, page_header, meta_chips
+try:
+    from theme import NAV_SUBTITEL
+except ImportError:
+    # Robust gegen Sync-Versatz (neue app.py + alte theme.py im Team-Workflow)
+    NAV_SUBTITEL = {}
 from sounds import inject_sounds, queue_sound, render_sound_queue
 
 QUELLE_BADGE = {
