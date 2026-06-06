@@ -12,32 +12,35 @@ Themen: {themen}
 Zusammenfassung: {zus}
 Quelle: {quelle}
 
-Welche Lehrplan-Themen passen als Einstieg? Sei streng.
+Welche Lehrplan-Themen lassen sich mit diesem Medien-Inhalt als NEUGIER-EINSTIEG verbinden?
+WICHTIG: Der Medien-Inhalt ist der AUFHÄNGER, nicht das Unterrichtsthema selbst. Ein Inhalt passt
+auch, wenn das Sachthema abweicht — solange er ein glaubwürdiger Einstieg in die KOMPETENZ des
+Lehrplan-Themas ist (Neugier-Brücke). Beispiel-Brücken:
+- politische/werbliche/Meinungs-Inhalte, Sprache/Framing -> "Medien & Sprache", "Wortfelder", "Leseverstehen"
+- jede Geschichte/jeder Text/jedes Zitat -> "Leseverstehen", "Nacherzählen", "Wortarten", "Satzbau", "Kommasetzung"
+- Zahlen, Geld, Statistiken, Chancen, Diagramme, Mengen -> "Prozentrechnung", "Daten & Diagramme", "Wahrscheinlichkeit", "Brüche", "Dezimalzahlen"
+Gib 1–3 BESTE Treffer (nicht erzwingen). Nur wenn wirklich nichts passt: leere Liste.
 REGELN:
 - Keine Creator-/Kanalnamen im Output (in KEINEM Feld)
 - Generische Szenarien (Chat-Satz, Kommentar, Podcast-Zitat, Stream-Situation)
 - Sprache aller Felder passend zum Sprachniveau der Bubble
 - bubble_id: "{bubble_id}" in jedem Treffer
-- DREI Zielgruppen bedienen: Lehrkraft (begruendung/einstiegsfrage/unterrichtsidee/material),
+- DREI Zielgruppen bedienen: Lehrkraft (begruendung/einstiegsfrage/unterrichtsidee),
   Schüler (schueler_hook/schueler_challenge), Eltern (eltern.*)
-- material: vollständige, sofort nutzbare Stunde (gratis). eltern: Alltagssprache für Eltern.
-- eltern.safety: nur füllen, wenn das Szenario einen Hinweis braucht (z.B. Lootbox/Glücksspiel, Geld), sonst null.
+- KEIN material-Feld erzeugen (die fertige Lernunterlage liegt bereits im Seed pro Thema).
+- eltern: Alltagssprache. eltern.safety nur füllen, wenn nötig (z.B. Lootbox/Glücksspiel/Geld/politische Beeinflussung), sonst null.
 
-Gib NUR JSON zurück:
+Gib NUR kompaktes JSON zurück (kein Markdown):
 {{"treffer": [{{"thema_id": <id>, "bubble_id": "{bubble_id}",
   "szenario": "kurze Situation ohne Kanalnamen",
-  "begruendung": "2 Sätze",
+  "begruendung": "1-2 Sätze: warum der Inhalt ein Einstieg ins Thema ist",
   "einstiegsfrage": "1 konkrete Frage",
   "unterrichtsidee": "1 Aktivität 10-20 Min",
-  "material": {{"titel": "...", "lernziel": "...", "dauer_min": 45,
-    "ablauf": [{{"phase": "Einstieg", "dauer_min": 5, "beschreibung": "..."}}],
-    "arbeitsblatt": {{"aufgaben": ["..."], "loesungen": ["..."]}},
-    "differenzierung": {{"leichter": "...", "schwerer": "..."}}}},
   "schueler_hook": "1 Satz Du-Form",
   "schueler_challenge": "1 kurze Aufgabe",
   "eltern": {{"schulbezug": "Klartext: welcher Schulstoff steckt drin",
-    "gespraechsanlass": "1 Frage für das Eltern-Kind-Gespräch",
-    "tipp": "1 unterstützender Hinweis", "safety": null}}}}]}}"""
+    "gespraechsanlass": "1 Frage fürs Eltern-Kind-Gespräch",
+    "tipp": "1 Hinweis", "safety": null}}}}]}}"""
 
 
 def load_bubble():
