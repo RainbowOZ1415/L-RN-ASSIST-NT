@@ -1,0 +1,262 @@
+[
+  {
+    "thema_id": 1,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem Sprach-Meme steht der Satz: Der schnelle Streamer gewinnt das Spiel.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "de6-1",
+    "begruendung": "Der kurze Meme-Satz enthält Nomen, Verb und Adjektiv nebeneinander und eignet sich, um die Wortarten als Bausteine jeder Nachricht zu bestimmen.",
+    "einstiegsfrage": "Welches Wort beschreibt, welches benennt und welches sagt, was passiert?",
+    "unterrichtsidee": "Die Klasse markiert in drei Meme-Sätzen Nomen blau, Verben rot und Adjektive grün und sammelt eigene Beispiele.",
+    "schueler_hook": "Jede Nachricht, die du tippst, steckt voller Wortarten – erkennst du sie?",
+    "schueler_challenge": "Schreibe einen eigenen kurzen Satz und markiere darin Nomen, Verb und Adjektiv.",
+    "eltern": {
+      "schulbezug": "Thema Wortarten: Nomen, Verb und Adjektiv erkennen – die Grundbausteine jedes Satzes.",
+      "gespraechsanlass": "Frag dein Kind: 'Welches Wort in »Der schnelle Streamer gewinnt« benennt, welches beschreibt und welches sagt, was passiert?'",
+      "tipp": "Memes und kurze Videotitel sind ideale Mini-Übungen, um Wortarten unterwegs zu suchen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 2,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem Clip-Kommentar steht nur: voll nice das Game.",
+    "quelle": "youtube",
+    "datum": "2026-05",
+    "video_id": "de6-2",
+    "begruendung": "Die verkürzte Aussage hat kein vollständiges Satzgerüst. Sie eignet sich, um Subjekt, Prädikat und Objekt zu ergänzen und einen vollständigen Satz zu bauen.",
+    "einstiegsfrage": "Was fehlt der Aussage »voll nice das Game«, damit es ein vollständiger Satz wird?",
+    "unterrichtsidee": "Die Lernenden schreiben drei Clip-Kommentare in vollständige Sätze um und markieren Subjekt und Prädikat.",
+    "schueler_hook": "Im Netz schreibt man kurz – aber wie wird daraus ein richtiger Satz?",
+    "schueler_challenge": "Mach aus »krass spannend der Stream« einen vollständigen Satz und markiere das Subjekt.",
+    "eltern": {
+      "schulbezug": "Thema Satzbau & Satzglieder: Subjekt, Prädikat und Objekt bestimmen und vollständige Sätze bilden.",
+      "gespraechsanlass": "Frag dein Kind: 'Was fehlt einem kurzen Kommentar wie »voll nice das Game« zu einem ganzen Satz?'",
+      "tipp": "Aus kurzen Kommentaren gemeinsam vollständige Sätze formen – ein lockeres Sprachspiel.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 3,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem Chat steht: das spiel macht voll spass.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "de6-3",
+    "begruendung": "Die Nachricht zeigt fehlende Großschreibung und einen Rechtschreibfehler bei »Spaß«. Sie eignet sich, um Groß-/Kleinschreibung und Schärfung zu üben.",
+    "einstiegsfrage": "Welche Wörter in dieser Chat-Nachricht müssen großgeschrieben werden – und wo steckt ein Schreibfehler?",
+    "unterrichtsidee": "Die Klasse korrigiert gemeinsam einen kurzen Fehlertext aus dem Chat und leitet die Regeln zur Großschreibung ab.",
+    "schueler_hook": "Im Chat schreibt man oft alles klein – aber wie sieht der Satz richtig aus?",
+    "schueler_challenge": "Schreibe »das spiel macht voll spass« vollständig korrekt auf.",
+    "eltern": {
+      "schulbezug": "Thema Rechtschreibung: Groß-/Kleinschreibung sowie Dehnung und Schärfung sicher anwenden.",
+      "gespraechsanlass": "Frag dein Kind: 'Welche Wörter in dieser Nachricht gehören groß und warum?'",
+      "tipp": "Ein lockerer Chat-Satz lässt sich super gemeinsam in eine korrekte Version verwandeln.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 4,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem Podcast wird ein Spiel dreimal hintereinander nur als »cool« beschrieben.",
+    "quelle": "podcast",
+    "datum": "2026-05",
+    "video_id": "de6-4",
+    "begruendung": "Das ständige »cool« zeigt, wie ungenau ein einzelnes Modewort ist. Das motiviert, ein Wortfeld aufzubauen und präziser zu formulieren.",
+    "einstiegsfrage": "Wenn alles nur »cool« heißt – wird dadurch klarer, was wirklich gemeint ist?",
+    "unterrichtsidee": "Die Lernenden bauen ein Wortfeld zu »cool/gut« auf und ersetzen das Modewort in Beispielsätzen durch treffendere Wörter.",
+    "schueler_hook": "Du sagst oft »cool« – aber es gibt viel genauere Wörter dafür.",
+    "schueler_challenge": "Finde drei treffende Wörter, die du statt »cool« benutzen kannst, und baue eines in einen Satz ein.",
+    "eltern": {
+      "schulbezug": "Thema Wortfelder & Synonyme: den Wortschatz erweitern und präziser formulieren.",
+      "gespraechsanlass": "Frag dein Kind: 'Welche genaueren Wörter passen statt »cool« für etwas, das dir gefällt?'",
+      "tipp": "Beim Erzählen über den Tag ab und zu nach einem genaueren Wort fragen – ganz nebenbei.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 5,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem kurzen Märchen-Clip beginnt die Geschichte mit »Es war einmal« und endet mit einem guten Ausgang.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "de6-5",
+    "begruendung": "Der Clip zeigt typische Märchenmerkmale wie die feste Einleitungsformel und das gute Ende. Daran lassen sich Erzählstruktur und Motive erarbeiten.",
+    "einstiegsfrage": "Woran erkennst du im Clip sofort, dass es sich um ein Märchen handelt?",
+    "unterrichtsidee": "Die Klasse sammelt Märchenmerkmale aus dem Clip (Zauber, Gut/Böse, Dreizahl, gutes Ende) und markiert sie in einem Kurzmärchen.",
+    "schueler_hook": "Auch moderne Clips folgen oft uralten Märchen-Regeln – fallen sie dir auf?",
+    "schueler_challenge": "Schreibe einen Märchenanfang in einem Satz, der typisch klingt.",
+    "eltern": {
+      "schulbezug": "Thema Märchen: typische Merkmale, Motive und die Erzählstruktur wiedererkennen.",
+      "gespraechsanlass": "Frag dein Kind: 'Welche typischen Märchenmerkmale stecken in dem Clip?'",
+      "tipp": "Bei bekannten Geschichten gemeinsam überlegen, was sie zu einem Märchen macht.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 6,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem kurzen Clip handelt ein Fuchs schlau und überlistet ein anderes Tier.",
+    "quelle": "youtube",
+    "datum": "2026-05",
+    "video_id": "de6-6",
+    "begruendung": "Tiere mit menschlichen Eigenschaften und eine Lehre am Ende sind typisch für Fabeln. Der Clip eignet sich, um Fabeltiere und Moral zu erkennen.",
+    "einstiegsfrage": "Welche menschliche Eigenschaft zeigt der Fuchs in diesem Clip?",
+    "unterrichtsidee": "Die Lernenden ordnen typischen Fabeltieren ihre Eigenschaften zu und formulieren eine passende Moral.",
+    "schueler_hook": "Wenn Tiere wie Menschen handeln, steckt oft eine Botschaft dahinter – findest du sie?",
+    "schueler_challenge": "Schreibe in einem Satz eine Moral, die zu einer schlauen Fuchs-Geschichte passt.",
+    "eltern": {
+      "schulbezug": "Thema Fabeln: Fabeltiere, ihre Eigenschaften und die Moral als Lehre erkennen.",
+      "gespraechsanlass": "Frag dein Kind: 'Welche Eigenschaft hat der Fuchs und was will die Geschichte uns sagen?'",
+      "tipp": "Bei Tier-Clips kurz fragen, welche menschliche Eigenschaft das Tier zeigt.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 7,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einer Rap-Zeile reimen sich am Ende »Zeit« und »weit« im Takt.",
+    "quelle": "podcast",
+    "datum": "2026-06",
+    "video_id": "de6-7",
+    "begruendung": "Reime und Rhythmus stecken in jedem Rap. Daran lassen sich Reimformen und Betonung wie bei einem Gedicht erarbeiten.",
+    "einstiegsfrage": "Wo in der Rap-Zeile hörst du den Reim und wo den Rhythmus?",
+    "unterrichtsidee": "Die Lernenden suchen Reimpaare in einer Rap-Zeile und schreiben anschließend zwei eigene Reimzeilen.",
+    "schueler_hook": "Dein Lieblingssong steckt voller Reime – genau wie ein Gedicht.",
+    "schueler_challenge": "Schreibe zwei Zeilen, die sich am Ende reimen.",
+    "eltern": {
+      "schulbezug": "Thema Gedichte: Reim, Rhythmus und Stilmittel erkennen und selbst Reime bilden.",
+      "gespraechsanlass": "Frag dein Kind: 'Welche Wörter reimen sich in deinem Lieblingssong?'",
+      "tipp": "Songtexte sind ein toller Einstieg, um Reim und Takt gemeinsam herauszuhören.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 8,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem Storytime-Video erzählt jemand, was zuerst, dann und schließlich passiert ist.",
+    "quelle": "youtube",
+    "datum": "2026-05",
+    "video_id": "de6-8",
+    "begruendung": "Storytime-Formate erzählen Ereignisse in einer Reihenfolge. Daran lässt sich geordnetes Nacherzählen mit Signalwörtern üben.",
+    "einstiegsfrage": "In welcher Reihenfolge erzählt die Person, was passiert ist?",
+    "unterrichtsidee": "Die Klasse sammelt Signalwörter (zuerst, dann, danach, schließlich) und erzählt eine kurze Geschichte in vier geordneten Sätzen nach.",
+    "schueler_hook": "Storytime-Videos funktionieren nur, wenn die Reihenfolge stimmt – das ist Nacherzählen.",
+    "schueler_challenge": "Erzähle eine kurze Geschichte in drei Sätzen nach – mit Anfang, Mitte und Ende.",
+    "eltern": {
+      "schulbezug": "Thema Nacherzählen: Inhalte geordnet und in eigenen Worten wiedergeben.",
+      "gespraechsanlass": "Frag dein Kind: 'Was ist in dem Video zuerst, dann und am Ende passiert?'",
+      "tipp": "Beim Erzählen vom Tag auf eine klare Reihenfolge achten – das übt Nacherzählen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 9,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem Buch-Tipp-Clip fasst ein Klappentext in wenigen Sätzen zusammen, worum es geht.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "de6-9",
+    "begruendung": "Ein kurzer Klappentext liefert die wichtigsten Informationen knapp. Daran lässt sich gezieltes Leseverstehen mit W-Fragen üben.",
+    "einstiegsfrage": "Worum geht es laut Klappentext in einem Satz?",
+    "unterrichtsidee": "Die Lernenden lesen einen kurzen Klappentext, beantworten W-Fragen (Wer? Wo? Was?) und fassen ihn in einem Satz zusammen.",
+    "schueler_hook": "Ein Klappentext verrät in wenigen Sätzen das Wichtigste – kannst du es herauslesen?",
+    "schueler_challenge": "Schreibe in einem Satz, worum es in einem Text oder Buch geht.",
+    "eltern": {
+      "schulbezug": "Thema Leseverstehen: einem Text gezielt die wichtigen Informationen entnehmen.",
+      "gespraechsanlass": "Frag dein Kind: 'Was sind die wichtigsten Infos in diesem kurzen Text?'",
+      "tipp": "Klappentexte oder kurze Beschreibungen gemeinsam auf ihre Kernaussage abklopfen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 10,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem Erklärvideo startet die Person mit einem klaren Einstieg, hält Blickkontakt und erklärt Schritt für Schritt.",
+    "quelle": "youtube",
+    "datum": "2026-05",
+    "video_id": "de6-10",
+    "begruendung": "Gute Erklärvideos sind klar strukturiert und sprechen die Zuschauer direkt an. Das eignet sich als Vorbild für einen eigenen Kurzvortrag.",
+    "einstiegsfrage": "Was macht den Einstieg dieses Erklärvideos verständlich und ansprechend?",
+    "unterrichtsidee": "Die Lernenden planen einen Mini-Vortrag mit Einstieg, zwei Punkten und Schluss und geben sich gegenseitig Feedback.",
+    "schueler_hook": "Ein gutes Erklärvideo und ein guter Vortrag funktionieren nach denselben Regeln.",
+    "schueler_challenge": "Plane einen kurzen Vortrag: ein Einstieg, zwei Punkte und ein Schluss.",
+    "eltern": {
+      "schulbezug": "Thema Präsentieren & Sprechen: einen klar strukturierten Vortrag frei halten.",
+      "gespraechsanlass": "Frag dein Kind: 'Was macht ein Erklärvideo verständlich – und was hilft auch bei einem Vortrag?'",
+      "tipp": "Ein Lieblings-Erklärvideo gemeinsam ansehen und auf Aufbau und Blickkontakt achten.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem Werbeclip wird ein Produkt als »das beste aller Zeiten« angepriesen.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "de6-11",
+    "begruendung": "Superlative und Übertreibungen sind typische Werbe-Tricks. Daran lässt sich erkennen, wie Sprache online wirkt und beeinflusst.",
+    "einstiegsfrage": "Mit welchen Wörtern lässt die Werbung das Produkt größer wirken, als es ist?",
+    "unterrichtsidee": "Die Klasse sammelt Übertreibungswörter aus Werbung und schreibt übertriebene Sätze sachlich um.",
+    "schueler_hook": "Werbung übertreibt mit Absicht – erkennst du die typischen Wörter?",
+    "schueler_challenge": "Schreibe »Das beste Produkt aller Zeiten!« in einen sachlichen Satz um.",
+    "eltern": {
+      "schulbezug": "Thema Medien & Sprache: erkennen, wie Sprache in Werbung und Social Media wirkt und beeinflusst.",
+      "gespraechsanlass": "Frag dein Kind: 'Welche Wörter machen die Werbung dramatischer, als die Sache wirklich ist?'",
+      "tipp": "Gemeinsam Werbe-Slogans aufspüren und überlegen, was daran übertrieben ist – gute Medienkompetenz.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 12,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem Clip fällt ein unbekanntes Wort, und in den Kommentaren raten alle, was es bedeutet.",
+    "quelle": "youtube",
+    "datum": "2026-05",
+    "video_id": "de6-12",
+    "begruendung": "Statt zu raten, lässt sich die Bedeutung im Wörterbuch nachschlagen und mit Quellen prüfen. Genau das ist das Thema Recherche.",
+    "einstiegsfrage": "Wie findest du sicher heraus, was ein unbekanntes Wort aus dem Clip wirklich bedeutet?",
+    "unterrichtsidee": "Die Lernenden schlagen drei Wörter nach, notieren die Quelle und vergleichen, warum man Infos mit zwei Quellen prüft.",
+    "schueler_hook": "Ein unbekanntes Wort? Nachschlagen ist sicherer als raten.",
+    "schueler_challenge": "Schlage die Bedeutung eines Wortes nach und schreibe die Quelle dazu.",
+    "eltern": {
+      "schulbezug": "Thema Wörterbuch & Recherche: Bedeutungen nachschlagen und Quellen prüfen statt raten.",
+      "gespraechsanlass": "Frag dein Kind: 'Wo schlägst du nach, wenn du ein Wort nicht kennst – und woher weißt du, dass die Info stimmt?'",
+      "tipp": "Bei unbekannten Wörtern gemeinsam nachschlagen und kurz überlegen, ob die Quelle verlässlich ist.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 13,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem Live-Chat taucht der Satz auf: Er sagte ich bin der Beste.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "de6-13",
+    "begruendung": "Der Satz enthält eine Redewiedergabe, bei der das Komma fehlt. Solche Chat-Sätze eignen sich, um Kommas bei wörtlicher Rede, Aufzählung und Einschub zu üben.",
+    "einstiegsfrage": "Wo müsste ein Komma stehen, damit klar wird, wer hier spricht?",
+    "unterrichtsidee": "Die Klasse sammelt fünf Chat-Sätze ohne Satzzeichen und setzt gemeinsam Kommas für die Redewiedergabe ein.",
+    "schueler_hook": "Du schreibst täglich Sätze im Chat – aber wo gehören da die Kommas hin?",
+    "schueler_challenge": "Schreibe den Satz zweimal: einmal als wörtliche Rede mit Anführungszeichen, einmal als indirekte Rede.",
+    "eltern": {
+      "schulbezug": "Thema Kommasetzung: Kommas bei Aufzählung, Einschub und Redewiedergabe richtig setzen.",
+      "gespraechsanlass": "Frag dein Kind: 'Wenn jemand schreibt »Er sagte ich bin der Beste« – wo fehlt ein Komma und warum?'",
+      "tipp": "Chats sind perfekte Übung: eine kurze Nachricht zeigen und überlegen, wo Kommas hingehören.",
+      "safety": null
+    }
+  }
+]

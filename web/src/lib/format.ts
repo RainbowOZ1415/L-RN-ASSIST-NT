@@ -4,12 +4,20 @@ export const QUELLE_LABEL: Record<string, string> = {
   youtube: "YouTube / Stream",
   podcast: "Podcast",
   news: "News",
+  gaming: "Gaming",
+  doku: "Doku",
+  social: "Social Media",
+  stream: "Live-Stream",
 };
 
 export const QUELLE_EMOJI: Record<string, string> = {
   youtube: "📺",
   podcast: "🎙️",
   news: "📰",
+  gaming: "🎮",
+  doku: "🎬",
+  social: "📱",
+  stream: "📺",
 };
 
 export function quelleLabel(q?: string): string {

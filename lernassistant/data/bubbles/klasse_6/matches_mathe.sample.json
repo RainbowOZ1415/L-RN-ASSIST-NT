@@ -1,0 +1,242 @@
+[
+  {
+    "thema_id": 1,
+    "bubble_id": "klasse_6",
+    "fach": "Mathe",
+    "szenario": "In einem Live-Stream stellt jemand eine schnelle Kopfrechen-Challenge: 47 plus 38 in zwei Sekunden.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "ma6-1",
+    "begruendung": "Kopfrechen-Challenges leben von Rechenvorteilen wie Zehner-Zerlegen. Daran lässt sich sicheres Rechnen mit natürlichen Zahlen üben.",
+    "einstiegsfrage": "Mit welchem Trick rechnest du 47 plus 38 besonders schnell im Kopf?",
+    "unterrichtsidee": "Die Klasse sammelt Rechenvorteile (Zehner zerlegen, Verdoppeln/Halbieren) und löst eine kleine Kopfrechen-Challenge in Paaren.",
+    "schueler_hook": "Bei Kopfrechen-Challenges gewinnt nicht der Schnellste, sondern wer den Trick kennt.",
+    "schueler_challenge": "Rechne 47 plus 38 im Kopf und erkläre, welchen Trick du benutzt hast.",
+    "eltern": {
+      "schulbezug": "Thema Natürliche Zahlen: sicher im Kopf und schriftlich rechnen.",
+      "gespraechsanlass": "Frag dein Kind: 'Mit welchem Trick rechnest du 47 plus 38 schneller im Kopf?'",
+      "tipp": "Kleine Kopfrechen-Duelle im Alltag (z.B. beim Einkaufen) machen Spaß und üben das Rechnen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 2,
+    "bubble_id": "klasse_6",
+    "fach": "Mathe",
+    "szenario": "Beim Öffnen eines Sammelpacks heißt es, nur 3 von 100 Karten seien legendär.",
+    "quelle": "youtube",
+    "datum": "2026-05",
+    "video_id": "ma6-2",
+    "begruendung": "»3 von 100« ist ein Bruch aus dem Alltag. Daran lässt sich verstehen, wie man Anteile schreibt, kürzt und vergleicht.",
+    "einstiegsfrage": "Wie groß ist der Anteil »3 von 100« – und wie schreibst du ihn als Bruch?",
+    "unterrichtsidee": "Die Lernenden schreiben Alltags-Anteile als Bruch, kürzen sie und ordnen sie der Größe nach.",
+    "schueler_hook": "»3 von 100 legendär« ist nichts anderes als ein Bruch – verstehst du, wie klein der Anteil ist?",
+    "schueler_challenge": "Schreibe »3 von 100« als Bruch und prüfe, ob du ihn kürzen kannst.",
+    "eltern": {
+      "schulbezug": "Thema Brüche: Anteile als Bruch schreiben, kürzen und vergleichen.",
+      "gespraechsanlass": "Frag dein Kind: 'Wenn 3 von 100 Karten selten sind – wie groß ist dieser Anteil als Bruch?'",
+      "tipp": "Anteile tauchen überall auf (z.B. beim Teilen) – ein guter Anlass, gemeinsam Brüche zu lesen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 3,
+    "bubble_id": "klasse_6",
+    "fach": "Mathe",
+    "szenario": "In einem Shop-Vergleich kostet das eine Spiel 0,70 Euro mehr als ein anderes mit 0,65 Euro Unterschied.",
+    "quelle": "news",
+    "datum": "2026-06",
+    "video_id": "ma6-3",
+    "begruendung": "Preise sind Dezimalzahlen. Daran lässt sich erarbeiten, was die Stellen hinter dem Komma bedeuten und wie man Bruch und Dezimal umrechnet.",
+    "einstiegsfrage": "Was ist mehr – 0,7 oder 0,65? Und woran erkennst du das an den Stellen hinter dem Komma?",
+    "unterrichtsidee": "Die Lernenden vergleichen Preise als Dezimalzahlen und rechnen einfache Brüche wie 3/4 in Dezimalzahlen um.",
+    "schueler_hook": "Preise sind Zahlen mit Komma – wer die Stellen versteht, vergleicht richtig.",
+    "schueler_challenge": "Schreibe 3/4 als Dezimalzahl und entscheide: Was ist größer, 0,7 oder 0,65?",
+    "eltern": {
+      "schulbezug": "Thema Dezimalzahlen: Kommaschreibweise lesen und Bruch in Dezimalzahl umrechnen.",
+      "gespraechsanlass": "Frag dein Kind: 'Was ist mehr, 0,7 oder 0,65 – und warum?'",
+      "tipp": "Beim Preisvergleich gemeinsam auf die Stellen hinter dem Komma achten.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 4,
+    "bubble_id": "klasse_6",
+    "fach": "Mathe",
+    "szenario": "Eine Wetter-App zeigt im Stream für die Nacht minus 5 Grad an.",
+    "quelle": "news",
+    "datum": "2026-05",
+    "video_id": "ma6-4",
+    "begruendung": "Minusgrade sind negative Zahlen aus dem Alltag. Daran lassen sich Zahlengerade, Vergleich und Temperaturunterschiede üben.",
+    "einstiegsfrage": "Wie viel kälter ist minus 5 Grad im Vergleich zu plus 3 Grad?",
+    "unterrichtsidee": "Die Lernenden ordnen negative Zahlen auf der Zahlengerade und berechnen Temperaturunterschiede.",
+    "schueler_hook": "Minusgrade in der Wetter-App sind negative Zahlen – verstehst du, wie weit »unter null« sie liegen?",
+    "schueler_challenge": "Berechne den Unterschied zwischen minus 4 Grad und plus 3 Grad.",
+    "eltern": {
+      "schulbezug": "Thema Negative Zahlen: Zahlen unter null ordnen und Differenzen berechnen.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie groß ist der Unterschied von minus 4 Grad zu plus 3 Grad?'",
+      "tipp": "Der Wetterbericht ist ein einfacher Alltagsanlass, um über Zahlen unter null zu sprechen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 5,
+    "bubble_id": "klasse_6",
+    "fach": "Mathe",
+    "szenario": "Im Sale steht groß »minus 20 Prozent« auf ein Spiel, das vorher 50 Euro kostete.",
+    "quelle": "news",
+    "datum": "2026-06",
+    "video_id": "ma6-5",
+    "begruendung": "Rabatte sind Prozentrechnung im Alltag. Daran lässt sich verstehen, was Prozente bedeuten und wie man eine Ersparnis berechnet.",
+    "einstiegsfrage": "Wie viel Euro sparst du bei 20 Prozent Rabatt auf 50 Euro?",
+    "unterrichtsidee": "Die Lernenden rechnen Brüche in Prozent um (1/4 = 25 %) und berechnen einfache Rabatte vom Preis.",
+    "schueler_hook": "»Minus 20 Prozent« klingt gut – aber wie viel Euro sind das wirklich?",
+    "schueler_challenge": "Berechne, wie viel du bei 20 Prozent Rabatt auf 50 Euro sparst.",
+    "eltern": {
+      "schulbezug": "Thema Prozentrechnung: Prozente verstehen und Rabatte berechnen.",
+      "gespraechsanlass": "Frag dein Kind: 'Wenn etwas 20 Prozent günstiger ist – wie viel sparst du bei 50 Euro?'",
+      "tipp": "Rabatt-Schilder beim Einkaufen sind perfekte Mini-Aufgaben zum Prozentrechnen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 6,
+    "bubble_id": "klasse_6",
+    "fach": "Mathe",
+    "szenario": "In einem Sport-Clip springt ein Skater über eine Rampe, die einen deutlichen Winkel mit dem Boden bildet.",
+    "quelle": "youtube",
+    "datum": "2026-05",
+    "video_id": "ma6-6",
+    "begruendung": "Rampen und Bauwerke stecken voller Winkel. Daran lassen sich Winkelarten und die Winkelsumme im Dreieck erarbeiten.",
+    "einstiegsfrage": "Ist der Winkel der Rampe spitz, recht oder stumpf?",
+    "unterrichtsidee": "Die Lernenden bestimmen Winkelarten in Clips und berechnen mit der Winkelsumme (180 Grad) den fehlenden Winkel im Dreieck.",
+    "schueler_hook": "Rampen, Gebäude, Sport – überall stecken Winkel, die du benennen kannst.",
+    "schueler_challenge": "Im Dreieck sind zwei Winkel 60 und 70 Grad groß. Wie groß ist der dritte?",
+    "eltern": {
+      "schulbezug": "Thema Winkel & Dreiecke: Winkelarten benennen und die Winkelsumme im Dreieck nutzen.",
+      "gespraechsanlass": "Frag dein Kind: 'Ist der Winkel dieser Rampe spitz, recht oder stumpf?'",
+      "tipp": "Winkel lassen sich überall entdecken – in Gebäuden, beim Sport oder auf dem Spielplatz.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 7,
+    "bubble_id": "klasse_6",
+    "fach": "Mathe",
+    "szenario": "In einem Einrichtungs-Clip wird überlegt, wie viel Teppich für ein Zimmer von 4 mal 3 Metern nötig ist.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "ma6-7",
+    "begruendung": "Die Frage nach der Teppichmenge ist eine Flächenberechnung. Daran lässt sich der Flächeninhalt von Rechtecken (und Dreiecken) üben.",
+    "einstiegsfrage": "Wie viel Quadratmeter Teppich braucht ein Zimmer von 4 mal 3 Metern?",
+    "unterrichtsidee": "Die Lernenden berechnen Flächeninhalte von Rechteck und Dreieck und achten auf die richtige Einheit.",
+    "schueler_hook": "Wie viel Teppich passt in dein Zimmer? Das ist Flächeninhalt.",
+    "schueler_challenge": "Berechne die Fläche eines Rechtecks von 4 m mal 3 m und nenne die Einheit.",
+    "eltern": {
+      "schulbezug": "Thema Flächeninhalt: Flächen von Rechteck und Dreieck berechnen.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie rechnest du aus, wie viel Teppich ein Zimmer braucht?'",
+      "tipp": "Beim Ausmessen von Zimmern oder Tischen lässt sich Flächeninhalt ganz praktisch üben.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 8,
+    "bubble_id": "klasse_6",
+    "fach": "Mathe",
+    "szenario": "In einem Bau-Clip füllt jemand einen Würfel mit der Kantenlänge 3 Blöcke komplett aus.",
+    "quelle": "youtube",
+    "datum": "2026-05",
+    "video_id": "ma6-8",
+    "begruendung": "Das Füllen eines Würfels mit Blöcken zeigt anschaulich das Volumen. Daran lässt sich der Rauminhalt von Würfel und Quader berechnen.",
+    "einstiegsfrage": "Wie viele Blöcke passen in einen Würfel mit der Kantenlänge 3?",
+    "unterrichtsidee": "Die Lernenden berechnen das Volumen von Würfel (a hoch 3) und Quader (a mal b mal c) und achten auf die Einheit.",
+    "schueler_hook": "Wie viele Blöcke füllen einen Würfel im Spiel? Das ist Volumen.",
+    "schueler_challenge": "Berechne das Volumen eines Würfels mit der Kantenlänge 3 cm.",
+    "eltern": {
+      "schulbezug": "Thema Volumen: den Rauminhalt von Würfel und Quader berechnen.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie viele kleine Blöcke füllen einen Würfel mit Kantenlänge 3?'",
+      "tipp": "Bau-Spiele und Verpackungen sind anschauliche Beispiele, um über Volumen zu sprechen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 9,
+    "bubble_id": "klasse_6",
+    "fach": "Mathe",
+    "szenario": "In einer Karten-App wird ein Ort über zwei Koordinaten genau angesteuert.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "ma6-9",
+    "begruendung": "Karten-Apps und Spiele finden Orte über Koordinaten. Daran lässt sich das Eintragen und Ablesen von Punkten im Koordinatensystem üben.",
+    "einstiegsfrage": "Wie findet eine Karten-App mit zwei Zahlen genau einen Ort?",
+    "unterrichtsidee": "Die Lernenden tragen Punkte als (x|y) im Koordinatensystem ein, lesen Koordinaten ab und verbinden sie zu einer Figur.",
+    "schueler_hook": "Karten-Apps und Spiele finden jeden Punkt über Koordinaten – das kannst du auch.",
+    "schueler_challenge": "Trage den Punkt P(3|2) in ein Koordinatensystem ein.",
+    "eltern": {
+      "schulbezug": "Thema Koordinatensystem: Punkte eintragen und ihre Lage über Koordinaten beschreiben.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie findet eine Karten-App mit zwei Zahlen genau einen Ort?'",
+      "tipp": "Karten-Apps sind ein anschauliches Beispiel dafür, wie Koordinaten funktionieren.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 10,
+    "bubble_id": "klasse_6",
+    "fach": "Mathe",
+    "szenario": "In einem Rätsel-Clip heißt es: Ich denke mir eine Zahl, addiere 5 und erhalte 12.",
+    "quelle": "podcast",
+    "datum": "2026-05",
+    "video_id": "ma6-10",
+    "begruendung": "Zahlenrätsel mit einer unbekannten Zahl sind einfache Gleichungen. Daran lässt sich das Lösen nach x erarbeiten.",
+    "einstiegsfrage": "Welche Zahl muss man sich denken, damit »plus 5 ergibt 12« stimmt?",
+    "unterrichtsidee": "Die Lernenden stellen Zahlenrätsel als Gleichung dar und lösen sie nach x mit dem Waage-Prinzip.",
+    "schueler_hook": "Zahlenrätsel sind nichts anderes als Gleichungen – und x ist die gesuchte Zahl.",
+    "schueler_challenge": "Löse die Gleichung x + 5 = 12 und erkläre deinen Rechenweg.",
+    "eltern": {
+      "schulbezug": "Thema Terme & Gleichungen: einfache Gleichungen nach x lösen.",
+      "gespraechsanlass": "Frag dein Kind: 'Welche Zahl ergibt plus 5 gerechnet 12?'",
+      "tipp": "Zahlenrätsel beim Spielen oder Warten sind eine spielerische Übung für Gleichungen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_6",
+    "fach": "Mathe",
+    "szenario": "In einem Clip wird der Views-Verlauf eines Kanals als Säulendiagramm über mehrere Tage gezeigt.",
+    "quelle": "news",
+    "datum": "2026-06",
+    "video_id": "ma6-11",
+    "begruendung": "Ein Views-Säulendiagramm zeigt Daten anschaulich. Daran lässt sich das Ablesen von Diagrammen und das Berechnen des Mittelwerts üben.",
+    "einstiegsfrage": "An welchem Tag gab es die meisten Views – und wie hoch ist der Durchschnitt?",
+    "unterrichtsidee": "Die Lernenden lesen Werte aus einem Säulendiagramm ab und berechnen den Mittelwert (Summe geteilt durch Anzahl).",
+    "schueler_hook": "Views-Diagramme verraten viel – wenn du sie lesen und den Durchschnitt berechnen kannst.",
+    "schueler_challenge": "Berechne den Mittelwert der Werte 10, 20 und 30.",
+    "eltern": {
+      "schulbezug": "Thema Daten & Diagramme: Diagramme lesen und den Mittelwert berechnen.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie berechnest du aus drei Werten den Durchschnitt?'",
+      "tipp": "Statistiken aus Sport oder Videos sind ein guter Anlass, gemeinsam Diagramme zu lesen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 12,
+    "bubble_id": "klasse_6",
+    "fach": "Mathe",
+    "szenario": "In einem Clip wird eine Lootbox geöffnet, bei der die Chance auf das Top-Item mit 1 zu 50 angegeben ist.",
+    "quelle": "youtube",
+    "datum": "2026-05",
+    "video_id": "ma6-12",
+    "begruendung": "Die Drop-Chance »1 zu 50« ist eine Wahrscheinlichkeit. Daran lässt sich erarbeiten, dass Erwartung keine Garantie ist und jeder Versuch Zufall bleibt.",
+    "einstiegsfrage": "Hast du das Item nach 50 Versuchen sicher, wenn die Chance 1 zu 50 ist?",
+    "unterrichtsidee": "Die Lernenden rechnen 1 zu 50 in Prozent um und prüfen mit einem Würfel-Experiment, warum Erwartung keine Garantie ist.",
+    "schueler_hook": "Eine Chance von 1 zu 50 heißt nicht, dass du nach 50 Versuchen sicher gewinnst.",
+    "schueler_challenge": "Rechne die Chance 1 zu 50 in Prozent um und überlege, ob 50 Versuche den Treffer garantieren.",
+    "eltern": {
+      "schulbezug": "Thema Wahrscheinlichkeit: Chancen einschätzen und Erwartung von Garantie unterscheiden.",
+      "gespraechsanlass": "Frag dein Kind: 'Bei einer Chance von 1 zu 50 – hast du das Item nach 50 Versuchen sicher?'",
+      "tipp": "Ein Würfel oder eine Münze zeigen einfach, dass jeder Versuch reiner Zufall ist.",
+      "safety": "Bezug zu Lootboxen/Glücksspiel-Mechaniken – guter Anlass, über In-Game-Ausgaben und das Risiko von »noch ein Versuch« zu sprechen."
+    }
+  }
+]

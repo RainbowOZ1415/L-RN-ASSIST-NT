@@ -1,0 +1,242 @@
+[
+  {
+    "thema_id": 1,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem Live-Stream stellt die Person eine schnelle Kopfrechen-Challenge und nennt einen Trick, um zweistellige Zahlen blitzschnell zu addieren.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "ma79-1",
+    "begruendung": "Die Challenge nutzt Rechenvorteile wie das Zerlegen in Zehner. Das eignet sich, geschicktes Kopfrechnen mit natuerlichen Zahlen zu trainieren.",
+    "einstiegsfrage": "Welcher Rechentrick steckt hinter der schnellen Loesung von 47 plus 38?",
+    "unterrichtsidee": "Die Lernenden loesen gemischte Kopfrechenaufgaben mit Rechenvorteilen (Zehner zerlegen, Verdoppeln/Halbieren) und erklaeren ihren schnellsten Weg (15 Min).",
+    "schueler_hook": "Die Kopfrechen-Profis im Stream sind nicht magisch - sie nutzen Tricks, die du auch lernen kannst.",
+    "schueler_challenge": "Rechne 6 mal 25 im Kopf und erklaere in einem Satz, welchen Trick du benutzt hast.",
+    "eltern": {
+      "schulbezug": "Natuerliche Zahlen: sicher im Kopf und schriftlich rechnen mit allen vier Grundrechenarten.",
+      "gespraechsanlass": "Frag dein Kind: 'Gibt es einen Trick, mit dem man 47 plus 38 schneller im Kopf rechnet?'",
+      "tipp": "Kleine Kopfrechen-Duelle unterwegs machen Spass und halten die Rechenroutine wach.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 2,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "Beim Oeffnen eines Karten-Packs im Game blendet das Spiel ein: '3 von 100 Karten sind legendaer'.",
+    "quelle": "gaming",
+    "datum": "2026-06",
+    "video_id": "ma79-2",
+    "begruendung": "Die Anzeige '3 von 100' ist ein Anteil und damit ein Bruch. Das eignet sich, Brueche zu schreiben, zu kuerzen und mit anderen Anteilen zu vergleichen.",
+    "einstiegsfrage": "Wie schreibst du '3 von 100' als Bruch und laesst er sich kuerzen?",
+    "unterrichtsidee": "Die Lernenden schreiben Game-Anteile als Brueche, kuerzen sie und ordnen mehrere Anteile der Groesse nach (15 Min).",
+    "schueler_hook": "Jede Drop-Anzeige im Game ist eigentlich ein Bruch - kannst du ihn kuerzen und vergleichen?",
+    "schueler_challenge": "Vergleiche, welcher Anteil groesser ist: 3 von 100 oder 1 von 25.",
+    "eltern": {
+      "schulbezug": "Brueche: Anteile verstehen, erweitern, kuerzen und vergleichen - hier am Beispiel von Game-Chancen.",
+      "gespraechsanlass": "Frag dein Kind: 'Ist 3 von 100 mehr oder weniger als 1 von 25?'",
+      "tipp": "Anteile aus Spielen sind gute Uebung - gemeinsam ueberlegen, wie selten 'selten' wirklich ist.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 3,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem Shopping-Clip werden zwei fast gleiche Produkte mit den Preisen 0,70 Euro und 0,65 Euro pro Stueck verglichen.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "ma79-3",
+    "begruendung": "Der Preisvergleich erfordert das Lesen von Dezimalzahlen und das Verstehen der Stellen hinter dem Komma. Das eignet sich, Dezimalzahlen zu vergleichen und umzurechnen.",
+    "einstiegsfrage": "Welcher Preis ist guenstiger und woran erkennst du das an den Stellen hinter dem Komma?",
+    "unterrichtsidee": "Die Lernenden vergleichen Dezimalpreise, rechnen einfache Brueche wie 3/4 in Dezimalzahlen um und runden Preise auf zehn Cent (15 Min).",
+    "schueler_hook": "Im Shop entscheidet manchmal die zweite Stelle hinter dem Komma, was billiger ist.",
+    "schueler_challenge": "Schreibe 3/4 als Dezimalzahl und sage, ob 0,7 oder 0,65 groesser ist.",
+    "eltern": {
+      "schulbezug": "Dezimalzahlen: Kommaschreibweise lesen und zwischen Bruch und Dezimalzahl umrechnen - wie bei Preisen.",
+      "gespraechsanlass": "Frag dein Kind: 'Was ist guenstiger - 0,70 oder 0,65 Euro pro Stueck?'",
+      "tipp": "Preisvergleiche beim Einkaufen sind echte Dezimalrechnung im Alltag.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 4,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem News-Clip zeigt die Wetterkarte morgens -4 Grad und nachmittags 3 Grad fuer denselben Ort.",
+    "quelle": "news",
+    "datum": "2026-06",
+    "video_id": "ma79-4",
+    "begruendung": "Temperaturen ueber und unter null veranschaulichen negative Zahlen auf der Zahlengerade. Die Differenzberechnung ueber den Nullpunkt ist ein Kernziel.",
+    "einstiegsfrage": "Um wie viele Grad steigt die Temperatur von -4 Grad auf 3 Grad?",
+    "unterrichtsidee": "Die Lernenden ordnen Temperaturwerte auf der Zahlengerade und berechnen Temperaturunterschiede ueber den Nullpunkt hinweg (15 Min).",
+    "schueler_hook": "Die Wetter-App rechnet staendig mit Minuszahlen - kannst du den Temperatursprung selbst ausrechnen?",
+    "schueler_challenge": "Berechne den Unterschied zwischen -4 Grad und 3 Grad und ordne -3, 2, -7, 0 der Groesse nach.",
+    "eltern": {
+      "schulbezug": "Negative Zahlen: die Zahlengerade, Vergleichen und Rechnen mit Werten unter null - etwa bei Temperaturen.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie viele Grad waermer ist 3 Grad gegenueber -4 Grad?'",
+      "tipp": "Die Wetter-App ist eine taegliche Gelegenheit, ueber Plus- und Minusgrade zu sprechen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 5,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem Stream wird ein Sale beworben: '20 Prozent Rabatt auf alles' - und ein Item kostet vorher 50 Euro.",
+    "quelle": "gaming",
+    "datum": "2026-06",
+    "video_id": "ma79-5",
+    "begruendung": "Der Rabatt verlangt Prozentrechnung: Anteil vom Preis bestimmen und den Endpreis berechnen. Das ist eine zentrale Alltagsanwendung.",
+    "einstiegsfrage": "Wie viel sparst du bei 20 Prozent Rabatt auf einen Preis von 50 Euro?",
+    "unterrichtsidee": "Die Lernenden rechnen Brueche in Prozent um und berechnen Ersparnis und Endpreis bei verschiedenen Rabatten aus Sale-Aktionen (15 Min).",
+    "schueler_hook": "Bei jedem Sale entscheidet Prozentrechnung, wie viel du wirklich sparst - rechne selbst nach.",
+    "schueler_challenge": "Berechne, wie viel 20 Prozent Rabatt auf 50 Euro ausmachen und was du am Ende zahlst.",
+    "eltern": {
+      "schulbezug": "Prozentrechnung: Prozente verstehen sowie Rabatte und Anteile berechnen - eine wichtige Alltagskompetenz.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie viel Euro spart man bei 20 Prozent Rabatt auf 50 Euro?'",
+      "tipp": "Rabatte im Shop gemeinsam nachrechnen - so wird Prozentrechnung greifbar.",
+      "safety": "Rabatt- und Sale-Aktionen erzeugen oft kuenstlichen Zeitdruck. Ein guter Anlass, mit dem Kind ueber bewusstes Ausgeben und Werbedruck zu sprechen."
+    }
+  },
+  {
+    "thema_id": 6,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem Skate-Clip wird eine Rampe gezeigt, deren Profil ein deutliches Dreieck mit verschiedenen Winkeln bildet.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "ma79-6",
+    "begruendung": "Die Rampe liefert reale Winkel und ein Dreieck. Das eignet sich, Winkelarten zu benennen und die Winkelsumme im Dreieck anzuwenden.",
+    "einstiegsfrage": "Wenn zwei Winkel der Rampe bekannt sind, wie gross ist dann der dritte Winkel im Dreieck?",
+    "unterrichtsidee": "Die Lernenden bestimmen Winkelarten an Bauwerken und Rampen aus Clips und berechnen mit der Winkelsumme 180 Grad fehlende Winkel im Dreieck (15 Min).",
+    "schueler_hook": "Jede Skate-Rampe und jedes Dach steckt voller Winkel - du kannst den fehlenden sogar ausrechnen.",
+    "schueler_challenge": "In einem Dreieck sind zwei Winkel 60 und 70 Grad - berechne den dritten.",
+    "eltern": {
+      "schulbezug": "Winkel und Dreiecke: Winkelarten benennen, Dreiecksarten unterscheiden und die Winkelsumme von 180 Grad nutzen.",
+      "gespraechsanlass": "Frag dein Kind: 'Wenn zwei Winkel im Dreieck 60 und 70 Grad sind, wie gross ist der dritte?'",
+      "tipp": "Winkel im Alltag suchen - in Rampen, Daechern oder Rahmen - macht Geometrie sichtbar.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 7,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem Room-Tour-Video misst die Person das Zimmer aus, um zu planen, wie viel Teppich auf den 4 mal 3 Meter grossen Boden passt.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "ma79-7",
+    "begruendung": "Die Bodenflaeche ist ein Rechteck, dessen Flaecheninhalt aus Laenge mal Breite berechnet wird. Das eignet sich, Flaecheninhalte praktisch zu bestimmen.",
+    "einstiegsfrage": "Wie viel Quadratmeter Teppich braucht ein Zimmer von 4 mal 3 Metern?",
+    "unterrichtsidee": "Die Lernenden berechnen Flaecheninhalte von Rechtecken und Dreiecken aus Raum- und Spielfeldmassen und achten auf die richtige Einheit (15 Min).",
+    "schueler_hook": "Bevor du dein Zimmer umstellst, sagt dir die Flaechenrechnung, wie viel Platz wirklich da ist.",
+    "schueler_challenge": "Berechne die Flaeche eines Rechtecks von 4 mal 3 Metern und nenne die Einheit.",
+    "eltern": {
+      "schulbezug": "Flaecheninhalt: Flaechen von Rechteck, Dreieck und zusammengesetzten Formen berechnen.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie gross ist die Bodenflaeche eines Zimmers von 4 mal 3 Metern?'",
+      "tipp": "Beim Einrichten gemeinsam Flaechen ausmessen und berechnen - Mathe zum Anfassen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 8,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem Bau-Spiel will jemand wissen, wie viele Bloecke einen Wuerfel mit der Kantenlaenge 3 komplett fuellen.",
+    "quelle": "gaming",
+    "datum": "2026-06",
+    "video_id": "ma79-8",
+    "begruendung": "Das Fuellen eines Wuerfels mit Bloecken entspricht der Volumenberechnung. Das eignet sich, das Volumen von Wuerfel und Quader zu bestimmen.",
+    "einstiegsfrage": "Wie viele Bloecke passen in einen Wuerfel mit der Kantenlaenge 3?",
+    "unterrichtsidee": "Die Lernenden berechnen das Volumen von Wuerfeln und Quadern aus Bau-Spiel-Massen und vergleichen, welcher Koerper mehr fasst (15 Min).",
+    "schueler_hook": "Im Bau-Spiel rechnest du beim Auffuellen eines Wuerfels schon ganz nebenbei mit Volumen.",
+    "schueler_challenge": "Berechne das Volumen eines Quaders mit 2 mal 3 mal 4 Bloecken und nenne die Einheit.",
+    "eltern": {
+      "schulbezug": "Volumen: den Rauminhalt von Wuerfel und Quader berechnen - wie viel in einen Koerper passt.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie viele Bloecke fuellen einen Wuerfel mit Kantenlaenge 3?'",
+      "tipp": "Bau-Spiele sind anschauliche Volumenmodelle - gemeinsam abschaetzen, wie viel hineinpasst.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 9,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem Open-World-Game wird ein Treffpunkt ueber Koordinaten wie '(3 | 2)' angegeben, damit man den Ort auf der Karte findet.",
+    "quelle": "gaming",
+    "datum": "2026-06",
+    "video_id": "ma79-9",
+    "begruendung": "Spiel- und Karten-Koordinaten funktionieren wie das mathematische Koordinatensystem mit x- und y-Achse. Das eignet sich, Punkte einzutragen und abzulesen.",
+    "einstiegsfrage": "Was bedeuten die beiden Zahlen in einer Koordinate wie (3 | 2)?",
+    "unterrichtsidee": "Die Lernenden tragen Spiel-Koordinaten in ein Koordinatensystem ein, lesen Punkte ab und verbinden sie zu einer Figur (15 Min).",
+    "schueler_hook": "Jede Karten-App und jedes Open-World-Game findet Orte ueber Koordinaten - genau wie im Matheheft.",
+    "schueler_challenge": "Trage den Punkt P(3 | 2) ein und beschreibe, wie du dorthin kommst.",
+    "eltern": {
+      "schulbezug": "Koordinatensystem: Punkte ueber x- und y-Werte eintragen und ihre Lage beschreiben - wie auf einer Karte.",
+      "gespraechsanlass": "Frag dein Kind: 'Was bedeuten die Zahlen in einer Koordinate wie (3 | 2)?'",
+      "tipp": "Karten-Apps und Spielkarten sind alltagsnahe Koordinatensysteme zum Ueben.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 10,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem Logik-Puzzle-Video lautet die Aufgabe: 'Ich denke mir eine Zahl, verdopple sie und erhalte 10 - welche Zahl war es?'",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "ma79-10",
+    "begruendung": "Das Zahlenraetsel laesst sich als Gleichung 2x gleich 10 darstellen und nach x loesen. Das eignet sich, einfache Terme und Gleichungen einzufuehren.",
+    "einstiegsfrage": "Wie stellst du das Raetsel als Gleichung dar und wie findest du x?",
+    "unterrichtsidee": "Die Lernenden uebersetzen Zahlenraetsel in Gleichungen und loesen sie mit dem Waage-Prinzip nach x auf (15 Min).",
+    "schueler_hook": "Jedes 'Ich denke mir eine Zahl'-Raetsel ist eine versteckte Gleichung, die du loesen kannst.",
+    "schueler_challenge": "Stelle 'Das Doppelte von x ist 10' als Gleichung dar und loese sie nach x.",
+    "eltern": {
+      "schulbezug": "Terme und Gleichungen: einfache Gleichungen aufstellen und nach der Unbekannten x loesen.",
+      "gespraechsanlass": "Frag dein Kind: 'Welche Zahl ergibt verdoppelt 10 - und wie schreibt man das als Gleichung?'",
+      "tipp": "Zahlenraetsel beim Warten sind spielerische Gleichungen ohne Lerndruck.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem Video wird der Views-Verlauf eines Kanals ueber mehrere Tage als Saeulendiagramm gezeigt.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "ma79-11",
+    "begruendung": "Das Saeulendiagramm liefert Daten, aus denen sich Werte ablesen und ein Mittelwert berechnen lassen. Das ist das Kernziel beim Umgang mit Daten und Diagrammen.",
+    "einstiegsfrage": "Wie berechnest du aus den Views der einzelnen Tage den Durchschnitt?",
+    "unterrichtsidee": "Die Lernenden lesen Werte aus einem Saeulendiagramm ab, berechnen den Mittelwert und deuten, was ein hoher Durchschnitt aussagt (15 Min).",
+    "schueler_hook": "Hinter jeder Views-Statistik steckt Mathe - du kannst den Durchschnitt selbst ausrechnen.",
+    "schueler_challenge": "Berechne den Mittelwert der Werte 10, 20 und 30 und erklaere, was er bedeutet.",
+    "eltern": {
+      "schulbezug": "Daten und Diagramme: Diagramme lesen und den Mittelwert berechnen - etwa bei Views oder Statistiken.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie rechnet man aus mehreren Tageswerten den Durchschnitt aus?'",
+      "tipp": "Statistiken aus Videos oder Sport sind anschauliche Daten zum gemeinsamen Auswerten.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 12,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem Game zeigt eine Lootbox die Drop-Chance '1 zu 50' fuer ein seltenes Item, und jemand behauptet im Stream, nach 50 Versuchen sei es sicher.",
+    "quelle": "gaming",
+    "datum": "2026-06",
+    "video_id": "ma79-12",
+    "begruendung": "Die Lootbox-Chance ist ein Wahrscheinlichkeitsanteil. Sie eignet sich, Wahrscheinlichkeit als Anteil zu berechnen und Erwartung von Garantie zu unterscheiden.",
+    "einstiegsfrage": "Hast du das Item nach 50 Versuchen bei einer Chance von 1 zu 50 wirklich sicher?",
+    "unterrichtsidee": "Die Lernenden rechnen die Lootbox-Chance in Prozent um, bestimmen die erwartete Trefferzahl und diskutieren, warum Erwartung keine Garantie ist (15 Min).",
+    "schueler_hook": "Eine Chance von 1 zu 50 fuehlt sich nach 'bald sicher' an - aber stimmt das mathematisch?",
+    "schueler_challenge": "Rechne 1 zu 50 in Prozent um und ueberlege, wie viele Treffer bei 200 Versuchen im Schnitt zu erwarten sind.",
+    "eltern": {
+      "schulbezug": "Wahrscheinlichkeit: Chancen einschaetzen und verstehen, dass viele Versuche nichts garantieren.",
+      "gespraechsanlass": "Frag dein Kind: 'Bekommt man das Item bei einer Chance von 1 zu 50 nach 50 Versuchen sicher?'",
+      "tipp": "Ein guter Anlass, ueber den Reiz von Lootboxen zu sprechen, statt nur ueber die Rechnung.",
+      "safety": "Lootboxen funktionieren wie Gluecksspiel und verleiten zu wiederholten Kaeufen. Wichtig ist das Verstaendnis, dass jeder Versuch unabhaengig ist und Geld kosten kann - ein guter Anlass fuer ein Gespraech ueber Ausgaben und Altersfreigaben."
+    }
+  }
+]
