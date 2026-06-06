@@ -32,6 +32,25 @@ und baut bei **jedem `git push`** automatisch neu.
 > Hinweis: Eine Domain wird über **DNS-Einträge** verbunden, nicht über eine feste IP-Verlinkung.
 > Der A-Record oben *ist* die (anycast) IP von Vercel — der Domain-Anbieter braucht nur diesen Eintrag.
 
+### DNS bei United Domains (Schritt für Schritt)
+
+> Reihenfolge: **Zuerst** in Vercel die Domain hinzufügen (Settings → Domains) — Vercel zeigt
+> dann die *exakten* Werte (inkl. evtl. einer TXT-Verifizierung). Diese bei United Domains eintragen.
+
+1. <https://www.united-domains.de> einloggen → **Portfolio / Meine Domains** → Domain anklicken.
+2. **Einstellungen → „Nameserver & DNS"** (DNS-Verwaltung) öffnen.
+3. Falls gefragt: **eigene DNS-Records / Experten-Modus** aktivieren.
+4. Diese Records anlegen (Werte aus Vercel verwenden, Standard ist):
+   - **A** · Host `@` (Hauptdomain) · Wert **`76.76.21.21`**
+   - **CNAME** · Host `www` · Wert **`cname.vercel-dns.com.`**
+   - (falls Vercel es verlangt) den angezeigten **TXT**-Eintrag zur Verifizierung
+5. Speichern. TTL Standard lassen.
+6. Zurück in Vercel: Domain wird nach kurzer Zeit als **verifiziert** angezeigt, HTTPS kommt automatisch.
+
+**Alternative (einfacher, falls Record-Bearbeitung zickt):** In United Domains die **Nameserver**
+auf Vercel umstellen (`ns1.vercel-dns.com`, `ns2.vercel-dns.com`). Dann verwaltet Vercel das DNS
+komplett — aber nur sinnvoll, wenn an der Domain keine E-Mail/anderen Records hängen.
+
 ## 3. Daten/Build-Hinweis
 
 - Die Seiten werden beim Build **statisch vorgerendert**; die Inhalte kommen aus den JSON
