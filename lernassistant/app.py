@@ -7,6 +7,7 @@ from interaktiv import (
     render_zufalls_uebung, punkte_anzeigen,
 )
 from theme import inject_theme, NAV_SEITEN, NAV_ICONS, page_header, meta_chips
+from sounds import inject_sounds
 
 QUELLE_BADGE = {
     "youtube": "YouTube / Stream",
@@ -73,7 +74,7 @@ def render_topbar():
     if "main_nav" not in st.session_state:
         st.session_state.main_nav = NAV_SEITEN[0]
 
-    widths = [1.4] + [1] * len(NAV_SEITEN)
+    widths = [1.1] + [1] * len(NAV_SEITEN) + [0.45]
     cols = st.columns(widths)
     with cols[0]:
         st.image(LOGO_HEADER, use_container_width=True)
@@ -89,7 +90,17 @@ def render_topbar():
             ):
                 st.session_state.main_nav = label
                 st.rerun()
+    with cols[-1]:
+        if st.button("⚙", key="settings_btn", help="Einstellungen"):
+            settings_dialog()
     return st.session_state.main_nav
+
+
+@st.dialog("Einstellungen", width="small")
+def settings_dialog():
+    render_filter_panel()
+    if st.button("Fertig", type="primary", use_container_width=True):
+        st.rerun()
 
 
 def render_filter_panel():
@@ -109,6 +120,7 @@ def render_filter_panel():
     fach = st.selectbox(
         "Fach",
         [f for f in faecher_cfg if f in bubble.get("faecher", faecher_cfg)],
+        key="fach",
         label_visibility="collapsed",
     )
 
@@ -144,147 +156,149 @@ if "konsum_liste" not in st.session_state:
     st.session_state.konsum_liste = list(DEMO_KONSUM)
 if "bubble_id" not in st.session_state:
     st.session_state.bubble_id = "klasse_6"
+if "fach" not in st.session_state:
+    st.session_state.fach = "Deutsch"
 if "aufgaben_geloest" not in st.session_state:
     st.session_state.aufgaben_geloest = set()
 if "dynamic_aufgaben" not in st.session_state:
     st.session_state.dynamic_aufgaben = []
 
+inject_sounds()
+
 seite = render_topbar()
 
-col_panel, col_main = st.columns([1, 2.6], gap="large")
+bubble_id = st.session_state.bubble_id
+bubble = bubbles[bubble_id]
+fach = st.session_state.fach
+logged_in = st.session_state.get("demo_login", False)
 
-with col_panel:
-    st.markdown('<div class="la-settings"></div>', unsafe_allow_html=True)
-    bubble_id, bubble, fach, logged_in = render_filter_panel()
+fcfg = faecher_cfg[fach]
+seed = load_json(fcfg["seed"])
+seed = {**seed, "stufe": f'{bubble["name"]} ({bubble["stufe_label"]})'}
+matches_raw, is_sample, match_path = load_matches(bubble_id, fach)
+matches = filter_matches(matches_raw, bubble_id)
+themen = {t["id"]: t for t in seed["themen"]}
 
-with col_main:
-    fcfg = faecher_cfg[fach]
-    seed = load_json(fcfg["seed"])
-    seed = {**seed, "stufe": f'{bubble["name"]} ({bubble["stufe_label"]})'}
-    matches_raw, is_sample, match_path = load_matches(bubble_id, fach)
-    matches = filter_matches(matches_raw, bubble_id)
-    themen = {t["id"]: t for t in seed["themen"]}
-
-    daten_label = "Personalisiert" if logged_in else ("Sample" if is_sample else "Live")
-    seite_icon = NAV_ICONS.get(seite, "")
+daten_label = "Personalisiert" if logged_in else ("Sample" if is_sample else "Live")
+seite_icon = NAV_ICONS.get(seite, "")
+st.markdown(
+    page_header(
+        f"{seite_icon} {seite}",
+        f'{fcfg["emoji"]} {seed["fach"]} · {bubble["name"]} · {daten_label}',
+    ),
+    unsafe_allow_html=True,
+)
+if matches:
     st.markdown(
-        page_header(
-            f"{seite_icon} {seite}",
-            f'{fcfg["emoji"]} {seed["fach"]} · {bubble["name"]} · {daten_label}',
-        ),
+        meta_chips((f"{len(matches)} Impulse", True),),
         unsafe_allow_html=True,
     )
-    if matches:
-        st.markdown(
-            meta_chips((f"{len(matches)} Impulse", True),),
-            unsafe_allow_html=True,
-        )
 
-    themen_ids = list(themen)
-    demo_id = fcfg.get("demo_thema_id", themen_ids[0])
-    demo_idx = themen_ids.index(demo_id) if demo_id in themen_ids else 0
+themen_ids = list(themen)
+demo_id = fcfg.get("demo_thema_id", themen_ids[0])
+demo_idx = themen_ids.index(demo_id) if demo_id in themen_ids else 0
 
-    if seite == "Lehrkraft":
-        by_thema = defaultdict(list)
-        for m in matches:
-            by_thema[m["thema_id"]].append(m)
-        sel = st.selectbox(
-            "Lehrplan-Thema",
+if seite == "Lehrkraft":
+    by_thema = defaultdict(list)
+    for m in matches:
+        by_thema[m["thema_id"]].append(m)
+    sel = st.selectbox(
+        "Lehrplan-Thema",
+        options=themen_ids,
+        index=demo_idx,
+        format_func=lambda i: themen[i]["thema"],
+    )
+    st.markdown(f"**Kernkonzept:** {themen[sel]['kernkonzept']}")
+    for m in by_thema.get(sel, []):
+        key = f"{bubble_id}-{fach}-{m['thema_id']}-{m['video_id']}"
+        tn = themen[m["thema_id"]]["thema"]
+        with st.container(border=True):
+            st.caption(quelle_label(m.get("quelle", "")))
+            st.markdown(f"**Situation:** {szenario_text(m)}")
+            st.markdown(f"**Einstiegsfrage:** {m.get('einstiegsfrage', '')}")
+            render_lehr_quiz(m, thema_name=tn)
+            if m.get("unterrichtsidee"):
+                st.markdown(f"**Unterrichtsidee:** {m['unterrichtsidee']}")
+            b1, b2 = st.columns(2)
+            if b1.button("Passt", key="ok" + key):
+                st.session_state.bestaetigt.add(key)
+            if b2.button("Verwerfen", key="no" + key):
+                st.session_state.bestaetigt.discard(key)
+            if key in st.session_state.bestaetigt:
+                st.success("Bestätigt")
+    if not by_thema.get(sel):
+        st.info("Noch keine Impulse — Pipeline oder Sample-Daten für diese Bubble.")
+
+elif seite == "Schüler":
+    punkte_anzeigen(len([m for m in matches if m.get("schueler_challenge")]))
+    for m in matches:
+        if m.get("schueler_hook"):
+            tn = themen[m["thema_id"]]["thema"]
+            with st.container(border=True):
+                st.markdown(f"**{tn}**")
+                st.info(m["schueler_hook"])
+                if m.get("schueler_challenge"):
+                    render_aufgabe(m, prefix="sch", thema_name=tn)
+
+elif seite == "Üben":
+    ueb_sub1, ueb_sub2 = st.tabs(["Aus Impulsen", "Zufällig & Extra"])
+
+    with ueb_sub1:
+        ueb_matches = [m for m in matches if m.get("schueler_challenge")]
+        punkte_anzeigen(len(ueb_matches))
+        if ueb_matches:
+            sel_ueb = st.selectbox(
+                "Impuls wählen",
+                options=range(len(ueb_matches)),
+                format_func=lambda i: f"{themen[ueb_matches[i]['thema_id']]['thema']}: {szenario_text(ueb_matches[i])[:45]}…",
+                key="ueb_sel",
+            )
+            m = ueb_matches[sel_ueb]
+            tn = themen[m["thema_id"]]["thema"]
+            with st.container(border=True):
+                st.markdown(f"**Situation:** _{szenario_text(m)}_")
+                render_aufgabe(m, prefix="ueb", thema_name=tn)
+        else:
+            st.info("Noch keine Impulse.")
+
+    with ueb_sub2:
+        st.markdown("**Zufällige Aufgabe** zu einem Thema:")
+        zuf_thema = st.selectbox(
+            "Thema",
             options=themen_ids,
             index=demo_idx,
             format_func=lambda i: themen[i]["thema"],
+            key="zuf_thema",
         )
-        st.markdown(f"**Kernkonzept:** {themen[sel]['kernkonzept']}")
-        for m in by_thema.get(sel, []):
-            key = f"{bubble_id}-{fach}-{m['thema_id']}-{m['video_id']}"
-            tn = themen[m["thema_id"]]["thema"]
-            with st.container(border=True):
-                st.caption(quelle_label(m.get("quelle", "")))
-                st.markdown(f"**Situation:** {szenario_text(m)}")
-                st.markdown(f"**Einstiegsfrage:** {m.get('einstiegsfrage', '')}")
-                render_lehr_quiz(m, thema_name=tn)
-                if m.get("unterrichtsidee"):
-                    st.markdown(f"**Unterrichtsidee:** {m['unterrichtsidee']}")
-                b1, b2 = st.columns(2)
-                if b1.button("Passt", key="ok" + key):
-                    st.session_state.bestaetigt.add(key)
-                if b2.button("Verwerfen", key="no" + key):
-                    st.session_state.bestaetigt.discard(key)
-                if key in st.session_state.bestaetigt:
-                    st.success("Bestätigt")
-        if not by_thema.get(sel):
-            st.info("Noch keine Impulse — Pipeline oder Sample-Daten für diese Bubble.")
+        render_zufalls_uebung(zuf_thema, themen[zuf_thema]["thema"], prefix="zuf")
 
-    elif seite == "Schüler":
-        punkte_anzeigen(len([m for m in matches if m.get("schueler_challenge")]))
-        for m in matches:
-            if m.get("schueler_hook"):
-                tn = themen[m["thema_id"]]["thema"]
-                with st.container(border=True):
-                    st.markdown(f"**{tn}**")
-                    st.info(m["schueler_hook"])
-                    if m.get("schueler_challenge"):
-                        render_aufgabe(m, prefix="sch", thema_name=tn)
+        st.divider()
+        st.markdown("**Extra-Übungen** (nach deinen Einreichungen):")
+        extras = st.session_state.dynamic_aufgaben
+        if not extras:
+            st.caption("Reiche eine Aufgabe ein — passende Übungen erscheinen hier.")
+        else:
+            for i, cfg in enumerate(reversed(extras[-10:])):
+                render_dynamic_aufgabe(cfg, prefix=f"ex{i}")
+            if st.button("Extra-Übungen leeren"):
+                st.session_state.dynamic_aufgaben = []
+                st.rerun()
 
-    elif seite == "Üben":
-        ueb_sub1, ueb_sub2 = st.tabs(["Aus Impulsen", "Zufällig & Extra"])
+elif seite == "Muster":
+    by_szenario = defaultdict(list)
+    for m in matches:
+        by_szenario[szenario_text(m)].append(m)
+    for sz, ms in by_szenario.items():
+        with st.container(border=True):
+            st.markdown(f"_{sz}_")
+            st.markdown("→ " + ", ".join(
+                f"**{themen[m['thema_id']]['thema']}**" for m in ms))
 
-        with ueb_sub1:
-            ueb_matches = [m for m in matches if m.get("schueler_challenge")]
-            punkte_anzeigen(len(ueb_matches))
-            if ueb_matches:
-                sel_ueb = st.selectbox(
-                    "Impuls wählen",
-                    options=range(len(ueb_matches)),
-                    format_func=lambda i: f"{themen[ueb_matches[i]['thema_id']]['thema']}: {szenario_text(ueb_matches[i])[:45]}…",
-                    key="ueb_sel",
-                )
-                m = ueb_matches[sel_ueb]
-                tn = themen[m["thema_id"]]["thema"]
-                with st.container(border=True):
-                    st.markdown(f"**Situation:** _{szenario_text(m)}_")
-                    render_aufgabe(m, prefix="ueb", thema_name=tn)
-            else:
-                st.info("Noch keine Impulse.")
-
-        with ueb_sub2:
-            st.markdown("**Zufällige Aufgabe** zu einem Thema:")
-            zuf_thema = st.selectbox(
-                "Thema",
-                options=themen_ids,
-                index=demo_idx,
-                format_func=lambda i: themen[i]["thema"],
-                key="zuf_thema",
-            )
-            render_zufalls_uebung(zuf_thema, themen[zuf_thema]["thema"], prefix="zuf")
-
-            st.divider()
-            st.markdown("**Extra-Übungen** (nach deinen Einreichungen):")
-            extras = st.session_state.dynamic_aufgaben
-            if not extras:
-                st.caption("Reiche eine Aufgabe ein — passende Übungen erscheinen hier.")
-            else:
-                for i, cfg in enumerate(reversed(extras[-10:])):
-                    render_dynamic_aufgabe(cfg, prefix=f"ex{i}")
-                if st.button("Extra-Übungen leeren"):
-                    st.session_state.dynamic_aufgaben = []
-                    st.rerun()
-
-    elif seite == "Muster":
-        by_szenario = defaultdict(list)
-        for m in matches:
-            by_szenario[szenario_text(m)].append(m)
-        for sz, ms in by_szenario.items():
-            with st.container(border=True):
-                st.markdown(f"_{sz}_")
-                st.markdown("→ " + ", ".join(
-                    f"**{themen[m['thema_id']]['thema']}**" for m in ms))
-
-    elif seite == "Was läuft?":
-        with st.form("konsum"):
-            name = st.text_input("z.B. Gaming-Streams, Podcasts, News")
-            warum = st.text_input("Warum? (optional)")
-            if st.form_submit_button("Hinzufügen") and name:
-                st.session_state.konsum_liste.append({"name": name, "warum": warum})
-        for e in st.session_state.konsum_liste:
-            st.markdown(f"- **{e['name']}** — {e['warum']}")
+elif seite == "Was läuft?":
+    with st.form("konsum"):
+        name = st.text_input("z.B. Gaming-Streams, Podcasts, News")
+        warum = st.text_input("Warum? (optional)")
+        if st.form_submit_button("Hinzufügen") and name:
+            st.session_state.konsum_liste.append({"name": name, "warum": warum})
+    for e in st.session_state.konsum_liste:
+        st.markdown(f"- **{e['name']}** — {e['warum']}")

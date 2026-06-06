@@ -1,4 +1,5 @@
-"""Globales Design — ruhig, klar, bildungsorientiert (angelehnt an moderne Card-Layouts)."""
+"""Globales Design — blau, klar, bildungsorientiert."""
+import streamlit as st
 
 NAV_SEITEN = [
     "Lehrkraft",
@@ -24,19 +25,20 @@ def inject_theme():
         @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap');
 
         :root {
-            --la-primary: #00B4D8;
-            --la-primary-soft: #E8F7FC;
-            --la-primary-dark: #0090AD;
-            --la-accent: #6366F1;
-            --la-bg: #F4F6F9;
+            --la-primary: #1565C0;
+            --la-primary-soft: #E3F2FD;
+            --la-primary-dark: #0D47A1;
+            --la-primary-light: #42A5F5;
+            --la-topbar: linear-gradient(135deg, #0D47A1 0%, #1565C0 55%, #1976D2 100%);
+            --la-bg: #E8EEF7;
             --la-surface: #FFFFFF;
-            --la-surface-2: #EEF2F7;
-            --la-text: #1E293B;
+            --la-surface-2: #EEF4FC;
+            --la-text: #0F172A;
             --la-muted: #64748B;
-            --la-border: #E2E8F0;
+            --la-border: #CBD5E1;
             --la-radius: 14px;
             --la-radius-sm: 8px;
-            --la-shadow: 0 1px 2px rgba(15,23,42,.06), 0 8px 24px rgba(15,23,42,.06);
+            --la-shadow: 0 1px 2px rgba(13,71,161,.08), 0 8px 24px rgba(13,71,161,.1);
             --la-topbar-h: 72px;
         }
 
@@ -60,10 +62,10 @@ def inject_theme():
             padding-top: calc(var(--la-topbar-h) + 1.25rem) !important;
             padding-left: 1.5rem !important;
             padding-right: 1.5rem !important;
-            max-width: 1280px !important;
+            max-width: 1100px !important;
         }
 
-        /* ── Top-Leiste (Logo + Navigation) ── */
+        /* ── Top-Leiste blau ── */
         section.main .block-container > div > div:first-child {
             height: var(--la-topbar-h) !important;
         }
@@ -74,25 +76,36 @@ def inject_theme():
             left: 0 !important;
             right: 0 !important;
             height: var(--la-topbar-h) !important;
-            background: var(--la-surface) !important;
-            border-bottom: 1px solid var(--la-border) !important;
-            box-shadow: var(--la-shadow) !important;
+            background: var(--la-topbar) !important;
+            border-bottom: none !important;
+            box-shadow: 0 4px 20px rgba(13,71,161,.35) !important;
             z-index: 999999 !important;
             display: flex !important;
             align-items: center !important;
-            padding: 0 1.25rem !important;
+            padding: 0 1rem 0 1.25rem !important;
             gap: 0.35rem !important;
         }
         section.main .block-container > div > div:first-child
             > div[data-testid="stHorizontalBlock"] [data-testid="column"]:first-child {
             flex: 0 0 auto !important;
-            min-width: 170px !important;
-            max-width: 200px !important;
+            min-width: 150px !important;
+            max-width: 190px !important;
+            background: transparent !important;
+        }
+        section.main .block-container > div > div:first-child
+            > div[data-testid="stHorizontalBlock"] [data-testid="column"]:first-child
+            [data-testid="stImage"],
+        section.main .block-container > div > div:first-child
+            > div[data-testid="stHorizontalBlock"] [data-testid="column"]:first-child
+            [data-testid="stImage"] img {
+            background: transparent !important;
+            background-color: transparent !important;
         }
         section.main .block-container > div > div:first-child
             > div[data-testid="stHorizontalBlock"] [data-testid="column"]:first-child img {
-            max-height: 44px !important;
+            max-height: 46px !important;
             width: auto !important;
+            filter: drop-shadow(0 1px 2px rgba(0,0,0,.15));
         }
         section.main .block-container > div > div:first-child
             > div[data-testid="stHorizontalBlock"] [data-testid="column"] {
@@ -102,50 +115,42 @@ def inject_theme():
         }
         section.main .block-container > div > div:first-child
             > div[data-testid="stHorizontalBlock"] button {
-            font-size: 0.82rem !important;
+            font-size: 0.8rem !important;
             font-weight: 600 !important;
             white-space: nowrap !important;
             border-radius: 999px !important;
-            min-height: 2.15rem !important;
-            height: 2.15rem !important;
-            padding: 0.2rem 0.85rem !important;
-            border: 1px solid var(--la-border) !important;
+            min-height: 2.1rem !important;
+            height: 2.1rem !important;
+            padding: 0.2rem 0.75rem !important;
             transition: all .15s ease !important;
         }
         section.main .block-container > div > div:first-child
             > div[data-testid="stHorizontalBlock"] button[kind="primary"] {
-            background: var(--la-primary) !important;
-            border-color: var(--la-primary) !important;
-            color: #fff !important;
-            box-shadow: 0 2px 8px rgba(0,180,216,.35) !important;
+            background: #fff !important;
+            border-color: #fff !important;
+            color: var(--la-primary-dark) !important;
+            box-shadow: 0 2px 8px rgba(0,0,0,.15) !important;
         }
         section.main .block-container > div > div:first-child
             > div[data-testid="stHorizontalBlock"] button[kind="secondary"] {
-            background: var(--la-surface) !important;
-            color: var(--la-text) !important;
+            background: rgba(255,255,255,.12) !important;
+            border: 1px solid rgba(255,255,255,.35) !important;
+            color: #fff !important;
         }
         section.main .block-container > div > div:first-child
             > div[data-testid="stHorizontalBlock"] button[kind="secondary"]:hover {
-            background: var(--la-primary-soft) !important;
-            border-color: var(--la-primary) !important;
-            color: var(--la-primary-dark) !important;
+            background: rgba(255,255,255,.22) !important;
+            border-color: rgba(255,255,255,.55) !important;
         }
-
-        /* ── Layout: Einstellungs-Panel links ── */
-        section.main div[data-testid="stHorizontalBlock"]:has(.la-settings) {
-            align-items: flex-start !important;
-            gap: 1.25rem !important;
-        }
-        section.main div[data-testid="column"]:has(.la-settings) {
-            background: var(--la-surface) !important;
-            border: 1px solid var(--la-border) !important;
-            border-radius: var(--la-radius) !important;
-            box-shadow: var(--la-shadow) !important;
-            padding: 1.1rem 1rem 1.25rem !important;
-            position: sticky !important;
-            top: calc(var(--la-topbar-h) + 0.75rem) !important;
-            max-height: calc(100vh - var(--la-topbar-h) - 1.5rem) !important;
-            overflow-y: auto !important;
+        /* Einstellungen-Button ganz rechts */
+        section.main .block-container > div > div:first-child
+            > div[data-testid="stHorizontalBlock"] [data-testid="column"]:last-child button {
+            min-width: 2.5rem !important;
+            font-size: 1.1rem !important;
+            padding: 0.2rem 0.55rem !important;
+            background: rgba(255,255,255,.18) !important;
+            border: 1px solid rgba(255,255,255,.45) !important;
+            color: #fff !important;
         }
 
         .la-panel-title {
@@ -166,7 +171,6 @@ def inject_theme():
             font-weight: 700;
             color: var(--la-text);
             margin: 0 0 0.25rem 0;
-            line-height: 1.25;
         }
         .la-page-head p {
             font-size: 0.95rem;
@@ -187,7 +191,7 @@ def inject_theme():
             border-radius: 999px;
             background: var(--la-primary-soft);
             color: var(--la-primary-dark);
-            border: 1px solid rgba(0,180,216,.25);
+            border: 1px solid rgba(21,101,192,.2);
         }
         .la-chip-muted {
             background: var(--la-surface-2);
@@ -195,7 +199,6 @@ def inject_theme():
             border-color: var(--la-border);
         }
 
-        /* ── Karten & Inhalte ── */
         div[data-testid="stVerticalBlockBorderWrapper"] {
             border-radius: var(--la-radius) !important;
             border-color: var(--la-border) !important;
@@ -204,7 +207,10 @@ def inject_theme():
         }
         div[data-testid="stTabs"] button {
             font-weight: 600 !important;
-            border-radius: var(--la-radius-sm) var(--la-radius-sm) 0 0 !important;
+        }
+        div[data-testid="stTabs"] button[aria-selected="true"] {
+            color: var(--la-primary) !important;
+            border-bottom-color: var(--la-primary) !important;
         }
         .stButton > button[kind="primary"]:not(section.main .block-container > div > div:first-child button) {
             background: var(--la-primary) !important;
@@ -212,35 +218,15 @@ def inject_theme():
             border-radius: var(--la-radius-sm) !important;
             font-weight: 600 !important;
         }
-        .stButton > button[kind="secondary"] {
-            border-radius: var(--la-radius-sm) !important;
-        }
-        div[data-testid="stMetric"] {
-            background: var(--la-surface);
-            border: 1px solid var(--la-border);
-            border-radius: var(--la-radius-sm);
-            padding: 0.5rem;
-        }
         hr {
             border-color: var(--la-border) !important;
-            margin: 0.85rem 0 !important;
-        }
-        label[data-testid="stWidgetLabel"] p,
-        .stMarkdown p, .stMarkdown li {
-            color: var(--la-text);
         }
 
         @media (max-width: 900px) {
             section.main .block-container > div > div:first-child
                 > div[data-testid="stHorizontalBlock"] button {
-                font-size: 0.68rem !important;
-                padding: 0.15rem 0.45rem !important;
-            }
-            section.main div[data-testid="column"]:has(.la-settings) {
-                position: relative !important;
-                top: 0 !important;
-                max-height: none !important;
-                width: 100% !important;
+                font-size: 0.65rem !important;
+                padding: 0.12rem 0.4rem !important;
             }
         }
         </style>

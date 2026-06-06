@@ -1,0 +1,93 @@
+[
+  {
+    "thema_id": 2,
+    "bubble_id": "klasse_6",
+    "szenario": "Beim Öffnen von 100 Sammelkarten-Packs sind 3 Karten legendär.",
+    "begruendung": "Der Anteil 3 von 100 lässt sich direkt als Bruch schreiben. Das verbindet eine vertraute Alltagssituation mit der Bruchschreibweise.",
+    "einstiegsfrage": "Wie schreibst du den Anteil 3 von 100 als Bruch?",
+    "unterrichtsidee": "Die Lernenden notieren mehrere x-von-100-Treffer aus einem Pack-Opening und schreiben jeden als Bruch, danach Vergleich der Größe.",
+    "schueler_hook": "Du ziehst 3 legendäre Karten aus 100 – wie sieht dieser Glücksmoment als Bruch aus?",
+    "schueler_challenge": "Schreibe 3 von 100 als Bruch und prüfe, ob du ihn kürzen kannst.",
+    "video_id": "yt1",
+    "quelle": "youtube",
+    "datum": "2026-06"
+  },
+  {
+    "thema_id": 12,
+    "bubble_id": "klasse_6",
+    "szenario": "Bei einem Pack-Opening kommen 3 seltene Treffer auf 100 geöffnete Packs.",
+    "begruendung": "Die Situation lädt ein, über die Chance auf einen seltenen Treffer nachzudenken. Sie zeigt, dass ein Glückstreffer noch keine sichere Vorhersage erlaubt.",
+    "einstiegsfrage": "Wie groß schätzt du die Chance, bei einem Pack einen seltenen Treffer zu ziehen, wenn es 3 auf 100 waren?",
+    "unterrichtsidee": "Mit einem Beutel aus 50 gleichen und 1 besonderen Murmel ziehen die Lernenden mehrfach und notieren, wie oft der seltene Treffer kommt.",
+    "schueler_hook": "Drei Glückstreffer auf hundert Versuche – ist das viel oder wenig?",
+    "schueler_challenge": "Überlege: Wenn du 200 Packs öffnest, wie viele seltene Treffer wären zu erwarten?",
+    "video_id": "yt1",
+    "quelle": "youtube",
+    "datum": "2026-06"
+  },
+  {
+    "thema_id": 2,
+    "bubble_id": "klasse_6",
+    "szenario": "Ein Timer zeigt 45 von 60 Minuten, eine andere Anzeige 18 von 24 Stunden.",
+    "begruendung": "45 von 60 und 18 von 24 lassen sich beide zu drei Vierteln kürzen. Das ist ein anschauliches Beispiel zum Kürzen gleichwertiger Brüche.",
+    "einstiegsfrage": "Auf welchen einfachen Bruch kannst du 45 von 60 kürzen?",
+    "unterrichtsidee": "Die Lernenden kürzen mehrere Timer-Brüche aus dem Alltag und sortieren, welche denselben Wert ergeben.",
+    "schueler_hook": "Zwei Timer, zwei Brüche – und am Ende ist es derselbe Anteil. Wie geht das?",
+    "schueler_challenge": "Zeige durch Kürzen, dass 18 von 24 und 45 von 60 gleich groß sind.",
+    "video_id": "yt2",
+    "quelle": "youtube",
+    "datum": "2026-06"
+  },
+  {
+    "thema_id": 5,
+    "bubble_id": "klasse_6",
+    "szenario": "Eine Challenge ist nach 18 von 24 Stunden etwa drei Viertel geschafft.",
+    "begruendung": "Drei Viertel entsprechen 75 Prozent. So wird der Zusammenhang zwischen Bruch und Prozentwert greifbar.",
+    "einstiegsfrage": "Wie viel Prozent sind drei Viertel?",
+    "unterrichtsidee": "Die Lernenden ordnen Fortschrittsbalken (ein Viertel, halb, drei Viertel, ganz) den passenden Prozentwerten zu.",
+    "schueler_hook": "Drei Viertel geschafft – wie viel Prozent stehen dann auf dem Fortschrittsbalken?",
+    "schueler_challenge": "Rechne aus, wie viel Prozent geschafft sind, wenn 6 von 24 Stunden vorbei sind.",
+    "video_id": "yt2",
+    "quelle": "youtube",
+    "datum": "2026-06"
+  },
+  {
+    "thema_id": 2,
+    "bubble_id": "klasse_6",
+    "szenario": "Ein Bauprojekt im Spiel ist zu zwei Dritteln fertig.",
+    "begruendung": "Zwei Drittel ist ein anschaulicher Bruch, der sich am Baufortschritt veranschaulichen lässt. Er eignet sich zum Bestimmen des fehlenden Anteils.",
+    "einstiegsfrage": "Wenn zwei Drittel fertig sind – welcher Anteil fehlt noch?",
+    "unterrichtsidee": "Mit einem in drei Teile gegliederten Streifen färben die Lernenden den fertigen Teil ein und benennen fertigen und fehlenden Anteil als Bruch.",
+    "schueler_hook": "Zwei Drittel vom Haus stehen schon – wie viel fehlt noch bis fertig?",
+    "schueler_challenge": "Zeichne einen Balken in drei gleiche Teile und markiere zwei Drittel.",
+    "video_id": "yt3",
+    "quelle": "youtube",
+    "datum": "2026-06"
+  },
+  {
+    "thema_id": 12,
+    "bubble_id": "klasse_6",
+    "szenario": "Eine Lootbox hat eine Chance von 1 zu 50 auf ein seltenes Item.",
+    "begruendung": "Die Chance 1 zu 50 ist ein klares Beispiel für Wahrscheinlichkeit im Alltag. Mehrfaches Öffnen erhöht die Chance nicht garantiert – Zufall bleibt Zufall.",
+    "einstiegsfrage": "Wenn die Chance 1 zu 50 ist – bekommst du das Item sicher, wenn du 50-mal öffnest?",
+    "unterrichtsidee": "Mit einem Würfel oder Glücksrad testen die Lernenden, wie oft ein seltenes Ereignis bei vielen Versuchen tatsächlich eintritt.",
+    "schueler_hook": "1 zu 50 klingt nach wenig – aber heißt das, du gehst sicher leer aus?",
+    "schueler_challenge": "Erkläre in einem Satz, warum 50-mal Öffnen das Item nicht garantiert.",
+    "video_id": "yt4",
+    "quelle": "youtube",
+    "datum": "2026-06"
+  },
+  {
+    "thema_id": 5,
+    "bubble_id": "klasse_6",
+    "szenario": "Eine Chance von 1 zu 50 wird auch als zwei Prozent angegeben.",
+    "begruendung": "Ein Fünfzigstel entspricht zwei Prozent. Das Beispiel zeigt, wie man einen Anteil als Prozentwert ausdrückt.",
+    "einstiegsfrage": "Warum sind ein Fünfzigstel und zwei Prozent derselbe Anteil?",
+    "unterrichtsidee": "Die Lernenden rechnen mehrere einfache Brüche in Prozent um und tragen die Paare in eine Tabelle ein.",
+    "schueler_hook": "Ein Fünfzigstel und zwei Prozent – zwei Schreibweisen für denselben Wert.",
+    "schueler_challenge": "Rechne ein Viertel und ein Zehntel jeweils in Prozent um.",
+    "video_id": "yt4",
+    "quelle": "youtube",
+    "datum": "2026-06"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "yt1",
+    "titel": "MEGA PACK OPENING - 3 von 100 Karten waren LEGENDARY",
+    "kanal": "Demo",
+    "quelle": "youtube",
+    "transkript": "Willkommen zurück Leute, heute öffnen wir hundert Packs. Okay erste zehn Packs, nichts Besonderes. Pack Nummer 47, oh mein Gott, drei legendäre Karten in Folge! Das sind drei von einhundert, also statistisch eigentlich krass. Wer von euch würde weitermachen oder aufhören? Schreibt in den Chat. Übrigens: Luca sagte ich bin der Beste — nee Spaß. Also 3 von 100, das kann man auch als Bruch schreiben right?",
+    "themen": ["Brüche", "Anteile", "Wahrscheinlichkeit", "wörtliche Rede"],
+    "entitaeten": ["Sammelkarten", "Pack Opening", "legendäre Karte", "Chat"],
+    "niveau": "Sek I",
+    "zusammenfassung": "Beim Öffnen von 100 Karten-Packs treten 3 seltene Treffer auf, die als Anteil 3 von 100 und als Bruch dargestellt werden."
+  },
+  {
+    "id": "yt2",
+    "titel": "24 Stunden Challenge ohne Pause",
+    "kanal": "Demo",
+    "quelle": "youtube",
+    "transkript": "Wir sind jetzt bei Stunde 18 von 24, das Projekt ist ungefähr drei Viertel fertig. Noch sechs Stunden, dann schaffen wir es hoffentlich. Im Chat steht: Er sagte du schaffst das nicht. Leute, wo ist da der Fehler? Also grammatikalisch meine ich. Timer zeigt 45 von 60 Minuten in dieser Runde.",
+    "themen": ["Brüche", "Anteile", "wörtliche Rede", "Kommasetzung", "Prozentrechnung"],
+    "entitaeten": ["Challenge", "Timer", "Chat"],
+    "niveau": "Sek I",
+    "zusammenfassung": "Während einer Langzeit-Challenge werden Fortschritte als Anteile (18 von 24, 45 von 60) beschrieben und ein Chat-Satz auf einen Grammatikfehler geprüft."
+  },
+  {
+    "id": "yt3",
+    "titel": "Anna Tom Max spielen Minecraft Hardcore",
+    "kanal": "Demo",
+    "quelle": "youtube",
+    "transkript": "Dritter Tag Hardcore, wir bauen das Haus zu zwei Dritteln fertig. Kommentar unter dem letzten Video: Geil aber zu lang. Im Podcast neulich: Social Media ist finde ich manchmal übertrieben. Titel vom Stream gestern: Anna Tom und Max gegen den Wither — fehlen da Kommas?",
+    "themen": ["Brüche", "Anteile", "Kommasetzung", "Aufzählung", "Medien & Sprache"],
+    "entitaeten": ["Aufbauspiel", "Hardcore-Modus", "Kommentar", "Podcast", "Stream"],
+    "niveau": "Sek I",
+    "zusammenfassung": "Ein Bauprojekt im Spiel ist zu zwei Dritteln fertig, und ein Stream-Titel mit Namensaufzählung wirft die Frage nach fehlenden Kommas auf."
+  },
+  {
+    "id": "yt4",
+    "titel": "Wahrscheinlichkeit erklärt - Lootboxen und Glücksrad",
+    "kanal": "Demo",
+    "quelle": "youtube",
+    "transkript": "Eine Lootbox hat oft eine Chance von 1 zu 50 für das seltene Item. Das ist ein Fünfzigstel oder zwei Prozent. Wenn du fünfmal öffnest, heißt das nicht automatisch dass du es bekommst — Zufall bleibt Zufall. Pizza-Metapher: Du isst drei von acht Stücken, wie viel ist übrig?",
+    "themen": ["Wahrscheinlichkeit", "Brüche", "Prozentrechnung", "Anteile"],
+    "entitaeten": ["Lootbox", "Glücksrad", "Pizza"],
+    "niveau": "Sek I",
+    "zusammenfassung": "Eine Lootbox-Chance von 1 zu 50 wird als Bruch (ein Fünfzigstel) und Prozentwert (zwei Prozent) erklärt und durch eine Pizza-Metapher zu Anteilen ergänzt."
+  },
+  {
+    "id": "yt5",
+    "titel": "Podcast Clip: Kommas in der Alltagssprache",
+    "kanal": "Demo",
+    "quelle": "podcast",
+    "transkript": "Moderator: 'Ich finde, dass man in Chats oft Kommas vergisst.' Gast: 'Stimmt, aber bei wörtlicher Rede muss man aufpassen.' Beispiel: Er meinte ich soll mehr lernen. Kein Komma, kein Anführungszeichen — in der Schule wäre das ein Fehler. Abschluss: Schreibt mal einen Satz mit Einschub, so wie: Das ist, meiner Meinung nach, wichtig.",
+    "themen": ["Kommasetzung", "wörtliche Rede", "Einschübe", "Medien & Sprache"],
+    "entitaeten": ["Chat", "Podcast", "Anführungszeichen", "Einschub"],
+    "niveau": "Sek I",
+    "zusammenfassung": "Ein Gespräch über Kommas im Alltag zeigt an Beispielen, wann wörtliche Rede und Einschübe Kommas und Anführungszeichen brauchen."
+  }
+]
