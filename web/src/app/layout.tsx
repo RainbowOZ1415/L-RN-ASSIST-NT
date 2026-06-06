@@ -55,7 +55,12 @@ function Footer() {
           Gemeinnütziges Projekt. Aus dem realen Medienkonsum Jugendlicher wird die Neugier-Brücke
           zum Lehrplan — kostenlos, werbefrei, datenschutzfreundlich.
         </p>
-        <p className="mt-4 text-xs">© {new Date().getFullYear()} Lernassistent · DSGVO-konform · Hosting in der EU</p>
+        <p className="mt-4">
+          <Link href="/pitch" className="font-semibold text-brand hover:text-brand-dark hover:underline">
+            Pitch &amp; Konzept
+          </Link>
+        </p>
+        <p className="mt-3 text-xs">© {new Date().getFullYear()} Lernassistent · DSGVO-konform · Hosting in der EU</p>
       </div>
     </footer>
   );
