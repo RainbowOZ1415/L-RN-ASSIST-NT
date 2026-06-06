@@ -1,6 +1,7 @@
-# Lernassistant — Hackathon HEUTE
+# Lernassistant — Hackathon
 
-**Fach:** Deutsch + Mathe · **Klasse 6** · **Quellen:** YouTube, Podcasts, News
+**Repo:** https://github.com/RainbowOZ1415/L-RN-ASSIST-NT.git  
+**Fach:** Deutsch + Mathe · **Bubbles:** Klasse 4–5 bis 10+
 
 ## Sofort starten (ohne Keys)
 
@@ -10,44 +11,44 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-4 Tabs: **Lehrkraft** · **Schüler** · **Trends** · **Klassen-Input** — läuft mit Sample-Daten offline.
+4 Tabs + Bubble-Sidebar — läuft mit Sample-Daten offline.
 
-## Deine Aufgaben (Partner)
+## YouTube — ohne Login (öffentliche Inhalte)
 
-1. **Echte Kanäle** in `data/matches_deutsch.sample.json` und `matches_mathe.sample.json` eintragen
-2. **Podcast-Feeds** in `ingest_podcasts.py` → `FEEDS`
-3. **Pitch üben** → `PITCH.md` (90 Sek)
-4. **Klassen-Input live** in der Demo — 1 Kanal live hinzufügen
-5. Optional: **ElevenLabs** 🔊 neben Einstiegsfrage in `app.py`
+**Kein YouTube-Account nötig.** Öffentliche Videos + Transkripte:
 
-## Stundenplan
-
-Siehe **`HACKATHON-SPRINT.md`** — 6-Stunden-Plan mit Checkliste.
-
-## Git (parallel arbeiten)
-
-```bash
-git pull origin main
-# ändern ...
-git add lernassistant/
-git commit -m "Deine Änderung"
-git push origin main
-```
-
-Falls `git` xcrun-Fehler: `xcode-select --install`
-
-## Echte Daten (wenn API-Keys da)
+| Schritt | Braucht |
+|---|---|
+| `ingest_youtube.py` | `YOUTUBE_API_KEY` (Google Cloud, gratis) |
+| Transkripte | automatisch via `youtube-transcript-api` |
+| `extract.py` + `match.py` | `ANTHROPIC_API_KEY` |
 
 ```bash
 cp .env.example .env
-python ingest_youtube.py    # oder kuratierte Liste statt Trending
-python ingest_podcasts.py
-python ingest_news.py
-python extract.py           # SEED_FILE=seed_deutsch.json für Deutsch
-python match.py
+python ingest_youtube.py
+python extract.py
+BUBBLE_ID=klasse_6 SEED_FILE=seed_deutsch.json MATCHES_OUT=data/matches_deutsch.json python match.py
+BUBBLE_ID=klasse_6 SEED_FILE=seed_mathe.json MATCHES_OUT=data/matches_mathe.json python match.py
 streamlit run app.py
 ```
 
-## Roadmap (nach dem Hackathon)
+**Sidebar „Login"-Toggle** = später persönlicher Feed. **Nicht** nötig für YouTube-Ingest heute.
+
+## Git (schon verbunden)
+
+```bash
+git pull origin main
+git push origin main
+```
+
+Partner cloned dasselbe Repo und arbeitet parallel.
+
+## Partner-Aufgaben
+
+1. Pitch üben → `PITCH.md`
+2. Demo: Bubble wechseln, Kommasetzung, Brüche
+3. Konsum-Tab: Kategorie live hinzufügen
+
+## Roadmap
 
 `../lernassistant-docs/06_Roadmap.md`
