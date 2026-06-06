@@ -1,0 +1,413 @@
+[
+  {
+    "thema_id": 1,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Mathe",
+    "szenario": "Ein Wirtschafts-Podcast nennt das Staatsdefizit in Milliarden – die Groessenordnungen sind kaum noch greifbar.",
+    "video_id": "ma10-1",
+    "quelle": "podcast",
+    "datum": "2026-06",
+    "begruendung": "Sicherer Umgang mit grossen natuerlichen Zahlen und Groessenordnungen ist Grundlage, um wirtschaftliche Aussagen einordnen zu koennen.",
+    "einstiegsfrage": "Wie macht man eine Zahl in Milliardenhoehe begreifbar – etwa pro Kopf der Bevoelkerung – und worauf muss man beim Ueberschlag achten?",
+    "unterrichtsidee": "Grosse Zahlen aus dem Podcast in Pro-Kopf-Werte umrechnen und ueberschlagsweise pruefen.",
+    "schueler_hook": "Milliarden klingen abstrakt – erst pro Kopf gerechnet werden sie greifbar.",
+    "schueler_challenge": "Rechne eine genannte Milliardensumme ueberschlagsweise auf einen Pro-Kopf-Betrag um.",
+    "eltern": {
+      "schulbezug": "Rechnen mit grossen natuerlichen Zahlen und Groessenordnungen – Ueberschlag und Einordnung.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie viel waeren 50 Milliarden Euro pro Einwohner?'",
+      "tipp": "Zahlen aus den Nachrichten gemeinsam einzuordnen schult das Zahlengefuehl.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 2,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Mathe",
+    "szenario": "Eine Doku ueber Vermoegensverteilung zeigt, dass ein kleiner Bevoelkerungsanteil einen grossen Bruchteil des Gesamtvermoegens haelt.",
+    "video_id": "ma10-2",
+    "quelle": "doku",
+    "datum": "2026-06",
+    "begruendung": "Brueche als Anteile am Ganzen ermoeglichen es, Verteilungsaussagen kritisch zu pruefen und zu vergleichen.",
+    "einstiegsfrage": "Wie vergleicht man die genannten Anteile als Brueche, und was sagt die Differenz zwischen Bevoelkerungs- und Vermoegensanteil aus?",
+    "unterrichtsidee": "Anteile aus der Doku als Brueche notieren, kuerzen und auf gemeinsamen Nenner vergleichen.",
+    "schueler_hook": "Hinter jeder Verteilungsaussage stecken Brueche, die du selbst pruefen kannst.",
+    "schueler_challenge": "Vergleiche zwei genannte Anteile als Brueche und bringe sie auf einen gemeinsamen Nenner.",
+    "eltern": {
+      "schulbezug": "Brueche als Anteile am Ganzen – vergleichen, kuerzen und kritisch deuten.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie schreibt man »ein Zehntel besitzt die Haelfte« als Brueche?'",
+      "tipp": "Anteilsaussagen in Dokus laden zum gemeinsamen Nachrechnen ein.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 3,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Mathe",
+    "szenario": "Bei einer Preisvergleichs-Recherche im Netz weichen Grundpreise pro 100 Gramm in den Dezimalstellen voneinander ab.",
+    "video_id": "ma10-3",
+    "quelle": "news",
+    "datum": "2026-05",
+    "begruendung": "Dezimalzahlen und ihre Stellenwerte sind entscheidend, um Grundpreise korrekt zu vergleichen und Rundung bewusst einzusetzen.",
+    "einstiegsfrage": "Warum kann ein um Hundertstel guenstigerer Grundpreis am Ende ueber den besseren Kauf entscheiden, und wie rundet man korrekt?",
+    "unterrichtsidee": "Grundpreise als Dezimalzahlen vergleichen, runden und in Bruchschreibweise zurueckuebersetzen.",
+    "schueler_hook": "Die zweite Stelle hinter dem Komma entscheidet oft, was wirklich guenstiger ist.",
+    "schueler_challenge": "Vergleiche zwei Grundpreise und begruende ueber die Stellenwerte, welcher guenstiger ist.",
+    "eltern": {
+      "schulbezug": "Dezimalzahlen, Stellenwerte und Rundung – Grundpreise korrekt vergleichen.",
+      "gespraechsanlass": "Frag dein Kind: 'Welcher Grundpreis ist guenstiger – und um wie viel genau?'",
+      "tipp": "Beim Einkaufen Grundpreise zu vergleichen macht Dezimalrechnung alltagsnah.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 4,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Mathe",
+    "szenario": "Eine Klima-Doku stellt Temperaturanomalien dar – Abweichungen vom Mittel ins Negative wie ins Positive.",
+    "video_id": "ma10-4",
+    "quelle": "doku",
+    "datum": "2026-06",
+    "begruendung": "Negative Zahlen und Differenzen sind noetig, um Anomalien und Veraenderungen ueber einen Nullpunkt hinweg zu interpretieren.",
+    "einstiegsfrage": "Wie berechnet man die Spanne zwischen einer negativen und einer positiven Temperaturanomalie korrekt, und was bedeutet ein Vorzeichenwechsel inhaltlich?",
+    "unterrichtsidee": "Anomalie-Werte auf der Zahlengerade einordnen und Differenzen ueber den Nullpunkt berechnen.",
+    "schueler_hook": "Ob eine Abweichung positiv oder negativ ist, aendert die ganze Aussage.",
+    "schueler_challenge": "Berechne die Differenz zwischen einer Anomalie von -1,2 und +0,8 und deute sie.",
+    "eltern": {
+      "schulbezug": "Negative Zahlen und Differenzen ueber den Nullpunkt – Anomalien interpretieren.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie gross ist der Abstand zwischen -1,2 und +0,8 Grad?'",
+      "tipp": "Klimadaten zu lesen verbindet Mathematik mit einem relevanten Thema.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 5,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Mathe",
+    "szenario": "Ein Finanz-Erklaervideo bewirbt einen Rabatt mit anschliessender Mehrwertsteuer – die Reihenfolge der Prozentrechnungen wird strittig diskutiert.",
+    "video_id": "ma10-5",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "begruendung": "Mehrstufige Prozentrechnung (Rabatt, Aufschlag, Zinseszins-Gedanke) ist zentral fuer finanzielle Muendigkeit auf Sek-II-Niveau.",
+    "einstiegsfrage": "Macht es einen Unterschied, ob man erst den Rabatt und dann die Steuer rechnet oder umgekehrt – und warum addieren sich Prozentwerte nicht einfach?",
+    "unterrichtsidee": "Mehrstufige Prozentrechnung mit Multiplikatoren durchrechnen und gaengige Trugschluesse aufdecken.",
+    "schueler_hook": "Prozente nacheinander zu verrechnen ist kein Addieren – das wird gern ausgenutzt.",
+    "schueler_challenge": "Berechne den Endpreis bei -20 Prozent und danach +19 Prozent und erklaere, warum das nicht -1 Prozent ergibt.",
+    "eltern": {
+      "schulbezug": "Mehrstufige Prozentrechnung mit Multiplikatoren – Grundlage finanzieller Muendigkeit.",
+      "gespraechsanlass": "Frag dein Kind: 'Warum heben sich -20 Prozent und +19 Prozent nicht fast auf?'",
+      "tipp": "Rabatt- und Steuerbeispiele zeigen, warum Prozentwissen im Alltag schuetzt.",
+      "safety": "Werbung mit Prozenten kann gezielt taeuschen – das Nachrechnen schuetzt vor Fehlkaeufen und Geldentscheidungen aus dem Bauch heraus."
+    }
+  },
+  {
+    "thema_id": 6,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Mathe",
+    "szenario": "Eine Architektur-Doku erklaert, wie Tragwerke aus Dreiecken Stabilitaet gewinnen und welche Rolle Winkel dabei spielen.",
+    "video_id": "ma10-6",
+    "quelle": "doku",
+    "datum": "2026-05",
+    "begruendung": "Winkelsumme und Dreieckseigenschaften erklaeren statische Prinzipien – ein anschaulicher Transfer von Geometrie in die Praxis.",
+    "einstiegsfrage": "Warum ist das Dreieck die stabilste Grundform im Bauwesen, und wie folgt das aus seinen Winkel- und Seiteneigenschaften?",
+    "unterrichtsidee": "Tragwerksbilder analysieren, Dreiecksarten bestimmen und fehlende Winkel ueber die Winkelsumme berechnen.",
+    "schueler_hook": "Die Stabilitaet von Bruecken und Daechern steckt in einfacher Dreiecksgeometrie.",
+    "schueler_challenge": "Berechne in einem Tragwerksdreieck den fehlenden Winkel und nenne die Dreiecksart.",
+    "eltern": {
+      "schulbezug": "Winkelsumme und Dreieckseigenschaften – Geometrie als Grundlage von Statik.",
+      "gespraechsanlass": "Frag dein Kind: 'Warum baut man Tragwerke aus Dreiecken und nicht aus Vierecken?'",
+      "tipp": "Beim Blick auf Bruecken und Krane laesst sich Geometrie im Alltag entdecken.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 7,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Mathe",
+    "szenario": "In einem Doku-Beitrag ueber Stadtplanung wird die nutzbare Flaeche eines unregelmaessig geschnittenen Grundstuecks berechnet.",
+    "video_id": "ma10-7",
+    "quelle": "doku",
+    "datum": "2026-06",
+    "begruendung": "Zusammengesetzte Flaechen erfordern Zerlegung in Teilfiguren – eine zentrale Strategie fuer realistische Flaechenberechnung.",
+    "einstiegsfrage": "Wie zerlegt man eine unregelmaessige Flaeche sinnvoll in berechenbare Teilfiguren, und wo liegen die groessten Fehlerquellen?",
+    "unterrichtsidee": "Eine zusammengesetzte Flaeche in Rechtecke und Dreiecke zerlegen und den Gesamtinhalt bestimmen.",
+    "schueler_hook": "Echte Flaechen sind selten Rechtecke – man muss sie clever zerlegen.",
+    "schueler_challenge": "Berechne den Flaecheninhalt einer aus Rechteck und Dreieck zusammengesetzten Figur.",
+    "eltern": {
+      "schulbezug": "Flaecheninhalt zusammengesetzter Figuren – Zerlegung in Teilflaechen.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie berechnet man die Flaeche eines schraeg geschnittenen Grundstuecks?'",
+      "tipp": "Das Ausmessen eines Zimmers oder Gartens macht Flaechenrechnung greifbar.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 8,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Mathe",
+    "szenario": "Ein Wissens-Podcast diskutiert den Wasserverbrauch in Litern und vergleicht ihn mit dem Rauminhalt alltaeglicher Behaelter.",
+    "video_id": "ma10-8",
+    "quelle": "podcast",
+    "datum": "2026-05",
+    "begruendung": "Volumenberechnung und Einheitenumrechnung (Liter, Kubikmeter) sind noetig, um Verbrauchsangaben realistisch einzuordnen.",
+    "einstiegsfrage": "Wie rechnet man Liter in Kubikmeter um, und wie veranschaulicht man einen genannten Verbrauch ueber ein bekanntes Volumen?",
+    "unterrichtsidee": "Verbrauchsangaben in Volumina umrechnen und mit dem Rauminhalt vertrauter Koerper vergleichen.",
+    "schueler_hook": "Abstrakte Liter-Angaben werden greifbar, wenn du sie in Raeume umrechnest.",
+    "schueler_challenge": "Rechne 1000 Liter in Kubikmeter um und beschreibe einen Koerper mit diesem Volumen.",
+    "eltern": {
+      "schulbezug": "Volumenberechnung und Einheitenumrechnung (Liter, Kubikmeter) – Verbrauch einordnen.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie gross ist ein Wuerfel, der 1000 Liter fasst?'",
+      "tipp": "Verbrauchsangaben gemeinsam zu veranschaulichen schult das Raumvorstellungsvermoegen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 9,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Mathe",
+    "szenario": "Eine Daten-Visualisierung in einem News-Beitrag verortet Messpunkte in einem Koordinatensystem mit allen vier Quadranten.",
+    "video_id": "ma10-9",
+    "quelle": "news",
+    "datum": "2026-06",
+    "begruendung": "Das Koordinatensystem mit negativen Achsen ist Grundlage fuer Funktionsgraphen und das Lesen wissenschaftlicher Datendarstellungen.",
+    "einstiegsfrage": "Wie liest man Punkte in allen vier Quadranten korrekt ab, und was bedeutet die Lage eines Punktes inhaltlich fuer die dargestellten Daten?",
+    "unterrichtsidee": "Datenpunkte aus der Visualisierung als Koordinaten ablesen und ihre Lage interpretieren.",
+    "schueler_hook": "Jede Datengrafik basiert auf Koordinaten – wer sie liest, versteht die Aussage.",
+    "schueler_challenge": "Lies drei Punkte in verschiedenen Quadranten ab und deute ihre Lage.",
+    "eltern": {
+      "schulbezug": "Koordinatensystem mit vier Quadranten – Grundlage fuer Graphen und Datenlesen.",
+      "gespraechsanlass": "Frag dein Kind: 'Was sagt es aus, wenn ein Punkt im dritten Quadranten liegt?'",
+      "tipp": "Datengrafiken gemeinsam zu lesen verbindet Mathe mit aktuellen Themen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 10,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Mathe",
+    "szenario": "Ein Erklaervideo loest ein viral gegangenes Zahlenraetsel auf, das in den Kommentaren zu widerspruechlichen Loesungen gefuehrt hat.",
+    "video_id": "ma10-10",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "begruendung": "Terme und Gleichungen aufzustellen und systematisch zu loesen ist die Kernkompetenz der Algebra in der Sek II.",
+    "einstiegsfrage": "Wie uebersetzt man die Bedingungen des Raetsels in eine Gleichung, und warum fuehren Rechenwege ohne Aequivalenzumformung zu Fehlern?",
+    "unterrichtsidee": "Das Raetsel als Gleichung modellieren und durch saubere Aequivalenzumformungen loesen.",
+    "schueler_hook": "Hinter jedem viralen Zahlenraetsel steckt eine Gleichung, die du loesen kannst.",
+    "schueler_challenge": "Stelle das Raetsel als Gleichung auf und loese systematisch nach x.",
+    "eltern": {
+      "schulbezug": "Terme und Gleichungen – Sachverhalte modellieren und durch Aequivalenzumformung loesen.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie macht man aus einem Zahlenraetsel eine Gleichung?'",
+      "tipp": "Virale Mathe-Raetsel sind ein motivierender Einstieg in algebraisches Denken.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Mathe",
+    "szenario": "Ein Faktencheck deckt auf, dass eine Statistik durch eine gekuerzte Achse und die Wahl des Mittelwerts irrefuehrend wirkt.",
+    "video_id": "ma10-11",
+    "quelle": "news",
+    "datum": "2026-05",
+    "begruendung": "Daten und Diagramme kritisch zu lesen – Mittelwert vs. Median, manipulative Skalen – ist Kern statistischer Muendigkeit.",
+    "einstiegsfrage": "Wie koennen Achsenwahl und die Entscheidung zwischen Mittelwert und Median ein Diagramm in die Irre fuehren – und wie deckt man das auf?",
+    "unterrichtsidee": "Manipulierte und korrekte Darstellung derselben Daten vergleichen; Mittelwert und Median berechnen.",
+    "schueler_hook": "Eine Statistik kann formal richtig und trotzdem irrefuehrend sein.",
+    "schueler_challenge": "Berechne zu einem Datensatz Mittelwert und Median und erklaere, welcher hier ehrlicher ist.",
+    "eltern": {
+      "schulbezug": "Daten und Diagramme kritisch lesen – Mittelwert, Median und manipulative Darstellung.",
+      "gespraechsanlass": "Frag dein Kind: 'Wann taeuscht ein Mittelwert – und wann ist der Median ehrlicher?'",
+      "tipp": "Diagramme in Nachrichten gemeinsam kritisch zu pruefen staerkt die Urteilskraft.",
+      "safety": "Statistiken werden haeufig gezielt verzerrt dargestellt – kritisches Lesen schuetzt vor Beeinflussung."
+    }
+  },
+  {
+    "thema_id": 12,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Mathe",
+    "szenario": "Eine Doku ueber Glücksspiel zeigt, wie der Erwartungswert eines Spiels langfristig zugunsten des Anbieters ausfaellt.",
+    "video_id": "ma10-12",
+    "quelle": "doku",
+    "datum": "2026-06",
+    "begruendung": "Wahrscheinlichkeit und Erwartungswert erklaeren, warum Gluecksspiel langfristig verliert – zentral fuer Risikokompetenz.",
+    "einstiegsfrage": "Wie berechnet man den Erwartungswert eines Spiels, und warum garantiert eine negative Erwartung langfristig Verluste trotz einzelner Gewinne?",
+    "unterrichtsidee": "Erwartungswert eines einfachen Spiels berechnen und Erwartung von Garantie unterscheiden.",
+    "schueler_hook": "Der Erwartungswert verraet, ob ein Spiel sich auf Dauer lohnt – meist tut es das nicht.",
+    "schueler_challenge": "Berechne den Erwartungswert eines Spiels mit Einsatz und Gewinnchance und deute das Ergebnis.",
+    "eltern": {
+      "schulbezug": "Wahrscheinlichkeit und Erwartungswert – warum Gluecksspiel langfristig verliert.",
+      "gespraechsanlass": "Frag dein Kind: 'Warum gewinnt auf lange Sicht fast immer der Anbieter?'",
+      "tipp": "Ueber Erwartungswerte zu sprechen staerkt die Risikokompetenz im Umgang mit Geld.",
+      "safety": "Gluecksspiel und Lootboxen sind auf langfristigen Verlust der Spielenden ausgelegt – das Verstaendnis des Erwartungswerts schuetzt vor finanziellen Risiken."
+    }
+  },
+  {
+    "thema_id": 5,
+    "bubble_id": "klasse_10_plus",
+    "szenario": "In einem Podcast-Gespräch wird erklärt, dass das reichste Prozent der Bevölkerung rund 35 % des gesamten Privatvermögens in Deutschland besitzt – und dass Steuersätze für Kapitalerträge teils niedriger sind als für Löhne.",
+    "begruendung": "Vermögensverteilung und Steuersätze sind unmittelbar mit Prozentrechnung verknüpft: Anteile, Rabatte und relative Größen lassen sich an realen Zahlen aus dem gesellschaftlichen Diskurs direkt erarbeiten. Der Podcast liefert einen authentischen, kontroversen Einstieg, der Jugendliche motiviert, Prozentangaben kritisch zu hinterfragen.",
+    "einstiegsfrage": "Wenn das reichste Prozent der Bevölkerung 35 % des Vermögens hält – wie viel Prozent bleibt dann für die restlichen 99 % übrig, und was sagt das über Verteilung aus?",
+    "unterrichtsidee": "Schülerinnen und Schüler erhalten drei reale Prozentzahlen zur Vermögensverteilung (z. B. Anteile der Top 1 %, Top 10 %, untere 50 %) und berechnen zunächst die jeweiligen Differenzen und Verhältnisse. Anschließend wird ein fiktives Steuermodell durchgespielt: Wie viel zahlt jemand mit 50.000 € Einkommen bei 20 % Steuern, wie viel jemand mit 2.000.000 € Kapitalertrag bei 25 % Abgeltungssteuer? Die Ergebnisse werden verglichen und diskutiert – Mathematik als Werkzeug für gesellschaftliche Analyse.",
+    "schueler_hook": "Du hörst, dass Superreiche prozentual weniger Steuern zahlen als normale Arbeitnehmer – aber stimmt das wirklich, wenn man die Zahlen selbst durchrechnet?",
+    "schueler_challenge": "Berechne: Jemand verdient 40.000 € als Gehalt und zahlt 25 % Einkommensteuer. Eine andere Person erzielt 40.000 € aus Kapitalerträgen und zahlt 25 % Abgeltungssteuer. Gleich fair – oder steckt ein Unterschied im System? Begründe mit einer Rechnung.",
+    "eltern": {
+      "schulbezug": "Prozentrechnung: Anteile berechnen, Steuersätze anwenden, Prozentwerte und Grundwerte in realen Kontexten verstehen",
+      "gespraechsanlass": "Habt ihr schon mal ausgerechnet, wie viel Prozent unseres Haushaltseinkommens wirklich für Steuern und Abgaben draufgeht?",
+      "tipp": "Solche Alltagsbeispiele helfen enorm: Wenn Prozentrechnung mit echten, relevanten Zahlen geübt wird, bleibt der Stoff viel besser hängen als mit abstrakten Schulaufgaben.",
+      "safety": null
+    },
+    "video_id": "parinhood:unboxing-news-deutschlandfunk-nova/billionen-die-wahrheit-ueber-deutschlands-superreiche",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_10_plus",
+    "szenario": "Ein Podcast präsentiert Daten zur Vermögensverteilung in Deutschland – darunter Balkendiagramme und Statistiken, die zeigen, wie Erbschaften und Kapitalerträge Ungleichheit über Generationen hinweg verstärken.",
+    "begruendung": "Diagramme und statistische Kennwerte wie Mittelwert und Median sind zentrale Werkzeuge, um Vermögensverteilung überhaupt zu verstehen – der Podcast demonstriert, warum der Mittelwert hier in die Irre führen kann und der Median ein ehrlicheres Bild liefert.",
+    "einstiegsfrage": "Das Durchschnittsvermögen (Mittelwert) eines deutschen Haushalts liegt bei ca. 200.000 € – aber mehr als die Hälfte aller Haushalte hat weniger als 70.000 €. Wie ist das möglich, und welchen Wert sollte man eigentlich verwenden?",
+    "unterrichtsidee": "Die Klasse erhält eine vereinfachte Datentabelle mit fiktiven Vermögenswerten von 10 Haushalten, darunter ein extrem hoher Ausreißer. Sie berechnen Mittelwert und Median, erstellen ein Säulendiagramm und diskutieren: Welcher Wert ist 'fairer' zur Beschreibung der Verteilung? Abschluss: kurze schriftliche Reflexion, warum Statistiken in politischen Debatten gezielt ausgewählt werden.",
+    "schueler_hook": "Du hast vielleicht gehört, dass Deutschland eine 'reiche' Gesellschaft ist – aber was sagen die Zahlen wirklich, wenn man genauer hinschaut?",
+    "schueler_challenge": "Hier sind 7 Vermögenswerte: 8.000 / 15.000 / 22.000 / 30.000 / 45.000 / 60.000 / 4.200.000 €. Berechne Mittelwert und Median. Welcher Wert beschreibt die 'typische' Person besser – und warum?",
+    "eltern": {
+      "schulbezug": "Statistik und Diagramme: Mittelwert, Median, Säulendiagramme lesen und kritisch interpretieren – ein zentrales Thema in Klasse 9/10",
+      "gespraechsanlass": "Wenn in den Nachrichten von 'Durchschnittseinkommen' oder 'Durchschnittsvermögen' die Rede ist – glaubt ihr diesen Zahlen einfach, oder fragt ihr euch, was dahintersteckt?",
+      "tipp": "Fragen Sie Ihr Kind, was der Unterschied zwischen Mittelwert und Median ist – das ist ein typisches Prüfungsthema, und dieses Beispiel aus dem echten Leben macht den Unterschied sofort klar.",
+      "safety": null
+    },
+    "video_id": "parinhood:unboxing-news-deutschlandfunk-nova/billionen-die-wahrheit-ueber-deutschlands-superreiche",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_10_plus",
+    "szenario": "In einem Podcast wird erwähnt, dass heute noch rund 3,5 Milliarden Menschen keinen Zugang zu sicheren Sanitäranlagen haben – eine Zahl, die zunächst abstrakt wirkt, aber durch Diagramme greifbar werden kann.",
+    "begruendung": "Die globale Ungleichheit beim Sanitärzugang liefert authentische statistische Daten, die direkt in die Analyse von Diagrammen, Mittelwerten und Dateninterpretation führen. Schülerinnen und Schüler können reale Verteilungen nach Regionen oder Einkommensgruppen auswerten und kritisch hinterfragen.",
+    "einstiegsfrage": "Wenn du ein Balkendiagramm siehst, das zeigt, wie viele Menschen in verschiedenen Weltregionen Zugang zu Toiletten haben – welche Kennzahlen würdest du berechnen, um die Ungleichheit auf einen Blick sichtbar zu machen?",
+    "unterrichtsidee": "Schüler erhalten einen Datensatz (z. B. WHO/UNICEF-Zahlen nach Kontinenten) und erstellen zunächst eigenständig ein geeignetes Diagramm. Anschließend berechnen sie Mittelwert und Spannweite und diskutieren in Kleingruppen, welche Darstellungsform die Ungleichheit am ehrlichsten abbildet und welche potenziell verzerrt – Abschluss mit einem kurzen Plenumsgespräch über die Aussagekraft statistischer Kennwerte.",
+    "schueler_hook": "Du hörst eine Zahl und denkst: 'krass' – aber erst wenn du sie in ein Diagramm überführst, erkennst du, wie extrem die Schere wirklich ist.",
+    "schueler_challenge": "Nimm die Zahl 3,5 Milliarden und setz sie ins Verhältnis zur Weltbevölkerung – welchen Prozentwert ergibt das, und wie würdest du das in einem Diagramm darstellen?",
+    "eltern": {
+      "schulbezug": "In Klasse 10 lernen Schülerinnen und Schüler, statistische Daten zu lesen, Mittelwerte zu berechnen und Diagramme kritisch zu beurteilen – genau das wird hier an einem gesellschaftlich relevanten Beispiel geübt.",
+      "gespraechsanlass": "Habt ihr schon mal gemeinsam ein Diagramm in der Zeitung oder online gesehen und euch gefragt, ob die Darstellung wirklich das zeigt, was sie zeigen soll?",
+      "tipp": "Sprechen Sie mit Ihrem Kind darüber, warum Statistiken manchmal unterschiedlich interpretiert werden können – das schärft das kritische Denken über den Schulstoff hinaus.",
+      "safety": null
+    },
+    "video_id": "parinhood:kakadu-der-kinderpodcast/kakadu-eure-fragen-wer-hat-eigentlich-das-klo-erfunden",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 5,
+    "bubble_id": "klasse_10_plus",
+    "szenario": "Ein Podcast stellt fest, dass in manchen Ländern über 90 % der Bevölkerung Zugang zu Sanitäranlagen haben, in anderen hingegen weniger als 10 % – und fragt, was diese Prozentzahlen über globale Gerechtigkeit aussagen.",
+    "begruendung": "Prozentzahlen sind das zentrale Werkzeug, um Anteile und Ungleichheiten vergleichbar zu machen; der Kontext Sanitärversorgung macht die Berechnung von Grundwert, Prozentwert und Prozentsatz unmittelbar bedeutsam und diskussionswürdig.",
+    "einstiegsfrage": "Was bedeutet es konkret, wenn in einem Land mit 50 Millionen Einwohnern nur 23 % Zugang zu sicheren Toiletten haben – wie viele Menschen sind das, und wie verändert sich die Zahl bei 10 % Verbesserung pro Jahr?",
+    "unterrichtsidee": "Schüler berechnen anhand realer Länderbeispiele Prozentwerte, Grundwerte und Prozentsätze und modellieren dann, nach wie vielen Jahren ein Land bei gleichbleibendem jährlichem Zuwachs von z. B. 3 % die 90-%-Marke erreicht. Die Ergebnisse werden verglichen und die Frage gestellt, ob lineares Wachstum hier eine realistische Annahme ist – Einstieg in kritisches Modelldenken.",
+    "schueler_hook": "Hinter jeder Prozentzahl steckt eine reale Menschenmenge – und du kannst genau ausrechnen, wie groß sie ist.",
+    "schueler_challenge": "Ein Land hat 80 Millionen Einwohner und 34 % Sanitärversorgung. Wie viele Menschen haben keinen Zugang – und wie viele kämen bei 5 % Steigerung dazu?",
+    "eltern": {
+      "schulbezug": "Prozentrechnung ist ein zentrales Thema in Klasse 10 und Grundlage für Alltagssituationen wie Rabatte, Zinsen oder Statistiken – hier wird sie an einem globalen Beispiel vertieft.",
+      "gespraechsanlass": "Wenn ihr beim Einkaufen einen Rabatt seht: Könntet ihr gemeinsam kurz nachrechnen, wie viel das wirklich spart?",
+      "tipp": "Ermutigen Sie Ihr Kind, Prozentzahlen in Nachrichten aktiv zu hinterfragen – 'Von was ist das eigentlich ein Prozent?' ist eine der klügsten Fragen überhaupt.",
+      "safety": null
+    },
+    "video_id": "parinhood:kakadu-der-kinderpodcast/kakadu-eure-fragen-wer-hat-eigentlich-das-klo-erfunden",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 12,
+    "bubble_id": "klasse_10_plus",
+    "szenario": "In einem Podcast wird erzählt, wie die Spinnen-Forscherin Scarlett jahrelang allein forscht – bis sie endlich Lennart trifft. Die Chance, überhaupt jemanden zu finden, der ihre Leidenschaft teilt, wirkt wie ein Glücksfall. Aber war es wirklich purer Zufall?",
+    "begruendung": "Die Begegnung zwischen zwei unwahrscheinlich kompatiblen Individuen lädt dazu ein, Zufallsbegriffe und Wahrscheinlichkeiten zu hinterfragen: Wie wahrscheinlich ist es, genau die richtige Person zu treffen? Das ist eine echte Neugier-Brücke zur Stochastik.",
+    "einstiegsfrage": "Wenn in einer Klasse von 30 Schülerinnen und Schülern jede Person zufällig eine andere trifft – wie hoch ist die Wahrscheinlichkeit, dass zwei Menschen mit exakt derselben Nischen-Leidenschaft zusammenkommen?",
+    "unterrichtsidee": "Schülerinnen und Schüler schätzen zunächst intuitiv die Wahrscheinlichkeit einer 'perfekten Übereinstimmung' zwischen zwei Personen (z. B. gleiche Lieblingstiere, gleiche Hobbys) und modellieren das dann mit einfachen Laplace-Experimenten oder Baumdiagrammen – abschließend Diskussion: Wann ist Zufall wirklich Zufall?",
+    "schueler_hook": "War Scarletts Freundschaft mit Lennart echtes Glück – oder lässt sich sowas mathematisch vorhersagen?",
+    "schueler_challenge": "Schätze: Wie viele Menschen müsste Scarlett zufällig treffen, damit die Wahrscheinlichkeit, jemanden mit derselben Leidenschaft für Spinnen zu finden, über 50 % steigt? Begründe deine Schätzung mit einem Ansatz.",
+    "eltern": {
+      "schulbezug": "Wahrscheinlichkeitsrechnung: Laplace-Experimente, Zufallsbegriff, Einschätzen von Chancen – Kernthema in Klasse 10",
+      "gespraechsanlass": "Habt ihr schon mal das Gefühl gehabt, dass eine Begegnung 'zu perfekt' war, um Zufall zu sein – und was steckt mathematisch dahinter?",
+      "tipp": "Alltagsbeispiele wie Lotterien, Gruppen-Auslosungen oder Umfragen eignen sich gut, um Wahrscheinlichkeiten gemeinsam zu schätzen und dann nachzurechnen.",
+      "safety": null
+    },
+    "video_id": "parinhood:ohrenbaer-podcast/scarlett-spinnt-den-besten-plan-17-gruene-kringel-in-der-nacht",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_10_plus",
+    "szenario": "Ein Podcast-Kommentar lautet: 'Scarlett hat 3 Jahre lang geforscht, bevor sie einen einzigen echten Freund gefunden hat – ist das normal oder eine Ausnahme?' – Das regt an, Daten über soziale Isolation bei Jugendlichen zu lesen und zu interpretieren.",
+    "begruendung": "Themen wie Einsamkeit und Freundschaft sind statistisch messbar – Studien liefern reale Datensätze, die Schülerinnen und Schüler mit Diagrammen und Mittelwerten analysieren können, was eine authentische Verbindung zur Datenkompetenz schafft.",
+    "einstiegsfrage": "Laut einer Jugendstudie fühlen sich 28 % der 15- bis 17-Jährigen häufig einsam – was sagt uns dieser Wert, und was verschweigt er uns?",
+    "unterrichtsidee": "Schülerinnen und Schüler erhalten einen vereinfachten Datensatz (z. B. Anzahl enger Freundschaften pro Altersgruppe) und erstellen daraus ein Säulendiagramm, berechnen Mittelwert und Median und diskutieren: Welcher Wert beschreibt die 'typische' Situation am besten – und warum kann das irreführend sein?",
+    "schueler_hook": "Zahlen über Einsamkeit klingen trocken – aber wenn du siehst, wie viele Gleichaltrige sich wirklich isoliert fühlen, verändert das deine Sichtweise.",
+    "schueler_challenge": "Hier sind fünf erfundene Antworten aus einer Umfrage: 1, 2, 1, 5, 1 enge Freundschaften. Berechne Mittelwert und Median – und erkläre, warum Scarlett in dieser Stichprobe eine Ausreißerin wäre.",
+    "eltern": {
+      "schulbezug": "Statistik und Diagramme: Mittelwert, Median, Säulendiagramm – Schülerinnen und Schüler lernen, Daten kritisch zu lesen statt blind zu vertrauen",
+      "gespraechsanlass": "Wenn ihr hört, dass 'durchschnittlich' Jugendliche soundso viele Freunde haben – glaubt ihr diesem Durchschnitt, und was könnte er verbergen?",
+      "tipp": "Zeigen Sie Ihrem Kind Grafiken aus Zeitungen oder sozialen Medien und fragen Sie gemeinsam: Was steht da wirklich drin – und was nicht?",
+      "safety": null
+    },
+    "video_id": "parinhood:ohrenbaer-podcast/scarlett-spinnt-den-besten-plan-17-gruene-kringel-in-der-nacht",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 12,
+    "bubble_id": "klasse_10_plus",
+    "szenario": "In einem Podcast wird erwähnt, dass Fledermäuse beim Ausweichen von Windrädern überraschend hohe Verlustquoten haben – und man fragt sich, wie groß die Überlebenschance einer einzelnen Fledermaus eigentlich ist.",
+    "begruendung": "Populationsdaten zu bedrohten Tierarten und Kollisionsrisiken an Windrädern lassen sich direkt als Wahrscheinlichkeitsproblem modellieren. Der emotionale Kontext (Artenschutz, Überleben) macht abstrakte Zufallskonzepte greifbar und motiviert zur eigenen Kalkulation.",
+    "einstiegsfrage": "Wenn statistisch jede fünfte Fledermaus eine bestimmte Windpark-Route überlebt – wie groß ist die Wahrscheinlichkeit, dass von drei Tieren mindestens zwei überleben?",
+    "unterrichtsidee": "Schüler erhalten reale oder realitätsnahe Daten zu Fledermausverlusten an Windrädern und berechnen in Kleingruppen Einzel- und Verbundwahrscheinlichkeiten (mit und ohne Zurücklegen). Anschließend diskutieren sie, wie solche Zahlen politische Entscheidungen zum Windkraftausbau beeinflussen können.",
+    "schueler_hook": "Du hörst, dass Windräder Fledermäuse töten – aber stimmt das wirklich, wenn man die Zahlen genau anschaut?",
+    "schueler_challenge": "Berechne: Wenn die Überlebenswahrscheinlichkeit pro Passage 0,7 beträgt, wie wahrscheinlich ist es, dass eine Fledermaus drei aufeinanderfolgende Windräder unbeschadet überquert?",
+    "eltern": {
+      "schulbezug": "Wahrscheinlichkeitsrechnung: Einzel- und Mehrfachereignisse, Baumdiagramme, kombinierte Wahrscheinlichkeiten – Kernstoff in Klasse 10",
+      "gespraechsanlass": "Habt ihr schon mal darüber nachgedacht, wie Wissenschaftler eigentlich herausfinden, wie gefährlich Windräder für Tiere wirklich sind?",
+      "tipp": "Fragen Sie Ihr Kind, ob es die gehörten Zahlen aus dem Podcast selbst nachrechnen kann – das vertieft sowohl Medienkompetenz als auch mathematisches Verständnis.",
+      "safety": null
+    },
+    "video_id": "parinhood:die-maus-zum-hoeren/flatter-flatter",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_10_plus",
+    "szenario": "Ein Podcast-Gespräch über schwindende Artenvielfalt nennt konkrete Zahlen: In den letzten 30 Jahren seien bestimmte Schmetterlingsarten um 60–80 % zurückgegangen – solche Aussagen fordern geradezu dazu auf, die Datenbasis kritisch zu hinterfragen.",
+    "begruendung": "Populationsrückgänge bei Insekten und anderen Tierarten werden häufig mit statistischen Kennzahlen kommuniziert, die Schüler auf Plausibilität, Darstellungsform und mögliche Verzerrungen prüfen können. Das verbindet Datenanalyse mit kritischem Denken über Umwelt-Narrative.",
+    "einstiegsfrage": "Wenn ein Bericht sagt, Schmetterlingsbestände seien um 70 % gesunken – welche Informationen bräuchtest du, um diese Aussage statistisch beurteilen zu können?",
+    "unterrichtsidee": "Die Klasse analysiert zwei unterschiedliche Diagrammdarstellungen desselben Datensatzes (z. B. absolute vs. prozentuale Darstellung eines Artenschwunds) und diskutiert, welche Darstellung welchen Eindruck erzeugt. Abschluss: kurze schriftliche Reflexion über den Zusammenhang von Statistik und öffentlicher Meinungsbildung.",
+    "schueler_hook": "Du hast Zahlen über Artensterben gehört – aber weißt du, ob diese Diagramme dir die Wahrheit zeigen oder nur einen bestimmten Ausschnitt davon?",
+    "schueler_challenge": "Skizziere zwei verschiedene Diagramme mit denselben fiktiven Bestandsdaten einer Schmetterlingsart – einmal so, dass der Rückgang dramatisch wirkt, einmal so, dass er harmlos erscheint.",
+    "eltern": {
+      "schulbezug": "Statistik und Datenauswertung: Mittelwert, Diagrammtypen, kritische Interpretation von Daten – relevanter Stoff für Klasse 10 und Vorbereitung auf die Oberstufe",
+      "gespraechsanlass": "Wenn ihr Nachrichten über das Artensterben seht – schaut ihr euch dabei auch an, woher die Zahlen stammen und wie sie dargestellt werden?",
+      "tipp": "Ermutigen Sie Ihr Kind, Statistiken in Medienberichten nicht einfach hinzunehmen, sondern zu fragen: Wer hat diese Daten erhoben, und welches Diagramm wurde gewählt – und warum?",
+      "safety": null
+    },
+    "video_id": "parinhood:die-maus-zum-hoeren/flatter-flatter",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 5,
+    "bubble_id": "klasse_10_plus",
+    "szenario": "In einer Podcast-Folge wird erwähnt, dass eine bestimmte Region durch Schutzmaßnahmen den Bestand einer Fledermausart innerhalb von zehn Jahren um 45 % steigern konnte – eine Zahl, die zur Rechnung einlädt.",
+    "begruendung": "Prozentuales Wachstum und Rückgang sind zentrale Kommunikationsformen in Umwelt- und Naturschutzdebatten. Der Kontext (Artenrettung, Erfolg von Schutzprogrammen) macht Prozentrechnung nicht abstrakt, sondern gesellschaftlich relevant und diskutierbar.",
+    "einstiegsfrage": "Wenn ein Schutzprogramm den Bestand von 340 Tieren um 45 % steigert und ein anderes einen Bestand von 800 Tieren um 20 % – welches Programm hat absolut mehr bewirkt, und was sagt uns das über die Aussagekraft von Prozentzahlen?",
+    "unterrichtsidee": "Schüler berechnen ausgehend von verschiedenen Ausgangsbeständen prozentualen Zu- und Abnahmen und vergleichen absolute mit relativen Veränderungen. Anschließend formulieren sie selbst eine Schlagzeile zum gleichen Datensatz – einmal optimistisch, einmal pessimistisch – und reflektieren, wie Prozentzahlen in der öffentlichen Debatte instrumentalisiert werden.",
+    "schueler_hook": "Ein Naturschutzprojekt feiert 45 % mehr Fledermäuse – aber ist das wirklich so viel, wie es klingt?",
+    "schueler_challenge": "Ein Bestand sinkt im ersten Jahr um 20 % und steigt im zweiten Jahr um 20 % – ist man am Ende wieder beim Ausgangswert? Berechne und erkläre das Ergebnis.",
+    "eltern": {
+      "schulbezug": "Prozentrechnung: prozentualer Zuwachs und Abnahme, Unterschied zwischen absolutem und relativem Wert – klassischer Prüfungsstoff in Klasse 9/10",
+      "gespraechsanlass": "Wenn ihr Schlagzeilen wie '30 % weniger Schmetterlinge' lest – fragt ihr euch, 30 % von wie vielen und im Vergleich zu wann?",
+      "tipp": "Üben Sie mit Ihrem Kind das Hinterfragen von Prozentzahlen im Alltag – ob beim Einkaufen, in Nachrichten oder in Umweltberichten: die kritische Frage nach dem Ausgangswert ist immer entscheidend.",
+      "safety": null
+    },
+    "video_id": "parinhood:die-maus-zum-hoeren/flatter-flatter",
+    "quelle": "podcast",
+    "live": true
+  }
+]

@@ -1,0 +1,547 @@
+[
+  {
+    "thema_id": 1,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem Sprach-Meme steht der Satz: Der schnelle Streamer gewinnt das Spiel.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "de6-1",
+    "begruendung": "Der kurze Meme-Satz enthält Nomen, Verb und Adjektiv nebeneinander und eignet sich, um die Wortarten als Bausteine jeder Nachricht zu bestimmen.",
+    "einstiegsfrage": "Welches Wort beschreibt, welches benennt und welches sagt, was passiert?",
+    "unterrichtsidee": "Die Klasse markiert in drei Meme-Sätzen Nomen blau, Verben rot und Adjektive grün und sammelt eigene Beispiele.",
+    "schueler_hook": "Jede Nachricht, die du tippst, steckt voller Wortarten – erkennst du sie?",
+    "schueler_challenge": "Schreibe einen eigenen kurzen Satz und markiere darin Nomen, Verb und Adjektiv.",
+    "eltern": {
+      "schulbezug": "Thema Wortarten: Nomen, Verb und Adjektiv erkennen – die Grundbausteine jedes Satzes.",
+      "gespraechsanlass": "Frag dein Kind: 'Welches Wort in »Der schnelle Streamer gewinnt« benennt, welches beschreibt und welches sagt, was passiert?'",
+      "tipp": "Memes und kurze Videotitel sind ideale Mini-Übungen, um Wortarten unterwegs zu suchen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 2,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem Clip-Kommentar steht nur: voll nice das Game.",
+    "quelle": "youtube",
+    "datum": "2026-05",
+    "video_id": "de6-2",
+    "begruendung": "Die verkürzte Aussage hat kein vollständiges Satzgerüst. Sie eignet sich, um Subjekt, Prädikat und Objekt zu ergänzen und einen vollständigen Satz zu bauen.",
+    "einstiegsfrage": "Was fehlt der Aussage »voll nice das Game«, damit es ein vollständiger Satz wird?",
+    "unterrichtsidee": "Die Lernenden schreiben drei Clip-Kommentare in vollständige Sätze um und markieren Subjekt und Prädikat.",
+    "schueler_hook": "Im Netz schreibt man kurz – aber wie wird daraus ein richtiger Satz?",
+    "schueler_challenge": "Mach aus »krass spannend der Stream« einen vollständigen Satz und markiere das Subjekt.",
+    "eltern": {
+      "schulbezug": "Thema Satzbau & Satzglieder: Subjekt, Prädikat und Objekt bestimmen und vollständige Sätze bilden.",
+      "gespraechsanlass": "Frag dein Kind: 'Was fehlt einem kurzen Kommentar wie »voll nice das Game« zu einem ganzen Satz?'",
+      "tipp": "Aus kurzen Kommentaren gemeinsam vollständige Sätze formen – ein lockeres Sprachspiel.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 3,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem Chat steht: das spiel macht voll spass.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "de6-3",
+    "begruendung": "Die Nachricht zeigt fehlende Großschreibung und einen Rechtschreibfehler bei »Spaß«. Sie eignet sich, um Groß-/Kleinschreibung und Schärfung zu üben.",
+    "einstiegsfrage": "Welche Wörter in dieser Chat-Nachricht müssen großgeschrieben werden – und wo steckt ein Schreibfehler?",
+    "unterrichtsidee": "Die Klasse korrigiert gemeinsam einen kurzen Fehlertext aus dem Chat und leitet die Regeln zur Großschreibung ab.",
+    "schueler_hook": "Im Chat schreibt man oft alles klein – aber wie sieht der Satz richtig aus?",
+    "schueler_challenge": "Schreibe »das spiel macht voll spass« vollständig korrekt auf.",
+    "eltern": {
+      "schulbezug": "Thema Rechtschreibung: Groß-/Kleinschreibung sowie Dehnung und Schärfung sicher anwenden.",
+      "gespraechsanlass": "Frag dein Kind: 'Welche Wörter in dieser Nachricht gehören groß und warum?'",
+      "tipp": "Ein lockerer Chat-Satz lässt sich super gemeinsam in eine korrekte Version verwandeln.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 4,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem Podcast wird ein Spiel dreimal hintereinander nur als »cool« beschrieben.",
+    "quelle": "podcast",
+    "datum": "2026-05",
+    "video_id": "de6-4",
+    "begruendung": "Das ständige »cool« zeigt, wie ungenau ein einzelnes Modewort ist. Das motiviert, ein Wortfeld aufzubauen und präziser zu formulieren.",
+    "einstiegsfrage": "Wenn alles nur »cool« heißt – wird dadurch klarer, was wirklich gemeint ist?",
+    "unterrichtsidee": "Die Lernenden bauen ein Wortfeld zu »cool/gut« auf und ersetzen das Modewort in Beispielsätzen durch treffendere Wörter.",
+    "schueler_hook": "Du sagst oft »cool« – aber es gibt viel genauere Wörter dafür.",
+    "schueler_challenge": "Finde drei treffende Wörter, die du statt »cool« benutzen kannst, und baue eines in einen Satz ein.",
+    "eltern": {
+      "schulbezug": "Thema Wortfelder & Synonyme: den Wortschatz erweitern und präziser formulieren.",
+      "gespraechsanlass": "Frag dein Kind: 'Welche genaueren Wörter passen statt »cool« für etwas, das dir gefällt?'",
+      "tipp": "Beim Erzählen über den Tag ab und zu nach einem genaueren Wort fragen – ganz nebenbei.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 5,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem kurzen Märchen-Clip beginnt die Geschichte mit »Es war einmal« und endet mit einem guten Ausgang.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "de6-5",
+    "begruendung": "Der Clip zeigt typische Märchenmerkmale wie die feste Einleitungsformel und das gute Ende. Daran lassen sich Erzählstruktur und Motive erarbeiten.",
+    "einstiegsfrage": "Woran erkennst du im Clip sofort, dass es sich um ein Märchen handelt?",
+    "unterrichtsidee": "Die Klasse sammelt Märchenmerkmale aus dem Clip (Zauber, Gut/Böse, Dreizahl, gutes Ende) und markiert sie in einem Kurzmärchen.",
+    "schueler_hook": "Auch moderne Clips folgen oft uralten Märchen-Regeln – fallen sie dir auf?",
+    "schueler_challenge": "Schreibe einen Märchenanfang in einem Satz, der typisch klingt.",
+    "eltern": {
+      "schulbezug": "Thema Märchen: typische Merkmale, Motive und die Erzählstruktur wiedererkennen.",
+      "gespraechsanlass": "Frag dein Kind: 'Welche typischen Märchenmerkmale stecken in dem Clip?'",
+      "tipp": "Bei bekannten Geschichten gemeinsam überlegen, was sie zu einem Märchen macht.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 6,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem kurzen Clip handelt ein Fuchs schlau und überlistet ein anderes Tier.",
+    "quelle": "youtube",
+    "datum": "2026-05",
+    "video_id": "de6-6",
+    "begruendung": "Tiere mit menschlichen Eigenschaften und eine Lehre am Ende sind typisch für Fabeln. Der Clip eignet sich, um Fabeltiere und Moral zu erkennen.",
+    "einstiegsfrage": "Welche menschliche Eigenschaft zeigt der Fuchs in diesem Clip?",
+    "unterrichtsidee": "Die Lernenden ordnen typischen Fabeltieren ihre Eigenschaften zu und formulieren eine passende Moral.",
+    "schueler_hook": "Wenn Tiere wie Menschen handeln, steckt oft eine Botschaft dahinter – findest du sie?",
+    "schueler_challenge": "Schreibe in einem Satz eine Moral, die zu einer schlauen Fuchs-Geschichte passt.",
+    "eltern": {
+      "schulbezug": "Thema Fabeln: Fabeltiere, ihre Eigenschaften und die Moral als Lehre erkennen.",
+      "gespraechsanlass": "Frag dein Kind: 'Welche Eigenschaft hat der Fuchs und was will die Geschichte uns sagen?'",
+      "tipp": "Bei Tier-Clips kurz fragen, welche menschliche Eigenschaft das Tier zeigt.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 7,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einer Rap-Zeile reimen sich am Ende »Zeit« und »weit« im Takt.",
+    "quelle": "podcast",
+    "datum": "2026-06",
+    "video_id": "de6-7",
+    "begruendung": "Reime und Rhythmus stecken in jedem Rap. Daran lassen sich Reimformen und Betonung wie bei einem Gedicht erarbeiten.",
+    "einstiegsfrage": "Wo in der Rap-Zeile hörst du den Reim und wo den Rhythmus?",
+    "unterrichtsidee": "Die Lernenden suchen Reimpaare in einer Rap-Zeile und schreiben anschließend zwei eigene Reimzeilen.",
+    "schueler_hook": "Dein Lieblingssong steckt voller Reime – genau wie ein Gedicht.",
+    "schueler_challenge": "Schreibe zwei Zeilen, die sich am Ende reimen.",
+    "eltern": {
+      "schulbezug": "Thema Gedichte: Reim, Rhythmus und Stilmittel erkennen und selbst Reime bilden.",
+      "gespraechsanlass": "Frag dein Kind: 'Welche Wörter reimen sich in deinem Lieblingssong?'",
+      "tipp": "Songtexte sind ein toller Einstieg, um Reim und Takt gemeinsam herauszuhören.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 8,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem Storytime-Video erzählt jemand, was zuerst, dann und schließlich passiert ist.",
+    "quelle": "youtube",
+    "datum": "2026-05",
+    "video_id": "de6-8",
+    "begruendung": "Storytime-Formate erzählen Ereignisse in einer Reihenfolge. Daran lässt sich geordnetes Nacherzählen mit Signalwörtern üben.",
+    "einstiegsfrage": "In welcher Reihenfolge erzählt die Person, was passiert ist?",
+    "unterrichtsidee": "Die Klasse sammelt Signalwörter (zuerst, dann, danach, schließlich) und erzählt eine kurze Geschichte in vier geordneten Sätzen nach.",
+    "schueler_hook": "Storytime-Videos funktionieren nur, wenn die Reihenfolge stimmt – das ist Nacherzählen.",
+    "schueler_challenge": "Erzähle eine kurze Geschichte in drei Sätzen nach – mit Anfang, Mitte und Ende.",
+    "eltern": {
+      "schulbezug": "Thema Nacherzählen: Inhalte geordnet und in eigenen Worten wiedergeben.",
+      "gespraechsanlass": "Frag dein Kind: 'Was ist in dem Video zuerst, dann und am Ende passiert?'",
+      "tipp": "Beim Erzählen vom Tag auf eine klare Reihenfolge achten – das übt Nacherzählen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 9,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem Buch-Tipp-Clip fasst ein Klappentext in wenigen Sätzen zusammen, worum es geht.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "de6-9",
+    "begruendung": "Ein kurzer Klappentext liefert die wichtigsten Informationen knapp. Daran lässt sich gezieltes Leseverstehen mit W-Fragen üben.",
+    "einstiegsfrage": "Worum geht es laut Klappentext in einem Satz?",
+    "unterrichtsidee": "Die Lernenden lesen einen kurzen Klappentext, beantworten W-Fragen (Wer? Wo? Was?) und fassen ihn in einem Satz zusammen.",
+    "schueler_hook": "Ein Klappentext verrät in wenigen Sätzen das Wichtigste – kannst du es herauslesen?",
+    "schueler_challenge": "Schreibe in einem Satz, worum es in einem Text oder Buch geht.",
+    "eltern": {
+      "schulbezug": "Thema Leseverstehen: einem Text gezielt die wichtigen Informationen entnehmen.",
+      "gespraechsanlass": "Frag dein Kind: 'Was sind die wichtigsten Infos in diesem kurzen Text?'",
+      "tipp": "Klappentexte oder kurze Beschreibungen gemeinsam auf ihre Kernaussage abklopfen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 10,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem Erklärvideo startet die Person mit einem klaren Einstieg, hält Blickkontakt und erklärt Schritt für Schritt.",
+    "quelle": "youtube",
+    "datum": "2026-05",
+    "video_id": "de6-10",
+    "begruendung": "Gute Erklärvideos sind klar strukturiert und sprechen die Zuschauer direkt an. Das eignet sich als Vorbild für einen eigenen Kurzvortrag.",
+    "einstiegsfrage": "Was macht den Einstieg dieses Erklärvideos verständlich und ansprechend?",
+    "unterrichtsidee": "Die Lernenden planen einen Mini-Vortrag mit Einstieg, zwei Punkten und Schluss und geben sich gegenseitig Feedback.",
+    "schueler_hook": "Ein gutes Erklärvideo und ein guter Vortrag funktionieren nach denselben Regeln.",
+    "schueler_challenge": "Plane einen kurzen Vortrag: ein Einstieg, zwei Punkte und ein Schluss.",
+    "eltern": {
+      "schulbezug": "Thema Präsentieren & Sprechen: einen klar strukturierten Vortrag frei halten.",
+      "gespraechsanlass": "Frag dein Kind: 'Was macht ein Erklärvideo verständlich – und was hilft auch bei einem Vortrag?'",
+      "tipp": "Ein Lieblings-Erklärvideo gemeinsam ansehen und auf Aufbau und Blickkontakt achten.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem Werbeclip wird ein Produkt als »das beste aller Zeiten« angepriesen.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "de6-11",
+    "begruendung": "Superlative und Übertreibungen sind typische Werbe-Tricks. Daran lässt sich erkennen, wie Sprache online wirkt und beeinflusst.",
+    "einstiegsfrage": "Mit welchen Wörtern lässt die Werbung das Produkt größer wirken, als es ist?",
+    "unterrichtsidee": "Die Klasse sammelt Übertreibungswörter aus Werbung und schreibt übertriebene Sätze sachlich um.",
+    "schueler_hook": "Werbung übertreibt mit Absicht – erkennst du die typischen Wörter?",
+    "schueler_challenge": "Schreibe »Das beste Produkt aller Zeiten!« in einen sachlichen Satz um.",
+    "eltern": {
+      "schulbezug": "Thema Medien & Sprache: erkennen, wie Sprache in Werbung und Social Media wirkt und beeinflusst.",
+      "gespraechsanlass": "Frag dein Kind: 'Welche Wörter machen die Werbung dramatischer, als die Sache wirklich ist?'",
+      "tipp": "Gemeinsam Werbe-Slogans aufspüren und überlegen, was daran übertrieben ist – gute Medienkompetenz.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 12,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem Clip fällt ein unbekanntes Wort, und in den Kommentaren raten alle, was es bedeutet.",
+    "quelle": "youtube",
+    "datum": "2026-05",
+    "video_id": "de6-12",
+    "begruendung": "Statt zu raten, lässt sich die Bedeutung im Wörterbuch nachschlagen und mit Quellen prüfen. Genau das ist das Thema Recherche.",
+    "einstiegsfrage": "Wie findest du sicher heraus, was ein unbekanntes Wort aus dem Clip wirklich bedeutet?",
+    "unterrichtsidee": "Die Lernenden schlagen drei Wörter nach, notieren die Quelle und vergleichen, warum man Infos mit zwei Quellen prüft.",
+    "schueler_hook": "Ein unbekanntes Wort? Nachschlagen ist sicherer als raten.",
+    "schueler_challenge": "Schlage die Bedeutung eines Wortes nach und schreibe die Quelle dazu.",
+    "eltern": {
+      "schulbezug": "Thema Wörterbuch & Recherche: Bedeutungen nachschlagen und Quellen prüfen statt raten.",
+      "gespraechsanlass": "Frag dein Kind: 'Wo schlägst du nach, wenn du ein Wort nicht kennst – und woher weißt du, dass die Info stimmt?'",
+      "tipp": "Bei unbekannten Wörtern gemeinsam nachschlagen und kurz überlegen, ob die Quelle verlässlich ist.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 13,
+    "bubble_id": "klasse_6",
+    "fach": "Deutsch",
+    "szenario": "In einem Live-Chat taucht der Satz auf: Er sagte ich bin der Beste.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "de6-13",
+    "begruendung": "Der Satz enthält eine Redewiedergabe, bei der das Komma fehlt. Solche Chat-Sätze eignen sich, um Kommas bei wörtlicher Rede, Aufzählung und Einschub zu üben.",
+    "einstiegsfrage": "Wo müsste ein Komma stehen, damit klar wird, wer hier spricht?",
+    "unterrichtsidee": "Die Klasse sammelt fünf Chat-Sätze ohne Satzzeichen und setzt gemeinsam Kommas für die Redewiedergabe ein.",
+    "schueler_hook": "Du schreibst täglich Sätze im Chat – aber wo gehören da die Kommas hin?",
+    "schueler_challenge": "Schreibe den Satz zweimal: einmal als wörtliche Rede mit Anführungszeichen, einmal als indirekte Rede.",
+    "eltern": {
+      "schulbezug": "Thema Kommasetzung: Kommas bei Aufzählung, Einschub und Redewiedergabe richtig setzen.",
+      "gespraechsanlass": "Frag dein Kind: 'Wenn jemand schreibt »Er sagte ich bin der Beste« – wo fehlt ein Komma und warum?'",
+      "tipp": "Chats sind perfekte Übung: eine kurze Nachricht zeigen und überlegen, wo Kommas hingehören.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_6",
+    "szenario": "In einem Podcast wird erklärt, warum manche Menschen unglaublich reich sind – und wie Sprache genutzt wird, um das ganz selbstverständlich klingen zu lassen. Begriffe wie 'Kapital', 'Rendite' oder 'Chancengerechtigkeit' tauchen dabei auf.",
+    "begruendung": "Der Podcast-Inhalt zeigt, wie Sprache und Framing eingesetzt werden, um gesellschaftliche Themen zu prägen – genau das ist der Kern von 'Medien & Sprache'. Schülerinnen und Schüler können untersuchen, welche Wörter Meinungen lenken.",
+    "einstiegsfrage": "Wenn jemand sagt 'Die Reichen haben sich ihren Erfolg verdient' – ist das eine Tatsache oder eine Meinung, und wie merkt man den Unterschied?",
+    "unterrichtsidee": "Die Lehrkraft zeigt zwei kurze Aussagen über Reichtum (eine wertend, eine neutral). In Partnerarbeit markieren die Schüler Wörter, die eine Meinung verraten, und formulieren eine Aussage sachlich um. Ergebnisse werden kurz vorgestellt.",
+    "schueler_hook": "Hast du dich schon mal gefragt, ob Nachrichten oder Podcasts dich ohne Absicht beeinflussen – einfach durch die Wörter, die sie benutzen?",
+    "schueler_challenge": "Such in einem kurzen Text über Reichtum drei Wörter, die eine Meinung verstecken, und tausch sie gegen neutrale Wörter aus.",
+    "eltern": {
+      "schulbezug": "Im Deutschunterricht lernen Kinder, wie Sprache in Medien Meinungen beeinflussen kann – zum Beispiel durch gezielte Wortwahl in Nachrichten, Werbung oder Podcasts.",
+      "gespraechsanlass": "Habt ihr schon mal bemerkt, dass ein Text oder ein Beitrag euch anders fühlen lässt, je nachdem welche Wörter benutzt werden?",
+      "tipp": "Lest zusammen mal eine kurze Nachricht und fragt: Welche Wörter sind Fakten, welche sind Meinungen?",
+      "safety": "Dieser Podcast behandelt Themen wie Reichtum und Ungleichheit, die politisch unterschiedlich bewertet werden können. Es lohnt sich, mit Ihrem Kind über verschiedene Sichtweisen zu sprechen und zu erklären, dass Medien immer einen Blickwinkel haben."
+    },
+    "video_id": "parinhood:unboxing-news-deutschlandfunk-nova/billionen-die-wahrheit-ueber-deutschlands-superreiche",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 9,
+    "bubble_id": "klasse_6",
+    "szenario": "Ein Podcast-Ausschnitt erklärt, wie Superreiche ihr Vermögen vermehren. Der Text ist informativ, enthält Fachbegriffe und muss genau gelesen werden, um die Hauptaussagen zu verstehen.",
+    "begruendung": "Solche sachlichen, informierenden Texte sind ideales Material fürs Leseverstehen – Schülerinnen und Schüler üben, Informationen gezielt zu entnehmen, Fachbegriffe einzuordnen und Kernaussagen zu benennen.",
+    "einstiegsfrage": "Wenn du einen Text über Reichtum liest – wie findest du heraus, was die wichtigste Aussage ist?",
+    "unterrichtsidee": "Die Lehrkraft gibt einen kurzen vereinfachten Sachtext (4–6 Sätze) über wirtschaftliche Ungleichheit. Schüler lesen ihn zweimal, unterstreichen die Hauptinformation und beantworten drei W-Fragen (Wer? Was? Warum?) schriftlich. Gemeinsame Auswertung im Plenum.",
+    "schueler_hook": "Stell dir vor, du sollst nach dem Lesen jemandem erklären, worum es geht – kannst du die eine wichtigste Aussage des Textes in einem Satz sagen?",
+    "schueler_challenge": "Lies den kurzen Text und schreib in einem Satz auf, was die Hauptaussage ist – ohne abzuschreiben.",
+    "eltern": {
+      "schulbezug": "Leseverstehen ist ein zentrales Thema in der 6. Klasse: Kinder lernen, Informationen aus Texten gezielt herauszulesen, Wichtiges von Unwichtigem zu trennen und Fragen zum Text zu beantworten.",
+      "gespraechsanlass": "Wenn ihr zusammen etwas lest – fragt euer Kind danach: Was war die wichtigste Information? Kannst du es mit eigenen Worten erklären?",
+      "tipp": "Kurze Sachtexte aus dem Alltag (z. B. Zeitungsartikel für Kinder) sind super zum Üben – auch fünf Minuten reichen.",
+      "safety": null
+    },
+    "video_id": "parinhood:unboxing-news-deutschlandfunk-nova/billionen-die-wahrheit-ueber-deutschlands-superreiche",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 4,
+    "bubble_id": "klasse_6",
+    "szenario": "Im Podcast fallen viele komplizierte Wörter: 'Vermögen', 'Ungleichheit', 'Erbschaft', 'Kapitalanlage'. Manche klingen wichtig, aber was bedeuten sie eigentlich – und gibt es einfachere Wörter dafür?",
+    "begruendung": "Der Wortschatz rund um Reichtum und Wirtschaft bietet einen direkten Einstieg in Wortfelder und Synonyme – Schülerinnen und Schüler üben, Bedeutungen zu erschließen und präzise Alternativen zu finden.",
+    "einstiegsfrage": "Was ist der Unterschied zwischen 'reich', 'wohlhabend' und 'vermögend' – oder meinen alle drei dasselbe?",
+    "unterrichtsidee": "Die Lehrkraft schreibt fünf Wörter aus dem Thema an die Tafel (z. B. Reichtum, Erbschaft, Gerechtigkeit, Vermögen, Ungleichheit). Schüler ordnen sie in Wortfelder, suchen Synonyme und überlegen, welches Wort am stärksten wirkt. Ergebnisse werden verglichen.",
+    "schueler_hook": "Hast du dich schon mal gefragt, warum man nicht einfach 'viel Geld' sagt, sondern 'Vermögen' – und ob das einen Unterschied macht?",
+    "schueler_challenge": "Such zu dem Wort 'Reichtum' mindestens drei Synonyme und erkläre, ob sie alle genau dasselbe bedeuten oder kleine Unterschiede haben.",
+    "eltern": {
+      "schulbezug": "In der 6. Klasse erweitern Kinder ihren Wortschatz gezielt: Sie lernen, Synonyme zu finden, Wortfelder aufzubauen und Wörter präzise einzusetzen – eine wichtige Grundlage für Aufsätze und Texte.",
+      "gespraechsanlass": "Fragt euer Kind beim nächsten Gespräch: Fällt dir ein anderes Wort ein, das dasselbe bedeutet – aber anders klingt?",
+      "tipp": "Ein Kinderduden oder eine Synonymdatenbank im Internet (z. B. openthesaurus.de) macht Wortschatz-Üben zu einem kleinen Entdeckungsspiel.",
+      "safety": null
+    },
+    "video_id": "parinhood:unboxing-news-deutschlandfunk-nova/billionen-die-wahrheit-ueber-deutschlands-superreiche",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_6",
+    "szenario": "In einem Podcast erklärt ein KI-Experte, wie Computer heute Stimmen so täuschend echt nachahmen können, dass man kaum noch unterscheiden kann, ob ein Mensch oder eine Maschine spricht – und wie das unsere Welt verändern könnte.",
+    "begruendung": "Der Inhalt zeigt direkt, wie Sprache und Technologie zusammenhängen und wie KI gezielt eingesetzt werden kann, um Menschen zu beeinflussen – das ist ein idealer Einstieg in die Frage, wie Sprache Macht hat und wie Medien uns manipulieren können.",
+    "einstiegsfrage": "Wenn eine KI die Stimme deiner Lieblingssängerin oder deines Lieblingslehrers perfekt nachahmen kann – wer trägt dann die Verantwortung für das, was diese Stimme sagt?",
+    "unterrichtsidee": "Die Lehrkraft spielt zwei kurze Audioschnipsel vor (ein echter Mensch, eine KI-Stimme) – die Schülerinnen und Schüler versuchen zu unterscheiden, wer spricht. Anschließend sammeln sie in Kleingruppen Adjektive und Formulierungen, die KI-Werbung oder KI-Texte nutzen könnten, um Menschen zu überzeugen, und halten ihre Ergebnisse auf einem Plakat fest.",
+    "schueler_hook": "Stell dir vor, jemand lässt eine KI mit deiner Stimme sprechen – ohne dass du es weißt.",
+    "schueler_challenge": "Schreib drei Sätze, wie eine KI klingen könnte, um dich von etwas zu überzeugen – und dann drei Sätze, woran du merken würdest, dass da etwas nicht stimmt.",
+    "eltern": {
+      "schulbezug": "Im Deutschunterricht lernen die Schülerinnen und Schüler, wie Sprache in Medien und Werbung eingesetzt wird, um Meinungen zu beeinflussen – ein zentrales Thema im Lehrplan für Klasse 6.",
+      "gespraechsanlass": "Hast du schon mal einen Text oder eine Nachricht bekommen, bei dem du nicht sicher warst, ob ihn ein Mensch oder eine Maschine geschrieben hat?",
+      "tipp": "Sprechen Sie mit Ihrem Kind darüber, wie man im Alltag überprüfen kann, ob eine Information wirklich echt ist – das stärkt den kritischen Umgang mit Medien.",
+      "safety": null
+    },
+    "video_id": "parinhood:so-techt-deutschland-der-tech-podcast/gordian-braun-vielleicht-koennen-wir-gedanken-auslesen",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 9,
+    "bubble_id": "klasse_6",
+    "szenario": "Ein Podcast-Ausschnitt beschreibt, wie KI-Stimmen funktionieren und was das für Berufe wie Synchronsprecher oder Musiker bedeuten könnte – ein kurzer, informativer Sachtext zum Hören und Verstehen.",
+    "begruendung": "Der erklärende Inhalt des Podcasts lässt sich hervorragend als Hör- oder Lesetext nutzen, aus dem Schülerinnen und Schüler gezielt Informationen entnehmen und die Hauptaussagen benennen müssen – genau die Kernkompetenz im Leseverstehen.",
+    "einstiegsfrage": "Was sind die wichtigsten Informationen aus dem Podcast – und welche Fragen bleiben danach noch offen?",
+    "unterrichtsidee": "Die Lehrkraft liest einen kurzen adaptierten Textausschnitt über KI-Stimmen vor (ca. 150 Wörter). Die Schülerinnen und Schüler notieren still fünf Schlüsselwörter, beantworten dann drei vorbereitete W-Fragen (Wer? Was? Warum?) schriftlich und vergleichen ihre Antworten mit einer Partnerin oder einem Partner.",
+    "schueler_hook": "Kannst du nach nur einmal Zuhören die wichtigsten Infos eines Textes wiedergeben – wie ein menschliches KI-System?",
+    "schueler_challenge": "Lies den Text einmal durch und beantworte: Was macht die KI genau, wen betrifft das und was könnte in Zukunft passieren? Antworte in drei vollständigen Sätzen.",
+    "eltern": {
+      "schulbezug": "Texte verstehen und gezielt Informationen entnehmen ist eine der wichtigsten Grundkompetenzen im Deutschunterricht – geübt wird das anhand aktueller, alltagsnaher Themen wie diesem.",
+      "gespraechsanlass": "Was glaubst du, wie verändert KI Berufe, die mit Stimme und Sprache zu tun haben?",
+      "tipp": "Üben Sie Leseverstehen zu Hause, indem Sie gemeinsam einen kurzen Zeitungsartikel lesen und danach gegenseitig Fragen zum Inhalt stellen.",
+      "safety": null
+    },
+    "video_id": "parinhood:so-techt-deutschland-der-tech-podcast/gordian-braun-vielleicht-koennen-wir-gedanken-auslesen",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 10,
+    "bubble_id": "klasse_6",
+    "szenario": "Ein KI-Experte hält in einem Podcast einen klar strukturierten Vortrag über Sprachsynthese – dabei erklärt er komplizierte Dinge so, dass auch Laien sie verstehen können.",
+    "begruendung": "Die Art, wie der Experte im Podcast ein komplexes Thema verständlich und strukturiert erklärt, ist ein authentisches Vorbild für einen guten Vortrag – und motiviert Schülerinnen und Schüler, selbst ein Thema so aufzubereiten, dass andere es verstehen.",
+    "einstiegsfrage": "Was macht einen Vortrag so gut, dass die Zuhörerinnen und Zuhörer wirklich etwas lernen und nicht abschalten?",
+    "unterrichtsidee": "Die Schülerinnen und Schüler wählen in Paaren ein einfaches Technik-Thema (z. B. 'Wie funktioniert eine App?') und bereiten in 10 Minuten eine 2-minütige Erklärung vor, die sie dann vor der Klasse halten. Die Klasse gibt anschließend kurzes Feedback: Was war verständlich? Was war unklar?",
+    "schueler_hook": "Kannst du ein kompliziertes Thema so erklären, dass sogar deine Oma es versteht?",
+    "schueler_challenge": "Erkläre in drei Sätzen, wie KI eine Stimme nachmachen könnte – so einfach, dass ein Zweitklässler es verstehen würde.",
+    "eltern": {
+      "schulbezug": "Im Deutschunterricht lernen Kinder, vor anderen zu sprechen, Inhalte strukturiert vorzutragen und ihr Publikum anzusprechen – eine Kompetenz, die in Schule und Beruf wichtig ist.",
+      "gespraechsanlass": "Worüber würdest du gerne mal einen Vortrag halten – und warum?",
+      "tipp": "Ermutigen Sie Ihr Kind, zu Hause kleine 'Erklärungen' zu üben – zum Beispiel beim Abendessen ein Thema aus der Schule so erklären, als wäre es das erste Mal, dass jemand davon hört.",
+      "safety": null
+    },
+    "video_id": "parinhood:so-techt-deutschland-der-tech-podcast/gordian-braun-vielleicht-koennen-wir-gedanken-auslesen",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 9,
+    "bubble_id": "klasse_6",
+    "szenario": "In einem Podcast hörst du, dass Menschen vor 5.000 Jahren schon Toiletten hatten – und heute noch Milliarden Menschen keine haben. Du willst wissen: Stimmt das wirklich?",
+    "begruendung": "Der Podcast liefert spannende Sachinformationen, die Schüler motivieren, einen Text genau zu lesen und gezielte Informationen zu entnehmen. Die ungewöhnlichen Fakten wecken echte Neugier fürs Textverstehen.",
+    "einstiegsfrage": "Wie viele Informationen kannst du aus einem Text über die Geschichte der Toilette herauslesen – und welche sind wirklich wichtig?",
+    "unterrichtsidee": "Die Lehrkraft teilt einen kurzen Sachtext zur Geschichte der Toilette aus. Die Schüler lesen ihn still und markieren: 3 wichtige Fakten, 1 überraschende Information und 1 Frage, die der Text offen lässt. Danach Kurz-Austausch im Tandem.",
+    "schueler_hook": "Wusstest du, dass es vor 5.000 Jahren schon Toiletten gab – und du gleich herausfindest, was das mit deinem Leseverstehen zu tun hat?",
+    "schueler_challenge": "Lies den Text und notiere in 3 Sätzen: Was war früher anders, was ist heute noch ein Problem und was hat dich am meisten überrascht?",
+    "eltern": {
+      "schulbezug": "Im Deutschunterricht lernen Kinder, Texte genau zu lesen und gezielt Informationen herauszusuchen – eine wichtige Grundlage für alle Fächer.",
+      "gespraechsanlass": "Was glaubst du, wie viele Menschen weltweit keine saubere Toilette haben – und wie findet man so etwas eigentlich heraus?",
+      "tipp": "Sprechen Sie zuhause ruhig über globale Unterschiede im Alltag – das hilft Ihrem Kind, Texte mit echtem Interesse zu lesen.",
+      "safety": null
+    },
+    "video_id": "parinhood:kakadu-der-kinderpodcast/kakadu-eure-fragen-wer-hat-eigentlich-das-klo-erfunden",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 8,
+    "bubble_id": "klasse_6",
+    "szenario": "Du hast gerade einen Podcast über die verrückte Geschichte der Toilette gehört – von der Antike bis heute. Jetzt sollst du jemandem erzählen, was du mitgenommen hast.",
+    "begruendung": "Eine Geschichte mit klarem zeitlichem Ablauf – von Mesopotamien bis zur modernen Spülung – ist perfekt, um Nacherzählen zu üben: Reihenfolge einhalten, Hauptpunkte nennen, verständlich formulieren.",
+    "einstiegsfrage": "Wenn du jemandem die Geschichte der Toilette in 5 Sätzen erklären müsstest – wo würdest du anfangen und was lässt du weg?",
+    "unterrichtsidee": "Die Lehrkraft präsentiert vier Stationen der Toilettengeschichte (z. B. Mesopotamien, Rom, Mittelalter, heute) als kurze Stichpunkte an der Tafel. Schüler bringen sie in die richtige Reihenfolge und schreiben dann eine kurze Nacherzählung (5–7 Sätze) mit Einleitung, Hauptteil und Schluss.",
+    "schueler_hook": "Stell dir vor, du erzählst deiner kleinen Geschwister die 5.000-jährige Geschichte der Toilette – kannst du das in einer Minute schaffen?",
+    "schueler_challenge": "Schreib 5 Sätze: Erzähle die wichtigsten Stationen der Toilettengeschichte in der richtigen Reihenfolge – benutze Wörter wie 'zuerst', 'dann', 'später' und 'heute'.",
+    "eltern": {
+      "schulbezug": "Nacherzählen ist ein zentrales Thema im Deutschunterricht: Kinder üben, Inhalte in der richtigen Reihenfolge und mit eigenen Worten wiederzugeben.",
+      "gespraechsanlass": "Kannst du mir erzählen, was du über die Geschichte der Toilette weißt – in der richtigen Reihenfolge?",
+      "tipp": "Üben Sie Nacherzählen ganz entspannt beim Abendessen: 'Was habt ihr heute in der Schule besprochen?' hilft dabei enorm.",
+      "safety": null
+    },
+    "video_id": "parinhood:kakadu-der-kinderpodcast/kakadu-eure-fragen-wer-hat-eigentlich-das-klo-erfunden",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 4,
+    "bubble_id": "klasse_6",
+    "szenario": "In einem Podcast wird das Wort 'Toilette' vermieden und stattdessen reden alle von 'Sanitäranlagen', 'stille Örtlichkeit' oder 'Klo'. Du fragst dich: Warum sagen Menschen das nicht einfach direkt?",
+    "begruendung": "Der Podcast thematisiert Entstigmatisierung und benutzt verschiedene Begriffe für dasselbe – das ist ein idealer Einstieg in Wortfelder und Synonyme und die Frage, warum Sprache manchmal Dinge verschleiert oder abschwächt.",
+    "einstiegsfrage": "Warum gibt es so viele verschiedene Wörter für 'Toilette' – und was sagt das darüber aus, wie Sprache funktioniert?",
+    "unterrichtsidee": "Schüler sammeln in 3 Minuten alle Synonyme für 'Toilette', die ihnen einfallen (Klo, WC, stille Örtlichkeit, Sanitäranlage …). Die Lehrkraft ordnet sie gemeinsam mit der Klasse nach Stil: formell, umgangssprachlich, veraltert. Dann übertragen die Schüler das Prinzip auf ein anderes Wortfeld (z. B. 'gehen', 'essen', 'sprechen').",
+    "schueler_hook": "Für 'Toilette' gibt es mindestens 10 verschiedene Wörter – weißt du, welche davon du in einem Brief an die Schule benutzen würdest und welche nicht?",
+    "schueler_challenge": "Finde 5 Synonyme für 'Toilette' und ordne sie: Welches klingt formell, welches umgangssprachlich, welches lustig? Erkläre kurz, warum.",
+    "eltern": {
+      "schulbezug": "Im Deutschunterricht erweitern Kinder ihren Wortschatz und lernen, dass verschiedene Wörter mit ähnlicher Bedeutung unterschiedlich wirken – je nach Situation.",
+      "gespraechsanlass": "Weißt du, warum man manche Dinge im Deutschen mit vielen verschiedenen Wörtern beschreiben kann – und warum man nicht immer dasselbe Wort benutzt?",
+      "tipp": "Spielen Sie zuhause 'Wie viele Wörter fallen uns ein?' zu einem alltäglichen Begriff – das macht Spaß und trainiert Wortschatz ganz nebenbei.",
+      "safety": null
+    },
+    "video_id": "parinhood:kakadu-der-kinderpodcast/kakadu-eure-fragen-wer-hat-eigentlich-das-klo-erfunden",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 8,
+    "bubble_id": "klasse_6",
+    "szenario": "In einem Podcast hört ihr die Geschichte von Scarlett, einer Spinnen-Forscherin, die lange allein ist – bis sie den Leuchtkäfer Lennart kennenlernt, der sie so akzeptiert, wie sie ist.",
+    "begruendung": "Die Geschichte hat eine klare Handlung mit Anfang, Wendepunkt und Ende – perfekt, um das Nacherzählen in eigenen Worten zu üben. Schülerinnen und Schüler müssen Hauptfiguren, Reihenfolge und wichtige Ereignisse erkennen und wiedergeben.",
+    "einstiegsfrage": "Wenn du jemandem erzählst, was in der Geschichte passiert – welche drei Dinge dürfen auf keinen Fall fehlen?",
+    "unterrichtsidee": "Die Klasse hört ein kurzes Podcast-Segment (oder liest eine Zusammenfassung) und schreibt danach in 10 Minuten eine Nacherzählung in 5 Sätzen: Wer ist Scarlett? Was ist ihr Problem? Wie begegnet sie Lennart? Was ändert sich? Wie endet es? Paare vergleichen ihre Versionen und schauen, was sie unterschiedlich gewichtet haben.",
+    "schueler_hook": "Du erfährst, wie eine mutige Forscherin einen unerwarteten Freund findet – und lernst dabei, eine Geschichte so zu erzählen, dass andere sie sofort verstehen.",
+    "schueler_challenge": "Schreib in genau 3 Sätzen nach, was in der Geschichte passiert – ohne ein einziges Mal das Wort 'und dann' zu benutzen!",
+    "eltern": {
+      "schulbezug": "Im Deutschunterricht lernen die Kinder, Texte und Geschichten in eigenen Worten wiederzugeben – geordnet, vollständig und mit den wichtigsten Informationen. Das nennt sich Nacherzählen.",
+      "gespraechsanlass": "Kannst du mir die Geschichte von Scarlett und Lennart so erzählen, dass ich sie sofort verstehe – ohne dass ich sie selbst gehört habe?",
+      "tipp": "Hört gemeinsam eine kurze Geschichte oder Folge und fragt danach: Wer? Was? Warum? – das trainiert genau die Fähigkeit, die in der Schule gebraucht wird.",
+      "safety": null
+    },
+    "video_id": "parinhood:ohrenbaer-podcast/scarlett-spinnt-den-besten-plan-17-gruene-kringel-in-der-nacht",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 6,
+    "bubble_id": "klasse_6",
+    "szenario": "In einem Podcast begegnet ihr Scarlett der Spinne und Lennart dem Leuchtkäfer – zwei Tiere mit sehr unterschiedlichen Fähigkeiten, die trotzdem Freunde werden. Am Ende steckt eine Botschaft dahinter.",
+    "begruendung": "Tiere als Hauptfiguren mit einer klaren Botschaft (Toleranz, Mut, Freundschaft) sind das klassische Fabelprinzip. Der Podcast-Inhalt lässt sich direkt als Einstieg nutzen, um Fabeltiere, Moral und kurze Erzählform zu verstehen.",
+    "einstiegsfrage": "Was könnte die 'Moral der Geschichte' von Scarlett und Lennart sein – und wie würdest du sie in einem einzigen Satz aufschreiben?",
+    "unterrichtsidee": "Die Schülerinnen und Schüler bekommen die Aufgabe, aus der Podcast-Geschichte eine Mini-Fabel zu schreiben: maximal 8 Sätze, zwei Tiere als Figuren, eine klare Moral am Ende. Wer möchte, kann seine Fabel der Klasse vorlesen. Gemeinsam wird verglichen, welche Moralen die Klasse gefunden hat.",
+    "schueler_hook": "Stell dir vor, du könntest aus einer echten Geschichte eine Fabel machen – mit Tieren, Spannung und einer geheimen Botschaft am Ende!",
+    "schueler_challenge": "Schreib die Moral der Scarlett-Geschichte als einen einzigen Satz, der mit 'Wer ..., der ...' beginnt.",
+    "eltern": {
+      "schulbezug": "Fabeln sind ein wichtiges Thema in Klasse 6: Kinder lernen, wie kurze Tiergeschichten aufgebaut sind und welche Lebensweisheit (Moral) dahintersteckt.",
+      "gespraechsanlass": "Welche Botschaft steckt deiner Meinung nach in der Geschichte von Scarlett und Lennart?",
+      "tipp": "Wenn Ihr gemeinsam Filme oder Serien schaut, fragt danach ruhig mal: Was ist die Botschaft der Geschichte? Das übt genau den Fabel-Blick aus dem Unterricht.",
+      "safety": null
+    },
+    "video_id": "parinhood:ohrenbaer-podcast/scarlett-spinnt-den-besten-plan-17-gruene-kringel-in-der-nacht",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 5,
+    "bubble_id": "klasse_6",
+    "szenario": "Ein Podcast erzählt von Scarlett, die wegen ihrer Leidenschaft für Spinnen von anderen abgelehnt wird – bis ein Leuchtkäfer ihr Leben verändert. Die Geschichte klingt fast wie ein modernes Märchen.",
+    "begruendung": "Die Geschichte enthält typische Märchenmerkmale: eine Außenseiterin als Heldin, eine Prüfung (Einsamkeit, Ablehnung), eine helfende Figur und eine positive Wendung. Das macht den Inhalt zum idealen Einstieg, um Märchenmerkmale und Erzählstruktur zu erkennen.",
+    "einstiegsfrage": "Welche typischen Märchen-Zutaten erkennst du in der Geschichte von Scarlett – und was fehlt, damit es ein richtiges Märchen wäre?",
+    "unterrichtsidee": "Die Klasse bekommt eine Liste mit klassischen Märchenmerkmalen (z.B. magische Figuren, Dreizahl, glückliches Ende, einfache Gut-Böse-Einteilung). In Gruppen prüfen sie: Welche Merkmale hat die Scarlett-Geschichte? Welche fehlen? Anschließend überlegen sie: Was müsste man ändern, damit die Geschichte ein echtes Märchen wird?",
+    "schueler_hook": "Ist die Geschichte von Scarlett eigentlich ein Märchen – oder fehlt da noch etwas? Finde es heraus!",
+    "schueler_challenge": "Nenne zwei Dinge, die die Geschichte mit einem Märchen gemeinsam hat, und eines, das fehlt – und erkläre kurz warum.",
+    "eltern": {
+      "schulbezug": "In Klasse 6 analysieren die Kinder Märchen: Sie lernen typische Merkmale (Heldin in Not, helfende Figur, glückliches Ende) und den Aufbau solcher Geschichten zu erkennen.",
+      "gespraechsanlass": "Welches Märchen erinnert dich an die Geschichte von Scarlett – und warum?",
+      "tipp": "Lest gemeinsam ein klassisches Märchen und fragt: Wer ist die Heldin? Wer hilft ihr? Wie endet es? So übt Ihr zuhause genau das, was im Unterricht gefragt wird.",
+      "safety": null
+    },
+    "video_id": "parinhood:ohrenbaer-podcast/scarlett-spinnt-den-besten-plan-17-gruene-kringel-in-der-nacht",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 9,
+    "bubble_id": "klasse_6",
+    "szenario": "In einem Podcast hören Kinder spannende Geschichten über Schmetterlinge, Fledermäuse und Windräder – voll mit Infos über Natur und Umweltschutz.",
+    "begruendung": "Der Podcast liefert informationsreiche Hörgeschichten, aus denen Schülerinnen und Schüler gezielt Informationen entnehmen und verstehen müssen – genau die Kernkompetenz im Leseverstehen, hier übertragen auf Hörverstehen.",
+    "einstiegsfrage": "Was hast du aus dem Podcast über Fledermäuse oder Windräder behalten – und wie hast du dir gemerkt, was wichtig war?",
+    "unterrichtsidee": "Die Lehrkraft spielt einen kurzen Ausschnitt (oder liest ein Transkript vor) über Schmetterlinge oder Fledermäuse. Schüler notieren still 3 wichtige Infos. Anschließend vergleichen Paare ihre Notizen und besprechen: Was war Hauptinfo, was war Nebensache?",
+    "schueler_hook": "Kannst du nach dem Hören wirklich alle wichtigen Infos wiedergeben – oder rutschen dir die Details weg?",
+    "schueler_challenge": "Hör dir einen kurzen Text über ein Tier aus dem Podcast an und schreib danach 3 Sätze: Was war das Wichtigste? Was hast du Neues gelernt?",
+    "eltern": {
+      "schulbezug": "Leseverstehen – Informationen aus Texten und Hörtexten entnehmen, Wesentliches vom Unwichtigen unterscheiden",
+      "gespraechsanlass": "Was hat dich im Podcast am meisten überrascht – und kannst du es mir erklären?",
+      "tipp": "Hört gemeinsam einen kurzen Podcast-Ausschnitt und fragt danach: Was war die wichtigste Aussage? Das trainiert genau die Fähigkeit, die in Schularbeiten geprüft wird.",
+      "safety": null
+    },
+    "video_id": "parinhood:die-maus-zum-hoeren/flatter-flatter",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 8,
+    "bubble_id": "klasse_6",
+    "szenario": "Ein Podcast erzählt eine Geschichte über zwei Freunde, die gemeinsam Schmetterlinge beobachten und dabei etwas über Evolution und Artenvielfalt lernen – inklusive einem Streit und einer Entschuldigung.",
+    "begruendung": "Die Hörfolge enthält eine klare Erzählstruktur mit Figuren, Handlung und Wendepunkten – das ist ideales Material, um das Nacherzählen in richtiger Reihenfolge mit Hauptfiguren zu üben.",
+    "einstiegsfrage": "Wenn du jemandem erzählst, was im Podcast passiert ist – wo fängst du an, und was lässt du weg?",
+    "unterrichtsidee": "Schüler hören einen kurzen erzählenden Ausschnitt aus dem Podcast (oder eine vorgelesene Zusammenfassung). Danach bringen sie in Einzelarbeit 5 vorgegebene Satzstreifen zur Handlung in die richtige Reihenfolge und schreiben einen zusammenhängenden Nacherzählungsabsatz.",
+    "schueler_hook": "Könntest du die Geschichte aus dem Podcast so erzählen, dass jemand, der sie nicht kennt, alles versteht?",
+    "schueler_challenge": "Schreib in 5 Sätzen nach, was im Podcast passiert – achte darauf, dass die Reihenfolge stimmt und die Hauptfiguren vorkommen.",
+    "eltern": {
+      "schulbezug": "Nacherzählen – Inhalte in richtiger Reihenfolge und mit eigenen Worten wiedergeben, Hauptfiguren benennen",
+      "gespraechsanlass": "Kannst du mir erzählen, was im Podcast passiert ist – von Anfang bis Ende?",
+      "tipp": "Lasst Ihr Kind Gehörtes oder Gelesenes regelmäßig kurz nacherzählen – das ist eine der wichtigsten Übungen für Aufsätze in der Schule.",
+      "safety": null
+    },
+    "video_id": "parinhood:die-maus-zum-hoeren/flatter-flatter",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 4,
+    "bubble_id": "klasse_6",
+    "szenario": "Im Podcast tauchen viele Wörter rund um Natur auf: flattern, gleiten, schwirren, fliegen – alles irgendwie Bewegung, aber doch unterschiedlich.",
+    "begruendung": "Die naturreiche Sprache des Podcasts bietet ein konkretes Wortfeld (Tiere, Bewegung, Natur), das Schüler analysieren und erweitern können – perfekt zum Üben von Synonymen und präzisem Formulieren.",
+    "einstiegsfrage": "Was ist der Unterschied zwischen 'fliegen', 'flattern' und 'gleiten' – und warum würdest du nicht einfach immer dasselbe Wort benutzen?",
+    "unterrichtsidee": "Die Lehrkraft nennt das Basiswort 'fliegen' und zeigt es an der Tafel. Schüler sammeln in 5 Minuten so viele ähnliche Wörter wie möglich (Synonyme, verwandte Verben). Dann ordnen sie die Wörter nach Bedeutungsunterschieden und schreiben je einen Beispielsatz – ein Tier aus dem Podcast als Subjekt.",
+    "schueler_hook": "Wie viele verschiedene Wörter für 'fliegen' kennst du – und merkst du, dass sie sich alle ein bisschen unterscheiden?",
+    "schueler_challenge": "Such dir ein Tier aus dem Podcast aus und beschreibe in 3 Sätzen, wie es sich bewegt – benutze dabei drei verschiedene, möglichst genaue Verben.",
+    "eltern": {
+      "schulbezug": "Wortfelder und Synonyme – Wortschatz bewusst erweitern und Wörter präzise einsetzen",
+      "gespraechsanlass": "Wenn eine Fledermaus und ein Schmetterling beide 'fliegen' – findest du da bessere Wörter für jedes Tier?",
+      "tipp": "Ermutigen Sie Ihr Kind, beim Schreiben oder Erzählen bewusst nach einem passenderen Wort zu suchen – das macht Texte viel lebendiger.",
+      "safety": null
+    },
+    "video_id": "parinhood:die-maus-zum-hoeren/flatter-flatter",
+    "quelle": "podcast",
+    "live": true
+  }
+]

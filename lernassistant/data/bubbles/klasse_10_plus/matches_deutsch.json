@@ -1,0 +1,490 @@
+[
+  {
+    "thema_id": 1,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Deutsch",
+    "szenario": "In einem Wissenschafts-Podcast wird ein Fachbegriff genutzt, der je nach Wortart (Verb oder Nomen) eine andere Aussage transportiert.",
+    "video_id": "de10-1",
+    "quelle": "podcast",
+    "datum": "2026-06",
+    "begruendung": "Auf Sek-II-Niveau wird Wortartenwissen funktional: Wortklassen steuern Bedeutung, Stil und Praezision eines Diskursbeitrags.",
+    "einstiegsfrage": "Inwiefern veraendert die Wahl der Wortart (Nominalisierung vs. Verb) die Wirkung und Verbindlichkeit einer Aussage im oeffentlichen Diskurs?",
+    "unterrichtsidee": "Podcast-Transkript analysieren: Nominalstil vs. Verbalstil markieren und die rhetorische Wirkung vergleichen.",
+    "schueler_hook": "Ob du etwas als Nomen oder Verb formulierst, entscheidet, wie sachlich oder dynamisch du wirkst.",
+    "schueler_challenge": "Formuliere eine nominale Aussage in den Verbalstil um und beschreibe den Wirkungsunterschied.",
+    "eltern": {
+      "schulbezug": "Wortarten als Werkzeug der Stilanalyse – auf Sek-II-Niveau geht es um Nominal- vs. Verbalstil und deren Wirkung.",
+      "gespraechsanlass": "Frag dein Kind: 'Warum klingt Nominalstil oft buerokratischer als Verbalstil?'",
+      "tipp": "Gemeinsam einen Nachrichtentext auf Nominalstil hin lesen schaerft das Sprachgefuehl.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 2,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Deutsch",
+    "szenario": "Ein viraler Social-Media-Post besteht aus elliptischen, verkuerzten Saetzen, die im Kommentarbereich kontrovers gedeutet werden.",
+    "video_id": "de10-2",
+    "quelle": "news",
+    "datum": "2026-06",
+    "begruendung": "Satzbau und Satzglieder erklaeren, warum verkuerzte Syntax mehrdeutig wird – relevant fuer Textanalyse und Argumentation.",
+    "einstiegsfrage": "Wie entsteht durch ausgelassene Satzglieder Mehrdeutigkeit, und welche Lesarten laesst die elliptische Syntax zu?",
+    "unterrichtsidee": "Verkuerzte Posts zu vollstaendigen Saetzen ausbauen und die entstehenden Lesarten gegenueberstellen.",
+    "schueler_hook": "Weggelassene Satzglieder oeffnen Spielraum fuer Deutungen – und fuer Missverstaendnisse.",
+    "schueler_challenge": "Schreibe zwei vollstaendige Saetze, die dieselbe Ellipse unterschiedlich aufloesen.",
+    "eltern": {
+      "schulbezug": "Satzglieder und Syntax – wie unvollstaendige Saetze Mehrdeutigkeit erzeugen (Grundlage von Textanalyse).",
+      "gespraechsanlass": "Frag dein Kind: 'Welche zwei Bedeutungen kann ein verkuerzter Post haben – und woran liegt das?'",
+      "tipp": "Ueber missverstaendliche Schlagzeilen zu sprechen zeigt, wie wichtig vollstaendige Syntax ist.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 3,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Deutsch",
+    "szenario": "Unter einem News-Beitrag entbrennt eine Debatte ueber konsequente Kleinschreibung als Stilmittel und ueber Rechtschreibung als sozialen Marker.",
+    "video_id": "de10-3",
+    "quelle": "news",
+    "datum": "2026-05",
+    "begruendung": "Rechtschreibung wird hier als Norm reflektiert: Wann ist Abweichung Ausdruck, wann Defizit? Sprachreflexion auf Sek-II-Niveau.",
+    "einstiegsfrage": "Ist die bewusste Abweichung von der Rechtschreibnorm legitime stilistische Freiheit oder schadet sie der Verstaendigung?",
+    "unterrichtsidee": "Position beziehen: Pro/Contra normgerechte Schreibung in oeffentlichen Texten in einer Streitgespraechs-Simulation.",
+    "schueler_hook": "Wie du schreibst, sendet ein Signal – Norm einzuhalten oder zu brechen ist nie neutral.",
+    "schueler_challenge": "Argumentiere in drei Saetzen, wann Abweichung von der Norm gerechtfertigt ist.",
+    "eltern": {
+      "schulbezug": "Rechtschreibung als Norm und sozialer Marker – Sprachreflexion statt reinem Regeltraining.",
+      "gespraechsanlass": "Frag dein Kind: 'Sagt die Rechtschreibung in einem Post etwas ueber die Person aus?'",
+      "tipp": "Es lohnt sich, ueber den Unterschied zwischen bewusstem Stil und Fluechtigkeitsfehlern zu sprechen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 4,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Deutsch",
+    "szenario": "In einem Dokumentarfilm faellt auf, dass Sprecherinnen je nach politischer Haltung dieselbe Sache mit unterschiedlich konnotierten Synonymen benennen.",
+    "video_id": "de10-4",
+    "quelle": "doku",
+    "datum": "2026-06",
+    "begruendung": "Wortfelder und Synonyme tragen Konnotationen – Framing entscheidet ueber Wirkung. Kern von Sprachkritik und Medienanalyse.",
+    "einstiegsfrage": "Wie steuert die Wahl konnotierter Synonyme (Framing) die Wahrnehmung eines Sachverhalts in der Berichterstattung?",
+    "unterrichtsidee": "Synonympaare aus der Doku sammeln und ihre Konnotation auf einer Wertungsskala einordnen.",
+    "schueler_hook": "Zwei Woerter koennen dasselbe meinen und doch komplett gegensaetzlich wirken.",
+    "schueler_challenge": "Beschreibe denselben Sachverhalt zweimal – einmal positiv, einmal negativ konnotiert.",
+    "eltern": {
+      "schulbezug": "Wortfelder, Synonyme und Konnotation – wie Wortwahl (Framing) Meinung lenkt.",
+      "gespraechsanlass": "Frag dein Kind: 'Welche Woerter in den Nachrichten sind nicht neutral, sondern wertend?'",
+      "tipp": "Beim gemeinsamen Nachrichtenschauen auf wertende Begriffe achten schult Medienkompetenz.",
+      "safety": "Framing kann zur Beeinflussung von Meinungen genutzt werden – das bewusst zu erkennen schuetzt vor unbemerkter Steuerung."
+    }
+  },
+  {
+    "thema_id": 5,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Deutsch",
+    "szenario": "Eine Streaming-Serie adaptiert ein klassisches Maerchen und verschiebt dabei bewusst die ueberlieferten Rollen- und Moralmuster.",
+    "video_id": "de10-5",
+    "quelle": "doku",
+    "datum": "2026-05",
+    "begruendung": "Maerchenmerkmale und -motive werden hier als kulturelle Muster reflektiert, deren moderne Brechung Aussagen ueber Werte transportiert.",
+    "einstiegsfrage": "Welche tradierten Maerchenmotive werden in der Adaption gebrochen, und welche gesellschaftliche Aussage steckt in dieser Umdeutung?",
+    "unterrichtsidee": "Original und Adaption vergleichen: Motive, Rollenbilder und Moral kontrastieren.",
+    "schueler_hook": "Wenn ein Maerchen neu erzaehlt wird, verraet die Aenderung viel ueber unsere Zeit.",
+    "schueler_challenge": "Benenne ein klassisches Maerchenmotiv und erklaere, wie eine Umdeutung seine Botschaft veraendert.",
+    "eltern": {
+      "schulbezug": "Maerchenmotive und Erzaehlstruktur als kulturelle Muster – moderne Adaptionen kritisch deuten.",
+      "gespraechsanlass": "Frag dein Kind: 'Was verraet eine neu erzaehlte Maerchenversion ueber heutige Werte?'",
+      "tipp": "Ein gemeinsam geschauter Maerchen-Remake regt zum Vergleich mit dem Original an.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 6,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Deutsch",
+    "szenario": "Ein satirisches Kurzvideo nutzt sprechende Tierfiguren, um aktuelles politisches Verhalten zu kommentieren – eine moderne Fabel.",
+    "video_id": "de10-6",
+    "quelle": "social",
+    "datum": "2026-06",
+    "begruendung": "Die Fabel als didaktisch-allegorische Form lebt fort: Tierfiguren als Traeger gesellschaftskritischer Moral – Gattungstransfer.",
+    "einstiegsfrage": "Wie funktioniert die fabeltypische Allegorie als Mittel politischer Satire, und worin liegt ihre rhetorische Staerke?",
+    "unterrichtsidee": "Klassische Fabelstruktur und moderne Satire vergleichen; die implizite Moral herausarbeiten.",
+    "schueler_hook": "Hinter sprechenden Tieren versteckt sich oft eine sehr ernste Botschaft.",
+    "schueler_challenge": "Formuliere die implizite Moral des Clips als praegnanten Lehrsatz.",
+    "eltern": {
+      "schulbezug": "Fabel als allegorische Form – Tierfiguren und Moral im Transfer zur modernen Satire.",
+      "gespraechsanlass": "Frag dein Kind: 'Welche Aussage steckt hinter den Tierfiguren in dem Clip?'",
+      "tipp": "Satire zu entschluesseln schult genaues Lesen und kritisches Denken.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 7,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Deutsch",
+    "szenario": "Bei einem Poetry-Slam-Auftritt im Netz setzt der Vortragende Metaphern, Anaphern und Rhythmus gezielt zur emotionalen Steigerung ein.",
+    "video_id": "de10-7",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "begruendung": "Lyrische Stilmittel werden in Spoken Word funktional eingesetzt – Anlass fuer fundierte Gedicht- und Stilmittelanalyse.",
+    "einstiegsfrage": "Welche Stilmittel erzeugen die emotionale Wirkung des Textes, und wie verstaerkt der Rhythmus die Aussage?",
+    "unterrichtsidee": "Transkript des Slams nach Stilmitteln analysieren und ihre Funktion fuer die Gesamtaussage bestimmen.",
+    "schueler_hook": "Spoken Word ist Lyrik live – dieselben Stilmittel wie im Gedichtband.",
+    "schueler_challenge": "Identifiziere drei Stilmittel und erklaere ihre Wirkung im Text.",
+    "eltern": {
+      "schulbezug": "Lyrische Stilmittel (Metapher, Anapher, Rhythmus) und ihre Wirkung – Gedichtanalyse an Spoken Word.",
+      "gespraechsanlass": "Frag dein Kind: 'Welches Bild im Text ist dir haengen geblieben – und warum?'",
+      "tipp": "Spoken-Word-Auftritte sind ein lebendiger Zugang zu Lyrik.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 8,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Deutsch",
+    "szenario": "Ein Investigativ-Podcast rekonstruiert ein komplexes Ereignis chronologisch und muss Fakten von Spekulation trennen.",
+    "video_id": "de10-8",
+    "quelle": "podcast",
+    "datum": "2026-05",
+    "begruendung": "Auf Sek-II-Niveau wird Nacherzaehlen zur sachlichen Inhaltswiedergabe: praezise, chronologisch, frei von Wertung – Grundkompetenz.",
+    "einstiegsfrage": "Wie gelingt eine sachliche, chronologisch geordnete Inhaltswiedergabe, die Fakten von Deutung klar trennt?",
+    "unterrichtsidee": "Aus der Podcast-Folge eine wertungsfreie Inhaltsangabe in eigener Strukturierung verfassen.",
+    "schueler_hook": "Etwas Komplexes praezise wiederzugeben, ohne zu werten, ist eine echte Koennensprobe.",
+    "schueler_challenge": "Fasse das Ereignis in fuenf chronologischen Saetzen ohne eigene Wertung zusammen.",
+    "eltern": {
+      "schulbezug": "Sachliche Inhaltswiedergabe – chronologisch, praezise und wertungsfrei zusammenfassen.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie trennt man beim Zusammenfassen Fakten von Vermutungen?'",
+      "tipp": "Eine Podcast-Folge gemeinsam in eigenen Worten zusammenzufassen uebt klares Strukturieren.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 9,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Deutsch",
+    "szenario": "Ein Longread-Artikel argumentiert vielschichtig; in Kommentaren zeigt sich, dass viele nur die Schlagzeile statt des Textes erfasst haben.",
+    "video_id": "de10-9",
+    "quelle": "news",
+    "datum": "2026-06",
+    "begruendung": "Leseverstehen auf Sek-II-Niveau heisst, Argumentationsstruktur, implizite Aussagen und Autorintention zu erfassen.",
+    "einstiegsfrage": "Welche Hauptthese vertritt der Text, mit welchen Argumenten stuetzt er sie, und was bleibt implizit?",
+    "unterrichtsidee": "Argumentationsskizze des Longreads erstellen: These, Argumente, Belege, implizite Annahmen.",
+    "schueler_hook": "Wer nur die Schlagzeile liest, versteht oft das Gegenteil des Gemeinten.",
+    "schueler_challenge": "Formuliere die Hauptthese und zwei Stuetzargumente in eigenen Worten.",
+    "eltern": {
+      "schulbezug": "Leseverstehen auf hohem Niveau – Argumentationsstruktur und implizite Aussagen erfassen.",
+      "gespraechsanlass": "Frag dein Kind: 'Was ist die eigentliche These – und stimmt sie mit der Schlagzeile ueberein?'",
+      "tipp": "Schlagzeile und Text zu vergleichen deckt auf, wie verkuerzt Ueberschriften oft sind.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 10,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Deutsch",
+    "szenario": "In einem TED-artigen Vortragsformat ueberzeugt eine Rednerin durch klare Gliederung, rhetorische Fragen und gezielte Pausen.",
+    "video_id": "de10-10",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "begruendung": "Praesentieren auf Sek-II-Niveau bedeutet rhetorisch bewusstes Auftreten: Aufbau, Adressatenbezug, Koerpersprache, Stilmittel.",
+    "einstiegsfrage": "Welche rhetorischen Mittel und Strukturentscheidungen machen den Vortrag ueberzeugend – und welche liessen sich uebernehmen?",
+    "unterrichtsidee": "Vortragsanalyse nach Kriterien (Aufbau, Rhetorik, Koerpersprache); eigene Kurzrede danach planen.",
+    "schueler_hook": "Gute Redner wirken muehelos – dahinter steckt bewusste rhetorische Technik.",
+    "schueler_challenge": "Plane einen 90-Sekunden-Vortrag mit erkennbarem rhetorischem Spannungsbogen.",
+    "eltern": {
+      "schulbezug": "Praesentieren und Rhetorik – ueberzeugend strukturieren und vortragen (Sek-II-Kompetenz).",
+      "gespraechsanlass": "Frag dein Kind: 'Was genau macht einen Vortrag ueberzeugend – jenseits des Inhalts?'",
+      "tipp": "Ueber gute Reden zu sprechen hilft beim eigenen sicheren Auftreten in Pruefungen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Deutsch",
+    "szenario": "Eine Doku ueber Wahlkampf-Kommunikation zeigt, wie Slogans, Bildsprache und Wiederholung gezielt Meinung formen.",
+    "video_id": "de10-11",
+    "quelle": "doku",
+    "datum": "2026-06",
+    "begruendung": "Medien und Sprache auf Sek-II-Niveau: Manipulationsstrategien, Persuasion und Medienethik kritisch durchdringen.",
+    "einstiegsfrage": "Mit welchen sprachlichen und visuellen Mitteln versucht politische Kommunikation, Meinung zu steuern – und wo verlaeuft die Grenze zur Manipulation?",
+    "unterrichtsidee": "Persuasionsstrategien aus der Doku kategorisieren und an Beispielen Wirkungsabsicht bestimmen.",
+    "schueler_hook": "Wer die Tricks der Ueberzeugung kennt, laesst sich schwerer steuern.",
+    "schueler_challenge": "Analysiere einen Slogan: Welche Strategie steckt dahinter, und an welche Emotion appelliert er?",
+    "eltern": {
+      "schulbezug": "Medien und Sprache – Persuasion, Framing und Manipulation in politischer Kommunikation erkennen.",
+      "gespraechsanlass": "Frag dein Kind: 'Woran erkennst du, ob ein Beitrag informiert oder manipulieren will?'",
+      "tipp": "Gemeinsam Werbe- und Wahlbotschaften zu entlarven staerkt die Urteilsfaehigkeit.",
+      "safety": "Politische Beeinflussung durch Sprache und Bild ist real – das kritisch zu durchschauen ist zentral fuer eine eigene Meinung."
+    }
+  },
+  {
+    "thema_id": 12,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Deutsch",
+    "szenario": "Eine virale Behauptung verbreitet sich ueber Social Media; erst der Faktencheck mehrerer unabhaengiger Quellen widerlegt sie.",
+    "video_id": "de10-12",
+    "quelle": "news",
+    "datum": "2026-05",
+    "begruendung": "Recherche auf Sek-II-Niveau heisst Quellenkritik: Glaubwuerdigkeit, Interessenlage und Belegbarkeit systematisch pruefen.",
+    "einstiegsfrage": "Nach welchen Kriterien laesst sich die Glaubwuerdigkeit einer Online-Quelle beurteilen, und wie entlarvt man Falschinformation methodisch?",
+    "unterrichtsidee": "Eine strittige Behauptung mit mehreren Quellen pruefen und ein Quellenbewertungsraster anwenden.",
+    "schueler_hook": "Nicht was sich am schnellsten verbreitet, ist wahr – sondern was belegbar ist.",
+    "schueler_challenge": "Pruefe eine Behauptung anhand von zwei unabhaengigen Quellen und begruende dein Urteil.",
+    "eltern": {
+      "schulbezug": "Recherche und Quellenkritik – Glaubwuerdigkeit pruefen und Falschinformation erkennen.",
+      "gespraechsanlass": "Frag dein Kind: 'Woran erkennt man eine vertrauenswuerdige Quelle im Netz?'",
+      "tipp": "Behauptungen gemeinsam zu pruefen statt zu glauben ist gelebte Medienkompetenz.",
+      "safety": "Falschinformationen verbreiten sich oft gezielt – Quellenpruefung schuetzt vor Taeuschung."
+    }
+  },
+  {
+    "thema_id": 13,
+    "bubble_id": "klasse_10_plus",
+    "fach": "Deutsch",
+    "szenario": "In einem transkribierten Interview-Podcast erschweren fehlende Kommas bei Einschuben und Nebensaetzen das Verstaendnis der Aussage.",
+    "video_id": "de10-13",
+    "quelle": "podcast",
+    "datum": "2026-06",
+    "begruendung": "Kommasetzung auf Sek-II-Niveau: Zeichensetzung als Mittel der Praezision und Verstaendnissteuerung in komplexen Satzgefuegen.",
+    "einstiegsfrage": "Wie veraendert die Kommasetzung bei Einschuben und Nebensaetzen die Bedeutung und Lesbarkeit eines komplexen Satzes?",
+    "unterrichtsidee": "Unkommatiertes Transkript korrekt kommatieren und an Beispielen die sinnsteuernde Funktion belegen.",
+    "schueler_hook": "Ein Komma kann den Sinn eines ganzen Satzes kippen.",
+    "schueler_challenge": "Kommatiere ein Satzgefuege mit Einschub und Nebensatz und begruende jedes Komma.",
+    "eltern": {
+      "schulbezug": "Kommasetzung in komplexen Satzgefuegen – Zeichensetzung als Mittel der Praezision.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie aendert ein Komma die Bedeutung dieses Satzes?'",
+      "tipp": "Ueber missverstaendliche Saetze zu sprechen zeigt, wozu Kommaregeln wirklich da sind.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_10_plus",
+    "szenario": "In einem Podcast erklärt ein KI-Entwickler, wie Sprachsynthese funktioniert: Eine KI analysiert Stimmmuster und kann innerhalb von Minuten eine täuschend echte Kopie einer Stimme erzeugen – mit möglichen Auswirkungen auf Journalismus, Werbung und politische Kommunikation.",
+    "begruendung": "Stimmen-Kloning und KI-generierte Sprache sind ein hochaktuelles Beispiel dafür, wie Technologie Sprache instrumentalisiert und Wahrnehmung manipuliert – das trifft den Kern von 'Medien & Sprache' direkt. Der Podcast-Ausschnitt liefert einen diskursiven Einstieg in Fragen zu Framing, Glaubwürdigkeit und sprachlicher Beeinflussung.",
+    "einstiegsfrage": "Wenn eine KI die Stimme einer Politikerin so perfekt nachahmen kann, dass niemand den Unterschied hört – welche Verantwortung tragen dann Plattformen, die solche Inhalte verbreiten?",
+    "unterrichtsidee": "Die Lehrkraft spielt einen kurzen synthetischen Audio-Clip (oder beschreibt ein konkretes Szenario) und lässt die Schülerinnen und Schüler in Paaren analysieren: Welche sprachlichen Mittel – Tonfall, Wortwahl, Rhetorik – erzeugen Vertrauen oder Autorität? Anschließend werden Ergebnisse im Plenum verglichen und diskutiert, ob und wie KI-Sprache von 'echter' Sprache unterscheidbar ist.",
+    "schueler_hook": "Stell dir vor, deine Lieblingsband veröffentlicht einen neuen Song – aber keine einzige menschliche Stimme ist darin zu hören. Würde dich das stören?",
+    "schueler_challenge": "Formuliere in drei Sätzen: Welche sprachlichen Signale machen eine Aussage für dich glaubwürdig – und kann eine KI diese Signale gezielt einsetzen?",
+    "eltern": {
+      "schulbezug": "Im Lehrplanthema 'Medien & Sprache' lernen Jugendliche, wie Sprache in Medien gezielt eingesetzt wird, um Meinungen zu beeinflussen – KI-Stimmen sind das aktuellste Beispiel dafür.",
+      "gespraechsanlass": "Hast du schon einmal einen Podcast oder ein Video gehört, bei dem du im Nachhinein herausgefunden hast, dass die Stimme künstlich war – und wie hat dich das beeinflusst?",
+      "tipp": "Sprechen Sie mit Ihrem Kind darüber, nach welchen Kriterien es entscheidet, ob eine Quelle vertrauenswürdig ist – das schärft den kritischen Umgang mit Medieninhalten nachhaltig.",
+      "safety": null
+    },
+    "video_id": "parinhood:so-techt-deutschland-der-tech-podcast/gordian-braun-vielleicht-koennen-wir-gedanken-auslesen",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 10,
+    "bubble_id": "klasse_10_plus",
+    "szenario": "Ein KI-Experte hält in einem Podcast einen überzeugenden Vortrag über digitales Stimmen-Kloning und erklärt dabei komplexe technische Zusammenhänge so, dass auch Laien folgen können – bewusst eingesetzte Rhetorik inklusive.",
+    "begruendung": "Der Podcast-Beitrag ist ein reales Vorbild für kompetentes, zielgruppengerechtes Präsentieren: Der Sprecher strukturiert komplexe Inhalte, passt Sprache an sein Publikum an und setzt rhetorische Mittel bewusst ein. Das bietet eine authentische Analysegrundlage für die Kompetenz 'Präsentieren & Sprechen'.",
+    "einstiegsfrage": "Welche Techniken setzt ein guter Redner ein, um ein breites Publikum von einem komplexen technischen Thema zu überzeugen – und wo liegt die Grenze zwischen Information und Überredung?",
+    "unterrichtsidee": "Schülerinnen und Schüler wählen einen kontroversen Aspekt des Stimmen-Klonings (z. B. Datenschutz, Arbeitsmarkt, Ethik) und bereiten in 10 Minuten ein 90-Sekunden-Statement vor, das sie überzeugend präsentieren. Anschließend analysiert die Gruppe gegenseitig: Welche rhetorischen Mittel wurden eingesetzt – und wirkten sie?",
+    "schueler_hook": "Könntest du in 90 Sekunden so überzeugend über KI und Stimmen-Kloning sprechen, dass andere deine Meinung übernehmen – ohne dass sie es merken?",
+    "schueler_challenge": "Notiere drei konkrete Redemittel (z. B. rhetorische Frage, Zahlen, Beispiel), die du in einem Kurzvortrag über KI-Stimmen einsetzen würdest, und erkläre jeweils, welche Wirkung du damit erzielen willst.",
+    "eltern": {
+      "schulbezug": "Das Thema 'Präsentieren & Sprechen' trainiert, komplexe Sachverhalte strukturiert und überzeugend vorzutragen – eine Schlüsselkompetenz für Schule, Studium und Beruf.",
+      "gespraechsanlass": "Wenn du jemandem erklären müsstest, was Stimmen-Kloning ist – wie würdest du anfangen, damit dein Gegenüber sofort versteht, worum es geht?",
+      "tipp": "Ermutigen Sie Ihr Kind, zu Hause laut zu üben – wer einen Sachverhalt klar erklären kann, hat ihn wirklich verstanden.",
+      "safety": null
+    },
+    "video_id": "parinhood:so-techt-deutschland-der-tech-podcast/gordian-braun-vielleicht-koennen-wir-gedanken-auslesen",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 9,
+    "bubble_id": "klasse_10_plus",
+    "szenario": "Ein Podcast-Transkript über Sprachsynthese und Stimmen-Kloning wird im Unterricht als Lesetext bereitgestellt – mit Fachbegriffen, Argumentationsketten und eingebetteten Expertenmeinungen, die sorgfältige Lektüre erfordern.",
+    "begruendung": "Komplexe Sachtexte zu technologischen und gesellschaftlichen Themen sind ein zentrales Format im Leseverstehen der Oberstufe – das Transkript bietet dichte Informationsstruktur, implizite Aussagen und argumentative Ebenen, die aktives Textverstehen erfordern.",
+    "einstiegsfrage": "Welche Informationen in einem Sachtext sind explizit formuliert – und welche muss man zwischen den Zeilen lesen, etwa wenn ein KI-Unternehmen über seine eigene Technologie spricht?",
+    "unterrichtsidee": "Die Lehrkraft stellt einen kurzen Textausschnitt (ca. 200 Wörter) aus einem fiktiven Podcast-Transkript zum Thema Stimmen-Kloning bereit. Schülerinnen und Schüler markieren: (1) gesicherte Fakten, (2) Meinungen/Wertungen, (3) unklare oder verallgemeinernde Aussagen. Ergebnisse werden verglichen und die Frage diskutiert, warum die Textquelle (Unternehmensmitarbeiter) bei der Einordnung relevant ist.",
+    "schueler_hook": "Kannst du erkennen, wenn ein Text dich informieren will – oder wenn er dich eigentlich von etwas überzeugen will?",
+    "schueler_challenge": "Lies einen kurzen Textabschnitt über KI-Stimmen und formuliere in einem Satz: Was ist die zentrale These – und welche Aussage im Text findest du am wenigsten überzeugend?",
+    "eltern": {
+      "schulbezug": "Leseverstehen in der Oberstufe bedeutet mehr als Informationen entnehmen – es geht darum, Argumentationsstrukturen zu erkennen und Texte kritisch einzuordnen.",
+      "gespraechsanlass": "Wenn euer Kind einen Artikel über KI liest – fragt nach: Was steht da wirklich, und wer hat das geschrieben?",
+      "tipp": "Üben Sie gemeinsam, bei Texten im Netz die Quelle zu hinterfragen – das ist eine der wichtigsten Lesekompetenzen überhaupt.",
+      "safety": null
+    },
+    "video_id": "parinhood:so-techt-deutschland-der-tech-podcast/gordian-braun-vielleicht-koennen-wir-gedanken-auslesen",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 9,
+    "bubble_id": "klasse_10_plus",
+    "szenario": "In einem Podcast-Ausschnitt wird erklärt, dass heute noch Milliarden Menschen keinen Zugang zu hygienischen Sanitäranlagen haben – belegt mit Zahlen und historischen Fakten über 5.000 Jahre Toilettengeschichte.",
+    "begruendung": "Der informationsdichte Podcast-Ausschnitt bietet eine ideale Grundlage, um gezielt Informationsentnahme, Textstrukturierung und das Unterscheiden von Haupt- und Detailaussagen zu trainieren. Die unerwartete Thematik erzeugt echte Neugier und senkt die Hemmschwelle zum genauen Zuhören bzw. Lesen.",
+    "einstiegsfrage": "Welche konkreten Informationen aus dem Podcast lassen sich als gesicherte Fakten belegen – und wie unterscheidet man dabei Hauptaussage von Randdetail?",
+    "unterrichtsidee": "Schülerinnen und Schüler hören einen kurzen Podcast-Ausschnitt (ca. 3 Min.) und notieren in Einzelarbeit die fünf wichtigsten Informationen. Anschließend vergleichen sie in Partnerarbeit ihre Auswahl und diskutieren: Welche Kriterien entscheiden, was 'wesentlich' ist? Abschluss im Plenum mit Erarbeitung eines gemeinsamen Kriterienkatalogs für Informationsentnahme.",
+    "schueler_hook": "Kannst du nach nur drei Minuten Zuhören wirklich die entscheidenden Fakten von bloßem Beiwerk trennen – oder unterschätzt du, wie viel dabei verloren geht?",
+    "schueler_challenge": "Fasse die Kernaussage des Podcasts in maximal zwei Sätzen zusammen – ohne eine einzige Zahl zu nennen.",
+    "eltern": {
+      "schulbezug": "Im Deutschunterricht wird das gezielte Entnehmen und Gewichten von Informationen aus Hörtexten und Sachtexten geübt – eine zentrale Kompetenz für Prüfungen und das spätere Berufsleben.",
+      "gespraechsanlass": "Wenn ihr gemeinsam etwas im Radio oder als Podcast hört: Welche Information bleibt hängen – und warum gerade die?",
+      "tipp": "Fragen Sie Ihr Kind gelegentlich nach dem Inhalt eines gehörten Beitrags und lassen Sie es in eigenen Worten zusammenfassen – das stärkt Zuhör- und Ausdruckskompetenz zugleich.",
+      "safety": null
+    },
+    "video_id": "parinhood:kakadu-der-kinderpodcast/kakadu-eure-fragen-wer-hat-eigentlich-das-klo-erfunden",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 4,
+    "bubble_id": "klasse_10_plus",
+    "szenario": "Ein Podcast-Kommentar beschreibt dieselbe Sache – eine Toilette – mal als 'Örtchen', mal als 'Sanitäranlage', mal als 'stille Örtlichkeit' oder 'Latrine': Je nach Kontext klingt es komisch, sachlich oder abwertend.",
+    "begruendung": "Das Thema Toilette eröffnet auf ungewöhnliche Weise den Blick auf Register- und Konnotationsunterschiede im Deutschen, da ein einziger Gegenstand mit einer ungewöhnlich breiten Palette an Synonymen besetzt ist, die alle unterschiedliche soziale und emotionale Färbungen tragen.",
+    "einstiegsfrage": "Warum wählen wir für denselben Gegenstand unterschiedliche Wörter – und was verrät diese Wahl über uns, unsere Absicht oder unser Publikum?",
+    "unterrichtsidee": "Schülerinnen und Schüler sammeln in 5 Minuten alle ihnen bekannten Synonyme für 'Toilette' und ordnen diese anschließend auf einer Skala von 'formal/fachsprachlich' bis 'umgangssprachlich/tabuisiert'. In der Reflexionsphase analysieren sie: Welche Wörter würde man in einer UN-Rede verwenden, welche in einem Chat – und warum steuert Wortwahl immer auch Wirkung?",
+    "schueler_hook": "Hast du dir je überlegt, dass die Wahl zwischen 'Klo', 'Toilette' und 'Sanitäranlage' mehr über dich aussagt als du denkst?",
+    "schueler_challenge": "Schreib denselben Satz über mangelnden Sanitärzugang einmal für eine Schulzeitung und einmal als Nachricht an eine Freundin – und benenne danach die sprachlichen Unterschiede.",
+    "eltern": {
+      "schulbezug": "Im Deutschunterricht lernen Jugendliche, Wortfelder und Synonyme bewusst einzusetzen und zu verstehen, dass Wortwahl immer auch Perspektive und Wirkung transportiert – wichtig für Aufsatz, Debatte und Bewerbung.",
+      "gespraechsanlass": "Fallen euch im Alltag Wörter auf, die ihr bewusst vermeidet oder bevorzugt – und warum eigentlich?",
+      "tipp": "Ermutigen Sie Ihr Kind, beim Schreiben von Nachrichten oder Texten bewusst über Wortwahl nachzudenken – das schärft sprachliches Bewusstsein ohne schulischen Druck.",
+      "safety": null
+    },
+    "video_id": "parinhood:kakadu-der-kinderpodcast/kakadu-eure-fragen-wer-hat-eigentlich-das-klo-erfunden",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_10_plus",
+    "szenario": "Ein Social-Media-Post greift eine Aussage aus einem Podcast auf und formuliert sie so um, dass aus einer nüchternen Statistik über globale Sanitärversorgung plötzlich ein emotionaler Aufruf wird – mit anderen Worten, aber 'demselben' Inhalt.",
+    "begruendung": "Der Vergleich zwischen sachlichem Podcast-Originalton und emotionalisierter Social-Media-Aufbereitung zeigt exemplarisch, wie Sprache Wirklichkeit rahmt und Haltungen beeinflusst – und bietet so einen authentischen Einstieg in Medien- und Sprachkritik.",
+    "einstiegsfrage": "Wenn dieselbe Zahl einmal in einem Sachtext und einmal in einem Instagram-Post erscheint – verändert sich dadurch ihre Wirkung, und wenn ja: durch welche sprachlichen Mittel?",
+    "unterrichtsidee": "Zwei Kurzversionen derselben Information werden präsentiert: eine sachlich-nüchterne Formulierung (Podcast-Stil) und eine emotionalisierende Social-Media-Version. Schülerinnen und Schüler analysieren in Kleingruppen gezielt Wortwahl, Satzbau, Appelle und Bildsprache und präsentieren ihre Befunde als kurze 'Sprachkritik' – mit dem Ziel, Manipulationsmuster benennen zu können.",
+    "schueler_hook": "Könntest du erkennen, wenn ein Beitrag dich mit Sprache gezielt in eine bestimmte Richtung lenkt – oder passiert das gerade, ohne dass du es merkst?",
+    "schueler_challenge": "Nimm eine Statistik aus dem Podcast und formuliere sie einmal so um, dass sie Empörung erzeugt, und einmal so, dass sie Gleichgültigkeit provoziert – ohne eine Zahl zu verändern.",
+    "eltern": {
+      "schulbezug": "Medienkritische Sprachanalyse ist Teil des Deutschlehrplans: Schülerinnen und Schüler sollen erkennen, wie Sprache in Medien Meinungen formt, Emotionen steuert und Sachverhalte verzerrt darstellen kann.",
+      "gespraechsanlass": "Habt ihr schon mal bemerkt, dass derselbe Sachverhalt in verschiedenen Medien völlig unterschiedlich klingt – woran lag das konkret?",
+      "tipp": "Schauen Sie gemeinsam auf ein aktuelles Thema in zwei verschiedenen Quellen und fragen Sie: Was ist Fakt, was ist Rahmung? Das stärkt Medienkompetenz nachhaltig.",
+      "safety": null
+    },
+    "video_id": "parinhood:kakadu-der-kinderpodcast/kakadu-eure-fragen-wer-hat-eigentlich-das-klo-erfunden",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 9,
+    "bubble_id": "klasse_10_plus",
+    "szenario": "In einem Podcast wird die Geschichte einer jungen Spinnen-Forscherin erzählt, die trotz Ablehnung durch andere ihren wissenschaftlichen Leidenschaften nachgeht und schließlich Freundschaft findet – ein Text voller impliziter Botschaften und Zwischentöne.",
+    "begruendung": "Die vielschichtige Erzählung mit Themen wie Ausgrenzung, Identität und Forscherdrang bietet einen idealen Anlass, um gezieltes Leseverstehen zu trainieren: Informationen entnehmen, zwischen explizitem Inhalt und impliziter Aussage unterscheiden sowie Charaktermotivationen belegen.",
+    "einstiegsfrage": "Welche Informationen über Scarletts Persönlichkeit lassen sich direkt aus dem Text belegen – und welche müssen wir erschließen?",
+    "unterrichtsidee": "Die Schülerinnen und Schüler erhalten einen transkribierten Ausschnitt der Podcast-Episode und bearbeiten ihn in drei Schritten: explizite Fakten markieren, implizite Schlussfolgerungen formulieren und anschließend ihre Interpretation mit Textstellen belegen – Ergebnisse werden im Plenum verglichen.",
+    "schueler_hook": "Du hörst eine Geschichte – aber steckt da mehr drin, als einfach nur erzählt wird?",
+    "schueler_challenge": "Finde drei Stellen im Text, an denen Scarletts Einsamkeit nicht direkt benannt, sondern nur angedeutet wird – und erkläre, woran du es erkennst.",
+    "eltern": {
+      "schulbezug": "Im Deutschunterricht lernen die Jugendlichen, Texte auf verschiedenen Ebenen zu verstehen: Sie üben, zwischen wörtlicher Aussage und tieferer Bedeutung zu unterscheiden – eine zentrale Kompetenz für Klassenarbeiten und das Abitur.",
+      "gespraechsanlass": "Hast du schon mal etwas gelesen oder gehört, bei dem du das Gefühl hattest, zwischen den Zeilen steckt viel mehr als das, was direkt gesagt wurde?",
+      "tipp": "Ermutigen Sie Ihr Kind, nach dem Lesen oder Hören einer Geschichte laut zu formulieren, was es verstanden hat – das schult das analytische Denkvermögen enorm.",
+      "safety": null
+    },
+    "video_id": "parinhood:ohrenbaer-podcast/scarlett-spinnt-den-besten-plan-17-gruene-kringel-in-der-nacht",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 4,
+    "bubble_id": "klasse_10_plus",
+    "szenario": "Ein Podcast-Gespräch beschreibt, wie eine Außenseiterin mit Leidenschaft für Spinnen von anderen als 'seltsam' oder 'komisch' bezeichnet wird – dabei stecken in solchen Urteilen erstaunlich viele sprachliche Nuancen.",
+    "begruendung": "Die Charakterisierung von Figuren durch Sprache – ob jemand als 'seltsam', 'anders', 'mutig' oder 'eigenartig' gilt – macht das Thema Wortfelder und Synonyme unmittelbar erfahrbar: Welche Konnotationen transportieren einzelne Begriffe, und wie verändert sich eine Aussage durch präzisere Wortwahl?",
+    "einstiegsfrage": "Wie viele verschiedene Wörter fallen euch ein, um Scarlett zu beschreiben – und welche davon klingen wertend, welche neutral?",
+    "unterrichtsidee": "Schülerinnen und Schüler erstellen kollaborativ ein Wortfeld zu 'Andersartigkeit' und 'Mut', ordnen die Begriffe nach positiver, negativer und neutraler Konnotation, und verfassen anschließend zwei Kurzcharakterisierungen derselben Figur – einmal wohlwollend, einmal abwertend – nur durch Wortwahl.",
+    "schueler_hook": "Ein einziges Wort kann entscheiden, ob jemand als 'mutig' oder als 'verrückt' gilt – du wählst, wie du jemanden beschreibst.",
+    "schueler_challenge": "Beschreibe Scarletts Leidenschaft für Spinnen in zwei Sätzen – einmal so, dass sie bewundernswert klingt, einmal so, dass sie abstoßend wirkt, ohne eine Tatsache zu ändern.",
+    "eltern": {
+      "schulbezug": "Im Deutschunterricht wird gezielt geübt, Wörter nach ihrer Bedeutungsnuance einzusetzen – sogenannte Konnotationen. Diese Fähigkeit, präzise und bewusst zu formulieren, ist für Aufsätze, Erörterungen und spätere Berufsfelder grundlegend.",
+      "gespraechsanlass": "Ist dir schon einmal aufgefallen, wie unterschiedlich dasselbe Verhalten beschrieben werden kann – je nachdem, wer spricht?",
+      "tipp": "Sprechen Sie mit Ihrem Kind über Alltagssituationen, in denen Sprache wertet – etwa in Nachrichten oder Social-Media-Kommentaren. Das schärft das Bewusstsein für Sprachgenauigkeit.",
+      "safety": null
+    },
+    "video_id": "parinhood:ohrenbaer-podcast/scarlett-spinnt-den-besten-plan-17-gruene-kringel-in-der-nacht",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 7,
+    "bubble_id": "klasse_10_plus",
+    "szenario": "Themen wie Einsamkeit, Freundschaft und das Anderssein – wie sie in einer Podcast-Geschichte über eine Spinnen-Forscherin auftauchen – gehören seit Jahrhunderten zu den zentralen Motiven der Lyrik.",
+    "begruendung": "Die emotionale Dichte der erzählten Geschichte bietet einen authentischen Einstieg in die Gedichtanalyse: Die Schülerinnen und Schüler können erfahren, wie dieselben Themen in lyrischer Form verdichtet, rhythmisiert und mit Stilmitteln aufgeladen werden.",
+    "einstiegsfrage": "Wenn Scarletts Geschichte ein Gedicht wäre – welches Stilmittel würde ihre Einsamkeit am treffendsten ausdrücken: eine Metapher, eine Anapher oder ein Kontrast?",
+    "unterrichtsidee": "Schülerinnen und Schüler wählen eines der Kernthemen der Geschichte (Einsamkeit, Mut, Freundschaft) und suchen dazu ein bekanntes deutschsprachiges Gedicht. Sie analysieren, welche Stilmittel das Thema transportieren, und präsentieren ihre Ergebnisse in einer kurzen Gegenüberstellung: Podcast-Erzählung vs. lyrische Verdichtung.",
+    "schueler_hook": "Was eine Geschichte in Stunden entfaltet, bringt ein Gedicht manchmal in vier Zeilen auf den Punkt – findest du das Gedicht, das zu Scarletts Geschichte passt?",
+    "schueler_challenge": "Schreib eine Strophe (4–6 Zeilen) aus Scarletts Perspektive – und setze bewusst mindestens ein Stilmittel ein, das du benennst.",
+    "eltern": {
+      "schulbezug": "Gedichtanalyse ist fester Bestandteil des Deutschunterrichts ab Klasse 10 und relevant für das Abitur. Die Schüler lernen, Stilmittel zu erkennen, deren Wirkung zu beschreiben und eigene lyrische Texte zu verfassen.",
+      "gespraechsanlass": "Gibt es ein Gedicht, einen Songtext oder einen Spruch, der dich wirklich berührt hat – und weißt du, warum genau?",
+      "tipp": "Songtexte sind oft moderne Lyrik – ermutigen Sie Ihr Kind, Lieblingstexte auf Stilmittel wie Metaphern oder Wiederholungen zu untersuchen. Das macht Gedichtanalyse greifbarer.",
+      "safety": null
+    },
+    "video_id": "parinhood:ohrenbaer-podcast/scarlett-spinnt-den-besten-plan-17-gruene-kringel-in-der-nacht",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 9,
+    "bubble_id": "klasse_10_plus",
+    "szenario": "In einem Podcast wird erklärt, wie Fledermäuse und Schmetterlinge sich im Laufe der Evolution an ihre Umwelt angepasst haben – und welche Rolle Windräder dabei heute spielen.",
+    "begruendung": "Die inhaltsdichte Hörfolge liefert komplexe Sachinformationen zu Evolution und Artenvielfalt, die aktives Zuhören und gezieltes Entnehmen relevanter Informationen erfordern – genau die Kernkompetenz des Leseverstehens, hier übertragen auf Hörverstehen.",
+    "einstiegsfrage": "Welche konkreten Informationen über Fledermäuse oder Windräder hast du aus dem Gehörten entnommen – und wie hast du entschieden, was wichtig ist und was nicht?",
+    "unterrichtsidee": "Die Klasse hört einen kurzen Ausschnitt (2–3 Min.) aus einem Sachpodcast zu Artenvielfalt oder Umweltschutz. Danach notiert jede Person schweigend: drei gesicherte Informationen, eine offene Frage, eine eigene Bewertung. Anschließend Vergleich im Tandem: Wo stimmen die Mitschriften überein, wo gibt es Lücken oder Widersprüche? Reflexion: Was unterscheidet selektives Entnehmen von bloßem Zuhören?",
+    "schueler_hook": "Du glaubst, Zuhören ist einfach – aber kannst du wirklich zwischen Hauptinformation und Beispiel unterscheiden, wenn ein Podcast über Evolution und Windräder spricht?",
+    "schueler_challenge": "Schreib in drei Sätzen die Kernaussage des Podcasts auf – ohne eigene Meinung, nur das, was tatsächlich gesagt wurde.",
+    "eltern": {
+      "schulbezug": "Im Deutschunterricht lernen Jugendliche, Texten und mündlichen Quellen gezielt Informationen zu entnehmen, zwischen Wesentlichem und Nebensächlichem zu unterscheiden und diese strukturiert wiederzugeben – eine zentrale Kompetenz für Klausuren und Abitur.",
+      "gespraechsanlass": "Wenn ihr gemeinsam einen Podcast hört – wie würdet ihr danach gegenseitig testen, wer welche Informationen behalten hat?",
+      "tipp": "Ermutigen Sie Ihr Kind, nach dem Hören eines Podcasts kurz laut zusammenzufassen, was es verstanden hat – das trainiert aktives Textverstehen im Alltag.",
+      "safety": null
+    },
+    "video_id": "parinhood:die-maus-zum-hoeren/flatter-flatter",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 4,
+    "bubble_id": "klasse_10_plus",
+    "szenario": "Ein Podcast beschreibt Tiere wie Schmetterlinge und Fledermäuse mit einer Vielzahl von Fachbegriffen – von 'Artenvielfalt' bis 'Evolution' – und nutzt dabei bewusst bildhafte, emotionalisierende Sprache.",
+    "begruendung": "Der inhaltreiche Sprachstil eines Sachpodcasts zu Naturthemen bietet ideales Material, um Wortfelder zu erschließen, Synonyme zu vergleichen und den Unterschied zwischen präzisem Fachausdruck und alltagssprachlicher Umschreibung herauszuarbeiten.",
+    "einstiegsfrage": "Warum wählt jemand das Wort 'flattern' statt 'fliegen' – und welchen Effekt hat diese Wortwahl auf dich als Zuhörer?",
+    "unterrichtsidee": "Ausgehend von einem transkribierten Podcast-Ausschnitt (z.B. über Fledermäuse und Windräder) erstellt die Klasse in Gruppen Wortfelder zu drei zentralen Begriffen (z.B. 'Bewegung', 'Gefahr', 'Natur'). Anschließend ersetzen die Schülerinnen und Schüler je fünf Wörter durch Synonyme und diskutieren: Verändert sich die Wirkung des Textes? Welche Formulierung ist präziser – und für welchen Kontext?",
+    "schueler_hook": "'Flattern', 'schweben', 'gleiten' – klingt alles ähnlich, aber ein falsches Wort kann deinen Text sofort ungenau oder unpassend wirken lassen.",
+    "schueler_challenge": "Finde drei bedeutungsähnliche Wörter für 'verschwinden' und erkläre in einem Satz, in welchem Kontext du welches verwenden würdest.",
+    "eltern": {
+      "schulbezug": "Wortschatzarbeit und das präzise Formulieren mit Synonymen sind fester Bestandteil des Deutschunterrichts ab Klasse 10 – sie bereiten auf Textanalyse, Erörterung und wissenschaftliches Schreiben vor.",
+      "gespraechsanlass": "Fallen euch gemeinsam drei verschiedene Wörter für 'schön' ein – und in welcher Situation würdet ihr welches benutzen?",
+      "tipp": "Ermutigen Sie Ihr Kind, beim Schreiben bewusst nach dem treffenderen Wort zu suchen, statt beim erstbesten zu bleiben – ein gutes Synonymwörterbuch (auch online) hilft dabei.",
+      "safety": null
+    },
+    "video_id": "parinhood:die-maus-zum-hoeren/flatter-flatter",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 7,
+    "bubble_id": "klasse_10_plus",
+    "szenario": "Ein Podcast über Schmetterlinge und Fledermäuse setzt auf lebendige, bildhafte Sprache und Rhythmus im Sprechen – was an lyrische Stilmittel erinnert und die Frage aufwirft, wie Sprache Stimmung erzeugt.",
+    "begruendung": "Die bewusst emotionalisierende und bildreiche Sprache eines Natur-Podcasts bietet einen ungewöhnlichen, aber überzeugenden Einstieg in die Analyse von Stilmitteln und deren Wirkung – Kernkompetenz der Gedichtinterpretation.",
+    "einstiegsfrage": "Kann ein gesprochener Satz wie 'Der Schmetterling tanzt durch die Abenddämmerung' dieselben Stilmittel enthalten wie ein Gedicht – und dieselbe Wirkung entfalten?",
+    "unterrichtsidee": "Die Klasse erhält drei bis vier besonders bildhafte Sätze aus einem transkribierten Podcast-Ausschnitt. Aufgabe: Stilmittel benennen (Metapher, Personifikation, Alliteration etc.), Wirkung beschreiben und dann eigenständig einen kurzen lyrischen Text (4–8 Zeilen) zu einem der Tiere verfassen, der dieselben Mittel nutzt. Abschluss: Zwei Texte werden vorgelesen und verglichen – Podcast-Sprache vs. Gedichtform.",
+    "schueler_hook": "Was wäre, wenn ein Podcast unbewusst dieselben Tricks nutzt wie ein Gedicht – und du kannst beweisen, dass du sie erkennst?",
+    "schueler_challenge": "Nimm einen Satz aus einem Naturtext und forme ihn in zwei Zeilen eines Gedichts um – mit mindestens einem Stilmittel.",
+    "eltern": {
+      "schulbezug": "Das Erkennen und Benennen von Stilmitteln sowie das Verstehen ihrer Wirkung sind zentrale Anforderungen bei der Gedichtanalyse, die in Klasse 10 und im Abitur eine große Rolle spielen.",
+      "gespraechsanlass": "Habt ihr schon mal einen Satz gehört, der sich fast wie Poesie angefühlt hat – obwohl er aus einem ganz normalen Gespräch oder einer Sendung kam?",
+      "tipp": "Wenn Ihr Kind Gedichte analysiert, helfen Vergleiche aus dem Alltag – Songtexte, Werbeslogan oder eben Podcast-Sprache – um den Zugang zu Stilmitteln zu erleichtern.",
+      "safety": null
+    },
+    "video_id": "parinhood:die-maus-zum-hoeren/flatter-flatter",
+    "quelle": "podcast",
+    "live": true
+  }
+]

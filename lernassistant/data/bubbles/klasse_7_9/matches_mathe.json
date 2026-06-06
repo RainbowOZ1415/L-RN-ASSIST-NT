@@ -1,0 +1,413 @@
+[
+  {
+    "thema_id": 1,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem Live-Stream stellt die Person eine schnelle Kopfrechen-Challenge und nennt einen Trick, um zweistellige Zahlen blitzschnell zu addieren.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "ma79-1",
+    "begruendung": "Die Challenge nutzt Rechenvorteile wie das Zerlegen in Zehner. Das eignet sich, geschicktes Kopfrechnen mit natuerlichen Zahlen zu trainieren.",
+    "einstiegsfrage": "Welcher Rechentrick steckt hinter der schnellen Loesung von 47 plus 38?",
+    "unterrichtsidee": "Die Lernenden loesen gemischte Kopfrechenaufgaben mit Rechenvorteilen (Zehner zerlegen, Verdoppeln/Halbieren) und erklaeren ihren schnellsten Weg (15 Min).",
+    "schueler_hook": "Die Kopfrechen-Profis im Stream sind nicht magisch - sie nutzen Tricks, die du auch lernen kannst.",
+    "schueler_challenge": "Rechne 6 mal 25 im Kopf und erklaere in einem Satz, welchen Trick du benutzt hast.",
+    "eltern": {
+      "schulbezug": "Natuerliche Zahlen: sicher im Kopf und schriftlich rechnen mit allen vier Grundrechenarten.",
+      "gespraechsanlass": "Frag dein Kind: 'Gibt es einen Trick, mit dem man 47 plus 38 schneller im Kopf rechnet?'",
+      "tipp": "Kleine Kopfrechen-Duelle unterwegs machen Spass und halten die Rechenroutine wach.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 2,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "Beim Oeffnen eines Karten-Packs im Game blendet das Spiel ein: '3 von 100 Karten sind legendaer'.",
+    "quelle": "gaming",
+    "datum": "2026-06",
+    "video_id": "ma79-2",
+    "begruendung": "Die Anzeige '3 von 100' ist ein Anteil und damit ein Bruch. Das eignet sich, Brueche zu schreiben, zu kuerzen und mit anderen Anteilen zu vergleichen.",
+    "einstiegsfrage": "Wie schreibst du '3 von 100' als Bruch und laesst er sich kuerzen?",
+    "unterrichtsidee": "Die Lernenden schreiben Game-Anteile als Brueche, kuerzen sie und ordnen mehrere Anteile der Groesse nach (15 Min).",
+    "schueler_hook": "Jede Drop-Anzeige im Game ist eigentlich ein Bruch - kannst du ihn kuerzen und vergleichen?",
+    "schueler_challenge": "Vergleiche, welcher Anteil groesser ist: 3 von 100 oder 1 von 25.",
+    "eltern": {
+      "schulbezug": "Brueche: Anteile verstehen, erweitern, kuerzen und vergleichen - hier am Beispiel von Game-Chancen.",
+      "gespraechsanlass": "Frag dein Kind: 'Ist 3 von 100 mehr oder weniger als 1 von 25?'",
+      "tipp": "Anteile aus Spielen sind gute Uebung - gemeinsam ueberlegen, wie selten 'selten' wirklich ist.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 3,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem Shopping-Clip werden zwei fast gleiche Produkte mit den Preisen 0,70 Euro und 0,65 Euro pro Stueck verglichen.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "ma79-3",
+    "begruendung": "Der Preisvergleich erfordert das Lesen von Dezimalzahlen und das Verstehen der Stellen hinter dem Komma. Das eignet sich, Dezimalzahlen zu vergleichen und umzurechnen.",
+    "einstiegsfrage": "Welcher Preis ist guenstiger und woran erkennst du das an den Stellen hinter dem Komma?",
+    "unterrichtsidee": "Die Lernenden vergleichen Dezimalpreise, rechnen einfache Brueche wie 3/4 in Dezimalzahlen um und runden Preise auf zehn Cent (15 Min).",
+    "schueler_hook": "Im Shop entscheidet manchmal die zweite Stelle hinter dem Komma, was billiger ist.",
+    "schueler_challenge": "Schreibe 3/4 als Dezimalzahl und sage, ob 0,7 oder 0,65 groesser ist.",
+    "eltern": {
+      "schulbezug": "Dezimalzahlen: Kommaschreibweise lesen und zwischen Bruch und Dezimalzahl umrechnen - wie bei Preisen.",
+      "gespraechsanlass": "Frag dein Kind: 'Was ist guenstiger - 0,70 oder 0,65 Euro pro Stueck?'",
+      "tipp": "Preisvergleiche beim Einkaufen sind echte Dezimalrechnung im Alltag.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 4,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem News-Clip zeigt die Wetterkarte morgens -4 Grad und nachmittags 3 Grad fuer denselben Ort.",
+    "quelle": "news",
+    "datum": "2026-06",
+    "video_id": "ma79-4",
+    "begruendung": "Temperaturen ueber und unter null veranschaulichen negative Zahlen auf der Zahlengerade. Die Differenzberechnung ueber den Nullpunkt ist ein Kernziel.",
+    "einstiegsfrage": "Um wie viele Grad steigt die Temperatur von -4 Grad auf 3 Grad?",
+    "unterrichtsidee": "Die Lernenden ordnen Temperaturwerte auf der Zahlengerade und berechnen Temperaturunterschiede ueber den Nullpunkt hinweg (15 Min).",
+    "schueler_hook": "Die Wetter-App rechnet staendig mit Minuszahlen - kannst du den Temperatursprung selbst ausrechnen?",
+    "schueler_challenge": "Berechne den Unterschied zwischen -4 Grad und 3 Grad und ordne -3, 2, -7, 0 der Groesse nach.",
+    "eltern": {
+      "schulbezug": "Negative Zahlen: die Zahlengerade, Vergleichen und Rechnen mit Werten unter null - etwa bei Temperaturen.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie viele Grad waermer ist 3 Grad gegenueber -4 Grad?'",
+      "tipp": "Die Wetter-App ist eine taegliche Gelegenheit, ueber Plus- und Minusgrade zu sprechen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 5,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem Stream wird ein Sale beworben: '20 Prozent Rabatt auf alles' - und ein Item kostet vorher 50 Euro.",
+    "quelle": "gaming",
+    "datum": "2026-06",
+    "video_id": "ma79-5",
+    "begruendung": "Der Rabatt verlangt Prozentrechnung: Anteil vom Preis bestimmen und den Endpreis berechnen. Das ist eine zentrale Alltagsanwendung.",
+    "einstiegsfrage": "Wie viel sparst du bei 20 Prozent Rabatt auf einen Preis von 50 Euro?",
+    "unterrichtsidee": "Die Lernenden rechnen Brueche in Prozent um und berechnen Ersparnis und Endpreis bei verschiedenen Rabatten aus Sale-Aktionen (15 Min).",
+    "schueler_hook": "Bei jedem Sale entscheidet Prozentrechnung, wie viel du wirklich sparst - rechne selbst nach.",
+    "schueler_challenge": "Berechne, wie viel 20 Prozent Rabatt auf 50 Euro ausmachen und was du am Ende zahlst.",
+    "eltern": {
+      "schulbezug": "Prozentrechnung: Prozente verstehen sowie Rabatte und Anteile berechnen - eine wichtige Alltagskompetenz.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie viel Euro spart man bei 20 Prozent Rabatt auf 50 Euro?'",
+      "tipp": "Rabatte im Shop gemeinsam nachrechnen - so wird Prozentrechnung greifbar.",
+      "safety": "Rabatt- und Sale-Aktionen erzeugen oft kuenstlichen Zeitdruck. Ein guter Anlass, mit dem Kind ueber bewusstes Ausgeben und Werbedruck zu sprechen."
+    }
+  },
+  {
+    "thema_id": 6,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem Skate-Clip wird eine Rampe gezeigt, deren Profil ein deutliches Dreieck mit verschiedenen Winkeln bildet.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "ma79-6",
+    "begruendung": "Die Rampe liefert reale Winkel und ein Dreieck. Das eignet sich, Winkelarten zu benennen und die Winkelsumme im Dreieck anzuwenden.",
+    "einstiegsfrage": "Wenn zwei Winkel der Rampe bekannt sind, wie gross ist dann der dritte Winkel im Dreieck?",
+    "unterrichtsidee": "Die Lernenden bestimmen Winkelarten an Bauwerken und Rampen aus Clips und berechnen mit der Winkelsumme 180 Grad fehlende Winkel im Dreieck (15 Min).",
+    "schueler_hook": "Jede Skate-Rampe und jedes Dach steckt voller Winkel - du kannst den fehlenden sogar ausrechnen.",
+    "schueler_challenge": "In einem Dreieck sind zwei Winkel 60 und 70 Grad - berechne den dritten.",
+    "eltern": {
+      "schulbezug": "Winkel und Dreiecke: Winkelarten benennen, Dreiecksarten unterscheiden und die Winkelsumme von 180 Grad nutzen.",
+      "gespraechsanlass": "Frag dein Kind: 'Wenn zwei Winkel im Dreieck 60 und 70 Grad sind, wie gross ist der dritte?'",
+      "tipp": "Winkel im Alltag suchen - in Rampen, Daechern oder Rahmen - macht Geometrie sichtbar.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 7,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem Room-Tour-Video misst die Person das Zimmer aus, um zu planen, wie viel Teppich auf den 4 mal 3 Meter grossen Boden passt.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "ma79-7",
+    "begruendung": "Die Bodenflaeche ist ein Rechteck, dessen Flaecheninhalt aus Laenge mal Breite berechnet wird. Das eignet sich, Flaecheninhalte praktisch zu bestimmen.",
+    "einstiegsfrage": "Wie viel Quadratmeter Teppich braucht ein Zimmer von 4 mal 3 Metern?",
+    "unterrichtsidee": "Die Lernenden berechnen Flaecheninhalte von Rechtecken und Dreiecken aus Raum- und Spielfeldmassen und achten auf die richtige Einheit (15 Min).",
+    "schueler_hook": "Bevor du dein Zimmer umstellst, sagt dir die Flaechenrechnung, wie viel Platz wirklich da ist.",
+    "schueler_challenge": "Berechne die Flaeche eines Rechtecks von 4 mal 3 Metern und nenne die Einheit.",
+    "eltern": {
+      "schulbezug": "Flaecheninhalt: Flaechen von Rechteck, Dreieck und zusammengesetzten Formen berechnen.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie gross ist die Bodenflaeche eines Zimmers von 4 mal 3 Metern?'",
+      "tipp": "Beim Einrichten gemeinsam Flaechen ausmessen und berechnen - Mathe zum Anfassen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 8,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem Bau-Spiel will jemand wissen, wie viele Bloecke einen Wuerfel mit der Kantenlaenge 3 komplett fuellen.",
+    "quelle": "gaming",
+    "datum": "2026-06",
+    "video_id": "ma79-8",
+    "begruendung": "Das Fuellen eines Wuerfels mit Bloecken entspricht der Volumenberechnung. Das eignet sich, das Volumen von Wuerfel und Quader zu bestimmen.",
+    "einstiegsfrage": "Wie viele Bloecke passen in einen Wuerfel mit der Kantenlaenge 3?",
+    "unterrichtsidee": "Die Lernenden berechnen das Volumen von Wuerfeln und Quadern aus Bau-Spiel-Massen und vergleichen, welcher Koerper mehr fasst (15 Min).",
+    "schueler_hook": "Im Bau-Spiel rechnest du beim Auffuellen eines Wuerfels schon ganz nebenbei mit Volumen.",
+    "schueler_challenge": "Berechne das Volumen eines Quaders mit 2 mal 3 mal 4 Bloecken und nenne die Einheit.",
+    "eltern": {
+      "schulbezug": "Volumen: den Rauminhalt von Wuerfel und Quader berechnen - wie viel in einen Koerper passt.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie viele Bloecke fuellen einen Wuerfel mit Kantenlaenge 3?'",
+      "tipp": "Bau-Spiele sind anschauliche Volumenmodelle - gemeinsam abschaetzen, wie viel hineinpasst.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 9,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem Open-World-Game wird ein Treffpunkt ueber Koordinaten wie '(3 | 2)' angegeben, damit man den Ort auf der Karte findet.",
+    "quelle": "gaming",
+    "datum": "2026-06",
+    "video_id": "ma79-9",
+    "begruendung": "Spiel- und Karten-Koordinaten funktionieren wie das mathematische Koordinatensystem mit x- und y-Achse. Das eignet sich, Punkte einzutragen und abzulesen.",
+    "einstiegsfrage": "Was bedeuten die beiden Zahlen in einer Koordinate wie (3 | 2)?",
+    "unterrichtsidee": "Die Lernenden tragen Spiel-Koordinaten in ein Koordinatensystem ein, lesen Punkte ab und verbinden sie zu einer Figur (15 Min).",
+    "schueler_hook": "Jede Karten-App und jedes Open-World-Game findet Orte ueber Koordinaten - genau wie im Matheheft.",
+    "schueler_challenge": "Trage den Punkt P(3 | 2) ein und beschreibe, wie du dorthin kommst.",
+    "eltern": {
+      "schulbezug": "Koordinatensystem: Punkte ueber x- und y-Werte eintragen und ihre Lage beschreiben - wie auf einer Karte.",
+      "gespraechsanlass": "Frag dein Kind: 'Was bedeuten die Zahlen in einer Koordinate wie (3 | 2)?'",
+      "tipp": "Karten-Apps und Spielkarten sind alltagsnahe Koordinatensysteme zum Ueben.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 10,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem Logik-Puzzle-Video lautet die Aufgabe: 'Ich denke mir eine Zahl, verdopple sie und erhalte 10 - welche Zahl war es?'",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "ma79-10",
+    "begruendung": "Das Zahlenraetsel laesst sich als Gleichung 2x gleich 10 darstellen und nach x loesen. Das eignet sich, einfache Terme und Gleichungen einzufuehren.",
+    "einstiegsfrage": "Wie stellst du das Raetsel als Gleichung dar und wie findest du x?",
+    "unterrichtsidee": "Die Lernenden uebersetzen Zahlenraetsel in Gleichungen und loesen sie mit dem Waage-Prinzip nach x auf (15 Min).",
+    "schueler_hook": "Jedes 'Ich denke mir eine Zahl'-Raetsel ist eine versteckte Gleichung, die du loesen kannst.",
+    "schueler_challenge": "Stelle 'Das Doppelte von x ist 10' als Gleichung dar und loese sie nach x.",
+    "eltern": {
+      "schulbezug": "Terme und Gleichungen: einfache Gleichungen aufstellen und nach der Unbekannten x loesen.",
+      "gespraechsanlass": "Frag dein Kind: 'Welche Zahl ergibt verdoppelt 10 - und wie schreibt man das als Gleichung?'",
+      "tipp": "Zahlenraetsel beim Warten sind spielerische Gleichungen ohne Lerndruck.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem Video wird der Views-Verlauf eines Kanals ueber mehrere Tage als Saeulendiagramm gezeigt.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "ma79-11",
+    "begruendung": "Das Saeulendiagramm liefert Daten, aus denen sich Werte ablesen und ein Mittelwert berechnen lassen. Das ist das Kernziel beim Umgang mit Daten und Diagrammen.",
+    "einstiegsfrage": "Wie berechnest du aus den Views der einzelnen Tage den Durchschnitt?",
+    "unterrichtsidee": "Die Lernenden lesen Werte aus einem Saeulendiagramm ab, berechnen den Mittelwert und deuten, was ein hoher Durchschnitt aussagt (15 Min).",
+    "schueler_hook": "Hinter jeder Views-Statistik steckt Mathe - du kannst den Durchschnitt selbst ausrechnen.",
+    "schueler_challenge": "Berechne den Mittelwert der Werte 10, 20 und 30 und erklaere, was er bedeutet.",
+    "eltern": {
+      "schulbezug": "Daten und Diagramme: Diagramme lesen und den Mittelwert berechnen - etwa bei Views oder Statistiken.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie rechnet man aus mehreren Tageswerten den Durchschnitt aus?'",
+      "tipp": "Statistiken aus Videos oder Sport sind anschauliche Daten zum gemeinsamen Auswerten.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 12,
+    "bubble_id": "klasse_7_9",
+    "fach": "Mathe",
+    "szenario": "In einem Game zeigt eine Lootbox die Drop-Chance '1 zu 50' fuer ein seltenes Item, und jemand behauptet im Stream, nach 50 Versuchen sei es sicher.",
+    "quelle": "gaming",
+    "datum": "2026-06",
+    "video_id": "ma79-12",
+    "begruendung": "Die Lootbox-Chance ist ein Wahrscheinlichkeitsanteil. Sie eignet sich, Wahrscheinlichkeit als Anteil zu berechnen und Erwartung von Garantie zu unterscheiden.",
+    "einstiegsfrage": "Hast du das Item nach 50 Versuchen bei einer Chance von 1 zu 50 wirklich sicher?",
+    "unterrichtsidee": "Die Lernenden rechnen die Lootbox-Chance in Prozent um, bestimmen die erwartete Trefferzahl und diskutieren, warum Erwartung keine Garantie ist (15 Min).",
+    "schueler_hook": "Eine Chance von 1 zu 50 fuehlt sich nach 'bald sicher' an - aber stimmt das mathematisch?",
+    "schueler_challenge": "Rechne 1 zu 50 in Prozent um und ueberlege, wie viele Treffer bei 200 Versuchen im Schnitt zu erwarten sind.",
+    "eltern": {
+      "schulbezug": "Wahrscheinlichkeit: Chancen einschaetzen und verstehen, dass viele Versuche nichts garantieren.",
+      "gespraechsanlass": "Frag dein Kind: 'Bekommt man das Item bei einer Chance von 1 zu 50 nach 50 Versuchen sicher?'",
+      "tipp": "Ein guter Anlass, ueber den Reiz von Lootboxen zu sprechen, statt nur ueber die Rechnung.",
+      "safety": "Lootboxen funktionieren wie Gluecksspiel und verleiten zu wiederholten Kaeufen. Wichtig ist das Verstaendnis, dass jeder Versuch unabhaengig ist und Geld kosten kann - ein guter Anlass fuer ein Gespraech ueber Ausgaben und Altersfreigaben."
+    }
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_7_9",
+    "szenario": "In einem Podcast erklärt jemand, dass KI-Sprachsynthese bereits von Tausenden Unternehmen genutzt wird – mit konkreten Nutzungszahlen und Wachstumsraten.",
+    "begruendung": "Der Podcast enthält Daten über Verbreitung und Wachstum von KI-Technologien, die sich direkt als Grundlage für Diagrammarbeit und Mittelwertberechnungen eignen. Schüler können reale Zahlen aus einem aktuellen Kontext auswerten und interpretieren.",
+    "einstiegsfrage": "Wenn 2021 noch 500 Unternehmen KI-Stimmen nutzten und 2024 schon 8.000 – wie würdest du das in einem Diagramm darstellen, und was sagt der Mittelwert pro Jahr aus?",
+    "unterrichtsidee": "Schüler erhalten eine kleine Tabelle mit fiktiven, realistischen Jahreszahlen zur Verbreitung von KI-Sprachsynthese (z. B. Nutzerzahlen 2020–2024). Sie berechnen den Mittelwert, zeichnen ein Säulendiagramm und beschreiben den Trend in einem Satz – danach kurze Diskussion: Was bedeutet dieser Trend für Berufe?",
+    "schueler_hook": "Stell dir vor, du kannst an einer Zahl ablesen, wie schnell KI Sprachberufe übernimmt – genau das machst du heute mit echten Daten.",
+    "schueler_challenge": "Berechne den Mittelwert aus diesen 5 Jahreszahlen und überlege: Liegt das aktuelle Jahr über oder unter dem Durchschnitt?",
+    "eltern": {
+      "schulbezug": "Daten lesen und darstellen, Mittelwert berechnen, Säulendiagramme – das sind zentrale Inhalte im Mathematikunterricht der Klassen 7–9.",
+      "gespraechsanlass": "Hast du schon mal eine KI-Stimme gehört und nicht gemerkt, dass es keine echte Person war?",
+      "tipp": "Sprechen Sie mit Ihrem Kind darüber, wie man Zahlen und Diagramme kritisch liest – das hilft nicht nur in der Schule, sondern auch beim Einschätzen von Nachrichten.",
+      "safety": null
+    },
+    "video_id": "parinhood:so-techt-deutschland-der-tech-podcast/gordian-braun-vielleicht-koennen-wir-gedanken-auslesen",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 12,
+    "bubble_id": "klasse_7_9",
+    "szenario": "In einem Podcast wird erklärt, dass KI-Stimmen manchmal nicht von echten Stimmen zu unterscheiden sind – Hörer raten, ob eine Stimme echt oder künstlich ist.",
+    "begruendung": "Das Raten, ob eine Stimme echt oder KI-generiert ist, lässt sich direkt als Zufallsexperiment rahmen und öffnet die Frage nach Wahrscheinlichkeiten und fairen Chancen.",
+    "einstiegsfrage": "Wenn du 10 Stimmen hörst und bei jeder nur rätst, ob sie echt oder KI ist – wie oft liegst du rein durch Zufall richtig, und wie groß ist diese Wahrscheinlichkeit?",
+    "unterrichtsidee": "Die Klasse führt ein Schätzexperiment durch: Jeder schreibt für 10 Runden je 'echt' oder 'KI' auf – ohne zu hören, einfach per Zufall. Die Ergebnisse werden gesammelt, als Häufigkeiten ausgewertet und mit der theoretischen Wahrscheinlichkeit (1/2) verglichen. Abschlussdiskussion: Was bedeutet das für Vertrauen in KI-Inhalte?",
+    "schueler_hook": "Kannst du eine KI-Stimme von einer echten unterscheiden – oder ist es purer Zufall, wenn du richtig liegst?",
+    "schueler_challenge": "Wirf eine Münze 20-mal und notiere die Ergebnisse – vergleiche dann: Wie oft hättest du beim KI-Stimmen-Raten zufällig richtig gelegen?",
+    "eltern": {
+      "schulbezug": "Wahrscheinlichkeitsrechnung, Zufallsexperimente und das Vergleichen von relativer Häufigkeit mit theoretischer Wahrscheinlichkeit sind Kernthemen im Mathematikunterricht.",
+      "gespraechsanlass": "Glaubst du, du könntest eine KI-Stimme von einer echten Stimme unterscheiden – und wie sicher bist du dir dabei?",
+      "tipp": "Solche Alltagsbeispiele helfen Ihrem Kind, abstrakte Wahrscheinlichkeiten greifbar zu machen – fragen Sie ruhig nach, wie es die Chancen einschätzt.",
+      "safety": null
+    },
+    "video_id": "parinhood:so-techt-deutschland-der-tech-podcast/gordian-braun-vielleicht-koennen-wir-gedanken-auslesen",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 5,
+    "bubble_id": "klasse_7_9",
+    "szenario": "Ein Podcast berichtet, dass durch KI-Sprachsynthese bestimmte Berufe um bis zu 40 % wegfallen könnten – und dass Firmen durch KI-Stimmen bis zu 60 % der Kosten sparen.",
+    "begruendung": "Prozentzahlen zu Jobverlust und Kostenersparnis durch KI sind ein direkter, lebensnaher Einstieg in die Prozentrechnung – Schüler können reale Aussagen rechnerisch überprüfen und einordnen.",
+    "einstiegsfrage": "Ein Unternehmen zahlt bisher 10.000 Euro im Monat für Sprecher – wenn KI 60 % der Kosten spart, wie viel zahlen sie dann noch, und wie viel sparen sie pro Jahr?",
+    "unterrichtsidee": "Schüler erhalten 3–4 kurze Aussagen aus dem Podcast-Kontext mit Prozentzahlen (z. B. '40 % weniger Sprechjobs', '60 % Kostenersparnis', '25 % der Nutzer erkennen KI-Stimmen nicht'). Sie rechnen jeweils einen konkreten Grundwert durch, vergleichen die Ergebnisse und diskutieren: Klingt 40 % viel oder wenig – kommt es auf den Grundwert an?",
+    "schueler_hook": "Wenn eine KI 60 % der Kosten spart – wie viel Geld ist das wirklich, und was bedeutet das für die Menschen, die diesen Job bisher gemacht haben?",
+    "schueler_challenge": "Ein Synchronsprecher verdient 3.500 Euro im Monat. Sein Job wird zu 40 % von KI übernommen – wie viel Arbeit bleibt ihm noch, und was verdient er dann noch?",
+    "eltern": {
+      "schulbezug": "Prozentrechnung ist ein zentrales Thema in Klasse 7–8: Grundwert, Prozentwert und Prozentsatz werden hier direkt in einem aktuellen Kontext angewendet.",
+      "gespraechsanlass": "Wenn du hörst, dass KI 40 % der Jobs in einem Bereich übernimmt – klingt das für dich nach viel oder wenig?",
+      "tipp": "Prozentangaben begegnen Ihrem Kind täglich in Nachrichten und Werbung – üben Sie gemeinsam, solche Zahlen kurz nachzurechnen und zu hinterfragen.",
+      "safety": null
+    },
+    "video_id": "parinhood:so-techt-deutschland-der-tech-podcast/gordian-braun-vielleicht-koennen-wir-gedanken-auslesen",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_7_9",
+    "szenario": "In einem Podcast heißt es: 'Weltweit haben noch immer über 3,5 Milliarden Menschen keinen sicheren Zugang zu einer Toilette.' Diese Zahl taucht mitten in einer Geschichte über 5.000 Jahre Sanitärtechnik auf.",
+    "begruendung": "Der Podcast liefert echte Statistiken und Vergleichszahlen zur globalen Ungleichheit, die sich direkt in Diagramme übersetzen und interpretieren lassen. Das ist ein authentischer Einstieg in das Lesen, Darstellen und Vergleichen von Daten.",
+    "einstiegsfrage": "Wenn du diese Zahl als Säulendiagramm darstellen müsstest – welche Länder oder Regionen würdest du vergleichen, und wie würde das Diagramm aussehen?",
+    "unterrichtsidee": "Die Schülerinnen und Schüler erhalten 4–5 reale Prozentzahlen zum Sanitärzugang in verschiedenen Weltregionen (z. B. Europa 97 %, Subsahara-Afrika 29 %). Sie erstellen daraus ein Säulendiagramm, berechnen den Mittelwert und formulieren einen Satz zur Aussage der Daten. Abschluss: kurze Diskussion, was der Mittelwert hier verschleiert.",
+    "schueler_hook": "Stell dir vor, eine einzige Zahl aus einem Podcast zeigt dir, wie ungerecht die Welt verteilt ist – kannst du das sichtbar machen?",
+    "schueler_challenge": "Berechne den Mittelwert aus diesen Prozentzahlen für Sanitärzugang: 97, 29, 54, 81, 43. Was sagt dir dieser Mittelwert – und was sagt er dir nicht?",
+    "eltern": {
+      "schulbezug": "Im Mathematikunterricht lernen Kinder, Daten in Diagrammen darzustellen, den Mittelwert zu berechnen und Statistiken kritisch zu lesen – genau das wird hier mit einem realen Beispiel geübt.",
+      "gespraechsanlass": "Weißt du, wie viele Menschen weltweit keine Toilette haben – und wie stellt man so eine Zahl eigentlich sinnvoll dar?",
+      "tipp": "Schauen Sie gemeinsam auf Infografiken z. B. von UNICEF zur Wasserversorgung – das macht den Schulstoff greifbar und regt zum Nachdenken an.",
+      "safety": null
+    },
+    "video_id": "parinhood:kakadu-der-kinderpodcast/kakadu-eure-fragen-wer-hat-eigentlich-das-klo-erfunden",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 5,
+    "bubble_id": "klasse_7_9",
+    "szenario": "Im Podcast wird erwähnt, dass in manchen Regionen weniger als 30 % der Bevölkerung Zugang zu sauberem Wasser und Sanitäranlagen haben – in anderen Regionen sind es über 95 %.",
+    "begruendung": "Solche Prozentzahlen aus einem realen Kontext sind ein idealer Aufhänger, um Prozente als Anteile zu verstehen und zu vergleichen – ohne konstruierte Schulbuchbeispiele.",
+    "einstiegsfrage": "Was bedeutet es konkret, wenn 30 % einer Bevölkerung keinen Zugang zu einer Toilette haben – wie viele Menschen wären das in einer Stadt mit 1 Million Einwohnern?",
+    "unterrichtsidee": "Die Klasse rechnet mit realen Bevölkerungszahlen: Wie viele Menschen in Nigeria, Indien oder Brasilien haben keinen Sanitärzugang, wenn man den Prozentwert auf die Einwohnerzahl anwendet? Ergebnisse werden verglichen und besprochen, was ein Prozent 'wirklich bedeutet', wenn hinter jeder Zahl Menschen stecken.",
+    "schueler_hook": "30 % klingt erstmal nicht viel – aber stell dir vor, was das bedeutet, wenn man es auf echte Menschen in echten Ländern umrechnet.",
+    "schueler_challenge": "In einem Land leben 200 Millionen Menschen. 34 % haben keinen Zugang zu einer sicheren Toilette. Wie viele Menschen sind das? Zeig deinen Rechenweg.",
+    "eltern": {
+      "schulbezug": "Prozentrechnung ist ein zentrales Thema in Klasse 7–8. Hier wird geübt, Prozentwerte auf reale Grundwerte anzuwenden – eine Kernkompetenz auch für Alltag und Beruf.",
+      "gespraechsanlass": "Wenn 34 % der Menschen in einem Land keine Toilette haben – kannst du das mal ausrechnen, wie viele das bei uns wären?",
+      "tipp": "Prozentrechnung wirkt oft trocken – echte Zahlen aus der Welt machen sie bedeutsam. Fragen Sie Ihr Kind, was die errechneten Zahlen für sie persönlich bedeuten.",
+      "safety": null
+    },
+    "video_id": "parinhood:kakadu-der-kinderpodcast/kakadu-eure-fragen-wer-hat-eigentlich-das-klo-erfunden",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 12,
+    "bubble_id": "klasse_7_9",
+    "szenario": "In einem Podcast erzählt eine junge Forscherin, dass sie bei 20 Versuchen nur 3-mal einen seltenen Leuchtkäfer in ihrem Garten entdeckt hat – und fragt sich, wie wahrscheinlich das eigentlich ist.",
+    "begruendung": "Scarletts Forscherdrang und das zufällige Entdecken von Tieren in der Natur bieten einen direkten Einstieg in Wahrscheinlichkeit: Wie oft trifft man etwas Seltenes an? Das verbindet Neugier und Zufall mit dem Kernkonzept.",
+    "einstiegsfrage": "Wenn Scarlett bei 20 Beobachtungsabenden 3-mal einen Leuchtkäfer sieht – wie groß ist die Wahrscheinlichkeit, dass sie ihn beim nächsten Versuch entdeckt?",
+    "unterrichtsidee": "Schülerinnen und Schüler erhalten kleine Kärtchen mit Tier-Symbolen (z. B. 2 Leuchtkäfer, 8 Spinnen) in einem verdeckten Stapel. Sie ziehen 10-mal (mit Zurücklegen), notieren die Ergebnisse und vergleichen ihre experimentelle Häufigkeit mit der theoretischen Wahrscheinlichkeit. Abschluss: kurze Diskussion, warum Theorie und Experiment abweichen können.",
+    "schueler_hook": "Stell dir vor, du bist Forscherin wie Scarlett – kannst du mit Mathe vorhersagen, wie oft du einen seltenen Käfer findest?",
+    "schueler_challenge": "Ein Garten hat 5 Spinnen und 1 Leuchtkäfer. Du greifst zufällig ein Tier. Berechne: Wie groß ist die Wahrscheinlichkeit, den Leuchtkäfer zu erwischen? Gib das Ergebnis als Bruch und in Prozent an.",
+    "eltern": {
+      "schulbezug": "Wahrscheinlichkeitsrechnung: Kinder lernen, Chancen als Bruch oder Prozentzahl auszudrücken und Zufallsexperimente auszuwerten – das ist ein zentrales Thema in Klasse 7–9.",
+      "gespraechsanlass": "Habt ihr schon mal etwas sehr Seltenes in der Natur entdeckt – und wie oft müsstet ihr suchen, damit das kein Zufall mehr ist?",
+      "tipp": "Würfeln, Karten ziehen oder Münzen werfen zu Hause sind super einfache Experimente, mit denen ihr Wahrscheinlichkeit ganz praktisch ausprobieren könnt.",
+      "safety": null
+    },
+    "video_id": "parinhood:ohrenbaer-podcast/scarlett-spinnt-den-besten-plan-17-gruene-kringel-in-der-nacht",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_7_9",
+    "szenario": "Eine Schülerin hört einen Podcast über eine Spinnen-Forscherin und findet heraus, dass Spinnen je nach Art zwischen 2 und 48 Augen haben können – sie möchte wissen, wie man solche Daten übersichtlich darstellt.",
+    "begruendung": "Die Naturkunde-Thematik liefert echte Datensätze über Tiere, die sich direkt in Diagramme und Mittelwertberechnungen übersetzen lassen – ein authentischer Einstieg ins Thema Daten und Diagramme.",
+    "einstiegsfrage": "Scarlett hat bei 6 verschiedenen Spinnenarten die Anzahl der Augen notiert: 8, 8, 6, 8, 2, 6 – was ist der Mittelwert, und wie würdest du diese Daten als Diagramm darstellen?",
+    "unterrichtsidee": "Jede Gruppe erhält eine Tabelle mit echten Daten zu 5–6 Tierarten (z. B. Anzahl Beine, Augen, Lebensdauer in Tagen). Sie berechnen den Mittelwert, zeichnen ein Säulendiagramm auf Karopapier und präsentieren ihr Ergebnis in zwei Sätzen der Klasse. Dauer: ca. 15 Minuten.",
+    "schueler_hook": "Scarlett sammelt Daten über Spinnen wie eine echte Wissenschaftlerin – kannst du ihre Zahlen in ein Diagramm verwandeln?",
+    "schueler_challenge": "Spinne A hat 8 Augen, Spinne B 6, Spinne C 8, Spinne D 2, Spinne E 8. Berechne den Mittelwert der Augenanzahl und erkläre in einem Satz, was dieser Wert aussagt.",
+    "eltern": {
+      "schulbezug": "Statistik-Grundlagen: Mittelwert berechnen und Daten in Säulendiagrammen darstellen – beides sind Pflichtthemen im Mathematikunterricht der Mittelstufe.",
+      "gespraechsanlass": "Welche Zahlen oder Daten aus dem Alltag könntet ihr zusammen als Diagramm aufzeichnen – zum Beispiel Temperaturen der letzten Woche?",
+      "tipp": "Datenprojekte aus der Natur (Vögel zählen, Temperaturen messen) machen Statistik greifbar und können gemeinsam zu Hause ausprobiert werden.",
+      "safety": null
+    },
+    "video_id": "parinhood:ohrenbaer-podcast/scarlett-spinnt-den-besten-plan-17-gruene-kringel-in-der-nacht",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_7_9",
+    "szenario": "In einem Podcast wird erklärt, dass in Deutschland jedes Jahr Tausende Vögel und Fledermäuse an Windrädern sterben – mit konkreten Zahlen und Vergleichen.",
+    "begruendung": "Die genannten Tieranzahlen und Vergleichsdaten aus dem Podcast sind ein natürlicher Einstieg in das Lesen, Interpretieren und Darstellen von Daten. Schülerinnen und Schüler können echte Zahlen in Diagrammen visualisieren und Mittelwerte berechnen.",
+    "einstiegsfrage": "Wenn man hört, dass an einem Windrad im Jahr durchschnittlich 12 Fledermäuse sterben und es in Deutschland 30.000 Windräder gibt – wie stellt ihr diese Zahl sinnvoll in einem Diagramm dar?",
+    "unterrichtsidee": "Schülerinnen und Schüler erhalten eine kleine Datentabelle mit erfundenen, aber realistischen Zahlen zu Tierverlusten an Windrädern in verschiedenen Bundesländern. In 15 Minuten zeichnen sie ein Säulendiagramm, berechnen den Mittelwert und diskutieren: Welches Bundesland hat das größte Problem? Was sagt der Mittelwert aus – und was verschweigt er?",
+    "schueler_hook": "Du hörst eine krasse Zahl über Fledermäuse und Windräder – und plötzlich willst du wissen, ob das wirklich so schlimm ist, wie es klingt.",
+    "schueler_challenge": "Berechne den Mittelwert: An 5 Windrädern wurden folgende Fledermäuse gezählt: 8, 15, 3, 20, 9. Was ist der Durchschnitt – und was sagt er dir?",
+    "eltern": {
+      "schulbezug": "In der Schule lernen Kinder, Daten zu lesen, Mittelwerte zu berechnen und Informationen in Diagrammen darzustellen – genau das, was man braucht, um Nachrichten und Statistiken kritisch einzuschätzen.",
+      "gespraechsanlass": "Hast du schon mal eine Zahl in den Nachrichten gehört und dich gefragt, ob sie wirklich so groß oder klein ist, wie sie klingt?",
+      "tipp": "Schauen Sie gemeinsam eine Grafik aus einer Zeitung oder Nachrichtenwebsite an und fragen Sie Ihr Kind, was es dort ablesen kann – das übt genau diese Fähigkeit.",
+      "safety": null
+    },
+    "video_id": "parinhood:die-maus-zum-hoeren/flatter-flatter",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 12,
+    "bubble_id": "klasse_7_9",
+    "szenario": "Im Podcast wird erklärt, dass Fledermäuse Windräder zufällig anfliegen – manche Standorte sind gefährlicher als andere. Das klingt nach Zufall, aber ist es wirklich purer Zufall?",
+    "begruendung": "Die Frage, ob ein Tier ein bestimmtes Windrad anfliegt oder nicht, lässt sich als Zufallsexperiment modellieren und bietet einen lebensnahen Einstieg in Grundbegriffe der Wahrscheinlichkeit wie Ereignis, Chance und Häufigkeit.",
+    "einstiegsfrage": "Wenn eine Fledermaus in einer Nacht an 10 möglichen Routen fliegt und nur eine davon an einem Windrad vorbeiführt – wie groß ist die Wahrscheinlichkeit, dass sie in Gefahr gerät?",
+    "unterrichtsidee": "Die Klasse modelliert das Szenario als einfaches Zufallsexperiment: Ein Schüler würfelt oder zieht Karten, um zu simulieren, ob eine Fledermaus den gefährlichen Weg nimmt. Nach 20 Würfen wird die relative Häufigkeit ausgerechnet und mit der theoretischen Wahrscheinlichkeit verglichen. Abschlussdiskussion: Wann reicht Zufall als Erklärung – und wann nicht?",
+    "schueler_hook": "Ist es wirklich Pech, wenn eine Fledermaus gegen ein Windrad fliegt – oder steckt da Mathematik dahinter?",
+    "schueler_challenge": "Ein Windrad steht auf einer von 6 möglichen Flugstrecken einer Fledermaus. Wie groß ist die Wahrscheinlichkeit, dass sie genau diese Strecke wählt? Gib das Ergebnis als Bruch, Dezimalzahl und Prozent an.",
+    "eltern": {
+      "schulbezug": "Wahrscheinlichkeitsrechnung gehört zum Lehrplan und hilft Kindern, Risiken und Chancen realistisch einzuschätzen – eine Kernkompetenz für den Alltag.",
+      "gespraechsanlass": "Glaubst du, dass Unfälle in der Natur reiner Zufall sind – oder gibt es immer einen Grund?",
+      "tipp": "Spielen Sie zuhause ein kurzes Würfelspiel und lassen Sie Ihr Kind vorhersagen, wie oft eine bestimmte Zahl fällt – das macht Wahrscheinlichkeit greifbar.",
+      "safety": null
+    },
+    "video_id": "parinhood:die-maus-zum-hoeren/flatter-flatter",
+    "quelle": "podcast",
+    "live": true
+  }
+]

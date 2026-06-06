@@ -1,0 +1,471 @@
+[
+  {
+    "thema_id": 1,
+    "bubble_id": "klasse_7_9",
+    "fach": "Deutsch",
+    "szenario": "In einem Gaming-Clip blitzt die Bildschirm-Caption auf: 'Der nervöse Gegner verliert den letzten Run.'",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "de79-1",
+    "begruendung": "Die Caption enthält Nomen, Verb, Adjektiv und Artikel auf engem Raum und eignet sich, um die Bestimmung von Wortarten an einem authentischen Medientext zu trainieren.",
+    "einstiegsfrage": "Welche Wortart trägt in diesem Satz die meiste Information - das Nomen, das Verb oder das Adjektiv?",
+    "unterrichtsidee": "Die Lernenden bestimmen in fünf echten Caption-Sätzen aus Clips farbig die Wortarten und vergleichen, welche Wortart am häufigsten für Spannung sorgt (15 Min).",
+    "schueler_hook": "In jeder Caption stecken dieselben Bausteine wie in deinem Deutschheft - du musst sie nur erkennen.",
+    "schueler_challenge": "Schreibe eine eigene Clip-Caption mit genau einem Nomen, einem Verb und einem Adjektiv und markiere sie.",
+    "eltern": {
+      "schulbezug": "Hier geht es um Wortarten - Nomen, Verb, Adjektiv, Artikel - eine Grundlage der Grammatik in der Sekundarstufe I.",
+      "gespraechsanlass": "Frag dein Kind: 'In 'Der nervose Gegner verliert' - welches Wort ist das Adjektiv und woran erkennst du das?'",
+      "tipp": "Captions und Titel sind kurze, klare Beispiele - ein gutes Suchspiel beim gemeinsamen Schauen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 2,
+    "bubble_id": "klasse_7_9",
+    "fach": "Deutsch",
+    "szenario": "In einem Live-Stream-Chat steht die verkürzte Nachricht: 'voll nice das neue Update real'.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "de79-2",
+    "begruendung": "Die Chat-Aussage hat kein klares Subjekt-Prädikat-Gefuege. Sie eignet sich, um aus einer verkürzten Medienaussage einen vollständigen Satz mit bestimmten Satzgliedern zu bilden.",
+    "einstiegsfrage": "Welche Satzglieder fehlen, damit aus diesem Chat-Fetzen ein vollständiger Satz wird?",
+    "unterrichtsidee": "Die Lernenden formen drei Chat-Nachrichten in vollständige Sätze um, bestimmen Subjekt, Prädikat und Objekt und nutzen die Umstellprobe (15 Min).",
+    "schueler_hook": "Im Chat reichen drei Wörter - aber im Aufsatz braucht ein Satz mehr, damit er funktioniert.",
+    "schueler_challenge": "Mach aus 'krass spannend der Stream' einen vollständigen Satz und markiere Subjekt und Prädikat.",
+    "eltern": {
+      "schulbezug": "Thema Satzbau und Satzglieder: Subjekt, Prädikat, Objekt und der Unterschied zwischen Chat-Sprache und vollständigem Satz.",
+      "gespraechsanlass": "Frag dein Kind: 'Was fehlt der Nachricht 'voll nice das Update', damit sie ein richtiger Satz wird?'",
+      "tipp": "Es geht nicht darum, Chat-Sprache schlecht zu finden, sondern beide Formen bewusst zu beherrschen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 3,
+    "bubble_id": "klasse_7_9",
+    "fach": "Deutsch",
+    "szenario": "Unter einem viralen Post entsteht eine hitzige Diskussion ueber den Satz: 'das hat voll spass gemacht das spiel'.",
+    "quelle": "news",
+    "datum": "2026-06",
+    "video_id": "de79-3",
+    "begruendung": "Die Nachricht enthaelt typische Fehler bei Gross-/Kleinschreibung und Schaerfung. Solche oeffentlich diskutierten Beispiele motivieren, Rechtschreibregeln bewusst anzuwenden.",
+    "einstiegsfrage": "Welche Woerter muessen hier grossgeschrieben werden und warum?",
+    "unterrichtsidee": "Die Lernenden korrigieren einen kurzen Fehlertext aus Kommentaren, begruenden jede Korrektur und sortieren die Fehler nach Regel (15 Min).",
+    "schueler_hook": "Online schreibt jeder klein und schnell - aber kannst du erkennen, wo die Rechtschreibung wirklich kippt?",
+    "schueler_challenge": "Schreibe 'das spiel macht voll spass' korrekt und nenne zu jeder Aenderung die Regel.",
+    "eltern": {
+      "schulbezug": "Rechtschreibung: Gross-/Kleinschreibung, Dehnung und Schaerfung - ein Dauerthema der Sekundarstufe I.",
+      "gespraechsanlass": "Frag dein Kind: 'Warum schreibt man 'Spiel' und 'Spass' gross bzw. mit ss - welche Regel steckt dahinter?'",
+      "tipp": "Korrigiert gemeinsam einen Kommentar, ohne ihn zu verurteilen - das schult den Blick fuer beide Schreibstile.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 4,
+    "bubble_id": "klasse_7_9",
+    "fach": "Deutsch",
+    "szenario": "In einem Reaction-Video faellt zum zehnten Mal in einer Minute das Wort 'krass'.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "de79-4",
+    "begruendung": "Die staendige Wiederholung eines Allerweltsworts zeigt, wie ungenau Slang sein kann. Das motiviert, ein Wortfeld aufzubauen und praeziser zu formulieren.",
+    "einstiegsfrage": "Was genau meint die Person mit 'krass' an verschiedenen Stellen - und welches Wort waere treffender?",
+    "unterrichtsidee": "Die Lernenden sammeln ein Wortfeld zu 'krass/cool' und ersetzen in vier Reaction-Saetzen das Allerweltswort durch praezisere Synonyme (15 Min).",
+    "schueler_hook": "Wenn alles 'krass' ist, sagt das Wort am Ende fast nichts mehr - findest du das genauere Wort?",
+    "schueler_challenge": "Ersetze 'krass' in drei Saetzen durch drei verschiedene, jeweils passendere Woerter.",
+    "eltern": {
+      "schulbezug": "Wortfelder und Synonyme: den Wortschatz erweitern und zwischen Alltags- und Schriftsprache wechseln.",
+      "gespraechsanlass": "Frag dein Kind: 'Welches Wort koennte man statt 'krass' sagen, damit klarer wird, was gemeint ist?'",
+      "tipp": "Beim naechsten Video gemeinsam zaehlen, wie oft ein Wort faellt - und ueberlegen, was es jeweils heisst.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 5,
+    "bubble_id": "klasse_7_9",
+    "fach": "Deutsch",
+    "szenario": "In einer Kurzvideo-Reihe wird ein altes Maerchen in einer modernen Grossstadt nacherzaehlt.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "de79-5",
+    "begruendung": "Das moderne Remake behaelt typische Maerchenmerkmale wie Gut/Boese, Zauberhilfe und gutes Ende. Es eignet sich, diese Merkmale und die Erzaehlstruktur herauszuarbeiten.",
+    "einstiegsfrage": "Welche typischen Maerchenmerkmale erkennst du wieder, obwohl die Geschichte heute spielt?",
+    "unterrichtsidee": "Die Lernenden listen Maerchenmerkmale auf und pruefen an der modernen Version, welche erhalten bleiben und welche fehlen (15 Min).",
+    "schueler_hook": "Selbst in einer Grossstadt-Story stecken oft uralte Maerchen-Muster - erkennst du sie?",
+    "schueler_challenge": "Schreibe einen Maerchenanfang, der heute spielt, aber mindestens zwei klassische Merkmale enthaelt.",
+    "eltern": {
+      "schulbezug": "Maerchen: typische Merkmale, Motive und Erzaehlstruktur - eine klassische literarische Form im Deutschunterricht.",
+      "gespraechsanlass": "Frag dein Kind: 'Was macht eine Geschichte zum Maerchen, auch wenn sie heute spielt?'",
+      "tipp": "Vergleicht ein modernes Remake mit dem Original - so werden die Merkmale ganz von selbst sichtbar.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 6,
+    "bubble_id": "klasse_7_9",
+    "fach": "Deutsch",
+    "szenario": "In einem Tier-Clip handelt ein schlauer Fuchs wie ein cleverer Trickser und ueberlistet einen sturen Esel.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "de79-6",
+    "begruendung": "Den Tieren werden klare menschliche Eigenschaften zugeschrieben - genau das Prinzip der Fabel. Daraus laesst sich eine Moral ableiten.",
+    "einstiegsfrage": "Welche menschliche Eigenschaft steht hier hinter dem Fuchs und hinter dem Esel?",
+    "unterrichtsidee": "Die Lernenden ordnen Fabeltieren ihre typischen Eigenschaften zu und formulieren zu einer kurzen Tier-Geschichte eine passende Moral (15 Min).",
+    "schueler_hook": "Wenn ein Tier im Clip schlau oder stur handelt, steckt oft eine kleine Botschaft dahinter.",
+    "schueler_challenge": "Schreibe eine Mini-Fabel mit zwei Tieren und einer Moral in einem Satz.",
+    "eltern": {
+      "schulbezug": "Fabeln: Fabeltiere mit menschlichen Eigenschaften, die kurze Erzaehlform und die Moral als Botschaft.",
+      "gespraechsanlass": "Frag dein Kind: 'Welche Lehre koennte hinter dieser Tier-Geschichte stecken?'",
+      "tipp": "Fragt euch bei kurzen Tier-Clips spielerisch: Welche Eigenschaft zeigt das Tier hier?",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 7,
+    "bubble_id": "klasse_7_9",
+    "fach": "Deutsch",
+    "szenario": "Bei einem Poetry-Slam-Auftritt fuer Jugendliche reimt die vortragende Person ueber Schule und Druck im Takt.",
+    "quelle": "podcast",
+    "datum": "2026-06",
+    "video_id": "de79-7",
+    "begruendung": "Slam-Texte und Rap nutzen Reim, Rhythmus und Stilmittel genau wie Gedichte. Das eignet sich, lyrische Mittel an einer modernen Form zu erkennen.",
+    "einstiegsfrage": "An welcher Stelle treibt der Reim den Text voran und wo sorgt der Rhythmus fuer Wirkung?",
+    "unterrichtsidee": "Die Lernenden analysieren eine Slam-/Rap-Strophe auf Reimschema und Stilmittel und schreiben anschliessend zwei eigene gereimte Zeilen (15 Min).",
+    "schueler_hook": "Rap und Poetry-Slam folgen denselben Reim- und Rhythmusregeln wie ein Gedicht im Unterricht.",
+    "schueler_challenge": "Schreibe zwei Zeilen im Paarreim und baue ein Stilmittel wie einen Vergleich ein.",
+    "eltern": {
+      "schulbezug": "Gedichte: Reim, Rhythmus und Stilmittel - hier ueber die bruecke Rap und Poetry-Slam zugaenglich gemacht.",
+      "gespraechsanlass": "Frag dein Kind: 'Wo hoerst du in diesem Text den Reim und wo den Rhythmus?'",
+      "tipp": "Songtexte sind moderne Gedichte - gemeinsam ein Reimschema heraushoeren macht Spass und schult das Ohr.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 8,
+    "bubble_id": "klasse_7_9",
+    "fach": "Deutsch",
+    "szenario": "In einem Storytime-Video erzaehlt die Person ein Erlebnis durcheinander, springt zwischen Anfang und Ende hin und her.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "de79-8",
+    "begruendung": "Das ungeordnete Erzaehlen macht deutlich, wie wichtig eine klare Reihenfolge ist. Genau das ist das Lernziel beim Nacherzaehlen.",
+    "einstiegsfrage": "In welcher Reihenfolge muessten die Ereignisse stehen, damit man der Geschichte gut folgen kann?",
+    "unterrichtsidee": "Die Lernenden bringen die Ereignisse eines durcheinander erzaehlten Clips in die richtige Reihenfolge und erzaehlen ihn in vier geordneten Saetzen nach (15 Min).",
+    "schueler_hook": "Eine gute Story braucht eine klare Reihenfolge - sonst verliert man im Erzaehlen den Faden.",
+    "schueler_challenge": "Erzaehle ein kurzes Erlebnis in genau vier Saetzen mit den Signalwoertern zuerst, dann, danach, schliesslich.",
+    "eltern": {
+      "schulbezug": "Nacherzaehlen: einen Inhalt geordnet, in eigenen Worten und in richtiger Reihenfolge wiedergeben.",
+      "gespraechsanlass": "Frag dein Kind: 'Was passierte in der Geschichte zuerst, was danach und was am Ende?'",
+      "tipp": "Lasst euch gegenseitig ein Video in drei Saetzen nacherzaehlen - das trainiert das geordnete Wiedergeben.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 9,
+    "bubble_id": "klasse_7_9",
+    "fach": "Deutsch",
+    "szenario": "In einem BookTok-Beitrag wird ein Jugendroman in einem kurzen, dichten Klappentext angeteasert.",
+    "quelle": "news",
+    "datum": "2026-06",
+    "video_id": "de79-9",
+    "begruendung": "Ein Klappentext verlangt, gezielt die wichtigsten Informationen zu entnehmen. Das ist die Kernkompetenz des Leseverstehens.",
+    "einstiegsfrage": "Welche drei Informationen aus dem Klappentext sind wirklich entscheidend fuer die Handlung?",
+    "unterrichtsidee": "Die Lernenden beantworten zum Klappentext W-Fragen, markieren Schluesselwoerter und fassen den Inhalt in einem Satz zusammen (15 Min).",
+    "schueler_hook": "Ein guter Klappentext verraet genug, um dich neugierig zu machen - aber findest du die echten Kerninfos?",
+    "schueler_challenge": "Schreibe einen eigenen Klappentext zu einem Buch oder Film in hoechstens drei Saetzen.",
+    "eltern": {
+      "schulbezug": "Leseverstehen: einen Text verstehen und gezielt die wichtigen Informationen herausziehen.",
+      "gespraechsanlass": "Frag dein Kind: 'Worum geht es in dem Buch laut Klappentext - in einem Satz?'",
+      "tipp": "Klappentexte sind kurz und ideal, um gemeinsam das Herauslesen von Kernaussagen zu ueben.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 10,
+    "bubble_id": "klasse_7_9",
+    "fach": "Deutsch",
+    "szenario": "Ein Erklaervideo wirkt besonders ueberzeugend, weil die Person mit einem klaren Einstieg, Struktur und direkter Ansprache arbeitet.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "de79-10",
+    "begruendung": "Erfolgreiche Erklaervideos folgen den Prinzipien guten Praesentierens. Daran lassen sich Aufbau und Sprechtechnik fuer eigene Vortraege ableiten.",
+    "einstiegsfrage": "Welche drei Techniken machen dieses Erklaervideo verstaendlich und ueberzeugend?",
+    "unterrichtsidee": "Die Lernenden analysieren den Aufbau eines Erklaervideos (Einstieg-Hauptteil-Schluss) und halten in Kleingruppen einen einminuetigen Mini-Vortrag mit Feedback (15 Min).",
+    "schueler_hook": "Die besten Erklaervideos nutzen genau die Tricks, die auch deinen Vortrag im Unterricht ueberzeugend machen.",
+    "schueler_challenge": "Plane einen einminuetigen Vortrag mit klarem Einstieg, zwei Punkten und Schluss.",
+    "eltern": {
+      "schulbezug": "Praesentieren und Sprechen: einen klar strukturierten Vortrag halten und Zuhoerer ansprechen.",
+      "gespraechsanlass": "Frag dein Kind: 'Was macht ein Erklaervideo so verstaendlich - und was davon hilft auch bei einem Referat?'",
+      "tipp": "Lasst euch gegenseitig ein Thema in einer Minute erklaeren - lockere Uebung fuer den naechsten Vortrag.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_7_9",
+    "fach": "Deutsch",
+    "szenario": "In einem Sponsoring-Abschnitt eines Videos faellt der Satz: 'Nur heute fuer dich das beste Angebot aller Zeiten.'",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "de79-11",
+    "begruendung": "Der Werbesatz buendelt typische Beeinflussungsmittel: Superlativ, Zeitdruck und Du-Ansprache. Das eignet sich, Sprache in Medien kritisch zu analysieren.",
+    "einstiegsfrage": "Mit welchen sprachlichen Mitteln soll dieser Satz dich zum schnellen Kauf bewegen?",
+    "unterrichtsidee": "Die Lernenden markieren in mehreren Werbesaetzen die Beeinflussungsmittel und schreiben jeden Satz in eine sachliche Version um (15 Min).",
+    "schueler_hook": "Werbung im Video nutzt gezielte Wortwahl, um dich zu beeinflussen - durchschaust du die Tricks?",
+    "schueler_challenge": "Schreibe einen uebertriebenen Werbesatz und danach dieselbe Aussage sachlich und ehrlich.",
+    "eltern": {
+      "schulbezug": "Medien und Sprache: erkennen, wie Sprache in Werbung und Social Media wirkt und manchmal manipuliert.",
+      "gespraechsanlass": "Frag dein Kind: 'Welche Woerter in diesem Werbesatz sollen Druck oder Begeisterung erzeugen?'",
+      "tipp": "Sprecht offen darueber, dass Sponsoring Werbung ist - das schaerft den kritischen Blick.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 12,
+    "bubble_id": "klasse_7_9",
+    "fach": "Deutsch",
+    "szenario": "In einem Clip wird ein Fremdwort beilaeufig benutzt, und in den Kommentaren streiten sich Leute ueber dessen Bedeutung.",
+    "quelle": "news",
+    "datum": "2026-06",
+    "video_id": "de79-12",
+    "begruendung": "Widerspruechliche Kommentare zeigen, dass Raten nicht reicht. Das motiviert, Bedeutungen sicher nachzuschlagen und Quellen zu pruefen.",
+    "einstiegsfrage": "Wie findest du sicher heraus, was das Wort wirklich bedeutet, statt es aus Kommentaren zu raten?",
+    "unterrichtsidee": "Die Lernenden schlagen drei strittige Begriffe nach, notieren die Quelle und vergleichen, ob zwei Quellen uebereinstimmen (15 Min).",
+    "schueler_hook": "In Kommentaren behauptet jeder etwas anderes - mit einer guten Quelle weisst du, was stimmt.",
+    "schueler_challenge": "Schlage die Bedeutung eines Fremdworts nach und notiere, in welcher Quelle du sie gefunden hast.",
+    "eltern": {
+      "schulbezug": "Woerterbuch und Recherche: Bedeutungen nachschlagen und Quellen pruefen statt zu raten.",
+      "gespraechsanlass": "Frag dein Kind: 'Woher weisst du, dass eine Info im Netz wirklich stimmt?'",
+      "tipp": "Schlagt unbekannte Woerter gemeinsam nach - das uebt das Pruefen von Quellen ganz nebenbei.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 13,
+    "bubble_id": "klasse_7_9",
+    "fach": "Deutsch",
+    "szenario": "Ein Video-Titel reiht ohne Satzzeichen auf: 'Er sagte ich schaffe das Update Loot und Sieg an einem Tag'.",
+    "quelle": "youtube",
+    "datum": "2026-06",
+    "video_id": "de79-13",
+    "begruendung": "Der Titel vereint mehrere Kommafaelle: Redewiedergabe und Aufzaehlung. Ohne Kommas wird er mehrdeutig, was die Notwendigkeit der Zeichensetzung zeigt.",
+    "einstiegsfrage": "An welchen Stellen aendert ein Komma die Bedeutung dieses Titels?",
+    "unterrichtsidee": "Die Lernenden setzen in mehrdeutige Medientitel Kommas bei Aufzaehlung und Redewiedergabe und begruenden, wie sich der Sinn jeweils aendert (15 Min).",
+    "schueler_hook": "Ein einziges fehlendes Komma kann einen Titel komplett anders klingen lassen - findest du die richtigen Stellen?",
+    "schueler_challenge": "Setze in den Titel alle noetigen Kommas und schreibe daneben, welche Regel jeweils gilt.",
+    "eltern": {
+      "schulbezug": "Kommasetzung: Aufzaehlungen, Einschuebe, dass-Saetze und Redewiedergabe - ein Kernthema der Sekundarstufe I.",
+      "gespraechsanlass": "Frag dein Kind: 'Wo gehoeren in 'Er sagte ich schaffe das' die Kommas hin und warum?'",
+      "tipp": "Titel und Chats sind voller Kommafragen - ein gutes Suchspiel beim gemeinsamen Scrollen.",
+      "safety": null
+    }
+  },
+  {
+    "thema_id": 5,
+    "bubble_id": "klasse_6",
+    "szenario": "In einem Podcast hörst du, dass die reichsten 1 % der Menschen in Deutschland zusammen mehr Vermögen besitzen als die ärmere Hälfte der Bevölkerung – also mehr als 40 Millionen Menschen zusammen.",
+    "begruendung": "Vermögensverteilung und Reichtum lassen sich direkt als Prozentanteile darstellen – die Schüler üben Prozentrechnung an einem echten, bedeutsamen Kontext. Begriffe wie 'Anteil', 'Rabatt' und 'Prozentsatz' werden greifbar.",
+    "einstiegsfrage": "Wenn 1 % der Menschen 35 % des gesamten Vermögens besitzen – wie viel Prozent bleibt dann für die anderen 99 %?",
+    "unterrichtsidee": "Die Klasse bekommt ein vereinfachtes Balkendiagramm zur Vermögensverteilung in Deutschland. In Kleingruppen rechnen die Schüler: Welcher Anteil (in %) gehört welcher Gruppe? Sie vergleichen ihre Ergebnisse und diskutieren kurz: Finden wir das fair – und was hat das mit Prozent zu tun?",
+    "schueler_hook": "Stell dir vor, 10 Pizzen liegen auf dem Tisch – und eine einzige Person nimmt sich 3,5 davon. Was bleibt für die anderen 9?",
+    "schueler_challenge": "100 Menschen teilen 1000 Euro auf. Die reichste Person bekommt 350 Euro. Wie viel Prozent ist das? Wie viel Euro bleiben für die anderen 99 zusammen?",
+    "eltern": {
+      "schulbezug": "In Klasse 6 lernen Kinder, Prozentsätze zu berechnen und Anteile zu vergleichen – zum Beispiel: Wie viel Prozent von einem Ganzen gehört zu einer Gruppe?",
+      "gespraechsanlass": "Wenn ihr zusammen einkauft: Kannst du ausrechnen, wie viel Prozent vom Taschengeld ein Artikel kostet?",
+      "tipp": "Sprechen Sie ruhig zu Hause über Geld und Anteile – Kinder verstehen Prozent viel besser, wenn es echte Beispiele gibt, zum Beispiel beim Einkauf oder beim Sparen.",
+      "safety": "Der Podcast-Inhalt zu Vermögen und Ungleichheit ist für Kinder grundsätzlich zugänglich, kann aber Fragen zu familiären Finanzen auslösen. Ein offenes, altersgerechtes Gespräch darüber ist sinnvoll."
+    },
+    "video_id": "parinhood:unboxing-news-deutschlandfunk-nova/billionen-die-wahrheit-ueber-deutschlands-superreiche",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_6",
+    "szenario": "In einem Podcast werden Zahlen zur Vermögensverteilung genannt: Grafiken und Statistiken zeigen, wie sich Reichtum in Deutschland auf verschiedene Gruppen verteilt.",
+    "begruendung": "Statistische Daten zur Ungleichheit sind ein idealer Anlass, um Diagramme zu lesen und Mittelwerte zu berechnen – die Schüler erkennen, dass Zahlen eine Geschichte erzählen können.",
+    "einstiegsfrage": "Wenn fünf Kinder unterschiedlich viel Taschengeld haben – 5 €, 8 €, 10 €, 50 € und 2 € – was ist der Durchschnitt, und sagt der uns wirklich, wie es den meisten geht?",
+    "unterrichtsidee": "Die Lehrkraft zeigt ein vereinfachtes Säulendiagramm zur Vermögensverteilung. Die Schüler lesen Werte ab, berechnen den Mittelwert einer kleinen Datenreihe und diskutieren: Warum kann ein Mittelwert manchmal täuschen? (10–15 Min, Einzel- oder Partnerarbeit)",
+    "schueler_hook": "Du schaust auf ein Diagramm und merkst: Eine einzige Säule ist riesig – alle anderen winzig. Was verrät uns das über die Daten dahinter?",
+    "schueler_challenge": "Fünf Personen haben folgendes Vermögen: 0 €, 100 €, 200 €, 300 € und 9400 €. Berechne den Mittelwert. Beschreibt er die Situation gut? Begründe in einem Satz.",
+    "eltern": {
+      "schulbezug": "In Klasse 6 lernen Kinder, Diagramme zu lesen und den Mittelwert (Durchschnitt) zu berechnen – und zu verstehen, wann eine Zahl wirklich aussagekräftig ist.",
+      "gespraechsanlass": "Habt ihr schon mal einen Durchschnittswert gesehen, der sich komisch angefühlt hat – zum Beispiel beim Wetter oder bei Schulnoten?",
+      "tipp": "Zeigen Sie Ihrem Kind beim Lesen von Nachrichten ruhig mal eine Grafik oder Statistik und fragen Sie gemeinsam: Was sagt uns diese Zahl wirklich?",
+      "safety": null
+    },
+    "video_id": "parinhood:unboxing-news-deutschlandfunk-nova/billionen-die-wahrheit-ueber-deutschlands-superreiche",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_6",
+    "szenario": "In einem Podcast erklärt jemand, dass KI-Stimmen schon nach wenigen Minuten Sprachmaterial eine Person imitieren können. Er nennt dabei Zahlen: 3 Minuten reichen für eine einfache Stimme, 30 Minuten für eine täuschend echte Kopie.",
+    "begruendung": "Die genannten Zeitangaben und Mengenvergleiche laden direkt dazu ein, Daten zu lesen, zu vergleichen und in einem Diagramm darzustellen. So wird der spannende KI-Kontext zur Brücke für Datenauswertung und Mittelwertberechnung.",
+    "einstiegsfrage": "Wenn eine KI nach 3 Minuten, 10 Minuten oder 30 Minuten Sprachmaterial immer besser wird – wie könnten wir das in einem Diagramm zeigen und was wäre der Mittelwert der drei Werte?",
+    "unterrichtsidee": "Die Klasse erhält eine kleine Tabelle mit erfundenen 'KI-Qualitätswerten' für verschiedene Trainingszeiten (z. B. 3 Min → 40 Punkte, 10 Min → 65 Punkte, 30 Min → 91 Punkte). Schülerinnen und Schüler zeichnen ein Säulendiagramm, berechnen den Mittelwert und diskutieren kurz: Was sagt der Mittelwert hier aus – und was nicht?",
+    "schueler_hook": "Stell dir vor, eine KI lernt deine Stimme – kannst du herausfinden, wie viel Training sie dafür braucht, wenn du nur ein paar Zahlen hast?",
+    "schueler_challenge": "Berechne den Mittelwert aus diesen drei KI-Trainingswerten: 40, 65 und 91 Punkte. Was bedeutet dieser Mittelwert?",
+    "eltern": {
+      "schulbezug": "Im Matheunterricht lernen Kinder, Daten in Tabellen und Säulendiagrammen darzustellen und den Mittelwert zu berechnen – genau das üben sie hier an einem aktuellen Beispiel.",
+      "gespraechsanlass": "Hast du schon mal eine KI-Stimme gehört – und konntest du erkennen, ob sie echt war?",
+      "tipp": "Fragen Sie Ihr Kind, was ein Mittelwert bedeutet und wann er nützlich ist – das festigt den Schulstoff spielerisch im Alltag.",
+      "safety": null
+    },
+    "video_id": "parinhood:so-techt-deutschland-der-tech-podcast/gordian-braun-vielleicht-koennen-wir-gedanken-auslesen",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 5,
+    "bubble_id": "klasse_6",
+    "szenario": "Im Podcast wird erklärt, dass manche Sprecher durch Stimmen-Kloning bis zu 80 % ihrer bisherigen Einnahmen verlieren könnten, während KI-Unternehmen ihren Umsatz um 120 % steigern.",
+    "begruendung": "Prozentangaben zu Verlusten und Gewinnen sind ein authentischer Aufhänger, um Prozentrechnung im Kontext von Geld und Veränderungen zu üben – das macht den abstrakten Stoff greifbar und gesellschaftlich relevant.",
+    "einstiegsfrage": "Wenn ein Sprecher früher 500 € pro Monat verdient hat und jetzt 80 % weniger bekommt – wie viel bleibt ihm dann noch übrig?",
+    "unterrichtsidee": "Schülerinnen und Schüler rechnen in Kleingruppen zwei Szenarien durch: Wie viel verliert jemand, der 80 % weniger verdient? Wie viel gewinnt ein Unternehmen, das 120 % mehr einnimmt? Danach vergleichen die Gruppen ihre Ergebnisse und besprechen: Ist das fair?",
+    "schueler_hook": "Stell dir vor, du verdienst Taschengeld als Sprecher – und plötzlich übernimmt eine KI deinen Job für 80 % weniger Lohn. Was bleibt dir noch?",
+    "schueler_challenge": "Ein Sprecher verdient 400 € im Monat. Durch KI bekommt er 80 % weniger. Wie viel Euro sind das – und wie viel bleibt ihm?",
+    "eltern": {
+      "schulbezug": "Prozentrechnung gehört zum Kernstoff der 6. Klasse: Kinder lernen, Prozente von Mengen zu berechnen und Veränderungen wie Rabatte oder Verluste zu verstehen.",
+      "gespraechsanlass": "Habt ihr schon mal etwas mit Rabatt gekauft – und nachgerechnet, wie viel ihr wirklich gespart habt?",
+      "tipp": "Nutzen Sie Alltagssituationen wie Preisschilder im Supermarkt, um Prozentrechnung zu üben – das hilft Ihrem Kind, den Schulstoff zu festigen.",
+      "safety": null
+    },
+    "video_id": "parinhood:so-techt-deutschland-der-tech-podcast/gordian-braun-vielleicht-koennen-wir-gedanken-auslesen",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 12,
+    "bubble_id": "klasse_6",
+    "szenario": "Im Podcast wird gefragt: Wie wahrscheinlich ist es, dass jemand eine KI-Stimme von einer echten menschlichen Stimme unterscheiden kann? Laut einer kleinen Umfrage haben das nur 3 von 10 Leuten geschafft.",
+    "begruendung": "Die Angabe '3 von 10 Personen' ist ein direkter Einstieg in Wahrscheinlichkeiten und Brüche – Schülerinnen und Schüler können diese Aussage als Bruch darstellen, in Prozent umrechnen und mit Alltagswahrscheinlichkeiten vergleichen.",
+    "einstiegsfrage": "Wenn nur 3 von 10 Menschen eine KI-Stimme erkennen – wie groß ist die Chance, dass du es schaffst, und wie würdest du das als Bruch oder Prozentzahl schreiben?",
+    "unterrichtsidee": "Die Klasse führt ein kleines 'Erkennungs-Experiment' durch: Die Lehrkraft liest zwei kurze Sätze vor – einen normal, einen mit verstellter Stimme. Schülerinnen und Schüler tippen, welcher die KI-Stimme ist. Die Ergebnisse werden als Bruch und Prozentzahl festgehalten und mit dem Podcast-Wert (3/10) verglichen.",
+    "schueler_hook": "Kannst du eine KI-Stimme von einer echten unterscheiden – oder liegst du öfter falsch, als du denkst?",
+    "schueler_challenge": "3 von 10 Personen erkennen die KI-Stimme. Schreibe das als Bruch und als Prozentzahl. Ist die Chance größer oder kleiner als 50 %?",
+    "eltern": {
+      "schulbezug": "In der 6. Klasse lernen Kinder, einfache Wahrscheinlichkeiten zu beschreiben und mit Brüchen sowie Prozentzahlen darzustellen – ein wichtiger Grundstein für logisches Denken.",
+      "gespraechsanlass": "Glaubst du, dass du eine KI-Stimme erkennen würdest – und wie könntet ihr das zuhause ausprobieren?",
+      "tipp": "Sprechen Sie mit Ihrem Kind darüber, wie man Chancen im Alltag einschätzt – das stärkt sowohl Mathe-Kompetenz als auch einen kritischen Umgang mit Medien.",
+      "safety": null
+    },
+    "video_id": "parinhood:so-techt-deutschland-der-tech-podcast/gordian-braun-vielleicht-koennen-wir-gedanken-auslesen",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_6",
+    "szenario": "In einem Podcast hörst du, dass heute noch 3,5 Milliarden Menschen keinen sicheren Zugang zu einer Toilette haben – das ist fast die Hälfte der Weltbevölkerung.",
+    "begruendung": "Die globalen Zahlen und Anteile zum Sanitärzugang bieten einen direkten Einstieg in das Lesen und Interpretieren von Daten sowie das Erstellen von Diagrammen. Schülerinnen und Schüler können echte Statistiken auswerten und Säulendiagramme oder Kreisdiagramme dazu gestalten.",
+    "einstiegsfrage": "Wenn 3,5 von 8 Milliarden Menschen keine sichere Toilette haben – wie würde das als Säulendiagramm aussehen, und was fällt dir sofort auf?",
+    "unterrichtsidee": "Lehrkraft gibt 3–4 echte Datenpunkte zum Sanitärzugang in verschiedenen Weltregionen (z. B. Europa 98 %, Subsahara-Afrika 30 %). Schülerinnen und Schüler tragen die Werte in ein vorbereitetes Diagramm ein, berechnen den Mittelwert und formulieren einen Satz, der die größte Auffälligkeit beschreibt. Abschluss: kurze Diskussion, was die Zahlen bedeuten.",
+    "schueler_hook": "Stell dir vor, du entdeckst eine Zahl, die die ganze Welt in zwei Hälften teilt – und du kannst sie selbst als Diagramm sichtbar machen.",
+    "schueler_challenge": "Schau dir diese drei Zahlen an: Europa 98 %, Asien 54 %, Afrika 30 % – berechne den Mittelwert und zeichne ein einfaches Säulendiagramm dazu.",
+    "eltern": {
+      "schulbezug": "Im Mathematikunterricht lernen die Kinder, Daten zu lesen, Mittelwerte zu berechnen und Säulendiagramme zu erstellen und zu deuten.",
+      "gespraechsanlass": "Weißt du, wie viele Menschen weltweit keine saubere Toilette haben – und wie man solche Zahlen in einem Diagramm darstellt?",
+      "tipp": "Schauen Sie gemeinsam in einer Zeitung oder online nach einer Grafik mit Weltzahlen und fragen Sie Ihr Kind, was es darin erkennt.",
+      "safety": null
+    },
+    "video_id": "parinhood:kakadu-der-kinderpodcast/kakadu-eure-fragen-wer-hat-eigentlich-das-klo-erfunden",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 5,
+    "bubble_id": "klasse_6",
+    "szenario": "Ein Podcast erklärt, dass in manchen Ländern weniger als 30 % der Bevölkerung Zugang zu sauberem Wasser und Sanitäranlagen haben – in anderen Ländern sind es über 99 %.",
+    "begruendung": "Prozentangaben sind der natürliche Weg, um Anteile an einer Gesamtbevölkerung auszudrücken – genau das Kernkonzept der Prozentrechnung. Die konkreten und bedeutsamen Zahlen wecken echtes Interesse und machen den Sinn von Prozenten greifbar.",
+    "einstiegsfrage": "Wenn 30 % der Menschen in einem Land eine Toilette haben und das Land 10 Millionen Einwohner hat – wie viele Menschen ist das genau?",
+    "unterrichtsidee": "Lehrkraft nennt Bevölkerungszahlen und Prozentwerte zum Sanitärzugang für drei verschiedene Länder. Schülerinnen und Schüler berechnen jeweils, wie viele Menschen das konkret sind, und vergleichen die Ergebnisse. Anschließend überlegen sie gemeinsam: Wie viele Menschen fehlen noch bis zu 100 %? Das trainiert Grundaufgaben der Prozentrechnung mit echtem Kontext.",
+    "schueler_hook": "Kannst du ausrechnen, wie viele Millionen Menschen hinter einer einzigen Prozentzahl stecken?",
+    "schueler_challenge": "In einem Land leben 50 Millionen Menschen, aber nur 40 % haben eine sichere Toilette. Wie viele Menschen haben keine – und wie viele fehlen noch bis zu 100 %?",
+    "eltern": {
+      "schulbezug": "Die Kinder üben Prozentrechnung: Sie berechnen, wie viele Personen ein bestimmter Prozentsatz einer großen Zahl ist – ein zentrales Thema in Klasse 6.",
+      "gespraechsanlass": "Wenn du hörst, dass 40 % der Menschen etwas nicht haben – kannst du dir vorstellen, das in eine echte Personenzahl umzurechnen?",
+      "tipp": "Prozente begegnen uns überall – beim Einkauf, in Nachrichten, in der Schule. Üben Sie gemeinsam, Prozentzahlen in konkrete Mengen umzuwandeln.",
+      "safety": null
+    },
+    "video_id": "parinhood:kakadu-der-kinderpodcast/kakadu-eure-fragen-wer-hat-eigentlich-das-klo-erfunden",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_6",
+    "szenario": "In einem Podcast erzählt eine junge Forscherin, wie viele Spinnenarten sie in ihrem Garten entdeckt hat – und präsentiert ihre Zählergebnisse als kleine Statistik.",
+    "begruendung": "Forschen bedeutet Daten sammeln und auswerten. Die Podcast-Geschichte über Scarletts Beobachtungen lädt ein, Mengen zu vergleichen, Mittelwerte zu berechnen und Diagramme zu erstellen.",
+    "einstiegsfrage": "Wenn Scarlett in 5 Tagen 3, 7, 2, 8 und 5 Spinnen zählt – wie viele sind das im Durchschnitt pro Tag?",
+    "unterrichtsidee": "Die Klasse bekommt eine fiktive Forschungstabelle von Scarlett mit Spinnen-Fundorten und Anzahlen (5 Zeilen). In 15 Minuten berechnen die Schüler den Mittelwert, zeichnen ein Säulendiagramm und beantworten: An welchem Tag hat sie am meisten entdeckt?",
+    "schueler_hook": "Stell dir vor, du bist Forscherin wie Scarlett – kannst du aus ihren Zahlen herauslesen, wann sie den aufregendsten Tag hatte?",
+    "schueler_challenge": "Berechne den Mittelwert aus Scarletts 5 Tagesergebnissen und zeichne ein Säulendiagramm dazu.",
+    "eltern": {
+      "schulbezug": "Mittelwert berechnen und Daten in einem Säulendiagramm darstellen – das ist Stoff aus dem Kapitel 'Daten und Diagramme' in Klasse 6.",
+      "gespraechsanlass": "Habt ihr zuhause Dinge, die ihr zählen oder messen könntet – zum Beispiel Schritte pro Tag oder Bücher im Regal – und daraus ein Diagramm erstellen?",
+      "tipp": "Beim gemeinsamen Kochen oder Einkaufen können Sie Ihr Kind einfache Durchschnittswerte berechnen lassen, z.B. den Durchschnittspreis von drei Produkten.",
+      "safety": null
+    },
+    "video_id": "parinhood:ohrenbaer-podcast/scarlett-spinnt-den-besten-plan-17-gruene-kringel-in-der-nacht",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 12,
+    "bubble_id": "klasse_6",
+    "szenario": "Im Podcast wird gefragt: Wie wahrscheinlich ist es eigentlich, dass zwei so unterschiedliche Tiere wie eine Spinne und ein Leuchtkäfer sich wirklich anfreunden?",
+    "begruendung": "Die spielerische Frage nach Wahrscheinlichkeit und Zufall öffnet die Tür ins Thema Wahrscheinlichkeit – Chancen einschätzen, Möglichkeiten abwägen und mit einfachen Brüchen oder Prozentzahlen ausdrücken.",
+    "einstiegsfrage": "Wenn in einer Wiese 10 Tiere leben und nur 2 davon Leuchtkäfer sind – wie groß ist die Chance, dass Scarlett beim zufälligen Treffen einen Leuchtkäfer trifft?",
+    "unterrichtsidee": "Die Lehrkraft legt 10 Kärtchen auf den Tisch (2 Leuchtkäfer, 3 Spinnen, 5 andere Tiere). Schüler ziehen blind und schätzen vorher: Wie oft kommt ein Leuchtkäfer? Nach 20 Zügen (mit Zurücklegen) vergleichen sie Schätzung und Ergebnis und drücken die Wahrscheinlichkeit als Bruch und in Prozent aus.",
+    "schueler_hook": "Wie wahrscheinlich ist es, dass ausgerechnet Lennart der Leuchtkäfer ist, dem Scarlett begegnet – kannst du das mit Mathe herausfinden?",
+    "schueler_challenge": "Schreibe die Wahrscheinlichkeit, einen Leuchtkäfer zu treffen, als Bruch und rechne ihn in Prozent um.",
+    "eltern": {
+      "schulbezug": "Wahrscheinlichkeiten einschätzen und als Bruch oder Prozentzahl schreiben ist ein wichtiges Thema in Klasse 6, das Grundlagen für spätere Statistik legt.",
+      "gespraechsanlass": "Würfelt ihr mal gemeinsam und überlegt, wie wahrscheinlich es ist, eine 6 zu würfeln – schafft ihr es, das als Bruch aufzuschreiben?",
+      "tipp": "Brettspiele mit Würfeln oder Karten sind eine super Übung für Wahrscheinlichkeiten im Alltag – fragen Sie Ihr Kind einfach mal: Welche Zahl kommt deiner Meinung nach am häufigsten?",
+      "safety": null
+    },
+    "video_id": "parinhood:ohrenbaer-podcast/scarlett-spinnt-den-besten-plan-17-gruene-kringel-in-der-nacht",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 11,
+    "bubble_id": "klasse_6",
+    "szenario": "In einem Podcast wird erklärt, dass in Deutschland immer mehr Windräder gebaut werden und gleichzeitig die Zahl bestimmter Fledermausarten sinkt – mit konkreten Zahlen und Vergleichen über mehrere Jahre.",
+    "begruendung": "Tier- und Umweltdaten aus dem Podcast (Anzahl Windräder, betroffene Tierarten, Beobachtungszahlen) bieten einen echten Kontext, um Daten zu lesen, zu vergleichen und in Diagrammen darzustellen. Der emotionale Bezug zu Tieren macht die Aufgabe motivierend.",
+    "einstiegsfrage": "Wenn man über mehrere Jahre zählt, wie viele Fledermäuse in einer Region leben – wie kann man diese Zahlen so darstellen, dass man auf einen Blick sieht, ob es mehr oder weniger werden?",
+    "unterrichtsidee": "Die Lehrkraft gibt eine kleine Tabelle mit erfundenen, aber realistischen Zähldaten zu Fledermäusen (z. B. über 5 Jahre) aus. Schülerinnen und Schüler berechnen den Mittelwert, zeichnen ein Säulendiagramm und beschreiben in einem Satz, was der Trend zeigt. Abschließend kurze Klassendiskussion: Was könnte der Rückgang bedeuten?",
+    "schueler_hook": "Du hörst in einem Podcast, dass Fledermäuse wegen Windrädern in Gefahr sind – aber stimmt das wirklich, und wie kann man das mit Zahlen beweisen?",
+    "schueler_challenge": "Hier sind Zähldaten: 2019: 340 Tiere, 2020: 310, 2021: 295, 2022: 270, 2023: 260. Berechne den Mittelwert und zeichne ein Säulendiagramm. Was fällt dir auf?",
+    "eltern": {
+      "schulbezug": "Im Mathematikunterricht lernen die Kinder gerade, wie man Daten in Tabellen und Säulendiagrammen darstellt und den Mittelwert berechnet – also den 'Durchschnitt'.",
+      "gespraechsanlass": "Hast du schon mal eine Zahl gehört, die dich überrascht hat – zum Beispiel wie viele Tiere es von einer Art noch gibt? Wie könnte man so etwas zählen und zeigen?",
+      "tipp": "Schauen Sie gemeinsam in einer Zeitung oder App nach einer einfachen Statistik zu Natur oder Umwelt und fragen Sie Ihr Kind, was der Durchschnittswert bedeutet.",
+      "safety": null
+    },
+    "video_id": "parinhood:die-maus-zum-hoeren/flatter-flatter",
+    "quelle": "podcast",
+    "live": true
+  },
+  {
+    "thema_id": 12,
+    "bubble_id": "klasse_6",
+    "szenario": "In einem Podcast wird erklärt, dass Schmetterlinge zufällig bestimmte Blüten anfliegen – manche öfter, manche seltener. Eine Forscherin sagt: 'Ob ein Schmetterling genau diese Blume wählt, ist manchmal fast wie Zufall.'",
+    "begruendung": "Das Bild des zufälligen Anflugs bietet eine lebendige Brücke zum Thema Zufall und Wahrscheinlichkeit. Schülerinnen und Schüler können untersuchen, wie man Chancen einschätzt und ob 'Zufall' wirklich gleichmäßig verteilt ist.",
+    "einstiegsfrage": "Wenn ein Schmetterling zufällig eine von 4 Blumen anfliegt – wie groß ist die Chance, dass er genau die rote wählt?",
+    "unterrichtsidee": "Die Klasse simuliert den 'Schmetterlings-Zufall' mit einem Würfel: Jede Zahl steht für eine Blumenfarbe. Jede Schülerin und jeder Schüler würfelt 12-mal und notiert die Ergebnisse. Die Klasse sammelt alle Daten, vergleicht die Häufigkeiten und bespricht: Warum ist das Ergebnis nicht immer genau gleich, obwohl alle Chancen gleich sind?",
+    "schueler_hook": "Klingt Zufall immer fair – oder gibt es trotzdem Muster, die man vorhersagen kann?",
+    "schueler_challenge": "Stell dir vor, ein Schmetterling wählt zufällig zwischen 3 Blumen. Wie viele von 30 Versuchen würdest du für jede Blume erwarten? Würfle es aus und vergleiche!",
+    "eltern": {
+      "schulbezug": "Die Kinder beschäftigen sich im Mathematikunterricht mit Wahrscheinlichkeit: Was bedeutet Zufall, wie kann man Chancen berechnen und was ist ein 'fairer' Versuch?",
+      "gespraechsanlass": "Wenn du eine Münze 10-mal wirfst – glaubst du, dass immer genau 5-mal Kopf kommt? Was denkst du, warum nicht?",
+      "tipp": "Werfen Sie zu Hause gemeinsam eine Münze 20-mal und notieren Sie die Ergebnisse – das ist ein echter kleiner Wahrscheinlichkeits-Versuch, den Ihr Kind aus dem Unterricht kennt.",
+      "safety": null
+    },
+    "video_id": "parinhood:die-maus-zum-hoeren/flatter-flatter",
+    "quelle": "podcast",
+    "live": true
+  }
+]
