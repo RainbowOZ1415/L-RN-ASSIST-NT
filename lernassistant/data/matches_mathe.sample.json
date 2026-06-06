@@ -96,6 +96,35 @@
     "begruendung": "Drei Viertel entsprechen 75 Prozent. So wird der Zusammenhang zwischen Bruch und Prozentwert greifbar.",
     "einstiegsfrage": "Wie viel Prozent sind drei Viertel?",
     "unterrichtsidee": "Die Lernenden ordnen Fortschrittsbalken (ein Viertel, halb, drei Viertel, ganz) den passenden Prozentwerten zu.",
+    "material": {
+      "titel": "Vom Bruch zum Prozent – Fortschrittsbalken lesen",
+      "lernziel": "Die Lernenden rechnen einfache Brüche in Prozent um und deuten Prozentwerte an Fortschrittsbalken.",
+      "dauer_min": 45,
+      "ablauf": [
+        {"phase": "Einstieg", "dauer_min": 5, "beschreibung": "Fortschrittsbalken bei drei Vierteln zeigen. Frage: Wie viel Prozent sind das?"},
+        {"phase": "Erarbeitung", "dauer_min": 18, "beschreibung": "Bruch-Prozent-Zusammenhang erarbeiten: 1/4=25 %, 1/2=50 %, 3/4=75 %, 1/1=100 %."},
+        {"phase": "Sicherung", "dauer_min": 17, "beschreibung": "Arbeitsblatt: Brüche in Prozent umrechnen und Balken den Werten zuordnen."},
+        {"phase": "Transfer", "dauer_min": 5, "beschreibung": "Eigene Lade-/Fortschrittsbalken aus Apps als Bruch und Prozent angeben."}
+      ],
+      "arbeitsblatt": {
+        "aufgaben": [
+          "Wie viel Prozent sind drei Viertel?",
+          "Wie viel Prozent sind nach 6 von 24 Stunden geschafft?",
+          "Ordne zu: 1/4, 1/2, 3/4 → 25 %, 50 %, 75 %.",
+          "Ein Balken steht bei 40 %. Welcher Bruch passt ungefähr?"
+        ],
+        "loesungen": [
+          "3/4 = 75 %.",
+          "6/24 = 1/4 = 25 %.",
+          "1/4=25 %, 1/2=50 %, 3/4=75 %.",
+          "40 % = 40/100 = 2/5."
+        ]
+      },
+      "differenzierung": {
+        "leichter": "Nur die Viertel-Schritte (25/50/75/100 %) den Balken zuordnen.",
+        "schwerer": "Krumme Werte wie 3/8 oder 5/8 in Prozent umrechnen (37,5 % / 62,5 %)."
+      }
+    },
     "schueler_hook": "Drei Viertel geschafft – wie viel Prozent stehen dann auf dem Fortschrittsbalken?",
     "schueler_challenge": "Rechne aus, wie viel Prozent geschafft sind, wenn 6 von 24 Stunden vorbei sind.",
     "eltern": {
@@ -136,6 +165,35 @@
     "begruendung": "Die Chance 1 zu 50 ist ein klares Beispiel für Wahrscheinlichkeit im Alltag. Mehrfaches Öffnen erhöht die Chance nicht garantiert – Zufall bleibt Zufall.",
     "einstiegsfrage": "Wenn die Chance 1 zu 50 ist – bekommst du das Item sicher, wenn du 50-mal öffnest?",
     "unterrichtsidee": "Mit einem Würfel oder Glücksrad testen die Lernenden, wie oft ein seltenes Ereignis bei vielen Versuchen tatsächlich eintritt.",
+    "material": {
+      "titel": "Glück lässt sich nicht erzwingen – Wahrscheinlichkeit aus der Lootbox",
+      "lernziel": "Die Lernenden geben Wahrscheinlichkeiten als Bruch/Prozent an und erklären, warum viele Versuche keinen Treffer garantieren.",
+      "dauer_min": 45,
+      "ablauf": [
+        {"phase": "Einstieg", "dauer_min": 6, "beschreibung": "Lootbox-Chance '1 zu 50' zeigen. Frage: Hast du das Item nach 50 Versuchen sicher?"},
+        {"phase": "Erarbeitung", "dauer_min": 17, "beschreibung": "Wahrscheinlichkeit als Anteil (1/50 = 2 %). Unterschied Erwartung vs. Garantie herausarbeiten."},
+        {"phase": "Sicherung", "dauer_min": 17, "beschreibung": "Experiment mit Würfel/Glücksrad: 30 Versuche, Strichliste, beobachtete mit erwarteter Häufigkeit vergleichen."},
+        {"phase": "Transfer", "dauer_min": 5, "beschreibung": "Zwei Drop-Raten vergleichen (1 zu 50 vs. 3 von 100) – welche ist besser?"}
+      ],
+      "arbeitsblatt": {
+        "aufgaben": [
+          "Gib die Chance 1 zu 50 als Bruch und als Prozent an.",
+          "Wie viele Treffer sind bei 200 Versuchen mit Chance 1/50 zu erwarten?",
+          "Erkläre in einem Satz, warum 50 Versuche das Item nicht garantieren.",
+          "Was ist wahrscheinlicher: 1 zu 50 oder 3 von 100? Begründe."
+        ],
+        "loesungen": [
+          "1/50 = 2 %.",
+          "Erwartet: 200 · 1/50 = 4 Treffer (im Schnitt, nicht garantiert).",
+          "Jeder Versuch ist unabhängig und zufällig – Pech bleibt möglich.",
+          "3/100 = 3 %, das ist mehr als 2 % (1/50), also ist 3 von 100 wahrscheinlicher."
+        ]
+      },
+      "differenzierung": {
+        "leichter": "Nur 1/50 in Prozent umrechnen und den Erwartungswert bei 100 Versuchen bestimmen.",
+        "schwerer": "Wahrscheinlichkeit, bei 50 Versuchen mindestens einmal zu treffen, abschätzen und diskutieren (≈ 63 %)."
+      }
+    },
     "schueler_hook": "1 zu 50 klingt nach wenig – aber heißt das, du gehst sicher leer aus?",
     "schueler_challenge": "Erkläre in einem Satz, warum 50-mal Öffnen das Item nicht garantiert.",
     "eltern": {

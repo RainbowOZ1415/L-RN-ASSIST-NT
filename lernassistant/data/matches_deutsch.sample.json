@@ -96,6 +96,35 @@
     "begruendung": "Die Aussage bewertet den Sprachgebrauch in sozialen Medien. Sie eignet sich, um über Wirkung, Verkürzung und Übertreibung von Sprache online zu sprechen.",
     "einstiegsfrage": "Welche Wörter benutzen Menschen online, um etwas größer wirken zu lassen, als es ist?",
     "unterrichtsidee": "Die Klasse sammelt typische Übertreibungen aus Posts (mega, krass, niemals) und überlegt, wie dieselbe Aussage sachlich klingt.",
+    "material": {
+      "titel": "Sprache wirkt – Übertreibung in Social Media erkennen",
+      "lernziel": "Die Lernenden erkennen sprachliche Mittel der Übertreibung online und formulieren Aussagen sachlich um.",
+      "dauer_min": 45,
+      "ablauf": [
+        {"phase": "Einstieg", "dauer_min": 6, "beschreibung": "Podcast-Satz 'Social Media ist manchmal übertrieben' zeigen. Frage: Mit welchen Wörtern übertreibt man online?"},
+        {"phase": "Erarbeitung", "dauer_min": 17, "beschreibung": "Übertreibungswörter sammeln (mega, krass, niemals, immer). Wirkung besprechen: Aufmerksamkeit, Verzerrung."},
+        {"phase": "Sicherung", "dauer_min": 17, "beschreibung": "Arbeitsblatt: übertriebene Sätze in sachliche umschreiben und umgekehrt."},
+        {"phase": "Transfer", "dauer_min": 5, "beschreibung": "Eigenen Post-Satz und seine sachliche Version verfassen."}
+      ],
+      "arbeitsblatt": {
+        "aufgaben": [
+          "Unterstreiche die Übertreibung: 'Das ist das beste Video aller Zeiten!'",
+          "Schreibe sachlich: 'Ich sterbe, so lustig war das.'",
+          "Nenne drei Wörter, die online oft übertreiben.",
+          "Schreibe einen übertriebenen Satz und danach eine sachliche Version."
+        ],
+        "loesungen": [
+          "'bestes … aller Zeiten' ist die Übertreibung.",
+          "z.B. 'Das fand ich sehr lustig.'",
+          "z.B. mega, krass, niemals, immer, voll.",
+          "Individuelle Lösung – sachliche Version ohne wertende Übertreibung."
+        ]
+      },
+      "differenzierung": {
+        "leichter": "Übertreibungswörter aus einer Liste markieren.",
+        "schwerer": "Wirkung von Übertreibung auf Leser:innen in 3–4 Sätzen erläutern (Manipulation/Aufmerksamkeit)."
+      }
+    },
     "schueler_hook": "Online klingt vieles dramatischer als es ist – fällt dir auf, mit welchen Wörtern das gemacht wird?",
     "schueler_challenge": "Schreibe einen übertriebenen Post-Satz und danach eine sachliche Version davon.",
     "eltern": {
