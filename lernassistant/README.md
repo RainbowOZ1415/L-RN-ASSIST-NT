@@ -16,13 +16,13 @@ Die App läuft direkt mit den mitgelieferten **Sample-Daten** (`data/transcripts
 
 ## Echter Lauf (mit Daten)
 ```bash
-cp .env.example .env          # ANTHROPIC_API_KEY + YOUTUBE_API_KEY eintragen
-python ingest_youtube.py      # Trending DE + Transkripte -> data/transcripts.json
-python ingest_podcasts.py     # 3 RSS-Feeds -> hängt Episoden an transcripts.json
-python extract.py             # Themen je Video/Folge (Claude) -> data/extracted.json
-python match.py               # Matching gg. seed.json (Claude) -> data/matches.json
-streamlit run app.py          # nutzt jetzt die echten Daten
+cp .env.example .env          # OPENAI_API_KEY + YOUTUBE_API_KEY (oder ANTHROPIC)
+./run_pipeline.sh             # YouTube → Extract → Match (OpenAI/Codex oder Claude)
+streamlit run app.py          # nutzt data/matches_deutsch.json + matches_mathe.json
 ```
+
+**LLM:** Standard ist OpenAI (`LLM_PROVIDER=openai`, Modell `gpt-4o-mini`).
+Alternativ: `gpt-4o`, `gpt-5.3-codex` oder Anthropic mit `LLM_PROVIDER=anthropic`.
 
 ## Stunden-Plan (1 Tag, ~8h)
 - [ ] **Vorabend:** `seed.json` final · Sohn wählt 30 Videos + 3 Podcasts · `ingest_*` laufen lassen + Daten committen (CACHEN!)

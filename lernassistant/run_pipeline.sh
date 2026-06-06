@@ -8,6 +8,15 @@ if [ ! -f .env ]; then
   exit 1
 fi
 
+set -a
+source .env
+set +a
+
+if [ -z "$OPENAI_API_KEY" ] && [ -z "$ANTHROPIC_API_KEY" ]; then
+  echo "FEHLER: OPENAI_API_KEY oder ANTHROPIC_API_KEY in .env setzen."
+  exit 1
+fi
+
 BUBBLE="${BUBBLE_ID:-klasse_6}"
 echo "=== Bubble: $BUBBLE ==="
 
@@ -17,7 +26,7 @@ python3 ingest_youtube.py || echo "WARN: YouTube ingest fehlgeschlagen — weite
 echo ">>> 2/5 News (logo! RSS, kein Key)"
 python3 ingest_news.py || echo "WARN: News ingest fehlgeschlagen"
 
-echo ">>> 3/5 Extract (ANTHROPIC_API_KEY)"
+echo ">>> 3/5 Extract (OPENAI oder ANTHROPIC)"
 BUBBLE_ID="$BUBBLE" python3 extract.py
 
 echo ">>> 4/5 Match Deutsch"

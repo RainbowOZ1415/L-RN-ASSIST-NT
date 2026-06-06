@@ -1,12 +1,6 @@
-"""Extrahierte Themen gegen seed.json matchen -> data/matches.json
-30x25 -> direktes LLM-Matching, keine Vektor-DB nötig."""
+"""Extrahierte Themen gegen seed.json matchen -> data/matches.json"""
 import os, json
-from dotenv import load_dotenv
-import anthropic
-
-load_dotenv()
-MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-6")
-client = anthropic.Anthropic()
+from llm_client import complete, parse_json
 
 PROMPT = """Bubble (Altersgruppe): {bubble_name}, Alter {bubble_alter}, Sprachniveau: {bubble_niveau}
 
@@ -34,10 +28,12 @@ Gib NUR JSON zurück:
   "schueler_hook": "1 Satz Du-Form",
   "schueler_challenge": "1 kurze Aufgabe"}}]}}"""
 
+
 def load_bubble():
     bid = os.environ.get("BUBBLE_ID", "klasse_6")
     bubbles = {b["id"]: b for b in json.load(open("bubbles.json"))["bubbles"]}
     return bubbles.get(bid, bubbles["klasse_6"])
+
 
 def main():
     seed_file = os.environ.get("SEED_FILE", "seed.json")
@@ -46,22 +42,24 @@ def main():
     seed_min = [{"id": t["id"], "thema": t["thema"], "kernkonzept": t["kernkonzept"]}
                 for t in seed["themen"]]
     items = json.load(open("data/extracted.json"))
+    limit = int(os.environ.get("MATCH_LIMIT", "0"))
+    if limit:
+        items = items[:limit]
     matches = []
     for it in items:
-        msg = client.messages.create(
-            model=MODEL, max_tokens=600,
-            messages=[{"role": "user", "content": PROMPT.format(
+        text = complete(
+            PROMPT.format(
                 bubble_id=bubble["id"], bubble_name=bubble["name"],
                 bubble_alter=bubble["alter"], bubble_niveau=bubble["sprachniveau"],
                 seed=json.dumps(seed_min, ensure_ascii=False),
                 themen=", ".join(it.get("themen", [])),
                 zus=it.get("zusammenfassung", ""),
-                quelle=it.get("quelle", ""))}])
-        text = msg.content[0].text.strip().strip("`")
-        if text.startswith("json"):
-            text = text[4:]
+                quelle=it.get("quelle", ""),
+            ),
+            max_tokens=800,
+        )
         try:
-            treffer = json.loads(text).get("treffer", [])
+            treffer = parse_json(text).get("treffer", [])
         except Exception:
             treffer = []
         for t in treffer:
@@ -72,6 +70,7 @@ def main():
     out_path = os.environ.get("MATCHES_OUT", "data/matches.json")
     json.dump(matches, open(out_path, "w"), ensure_ascii=False, indent=2)
     print(f"-> {out_path} ({len(matches)} Treffer, Bubble {bubble['name']})")
+
 
 if __name__ == "__main__":
     main()

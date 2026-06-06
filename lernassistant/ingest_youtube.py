@@ -6,7 +6,7 @@ from googleapiclient.discovery import build
 from youtube_transcript_api import YouTubeTranscriptApi
 
 load_dotenv()
-MAX = 30  # wie viele Trending-Videos
+MAX = int(os.environ.get("MAX_VIDEOS", "30"))
 
 def trending(api_key, region="DE", maxn=MAX):
     yt = build("youtube", "v3", developerKey=api_key)
