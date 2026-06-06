@@ -58,3 +58,24 @@ body {
     border-color: var(--color-line);
   }
 }
+
+/* Drucken: nur die Lernunterlage (.la-print) ausgeben */
+@media print {
+  body * {
+    visibility: hidden !important;
+  }
+  .la-print,
+  .la-print * {
+    visibility: visible !important;
+  }
+  .la-print {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .no-print {
+    display: none !important;
+  }
+}

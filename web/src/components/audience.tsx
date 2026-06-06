@@ -1,8 +1,11 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import type { AppData, FachBundle, Match, Material, Thema } from "@/lib/types";
 import { quelleLabel } from "@/lib/format";
+import { MaterialModal } from "@/components/material-modal";
+import { ExerciseRunner, hatAufgaben } from "@/components/exercise";
+import { playSound } from "@/lib/sound";
 
 /* ────────────────────────── gemeinsame Steuerung ────────────────────────── */
 
@@ -206,6 +209,8 @@ export function LehrkraftView({ data }: { data: AppData }) {
   const thema = themen.find((t) => t.id === activeThemaId);
   const matches = (bundle?.matches ?? []).filter((m) => m.thema_id === activeThemaId);
   const [bestaetigt, setBestaetigt] = useState<Record<string, boolean>>({});
+  const [openMatch, setOpenMatch] = useState<Match | null>(null);
+  const meta = `${bundle?.emoji ?? ""} ${bundle?.fach ?? ""} · ${sel.bubble.name}`;
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6">
@@ -253,7 +258,14 @@ export function LehrkraftView({ data }: { data: AppData }) {
                   <span className="font-semibold text-ink">Unterrichtsidee:</span> {m.unterrichtsidee}
                 </p>
               )}
-              {m.material && <MaterialBlock material={m.material} />}
+              {m.material && (
+                <button
+                  onClick={() => { playSound("click"); setOpenMatch(m); }}
+                  className="mt-3 inline-flex items-center gap-2 rounded-lg border border-brand bg-brand-soft px-3 py-1.5 text-sm font-semibold text-brand-dark transition hover:bg-brand hover:text-white"
+                >
+                  📄 Komplette Unterlage öffnen
+                </button>
+              )}
               <div className="mt-4 flex items-center gap-2">
                 <button
                   onClick={() => setBestaetigt((s) => ({ ...s, [key]: true }))}
@@ -275,6 +287,15 @@ export function LehrkraftView({ data }: { data: AppData }) {
         })}
         {matches.length === 0 && <EmptyState />}
       </div>
+
+      {openMatch && (
+        <MaterialModal
+          match={openMatch}
+          themaName={themen.find((t) => t.id === openMatch.thema_id)?.thema ?? ""}
+          meta={meta}
+          onClose={() => setOpenMatch(null)}
+        />
+      )}
     </div>
   );
 }
@@ -289,6 +310,16 @@ export function SchuelerView({ data }: { data: AppData }) {
   const punkte = Object.values(done).filter(Boolean).length;
   const themaName = (id: number) => bundle?.themen.find((t) => t.id === id)?.thema ?? "";
 
+  const uebThemen = (bundle?.themen ?? []).filter((t) => hatAufgaben(t.id));
+  const [tab, setTab] = useState<"entdecken" | "ueben">("entdecken");
+  const [uebThema, setUebThema] = useState<number | undefined>(undefined);
+  const activeUeb = uebThemen.some((t) => t.id === uebThema) ? uebThema : uebThemen[0]?.id;
+
+  const tabCls = (active: boolean) =>
+    `rounded-full px-4 py-1.5 text-sm font-semibold transition ${
+      active ? "bg-[#0f9d6c] text-white" : "border border-line text-muted hover:border-[#0f9d6c]"
+    }`;
+
   return (
     <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6">
       <PageHead
@@ -300,38 +331,66 @@ export function SchuelerView({ data }: { data: AppData }) {
       />
       <Controls sel={sel} />
 
-      <div className="mb-5 inline-flex items-center gap-2 rounded-full bg-[#0f9d6c]/10 px-4 py-1.5 font-semibold text-[#0b7a53]">
-        ⭐ {punkte} Punkte
+      <div className="mb-5 flex gap-2">
+        <button onClick={() => setTab("entdecken")} className={tabCls(tab === "entdecken")}>🔎 Entdecken</button>
+        <button onClick={() => setTab("ueben")} className={tabCls(tab === "ueben")}>✏️ Üben</button>
       </div>
 
-      <div className="space-y-4">
-        {matches.map((m, i) => {
-          const key = `${m.thema_id}-${m.video_id ?? i}`;
-          return (
-            <article key={key} className="la-card p-5">
-              <span className="la-chip la-chip-muted">{themaName(m.thema_id)}</span>
-              <p className="mt-3 text-lg font-semibold">{m.schueler_hook}</p>
-              {m.schueler_challenge && (
-                <div className="mt-3 rounded-xl bg-[#0f9d6c]/8 p-3">
-                  <p className="text-sm font-semibold text-[#0b7a53]">🎯 Deine Challenge</p>
-                  <p className="mt-1">{m.schueler_challenge}</p>
-                  <button
-                    onClick={() => setDone((s) => ({ ...s, [key]: !s[key] }))}
-                    className={`mt-3 rounded-lg px-3 py-1.5 text-sm font-semibold transition ${
-                      done[key]
-                        ? "bg-[#0f9d6c] text-white"
-                        : "border border-[#0f9d6c] text-[#0b7a53] hover:bg-[#0f9d6c]/10"
-                    }`}
-                  >
-                    {done[key] ? "✅ Geschafft" : "Als geschafft markieren"}
-                  </button>
-                </div>
-              )}
-            </article>
-          );
-        })}
-        {matches.length === 0 && <EmptyState />}
-      </div>
+      {tab === "entdecken" ? (
+        <>
+          <div className="mb-5 inline-flex items-center gap-2 rounded-full bg-[#0f9d6c]/10 px-4 py-1.5 font-semibold text-[#0b7a53]">
+            ⭐ {punkte} Punkte
+          </div>
+          <div className="space-y-4">
+            {matches.map((m, i) => {
+              const key = `${m.thema_id}-${m.video_id ?? i}`;
+              return (
+                <article key={key} className="la-card p-5">
+                  <span className="la-chip la-chip-muted">{themaName(m.thema_id)}</span>
+                  <p className="mt-3 text-lg font-semibold">{m.schueler_hook}</p>
+                  {m.schueler_challenge && (
+                    <div className="mt-3 rounded-xl bg-[#0f9d6c]/8 p-3">
+                      <p className="text-sm font-semibold text-[#0b7a53]">🎯 Deine Challenge</p>
+                      <p className="mt-1">{m.schueler_challenge}</p>
+                      <button
+                        onClick={() => { playSound("entry"); setDone((s) => ({ ...s, [key]: !s[key] })); }}
+                        className={`mt-3 rounded-lg px-3 py-1.5 text-sm font-semibold transition ${
+                          done[key]
+                            ? "bg-[#0f9d6c] text-white"
+                            : "border border-[#0f9d6c] text-[#0b7a53] hover:bg-[#0f9d6c]/10"
+                        }`}
+                      >
+                        {done[key] ? "✅ Geschafft" : "Als geschafft markieren"}
+                      </button>
+                    </div>
+                  )}
+                </article>
+              );
+            })}
+            {matches.length === 0 && <EmptyState />}
+          </div>
+        </>
+      ) : (
+        <div className="la-card p-5">
+          {activeUeb ? (
+            <>
+              <label className="mb-1 block text-xs font-bold uppercase tracking-wider text-muted">Thema wählen</label>
+              <select
+                value={activeUeb}
+                onChange={(e) => { playSound("swipe"); setUebThema(Number(e.target.value)); }}
+                className="mb-4 w-full rounded-xl border border-line bg-surface px-3 py-2 font-semibold"
+              >
+                {uebThemen.map((t) => (
+                  <option key={t.id} value={t.id}>{t.thema}</option>
+                ))}
+              </select>
+              <ExerciseRunner key={activeUeb} themaId={activeUeb} themaName={themaName(activeUeb)} />
+            </>
+          ) : (
+            <p className="text-muted">Für dieses Fach gibt es hier noch keine automatischen Übungen.</p>
+          )}
+        </div>
+      )}
     </div>
   );
 }

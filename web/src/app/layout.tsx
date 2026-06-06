@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import Link from "next/link";
+import Image from "next/image";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -19,11 +20,15 @@ function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-line/70 bg-surface/85 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
-        <Link href="/" className="flex items-center gap-2 font-bold tracking-tight">
-          <span className="grid h-8 w-8 place-items-center rounded-lg bg-brand text-white">L</span>
-          <span className="text-lg">
-            Lern<span className="text-brand">assistent</span>
-          </span>
+        <Link href="/" className="flex items-center" aria-label="Lernassistent — Startseite">
+          <Image
+            src="/logo.png"
+            alt="Lernassistent"
+            width={195}
+            height={31}
+            priority
+            className="h-7 w-auto"
+          />
         </Link>
         <nav className="hidden items-center gap-1 text-sm font-semibold sm:flex">
           <Link href="/lehrkraft" className="rounded-full px-3 py-1.5 text-muted hover:bg-brand-soft hover:text-brand-dark">
