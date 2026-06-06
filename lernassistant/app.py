@@ -194,7 +194,7 @@ def render_filter_panel():
     st.markdown('<p class="la-panel-title">Konto</p>', unsafe_allow_html=True)
     logged_in = st.toggle("Als eingeloggt (Demo)", value=False, key="demo_login")
     if logged_in:
-        st.success("Feed personalisiert", icon="✓")
+        st.success("Feed personalisiert", icon="✅")
     else:
         st.caption("Typische Inhalte der Bubble")
 
