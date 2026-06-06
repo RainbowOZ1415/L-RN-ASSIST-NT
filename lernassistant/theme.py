@@ -4,17 +4,19 @@ import streamlit as st
 NAV_SEITEN = [
     "Lehrkraft",
     "Schüler",
-    "Üben",
-    "Muster",
-    "Was läuft?",
+    "Eltern",
 ]
 
 NAV_ICONS = {
     "Lehrkraft": "📋",
     "Schüler": "🎒",
-    "Üben": "✏️",
-    "Muster": "💡",
-    "Was läuft?": "📱",
+    "Eltern": "👪",
+}
+
+NAV_SUBTITEL = {
+    "Lehrkraft": "Vom Lehrplan-Thema zu aktuellen Einstiegen & fertigem Material",
+    "Schüler": "Dein Alltag steckt voller Schulstoff — entdecken & üben",
+    "Eltern": "Was dein Kind schaut — und was schulisch dahintersteckt",
 }
 
 

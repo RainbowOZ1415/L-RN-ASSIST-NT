@@ -6,7 +6,7 @@ from interaktiv import (
     render_aufgabe, render_lehr_quiz, render_dynamic_aufgabe,
     render_zufalls_uebung, punkte_anzeigen,
 )
-from theme import inject_theme, NAV_SEITEN, NAV_ICONS, page_header, meta_chips
+from theme import inject_theme, NAV_SEITEN, NAV_ICONS, NAV_SUBTITEL, page_header, meta_chips
 from sounds import inject_sounds, queue_sound, render_sound_queue
 
 QUELLE_BADGE = {
@@ -58,6 +58,56 @@ def quelle_label(q):
 def filter_matches(matches, bubble_id):
     out = [m for m in matches if not m.get("bubble_id") or m["bubble_id"] in (bubble_id, "*")]
     return out if out else matches
+
+
+def render_material(material):
+    """Fertige, einsetzbare Stunde (gratis) — Ablauf, Arbeitsblatt, Differenzierung."""
+    if not material:
+        return
+    titel = material.get("titel", "Unterrichtsmaterial")
+    dauer = material.get("dauer_min")
+    label = f"📄 Fertige Stunde anzeigen — {titel}" + (f" ({dauer} Min)" if dauer else "")
+    with st.expander(label):
+        if material.get("lernziel"):
+            st.markdown(f"**Lernziel:** {material['lernziel']}")
+        ablauf = material.get("ablauf") or []
+        if ablauf:
+            st.markdown("**Ablauf**")
+            st.table([
+                {
+                    "Phase": p.get("phase", ""),
+                    "Min": p.get("dauer_min", ""),
+                    "Was passiert": p.get("beschreibung", ""),
+                }
+                for p in ablauf
+            ])
+        ab = material.get("arbeitsblatt") or {}
+        aufgaben = ab.get("aufgaben") or []
+        loesungen = ab.get("loesungen") or []
+        if aufgaben:
+            st.markdown("**Arbeitsblatt**")
+            for i, a in enumerate(aufgaben, 1):
+                st.markdown(f"{i}. {a}")
+            if loesungen:
+                with st.expander("Lösungen"):
+                    for i, l in enumerate(loesungen, 1):
+                        st.markdown(f"{i}. {l}")
+        diff = material.get("differenzierung") or {}
+        if diff.get("leichter") or diff.get("schwerer"):
+            c1, c2 = st.columns(2)
+            if diff.get("leichter"):
+                c1.markdown(f"**Leichter**\n\n{diff['leichter']}")
+            if diff.get("schwerer"):
+                c2.markdown(f"**Schwerer**\n\n{diff['schwerer']}")
+
+
+def eltern_text(m, themen):
+    """Eltern-Block aus dem Match, mit Seed-Fallback (eltern_klartext)."""
+    el = dict(m.get("eltern") or {})
+    if not el.get("schulbezug"):
+        t = themen.get(m.get("thema_id"), {})
+        el["schulbezug"] = t.get("eltern_klartext") or t.get("kernkonzept", "")
+    return el
 
 
 config = load_json("bubbles.json")
@@ -187,10 +237,11 @@ seite_icon = NAV_ICONS.get(seite, "")
 st.markdown(
     page_header(
         f"{seite_icon} {seite}",
-        f'{fcfg["emoji"]} {seed["fach"]} · {bubble["name"]} · {daten_label}',
+        NAV_SUBTITEL.get(seite, f'{seed["fach"]} · {bubble["name"]}'),
     ),
     unsafe_allow_html=True,
 )
+st.caption(f'{fcfg["emoji"]} {seed["fach"]} · {bubble["name"]} · {daten_label}')
 if matches:
     st.markdown(
         meta_chips((f"{len(matches)} Impulse", True),),
@@ -222,6 +273,7 @@ if seite == "Lehrkraft":
             render_lehr_quiz(m, thema_name=tn)
             if m.get("unterrichtsidee"):
                 st.markdown(f"**Unterrichtsidee:** {m['unterrichtsidee']}")
+            render_material(m.get("material"))
             b1, b2 = st.columns(2)
             if b1.button("Passt", key="ok" + key):
                 queue_sound("click")
@@ -234,80 +286,104 @@ if seite == "Lehrkraft":
     if not by_thema.get(sel):
         st.info("Noch keine Impulse — Pipeline oder Sample-Daten für diese Bubble.")
 
+    if matches:
+        with st.expander("💡 Muster: welche Situationen welche Themen treffen"):
+            by_szenario = defaultdict(list)
+            for m in matches:
+                by_szenario[szenario_text(m)].append(m)
+            for sz, ms in by_szenario.items():
+                st.markdown(
+                    f"_{sz}_  → "
+                    + ", ".join(f"**{themen[m['thema_id']]['thema']}**" for m in ms)
+                )
+
 elif seite == "Schüler":
-    punkte_anzeigen(len([m for m in matches if m.get("schueler_challenge")]))
-    for m in matches:
-        if m.get("schueler_hook"):
-            tn = themen[m["thema_id"]]["thema"]
-            with st.container(border=True):
-                st.markdown(f"**{tn}**")
-                st.info(m["schueler_hook"])
-                if m.get("schueler_challenge"):
-                    render_aufgabe(m, prefix="sch", thema_name=tn)
+    tab_entdecken, tab_ueben = st.tabs(["🔎 Entdecken", "✏️ Üben"])
 
-elif seite == "Üben":
-    ueb_sub1, ueb_sub2 = st.tabs(["Aus Impulsen", "Zufällig & Extra"])
+    with tab_entdecken:
+        punkte_anzeigen(len([m for m in matches if m.get("schueler_challenge")]))
+        for m in matches:
+            if m.get("schueler_hook"):
+                tn = themen[m["thema_id"]]["thema"]
+                with st.container(border=True):
+                    st.markdown(f"**{tn}**")
+                    st.info(m["schueler_hook"])
+                    if m.get("schueler_challenge"):
+                        render_aufgabe(m, prefix="sch", thema_name=tn)
 
-    with ueb_sub1:
-        ueb_matches = [m for m in matches if m.get("schueler_challenge")]
-        punkte_anzeigen(len(ueb_matches))
-        if ueb_matches:
-            sel_ueb = st.selectbox(
-                "Impuls wählen",
-                options=range(len(ueb_matches)),
-                format_func=lambda i: f"{themen[ueb_matches[i]['thema_id']]['thema']}: {szenario_text(ueb_matches[i])[:45]}…",
-                key="ueb_sel",
+    with tab_ueben:
+        ueb_sub1, ueb_sub2 = st.tabs(["Aus Impulsen", "Zufällig & Extra"])
+
+        with ueb_sub1:
+            ueb_matches = [m for m in matches if m.get("schueler_challenge")]
+            punkte_anzeigen(len(ueb_matches))
+            if ueb_matches:
+                sel_ueb = st.selectbox(
+                    "Impuls wählen",
+                    options=range(len(ueb_matches)),
+                    format_func=lambda i: f"{themen[ueb_matches[i]['thema_id']]['thema']}: {szenario_text(ueb_matches[i])[:45]}…",
+                    key="ueb_sel",
+                )
+                m = ueb_matches[sel_ueb]
+                tn = themen[m["thema_id"]]["thema"]
+                with st.container(border=True):
+                    st.markdown(f"**Situation:** _{szenario_text(m)}_")
+                    render_aufgabe(m, prefix="ueb", thema_name=tn)
+            else:
+                st.info("Noch keine Impulse.")
+
+        with ueb_sub2:
+            st.markdown("**Zufällige Aufgabe** zu einem Thema:")
+            zuf_thema = st.selectbox(
+                "Thema",
+                options=themen_ids,
+                index=demo_idx,
+                format_func=lambda i: themen[i]["thema"],
+                key="zuf_thema",
             )
-            m = ueb_matches[sel_ueb]
-            tn = themen[m["thema_id"]]["thema"]
-            with st.container(border=True):
-                st.markdown(f"**Situation:** _{szenario_text(m)}_")
-                render_aufgabe(m, prefix="ueb", thema_name=tn)
-        else:
-            st.info("Noch keine Impulse.")
+            render_zufalls_uebung(zuf_thema, themen[zuf_thema]["thema"], prefix="zuf")
 
-    with ueb_sub2:
-        st.markdown("**Zufällige Aufgabe** zu einem Thema:")
-        zuf_thema = st.selectbox(
-            "Thema",
-            options=themen_ids,
-            index=demo_idx,
-            format_func=lambda i: themen[i]["thema"],
-            key="zuf_thema",
-        )
-        render_zufalls_uebung(zuf_thema, themen[zuf_thema]["thema"], prefix="zuf")
+            st.divider()
+            st.markdown("**Extra-Übungen** (nach deinen Einreichungen):")
+            extras = st.session_state.dynamic_aufgaben
+            if not extras:
+                st.caption("Reiche eine Aufgabe ein — passende Übungen erscheinen hier.")
+            else:
+                for i, cfg in enumerate(reversed(extras[-10:])):
+                    render_dynamic_aufgabe(cfg, prefix=f"ex{i}")
+                if st.button("Extra-Übungen leeren"):
+                    queue_sound("delete")
+                    st.session_state.dynamic_aufgaben = []
+                    st.rerun()
 
-        st.divider()
-        st.markdown("**Extra-Übungen** (nach deinen Einreichungen):")
-        extras = st.session_state.dynamic_aufgaben
-        if not extras:
-            st.caption("Reiche eine Aufgabe ein — passende Übungen erscheinen hier.")
-        else:
-            for i, cfg in enumerate(reversed(extras[-10:])):
-                render_dynamic_aufgabe(cfg, prefix=f"ex{i}")
-            if st.button("Extra-Übungen leeren"):
-                queue_sound("delete")
-                st.session_state.dynamic_aufgaben = []
-                st.rerun()
+elif seite == "Eltern":
+    with st.expander("📱 Was schaut oder hört dein Kind gerade?"):
+        with st.form("konsum"):
+            name = st.text_input("z.B. Gaming-Streams, Podcasts, News")
+            warum = st.text_input("Warum? (optional)")
+            if st.form_submit_button("Hinzufügen") and name:
+                queue_sound("click")
+                st.session_state.konsum_liste.append({"name": name, "warum": warum})
+        for e in st.session_state.konsum_liste:
+            st.markdown(f"- **{e['name']}** — {e['warum']}")
 
-elif seite == "Muster":
-    by_szenario = defaultdict(list)
-    for m in matches:
-        by_szenario[szenario_text(m)].append(m)
-    for sz, ms in by_szenario.items():
+    st.markdown("**Das steckt schulisch in typischen Alltags-Situationen deiner Bubble:**")
+    eltern_matches = [m for m in matches if m.get("eltern") or m.get("schueler_hook")]
+    for m in eltern_matches:
+        tn = themen[m["thema_id"]]["thema"]
+        el = eltern_text(m, themen)
         with st.container(border=True):
-            st.markdown(f"_{sz}_")
-            st.markdown("→ " + ", ".join(
-                f"**{themen[m['thema_id']]['thema']}**" for m in ms))
-
-elif seite == "Was läuft?":
-    with st.form("konsum"):
-        name = st.text_input("z.B. Gaming-Streams, Podcasts, News")
-        warum = st.text_input("Warum? (optional)")
-        if st.form_submit_button("Hinzufügen") and name:
-            queue_sound("click")
-            st.session_state.konsum_liste.append({"name": name, "warum": warum})
-    for e in st.session_state.konsum_liste:
-        st.markdown(f"- **{e['name']}** — {e['warum']}")
+            st.caption(f'{quelle_label(m.get("quelle", ""))} · {tn}')
+            st.markdown(f"**Situation:** _{szenario_text(m)}_")
+            if el.get("schulbezug"):
+                st.markdown(f"📚 **Das ist Schulstoff:** {el['schulbezug']}")
+            if el.get("gespraechsanlass"):
+                st.markdown(f"💬 **Reden mit deinem Kind:** {el['gespraechsanlass']}")
+            if el.get("tipp"):
+                st.markdown(f"💡 **Tipp:** {el['tipp']}")
+            if el.get("safety"):
+                st.warning(f"⚠️ {el['safety']}")
+    if not eltern_matches:
+        st.info("Noch keine Impulse für diese Bubble.")
 
 render_sound_queue()

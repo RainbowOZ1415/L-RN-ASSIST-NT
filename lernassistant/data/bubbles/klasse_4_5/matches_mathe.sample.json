@@ -1,14 +1,24 @@
 [
-  {"thema_id": 2, "bubble_id": "klasse_4_5", "szenario": "3 von 8 Stuecken gegessen", "video_id": "ma45-1", "quelle": "youtube", "datum": "2026-06",
+  {"thema_id": 2, "bubble_id": "klasse_4_5", "fach": "Mathe", "szenario": "3 von 8 Stuecken gegessen", "video_id": "ma45-1", "quelle": "youtube", "datum": "2026-06",
    "begruendung": "Teilen in Alltagssituationen — Bruch als 'X von Y'.",
    "einstiegsfrage": "3 von 8 Stuecken sind weg — welcher Bruch?",
    "unterrichtsidee": "Kreis oder Rechteck teilen, Bruch anmalen.",
    "schueler_hook": "'3 von 8' hoerst du oft — das ist ein Bruch.",
-   "schueler_challenge": "Male 3 von 4 Kaestchen an."},
-  {"thema_id": 2, "bubble_id": "klasse_4_5", "szenario": "Die Haelfte ist fertig", "video_id": "ma45-2", "quelle": "youtube", "datum": "2026-05",
+   "schueler_challenge": "Male 3 von 4 Kaestchen an.",
+   "eltern": {
+     "schulbezug": "Erste Brüche als 'X von Y' verstehen – Einstieg in die Bruchrechnung (Klasse 4–5).",
+     "gespraechsanlass": "Frag dein Kind: 'Wenn 3 von 8 Stücken gegessen sind – welcher Bruch ist das?'",
+     "tipp": "Pizza, Schokolade oder Kuchen teilen ist die anschaulichste Bruch-Übung überhaupt.",
+     "safety": null}},
+  {"thema_id": 2, "bubble_id": "klasse_4_5", "fach": "Mathe", "szenario": "Die Haelfte ist fertig", "video_id": "ma45-2", "quelle": "youtube", "datum": "2026-05",
    "begruendung": "Haelfte = Bruch 1/2 im Alltag.",
    "einstiegsfrage": "Die Haelfte ist fertig — welcher Bruch ist das?",
    "unterrichtsidee": "Papier falten: Haelfte markieren.",
    "schueler_hook": "'Haelfte' ist Mathe — 1/2.",
-   "schueler_challenge": "Falte ein Blatt — wo ist die Haelfte?"}
+   "schueler_challenge": "Falte ein Blatt — wo ist die Haelfte?",
+   "eltern": {
+     "schulbezug": "Den Bruch 1/2 (die Hälfte) im Alltag erkennen – Grundlage der Bruchrechnung.",
+     "gespraechsanlass": "Frag dein Kind: 'Wenn die Hälfte fertig ist – wie schreibt man das als Bruch?'",
+     "tipp": "Beim Teilen von Snacks oder beim Falten von Papier wird 'die Hälfte' ganz konkret.",
+     "safety": null}}
 ]

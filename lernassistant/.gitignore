@@ -7,3 +7,5 @@ data/matches_deutsch.json
 data/matches_mathe.json
 __pycache__/
 .streamlit/secrets.toml
+.venv/
+venv/

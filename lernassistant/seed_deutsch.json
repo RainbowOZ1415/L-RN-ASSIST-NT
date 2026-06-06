@@ -3,18 +3,18 @@
   "stufe": "Sek I (Bubble-abhängig)",
   "bundesland": "generisch (anpassbar)",
   "themen": [
-    {"id": 1,  "thema": "Wortarten", "kernkonzept": "Nomen, Verb, Adjektiv, Artikel", "trend_hook": "Sprach-Erklärvideos, Memes mit Grammatik"},
-    {"id": 2,  "thema": "Satzbau & Satzglieder", "kernkonzept": "Subjekt, Prädikat, Objekt, Nebensätze", "trend_hook": "TikTok-Sprache vs. richtiger Satzbau"},
-    {"id": 3,  "thema": "Rechtschreibung", "kernkonzept": "Dehnung, Schärfung, Groß-/Kleinschreibung", "trend_hook": "Rechtschreib-Diskussionen in Social Media"},
-    {"id": 4,  "thema": "Wortfelder & Synonyme", "kernkonzept": "Wortschatz erweitern, präzise formulieren", "trend_hook": "Slang vs. Schriftsprache"},
-    {"id": 5,  "thema": "Märchen", "kernkonzept": "Märchenmerkmale, Motive, Erzählstruktur", "trend_hook": "Disney-Remakes, Märchen-Shorts"},
-    {"id": 6,  "thema": "Fabeln", "kernkonzept": "Fabeltiere, Moral, kurze Erzählform", "trend_hook": "Tiere mit Menschen-Eigenschaften in Clips"},
-    {"id": 7,  "thema": "Gedichte", "kernkonzept": "Reim, Rhythmus, Stilmittel", "trend_hook": "Rap & Reim, Poetry-Slams für Jugendliche"},
-    {"id": 8,  "thema": "Nacherzählen", "kernkonzept": "Inhalt wiedergeben, Reihenfolge, Hauptfiguren", "trend_hook": "Storytime-Videos, Was-ist-passiert-Formate"},
-    {"id": 9,  "thema": "Leseverstehen", "kernkonzept": "Text verstehen, Informationen entnehmen", "trend_hook": "BookTok, Kurzgeschichten online"},
-    {"id": 10, "thema": "Präsentieren & Sprechen", "kernkonzept": "Vortrag halten, Zuhörer ansprechen", "trend_hook": "YouTube-Erklärvideos als Vorbild"},
-    {"id": 11, "thema": "Medien & Sprache", "kernkonzept": "Werbung, Social Media, Sprache beeinflusst", "trend_hook": "Werbe-Tricks auf YouTube/Instagram"},
-    {"id": 12, "thema": "Wörterbuch & Recherche", "kernkonzept": "Bedeutungen nachschlagen, Quellen nutzen", "trend_hook": "Was-bedeutet-das-Erklärvideos"},
-    {"id": 13, "thema": "Kommasetzung", "kernkonzept": "Haupt- und Nebensätze, Aufzählungen, dass-Sätze, Einschübe", "trend_hook": "Video-Titel, Chat, Podcast-Dialoge — Kommas im Alltag"}
+    {"id": 1,  "thema": "Wortarten", "kernkonzept": "Nomen, Verb, Adjektiv, Artikel", "trend_hook": "Sprach-Erklärvideos, Memes mit Grammatik", "eltern_klartext": "Wörter erkennen und benennen — die Bausteine jeder Nachricht."},
+    {"id": 2,  "thema": "Satzbau & Satzglieder", "kernkonzept": "Subjekt, Prädikat, Objekt, Nebensätze", "trend_hook": "TikTok-Sprache vs. richtiger Satzbau", "eltern_klartext": "Wie ein vollständiger, verständlicher Satz aufgebaut ist."},
+    {"id": 3,  "thema": "Rechtschreibung", "kernkonzept": "Dehnung, Schärfung, Groß-/Kleinschreibung", "trend_hook": "Rechtschreib-Diskussionen in Social Media", "eltern_klartext": "Wörter richtig schreiben — auch wenn der Chat es lockerer nimmt."},
+    {"id": 4,  "thema": "Wortfelder & Synonyme", "kernkonzept": "Wortschatz erweitern, präzise formulieren", "trend_hook": "Slang vs. Schriftsprache", "eltern_klartext": "Den passenden Ausdruck finden — Alltagswort vs. Schulwort."},
+    {"id": 5,  "thema": "Märchen", "kernkonzept": "Märchenmerkmale, Motive, Erzählstruktur", "trend_hook": "Disney-Remakes, Märchen-Shorts", "eltern_klartext": "Typische Merkmale von Märchen wiedererkennen."},
+    {"id": 6,  "thema": "Fabeln", "kernkonzept": "Fabeltiere, Moral, kurze Erzählform", "trend_hook": "Tiere mit Menschen-Eigenschaften in Clips", "eltern_klartext": "Kurze Tier-Geschichten mit einer Botschaft (Moral)."},
+    {"id": 7,  "thema": "Gedichte", "kernkonzept": "Reim, Rhythmus, Stilmittel", "trend_hook": "Rap & Reim, Poetry-Slams für Jugendliche", "eltern_klartext": "Reim und Rhythmus — die Mechanik hinter Songtexten und Rap."},
+    {"id": 8,  "thema": "Nacherzählen", "kernkonzept": "Inhalt wiedergeben, Reihenfolge, Hauptfiguren", "trend_hook": "Storytime-Videos, Was-ist-passiert-Formate", "eltern_klartext": "Etwas Gesehenes in eigenen Worten geordnet wiedergeben."},
+    {"id": 9,  "thema": "Leseverstehen", "kernkonzept": "Text verstehen, Informationen entnehmen", "trend_hook": "BookTok, Kurzgeschichten online", "eltern_klartext": "Einen Text verstehen und die wichtigen Infos herausziehen."},
+    {"id": 10, "thema": "Präsentieren & Sprechen", "kernkonzept": "Vortrag halten, Zuhörer ansprechen", "trend_hook": "YouTube-Erklärvideos als Vorbild", "eltern_klartext": "Frei und verständlich vor anderen sprechen — wie ein guter Creator."},
+    {"id": 11, "thema": "Medien & Sprache", "kernkonzept": "Werbung, Social Media, Sprache beeinflusst", "trend_hook": "Werbe-Tricks auf YouTube/Instagram", "eltern_klartext": "Erkennen, wie Sprache online wirkt und manchmal manipuliert."},
+    {"id": 12, "thema": "Wörterbuch & Recherche", "kernkonzept": "Bedeutungen nachschlagen, Quellen nutzen", "trend_hook": "Was-bedeutet-das-Erklärvideos", "eltern_klartext": "Bedeutungen nachschlagen und Quellen prüfen statt raten."},
+    {"id": 13, "thema": "Kommasetzung", "kernkonzept": "Haupt- und Nebensätze, Aufzählungen, dass-Sätze, Einschübe", "trend_hook": "Video-Titel, Chat, Podcast-Dialoge — Kommas im Alltag", "eltern_klartext": "Wo im Alltagstext (Chat, Titel) Kommas hingehören."}
   ]
 }

@@ -14,10 +14,14 @@ Quelle: {quelle}
 
 Welche Lehrplan-Themen passen als Einstieg? Sei streng.
 REGELN:
-- Keine Creator-/Kanalnamen im Output
+- Keine Creator-/Kanalnamen im Output (in KEINEM Feld)
 - Generische Szenarien (Chat-Satz, Kommentar, Podcast-Zitat, Stream-Situation)
-- Einstiegsfrage passend zum Sprachniveau der Bubble
+- Sprache aller Felder passend zum Sprachniveau der Bubble
 - bubble_id: "{bubble_id}" in jedem Treffer
+- DREI Zielgruppen bedienen: Lehrkraft (begruendung/einstiegsfrage/unterrichtsidee/material),
+  Schüler (schueler_hook/schueler_challenge), Eltern (eltern.*)
+- material: vollständige, sofort nutzbare Stunde (gratis). eltern: Alltagssprache für Eltern.
+- eltern.safety: nur füllen, wenn das Szenario einen Hinweis braucht (z.B. Lootbox/Glücksspiel, Geld), sonst null.
 
 Gib NUR JSON zurück:
 {{"treffer": [{{"thema_id": <id>, "bubble_id": "{bubble_id}",
@@ -25,8 +29,15 @@ Gib NUR JSON zurück:
   "begruendung": "2 Sätze",
   "einstiegsfrage": "1 konkrete Frage",
   "unterrichtsidee": "1 Aktivität 10-20 Min",
+  "material": {{"titel": "...", "lernziel": "...", "dauer_min": 45,
+    "ablauf": [{{"phase": "Einstieg", "dauer_min": 5, "beschreibung": "..."}}],
+    "arbeitsblatt": {{"aufgaben": ["..."], "loesungen": ["..."]}},
+    "differenzierung": {{"leichter": "...", "schwerer": "..."}}}},
   "schueler_hook": "1 Satz Du-Form",
-  "schueler_challenge": "1 kurze Aufgabe"}}]}}"""
+  "schueler_challenge": "1 kurze Aufgabe",
+  "eltern": {{"schulbezug": "Klartext: welcher Schulstoff steckt drin",
+    "gespraechsanlass": "1 Frage für das Eltern-Kind-Gespräch",
+    "tipp": "1 unterstützender Hinweis", "safety": null}}}}]}}"""
 
 
 def load_bubble():
@@ -56,7 +67,7 @@ def main():
                 zus=it.get("zusammenfassung", ""),
                 quelle=it.get("quelle", ""),
             ),
-            max_tokens=800,
+            max_tokens=2200,
         )
         try:
             treffer = parse_json(text).get("treffer", [])

@@ -2,12 +2,48 @@
   {
     "thema_id": 2,
     "bubble_id": "klasse_6",
+    "fach": "Mathe",
     "szenario": "Beim Öffnen von 100 Sammelkarten-Packs sind 3 Karten legendär.",
     "begruendung": "Der Anteil 3 von 100 lässt sich direkt als Bruch schreiben. Das verbindet eine vertraute Alltagssituation mit der Bruchschreibweise.",
     "einstiegsfrage": "Wie schreibst du den Anteil 3 von 100 als Bruch?",
     "unterrichtsidee": "Die Lernenden notieren mehrere x-von-100-Treffer aus einem Pack-Opening und schreiben jeden als Bruch, danach Vergleich der Größe.",
+    "material": {
+      "titel": "Brüche aus dem Pack-Opening – Anteile schreiben und kürzen",
+      "lernziel": "Die Lernenden schreiben Alltagsanteile als Bruch, kürzen sie und vergleichen ihre Größe.",
+      "dauer_min": 45,
+      "ablauf": [
+        {"phase": "Einstieg", "dauer_min": 6, "beschreibung": "Screenshot/Beschreibung 'Pack-Opening: 3 von 100 legendär'. Frage: Wie groß ist dieser Anteil?"},
+        {"phase": "Erarbeitung", "dauer_min": 18, "beschreibung": "Anteile als Bruch schreiben (3/100). Kürzen wiederholen, gleichwertige Brüche an Beispielen zeigen."},
+        {"phase": "Sicherung", "dauer_min": 16, "beschreibung": "Arbeitsblatt: weitere Drop-Raten als Bruch schreiben, kürzen, der Größe nach ordnen."},
+        {"phase": "Transfer", "dauer_min": 5, "beschreibung": "Eigene Beispiele aus Spielen/Sport sammeln und als Bruch notieren."}
+      ],
+      "arbeitsblatt": {
+        "aufgaben": [
+          "Schreibe als Bruch: 3 von 100.",
+          "Kürze, wenn möglich: 20 von 100.",
+          "Welcher Bruch ist größer: 3/100 oder 1/25?",
+          "Finde ein eigenes 'X von Y'-Beispiel aus einem Spiel und schreibe es als Bruch."
+        ],
+        "loesungen": [
+          "3/100 (nicht weiter kürzbar).",
+          "20/100 = 1/5.",
+          "1/25 = 4/100 > 3/100, also ist 1/25 größer.",
+          "Individuelle Lösung."
+        ]
+      },
+      "differenzierung": {
+        "leichter": "Nur Anteile von 10 (z.B. 3 von 10) schreiben und am Streifenbild anmalen.",
+        "schwerer": "Drop-Raten in Prozent umrechnen und mit dem Erwartungswert bei 200 Packs argumentieren."
+      }
+    },
     "schueler_hook": "Du ziehst 3 legendäre Karten aus 100 – wie sieht dieser Glücksmoment als Bruch aus?",
     "schueler_challenge": "Schreibe 3 von 100 als Bruch und prüfe, ob du ihn kürzen kannst.",
+    "eltern": {
+      "schulbezug": "Bruchrechnung – Anteile als 'X von Y' schreiben und kürzen, ein Kernthema der Klasse 6.",
+      "gespraechsanlass": "Frag dein Kind: 'Wenn 3 von 100 Karten legendär sind – wie schreibt man das als Bruch?'",
+      "tipp": "Game-Chancen sind gelebte Bruchrechnung – beim nächsten Pack-Opening einfach mal nachfragen.",
+      "safety": null
+    },
     "video_id": "yt1",
     "quelle": "youtube",
     "datum": "2026-06"
@@ -15,12 +51,19 @@
   {
     "thema_id": 12,
     "bubble_id": "klasse_6",
+    "fach": "Mathe",
     "szenario": "Bei einem Pack-Opening kommen 3 seltene Treffer auf 100 geöffnete Packs.",
     "begruendung": "Die Situation lädt ein, über die Chance auf einen seltenen Treffer nachzudenken. Sie zeigt, dass ein Glückstreffer noch keine sichere Vorhersage erlaubt.",
     "einstiegsfrage": "Wie groß schätzt du die Chance, bei einem Pack einen seltenen Treffer zu ziehen, wenn es 3 auf 100 waren?",
     "unterrichtsidee": "Mit einem Beutel aus 50 gleichen und 1 besonderen Murmel ziehen die Lernenden mehrfach und notieren, wie oft der seltene Treffer kommt.",
     "schueler_hook": "Drei Glückstreffer auf hundert Versuche – ist das viel oder wenig?",
     "schueler_challenge": "Überlege: Wenn du 200 Packs öffnest, wie viele seltene Treffer wären zu erwarten?",
+    "eltern": {
+      "schulbezug": "Wahrscheinlichkeit – Chancen einschätzen und den Unterschied zwischen Erwartung und Garantie verstehen.",
+      "gespraechsanlass": "Frag dein Kind: 'Wenn die Chance 3 von 100 ist – bekommst du den Treffer sicher, wenn du 100 Packs öffnest?'",
+      "tipp": "Ein gutes Gespräch über Lootboxen: Zufall lässt sich nicht 'erzwingen' – schützt auch vor Frust und Ausgaben.",
+      "safety": "Bezug zu Lootboxen/In-Game-Käufen – guter Anlass, auch über Ausgaben und Glücksspiel-Mechaniken zu sprechen."
+    },
     "video_id": "yt1",
     "quelle": "youtube",
     "datum": "2026-06"
@@ -28,12 +71,19 @@
   {
     "thema_id": 2,
     "bubble_id": "klasse_6",
+    "fach": "Mathe",
     "szenario": "Ein Timer zeigt 45 von 60 Minuten, eine andere Anzeige 18 von 24 Stunden.",
     "begruendung": "45 von 60 und 18 von 24 lassen sich beide zu drei Vierteln kürzen. Das ist ein anschauliches Beispiel zum Kürzen gleichwertiger Brüche.",
     "einstiegsfrage": "Auf welchen einfachen Bruch kannst du 45 von 60 kürzen?",
     "unterrichtsidee": "Die Lernenden kürzen mehrere Timer-Brüche aus dem Alltag und sortieren, welche denselben Wert ergeben.",
     "schueler_hook": "Zwei Timer, zwei Brüche – und am Ende ist es derselbe Anteil. Wie geht das?",
     "schueler_challenge": "Zeige durch Kürzen, dass 18 von 24 und 45 von 60 gleich groß sind.",
+    "eltern": {
+      "schulbezug": "Brüche kürzen und gleichwertige Brüche erkennen – Bruchrechnung Klasse 6.",
+      "gespraechsanlass": "Frag dein Kind: 'Wie kann 45 von 60 dasselbe sein wie 18 von 24?'",
+      "tipp": "Timer, Ladebalken und Fortschrittsanzeigen sind überall – ideal zum spielerischen Kürzen.",
+      "safety": null
+    },
     "video_id": "yt2",
     "quelle": "youtube",
     "datum": "2026-06"
@@ -41,12 +91,19 @@
   {
     "thema_id": 5,
     "bubble_id": "klasse_6",
+    "fach": "Mathe",
     "szenario": "Eine Challenge ist nach 18 von 24 Stunden etwa drei Viertel geschafft.",
     "begruendung": "Drei Viertel entsprechen 75 Prozent. So wird der Zusammenhang zwischen Bruch und Prozentwert greifbar.",
     "einstiegsfrage": "Wie viel Prozent sind drei Viertel?",
     "unterrichtsidee": "Die Lernenden ordnen Fortschrittsbalken (ein Viertel, halb, drei Viertel, ganz) den passenden Prozentwerten zu.",
     "schueler_hook": "Drei Viertel geschafft – wie viel Prozent stehen dann auf dem Fortschrittsbalken?",
     "schueler_challenge": "Rechne aus, wie viel Prozent geschafft sind, wenn 6 von 24 Stunden vorbei sind.",
+    "eltern": {
+      "schulbezug": "Zusammenhang von Bruch und Prozent – drei Viertel = 75 %. Prozentrechnung Klasse 6.",
+      "gespraechsanlass": "Frag dein Kind: 'Wenn ein Fortschrittsbalken bei drei Vierteln steht – wie viel Prozent sind das?'",
+      "tipp": "Lade-/Fortschrittsbalken in Apps sind perfekte Prozent-Beispiele für nebenbei.",
+      "safety": null
+    },
     "video_id": "yt2",
     "quelle": "youtube",
     "datum": "2026-06"
@@ -54,12 +111,19 @@
   {
     "thema_id": 2,
     "bubble_id": "klasse_6",
+    "fach": "Mathe",
     "szenario": "Ein Bauprojekt im Spiel ist zu zwei Dritteln fertig.",
     "begruendung": "Zwei Drittel ist ein anschaulicher Bruch, der sich am Baufortschritt veranschaulichen lässt. Er eignet sich zum Bestimmen des fehlenden Anteils.",
     "einstiegsfrage": "Wenn zwei Drittel fertig sind – welcher Anteil fehlt noch?",
     "unterrichtsidee": "Mit einem in drei Teile gegliederten Streifen färben die Lernenden den fertigen Teil ein und benennen fertigen und fehlenden Anteil als Bruch.",
     "schueler_hook": "Zwei Drittel vom Haus stehen schon – wie viel fehlt noch bis fertig?",
     "schueler_challenge": "Zeichne einen Balken in drei gleiche Teile und markiere zwei Drittel.",
+    "eltern": {
+      "schulbezug": "Bruchteile bestimmen und den fehlenden Anteil berechnen – Bruchrechnung Klasse 6.",
+      "gespraechsanlass": "Frag dein Kind: 'Wenn zwei Drittel eines Projekts fertig sind – wie viel fehlt noch?'",
+      "tipp": "Beim Bauen in Games oder beim Backen lässt sich 'X von Y fertig' ganz natürlich besprechen.",
+      "safety": null
+    },
     "video_id": "yt3",
     "quelle": "youtube",
     "datum": "2026-06"
@@ -67,12 +131,19 @@
   {
     "thema_id": 12,
     "bubble_id": "klasse_6",
+    "fach": "Mathe",
     "szenario": "Eine Lootbox hat eine Chance von 1 zu 50 auf ein seltenes Item.",
     "begruendung": "Die Chance 1 zu 50 ist ein klares Beispiel für Wahrscheinlichkeit im Alltag. Mehrfaches Öffnen erhöht die Chance nicht garantiert – Zufall bleibt Zufall.",
     "einstiegsfrage": "Wenn die Chance 1 zu 50 ist – bekommst du das Item sicher, wenn du 50-mal öffnest?",
     "unterrichtsidee": "Mit einem Würfel oder Glücksrad testen die Lernenden, wie oft ein seltenes Ereignis bei vielen Versuchen tatsächlich eintritt.",
     "schueler_hook": "1 zu 50 klingt nach wenig – aber heißt das, du gehst sicher leer aus?",
     "schueler_challenge": "Erkläre in einem Satz, warum 50-mal Öffnen das Item nicht garantiert.",
+    "eltern": {
+      "schulbezug": "Wahrscheinlichkeit – warum viele Versuche einen seltenen Treffer nicht garantieren.",
+      "gespraechsanlass": "Frag dein Kind: 'Wenn die Chance 1 zu 50 ist – ist der Treffer beim 50. Mal sicher?'",
+      "tipp": "Wichtiges Gespräch zu Lootboxen und Geld: Die Mathematik zeigt, warum 'nur noch einmal' selten aufhört.",
+      "safety": "Bezug zu Lootboxen/Glücksspiel-Mechaniken – Anlass, über In-Game-Ausgaben zu sprechen."
+    },
     "video_id": "yt4",
     "quelle": "youtube",
     "datum": "2026-06"
@@ -80,12 +151,19 @@
   {
     "thema_id": 5,
     "bubble_id": "klasse_6",
+    "fach": "Mathe",
     "szenario": "Eine Chance von 1 zu 50 wird auch als zwei Prozent angegeben.",
     "begruendung": "Ein Fünfzigstel entspricht zwei Prozent. Das Beispiel zeigt, wie man einen Anteil als Prozentwert ausdrückt.",
     "einstiegsfrage": "Warum sind ein Fünfzigstel und zwei Prozent derselbe Anteil?",
     "unterrichtsidee": "Die Lernenden rechnen mehrere einfache Brüche in Prozent um und tragen die Paare in eine Tabelle ein.",
     "schueler_hook": "Ein Fünfzigstel und zwei Prozent – zwei Schreibweisen für denselben Wert.",
     "schueler_challenge": "Rechne ein Viertel und ein Zehntel jeweils in Prozent um.",
+    "eltern": {
+      "schulbezug": "Brüche in Prozent umrechnen – 1/50 = 2 %. Prozentrechnung Klasse 6.",
+      "gespraechsanlass": "Frag dein Kind: 'Warum sind ein Fünfzigstel und zwei Prozent gleich viel?'",
+      "tipp": "Prozentangaben bei Drop-Raten oder Rabatten sind gute Umrechnungs-Übungen für zwischendurch.",
+      "safety": null
+    },
     "video_id": "yt4",
     "quelle": "youtube",
     "datum": "2026-06"

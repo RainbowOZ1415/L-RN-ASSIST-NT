@@ -2,12 +2,48 @@
   {
     "thema_id": 13,
     "bubble_id": "klasse_6",
+    "fach": "Deutsch",
     "szenario": "In einem Live-Chat taucht der Satz auf: Er sagte ich bin der Beste.",
     "begruendung": "Der Satz enthält eine Redewiedergabe, bei der das Komma fehlt. Genau solche unmarkierten Sätze eignen sich, um die Zeichensetzung bei wörtlicher und indirekter Rede zu üben.",
     "einstiegsfrage": "Wo müsste ein Komma stehen, damit klar wird, wer hier spricht?",
     "unterrichtsidee": "Die Klasse sammelt fünf echte Chat-Sätze ohne Satzzeichen und setzt gemeinsam Kommas und Anführungszeichen für die wörtliche Rede ein.",
+    "material": {
+      "titel": "Kommas in der Redewiedergabe – aus dem Chat in den Unterricht",
+      "lernziel": "Die Lernenden setzen Kommas bei wörtlicher und indirekter Rede korrekt und begründen ihre Entscheidung.",
+      "dauer_min": 45,
+      "ablauf": [
+        {"phase": "Einstieg", "dauer_min": 5, "beschreibung": "Chat-Satz ohne Komma an die Tafel projizieren. Stummer Impuls: Was stört hier?"},
+        {"phase": "Erarbeitung", "dauer_min": 18, "beschreibung": "Gemeinsam die Regel ableiten: Begleitsatz und Redeteil werden durch Komma getrennt. Beispiele für wörtliche und indirekte Rede sammeln."},
+        {"phase": "Sicherung", "dauer_min": 17, "beschreibung": "Arbeitsblatt in Partnerarbeit, anschließend Abgleich mit Lösungen."},
+        {"phase": "Transfer", "dauer_min": 5, "beschreibung": "Jede:r korrigiert eine eigene (anonyme) Chat-Nachricht an der Tafel."}
+      ],
+      "arbeitsblatt": {
+        "aufgaben": [
+          "Setze die Kommas: Er sagte du bist cool.",
+          "Setze die Kommas: Sie meinte das schaffst du nie.",
+          "Wandle in indirekte Rede um: Tim sagte: \"Ich komme später.\"",
+          "Schreibe einen eigenen Chat-Satz mit wörtlicher Rede und setze alle Zeichen."
+        ],
+        "loesungen": [
+          "Er sagte, du bist cool. (bzw. Er sagte: \"Du bist cool.\")",
+          "Sie meinte, das schaffst du nie.",
+          "Tim sagte, dass er später komme.",
+          "Individuelle Lösung – Komma trennt Begleit- und Redesatz, Anführungszeichen rahmen die wörtliche Rede."
+        ]
+      },
+      "differenzierung": {
+        "leichter": "Nur wörtliche Rede mit vorgegebenem Begleitsatz; Anführungszeichen sind schon gesetzt.",
+        "schwerer": "Verschachtelte Sätze mit zusätzlichem Einschub; Wechsel zwischen wörtlicher und indirekter Rede begründen."
+      }
+    },
     "schueler_hook": "Du schreibst täglich Sätze im Chat – aber wo gehören da eigentlich die Kommas hin?",
     "schueler_challenge": "Schreibe den Satz zweimal: einmal als wörtliche Rede mit Anführungszeichen, einmal als indirekte Rede.",
+    "eltern": {
+      "schulbezug": "Hier geht es um Kommasetzung bei der Redewiedergabe – ein fester Bestandteil des Deutschunterrichts der Sekundarstufe I.",
+      "gespraechsanlass": "Frag dein Kind: 'Wenn jemand im Chat schreibt »Er sagte du bist cool« – wo fehlt da ein Komma und warum?'",
+      "tipp": "Chats sind perfekte Übung: Lasst euch gemeinsam eine kurze Nachricht zeigen und überlegt, wo Kommas hingehören.",
+      "safety": null
+    },
     "video_id": "yt1",
     "quelle": "youtube",
     "datum": "2026-06"
@@ -15,12 +51,19 @@
   {
     "thema_id": 13,
     "bubble_id": "klasse_6",
+    "fach": "Deutsch",
     "szenario": "Im Chat steht die Nachricht: Er sagte du schaffst das nicht.",
     "begruendung": "Hier fehlt das Komma, das die wörtliche Rede vom Begleitsatz trennt. Der Satz ist ein klares Beispiel für die Kommaregel bei der Redewiedergabe.",
     "einstiegsfrage": "An welcher Stelle trennt ein Komma, wer spricht, von dem, was gesagt wird?",
     "unterrichtsidee": "In Partnerarbeit verwandeln die Lernenden vier Chat-Nachrichten in korrekt gesetzte wörtliche Rede und vergleichen ihre Lösungen.",
     "schueler_hook": "Ein einziges fehlendes Komma kann den Sinn eines Satzes kippen – findest du die richtige Stelle?",
     "schueler_challenge": "Setze in den Satz Komma und Anführungszeichen so, dass klar wird, wer spricht.",
+    "eltern": {
+      "schulbezug": "Wieder Kommasetzung bei der Redewiedergabe – das Erkennen von Begleitsatz und gesprochenem Teil.",
+      "gespraechsanlass": "Frag dein Kind: 'Was ändert ein Komma an der Bedeutung dieses Satzes?'",
+      "tipp": "Kein Druck auf perfekte Regeln – wichtig ist, dass dein Kind den Unterschied hört: Wer spricht? Was wird gesagt?",
+      "safety": null
+    },
     "video_id": "yt2",
     "quelle": "youtube",
     "datum": "2026-06"
@@ -28,12 +71,19 @@
   {
     "thema_id": 13,
     "bubble_id": "klasse_6",
+    "fach": "Deutsch",
     "szenario": "Ein Video-Titel reiht drei Namen aneinander: Mia Jan und Ben treten gegen den Endgegner an.",
     "begruendung": "Bei Aufzählungen von drei oder mehr Gliedern gehört zwischen die ersten Glieder ein Komma. Im Titel fehlt es zwischen den ersten beiden Namen.",
     "einstiegsfrage": "Zwischen welchen Wörtern fehlt im Titel ein Komma?",
     "unterrichtsidee": "Die Lernenden schreiben drei eigene Titel mit Aufzählungen und setzen die Kommas, danach Korrektur am Tausch-Partner.",
     "schueler_hook": "Drei Namen, ein Titel – aber wo gehört das Komma hin, damit es richtig ist?",
     "schueler_challenge": "Erweitere die Aufzählung auf vier Namen und setze alle Kommas korrekt.",
+    "eltern": {
+      "schulbezug": "Komma bei Aufzählungen – eine der häufigsten Kommaregeln im Deutschunterricht.",
+      "gespraechsanlass": "Frag dein Kind: 'In »Mia Jan und Ben« – wo gehört ein Komma hin und wo nicht (Tipp: vor »und«)?'",
+      "tipp": "Video-Titel und Playlists sind voller Aufzählungen – ein gutes Suchspiel für unterwegs.",
+      "safety": null
+    },
     "video_id": "yt3",
     "quelle": "youtube",
     "datum": "2026-06"
@@ -41,25 +91,39 @@
   {
     "thema_id": 11,
     "bubble_id": "klasse_6",
+    "fach": "Deutsch",
     "szenario": "In einem Podcast fällt der Satz: Social Media ist manchmal übertrieben.",
     "begruendung": "Die Aussage bewertet den Sprachgebrauch in sozialen Medien. Sie eignet sich, um über Wirkung, Verkürzung und Übertreibung von Sprache online zu sprechen.",
     "einstiegsfrage": "Welche Wörter benutzen Menschen online, um etwas größer wirken zu lassen, als es ist?",
     "unterrichtsidee": "Die Klasse sammelt typische Übertreibungen aus Posts (mega, krass, niemals) und überlegt, wie dieselbe Aussage sachlich klingt.",
     "schueler_hook": "Online klingt vieles dramatischer als es ist – fällt dir auf, mit welchen Wörtern das gemacht wird?",
     "schueler_challenge": "Schreibe einen übertriebenen Post-Satz und danach eine sachliche Version davon.",
-    "video_id": "yt3",
-    "quelle": "youtube",
+    "eltern": {
+      "schulbezug": "Thema 'Medien & Sprache': wie Sprache online wirkt, übertreibt und beeinflusst – Medienkompetenz im Deutschunterricht.",
+      "gespraechsanlass": "Frag dein Kind: 'Welche Wörter machen einen Post dramatischer, als die Sache wirklich ist?'",
+      "tipp": "Ein gutes Alltagsgespräch über kritisches Lesen – ganz ohne Schulbuch.",
+      "safety": null
+    },
+    "video_id": "yt4",
+    "quelle": "podcast",
     "datum": "2026-06"
   },
   {
     "thema_id": 13,
     "bubble_id": "klasse_6",
+    "fach": "Deutsch",
     "szenario": "In einem Gespräch wird der Beispielsatz genannt: Das ist, meiner Meinung nach, wichtig.",
     "begruendung": "Der Einschub wird durch zwei Kommas abgetrennt – ein zentraler Fall der Kommasetzung. Das Beispiel zeigt zugleich den Unterschied zur fehlenden Zeichensetzung in Chats.",
     "einstiegsfrage": "Welche zwei Kommas trennen hier den eingeschobenen Teil ab?",
     "unterrichtsidee": "Die Lernenden bauen in vier vorgegebene Sätze passende Einschübe ein und markieren die Kommapaare farbig.",
     "schueler_hook": "Manche Wörter schiebt man mitten in den Satz – und plötzlich braucht es zwei Kommas.",
     "schueler_challenge": "Schreibe einen Satz über dein Hobby und baue einen Einschub mit zwei Kommas ein.",
+    "eltern": {
+      "schulbezug": "Kommasetzung bei Einschüben (Parenthesen) – ein Einschub wird von zwei Kommas eingerahmt.",
+      "gespraechsanlass": "Frag dein Kind: 'Warum stehen in »Das ist, meiner Meinung nach, wichtig« zwei Kommas?'",
+      "tipp": "Einschübe erkennt man, wenn man sie weglässt und der Satz trotzdem stimmt.",
+      "safety": null
+    },
     "video_id": "yt5",
     "quelle": "podcast",
     "datum": "2026-06"
@@ -67,12 +131,19 @@
   {
     "thema_id": 11,
     "bubble_id": "klasse_6",
+    "fach": "Deutsch",
     "szenario": "Jemand sagt, dass in Chats oft Kommas vergessen werden.",
     "begruendung": "Das Beispiel vergleicht Schreibgewohnheiten in digitalen Nachrichten mit den Regeln der Schriftsprache. Es eignet sich, um über Sprache in Medien nachzudenken.",
     "einstiegsfrage": "Warum schreiben viele Menschen im Chat anders als in einem Aufsatz?",
     "unterrichtsidee": "Die Klasse vergleicht eine kurze Chat-Nachricht mit derselben Aussage als sauberem Schulsatz und benennt die Unterschiede.",
     "schueler_hook": "Im Chat fehlen oft Kommas – aber wann macht das wirklich einen Unterschied?",
     "schueler_challenge": "Nimm eine eigene kurze Chat-Nachricht und schreibe sie als korrekten Satz mit allen Kommas.",
+    "eltern": {
+      "schulbezug": "Bewusstsein für den Unterschied zwischen lockerer Chat-Sprache und korrekter Schriftsprache – Thema 'Medien & Sprache'.",
+      "gespraechsanlass": "Frag dein Kind: 'Wann ist es egal, dass im Chat ein Komma fehlt – und wann nicht?'",
+      "tipp": "Es geht nicht darum, Chats 'falsch' zu finden, sondern beide Stile bewusst zu beherrschen.",
+      "safety": null
+    },
     "video_id": "yt5",
     "quelle": "podcast",
     "datum": "2026-06"
